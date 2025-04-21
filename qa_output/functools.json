@@ -1,0 +1,1235 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "title": "functools",
+            "paragraphs": [
+                {
+                    "context": ":mod:`!functools` --- Higher-order functions and operations on callable objects\n:synopsis: Higher-order functions and operations on callable objects.\n**Source code:** :source:`Lib/functools.py`\nimport functools\nfrom functools import *\n--------------\nThe :mod:`functools` module is for higher-order functions: functions that act on\nor return other functions. In general, any callable object can be treated as a\nfunction for the purposes of this module. The :mod:`functools` module defines the following functions:\nSimple lightweight unbounded function cache.",
+                    "qas": [
+                        {
+                            "id": "qa_1",
+                            "question": "What is mentioned about :mod:`!functools`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!functools` --- Higher-order functions and operations on callable objects\n:synopsis: Higher-order functions and operations on callable objects.\n**Source code:** :source:`Lib/functools.py`\nimport functools\nfrom functools import *\n--------------\nThe :mod:`functools` module is for higher-order functions: functions that act on\nor return other functions.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_2",
+                            "question": "What challenges are associated with :mod:`!functools`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!functools` --- Higher-order functions and operations on callable objects\n:synopsis: Higher-order functions and operations on callable objects.\n**Source code:** :source:`Lib/functools.py`\nimport functools\nfrom functools import *\n--------------\nThe :mod:`functools` module is for higher-order functions: functions that act on\nor return other functions.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_3",
+                            "question": "Can you explain :mod:`!functools`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!functools` --- Higher-order functions and operations on callable objects\n:synopsis: Higher-order functions and operations on callable objects.\n**Source code:** :source:`Lib/functools.py`\nimport functools\nfrom functools import *\n--------------\nThe :mod:`functools` module is for higher-order functions: functions that act on\nor return other functions.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_4",
+                            "question": "What are the key features of :mod:`!functools`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!functools` --- Higher-order functions and operations on callable objects\n:synopsis: Higher-order functions and operations on callable objects.\n**Source code:** :source:`Lib/functools.py`\nimport functools\nfrom functools import *\n--------------\nThe :mod:`functools` module is for higher-order functions: functions that act on\nor return other functions.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "In general, any callable object can be treated as a\nfunction for the purposes of this module. The :mod:`functools` module defines the following functions:\nSimple lightweight unbounded function cache. Sometimes called\n`\"memoize\" <https://en.wikipedia.org/wiki/Memoization>`_. Returns the same as ``lru_cache(maxsize=None)``, creating a thin\nwrapper around a dictionary lookup for the function arguments. Because it\nnever needs to evict old values, this is smaller and faster than\n:func:`lru_cache` with a size limit.",
+                    "qas": [
+                        {
+                            "id": "qa_5",
+                            "question": "Why is Sometimes important?",
+                            "answers": [
+                                {
+                                    "text": "Sometimes called\n`\"memoize\" <https://en.wikipedia.org/wiki/Memoization>`_.",
+                                    "answer_start": 200
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_6",
+                            "question": "What challenges are associated with Sometimes?",
+                            "answers": [
+                                {
+                                    "text": "Sometimes called\n`\"memoize\" <https://en.wikipedia.org/wiki/Memoization>`_.",
+                                    "answer_start": 200
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_7",
+                            "question": "What are the benefits of Sometimes?",
+                            "answers": [
+                                {
+                                    "text": "Sometimes called\n`\"memoize\" <https://en.wikipedia.org/wiki/Memoization>`_.",
+                                    "answer_start": 200
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_8",
+                            "question": "Can you explain Sometimes?",
+                            "answers": [
+                                {
+                                    "text": "Sometimes called\n`\"memoize\" <https://en.wikipedia.org/wiki/Memoization>`_.",
+                                    "answer_start": 200
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The :mod:`functools` module defines the following functions:\nSimple lightweight unbounded function cache. Sometimes called\n`\"memoize\" <https://en.wikipedia.org/wiki/Memoization>`_. Returns the same as ``lru_cache(maxsize=None)``, creating a thin\nwrapper around a dictionary lookup for the function arguments. Because it\nnever needs to evict old values, this is smaller and faster than\n:func:`lru_cache` with a size limit. For example::\n@cache\ndef factorial(n):\nreturn n * factorial(n-1) if n else 1\n3628800\n120\n479001600\nThe cache is threadsafe so that the wrapped function can be used in\nmultiple threads.",
+                    "qas": [
+                        {
+                            "id": "qa_9",
+                            "question": "Why is Returns important?",
+                            "answers": [
+                                {
+                                    "text": "Returns the same as ``lru_cache(maxsize=None)``, creating a thin\nwrapper around a dictionary lookup for the function arguments.",
+                                    "answer_start": 181
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_10",
+                            "question": "What challenges are associated with Returns?",
+                            "answers": [
+                                {
+                                    "text": "Returns the same as ``lru_cache(maxsize=None)``, creating a thin\nwrapper around a dictionary lookup for the function arguments.",
+                                    "answer_start": 181
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_11",
+                            "question": "What is the role of Returns in Python?",
+                            "answers": [
+                                {
+                                    "text": "Returns the same as ``lru_cache(maxsize=None)``, creating a thin\nwrapper around a dictionary lookup for the function arguments.",
+                                    "answer_start": 181
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_12",
+                            "question": "What makes Returns unique?",
+                            "answers": [
+                                {
+                                    "text": "Returns the same as ``lru_cache(maxsize=None)``, creating a thin\nwrapper around a dictionary lookup for the function arguments.",
+                                    "answer_start": 181
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Sometimes called\n`\"memoize\" <https://en.wikipedia.org/wiki/Memoization>`_. Returns the same as ``lru_cache(maxsize=None)``, creating a thin\nwrapper around a dictionary lookup for the function arguments. Because it\nnever needs to evict old values, this is smaller and faster than\n:func:`lru_cache` with a size limit. For example::\n@cache\ndef factorial(n):\nreturn n * factorial(n-1) if n else 1\n3628800\n120\n479001600\nThe cache is threadsafe so that the wrapped function can be used in\nmultiple threads. This means that the underlying data structure will\nremain coherent during concurrent updates.",
+                    "qas": [
+                        {
+                            "id": "qa_13",
+                            "question": "What makes Because unique?",
+                            "answers": [
+                                {
+                                    "text": "Because it\nnever needs to evict old values, this is smaller and faster than\n:func:`lru_cache` with a size limit.",
+                                    "answer_start": 203
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_14",
+                            "question": "What challenges are associated with Because?",
+                            "answers": [
+                                {
+                                    "text": "Because it\nnever needs to evict old values, this is smaller and faster than\n:func:`lru_cache` with a size limit.",
+                                    "answer_start": 203
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_15",
+                            "question": "What is mentioned about Because?",
+                            "answers": [
+                                {
+                                    "text": "Because it\nnever needs to evict old values, this is smaller and faster than\n:func:`lru_cache` with a size limit.",
+                                    "answer_start": 203
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_16",
+                            "question": "What is the role of Because in Python?",
+                            "answers": [
+                                {
+                                    "text": "Because it\nnever needs to evict old values, this is smaller and faster than\n:func:`lru_cache` with a size limit.",
+                                    "answer_start": 203
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Returns the same as ``lru_cache(maxsize=None)``, creating a thin\nwrapper around a dictionary lookup for the function arguments. Because it\nnever needs to evict old values, this is smaller and faster than\n:func:`lru_cache` with a size limit. For example::\n@cache\ndef factorial(n):\nreturn n * factorial(n-1) if n else 1\n3628800\n120\n479001600\nThe cache is threadsafe so that the wrapped function can be used in\nmultiple threads. This means that the underlying data structure will\nremain coherent during concurrent updates. It is possible for the wrapped function to be called more than once if\nanother thread makes an additional call before the initial call has been\ncompleted and cached.",
+                    "qas": [
+                        {
+                            "id": "qa_17",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For example::\n@cache\ndef factorial(n):\nreturn n * factorial(n-1) if n else 1\n3628800\n120\n479001600\nThe cache is threadsafe so that the wrapped function can be used in\nmultiple threads.",
+                                    "answer_start": 241
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_18",
+                            "question": "What makes For unique?",
+                            "answers": [
+                                {
+                                    "text": "For example::\n@cache\ndef factorial(n):\nreturn n * factorial(n-1) if n else 1\n3628800\n120\n479001600\nThe cache is threadsafe so that the wrapped function can be used in\nmultiple threads.",
+                                    "answer_start": 241
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_19",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For example::\n@cache\ndef factorial(n):\nreturn n * factorial(n-1) if n else 1\n3628800\n120\n479001600\nThe cache is threadsafe so that the wrapped function can be used in\nmultiple threads.",
+                                    "answer_start": 241
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_20",
+                            "question": "Why is For important?",
+                            "answers": [
+                                {
+                                    "text": "For example::\n@cache\ndef factorial(n):\nreturn n * factorial(n-1) if n else 1\n3628800\n120\n479001600\nThe cache is threadsafe so that the wrapped function can be used in\nmultiple threads.",
+                                    "answer_start": 241
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This means that the underlying data structure will\nremain coherent during concurrent updates. It is possible for the wrapped function to be called more than once if\nanother thread makes an additional call before the initial call has been\ncompleted and cached. Transform a method of a class into a property whose value is computed once\nand then cached as a normal attribute for the life of the instance. Similar\nto :func:`property`, with the addition of caching. Useful for expensive\ncomputed properties of instances that are otherwise effectively immutable.",
+                    "qas": [
+                        {
+                            "id": "qa_21",
+                            "question": "What are the benefits of Transform?",
+                            "answers": [
+                                {
+                                    "text": "Transform a method of a class into a property whose value is computed once\nand then cached as a normal attribute for the life of the instance.",
+                                    "answer_start": 260
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_22",
+                            "question": "How is Transform used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Transform a method of a class into a property whose value is computed once\nand then cached as a normal attribute for the life of the instance.",
+                                    "answer_start": 260
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_23",
+                            "question": "What is the role of Transform in Python?",
+                            "answers": [
+                                {
+                                    "text": "Transform a method of a class into a property whose value is computed once\nand then cached as a normal attribute for the life of the instance.",
+                                    "answer_start": 260
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_24",
+                            "question": "What makes Transform unique?",
+                            "answers": [
+                                {
+                                    "text": "Transform a method of a class into a property whose value is computed once\nand then cached as a normal attribute for the life of the instance.",
+                                    "answer_start": 260
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "It is possible for the wrapped function to be called more than once if\nanother thread makes an additional call before the initial call has been\ncompleted and cached. Transform a method of a class into a property whose value is computed once\nand then cached as a normal attribute for the life of the instance. Similar\nto :func:`property`, with the addition of caching. Useful for expensive\ncomputed properties of instances that are otherwise effectively immutable. Example::\nclass DataSet:\ndef __init__(self, sequence_of_numbers):\nself._data = tuple(sequence_of_numbers)\n@cached_property\ndef stdev(self):\nreturn statistics.stdev(self._data)\nThe mechanics of :func:`cached_property` are somewhat different from\n:func:`property`.",
+                    "qas": [
+                        {
+                            "id": "qa_25",
+                            "question": "Why is Similar important?",
+                            "answers": [
+                                {
+                                    "text": "Similar\nto :func:`property`, with the addition of caching.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_26",
+                            "question": "How is Similar used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Similar\nto :func:`property`, with the addition of caching.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_27",
+                            "question": "Can you explain Similar?",
+                            "answers": [
+                                {
+                                    "text": "Similar\nto :func:`property`, with the addition of caching.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_28",
+                            "question": "What is the role of Similar in Python?",
+                            "answers": [
+                                {
+                                    "text": "Similar\nto :func:`property`, with the addition of caching.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Transform a method of a class into a property whose value is computed once\nand then cached as a normal attribute for the life of the instance. Similar\nto :func:`property`, with the addition of caching. Useful for expensive\ncomputed properties of instances that are otherwise effectively immutable. Example::\nclass DataSet:\ndef __init__(self, sequence_of_numbers):\nself._data = tuple(sequence_of_numbers)\n@cached_property\ndef stdev(self):\nreturn statistics.stdev(self._data)\nThe mechanics of :func:`cached_property` are somewhat different from\n:func:`property`. A regular property blocks attribute writes unless a\nsetter is defined.",
+                    "qas": [
+                        {
+                            "id": "qa_29",
+                            "question": "What is the role of Useful in Python?",
+                            "answers": [
+                                {
+                                    "text": "Useful for expensive\ncomputed properties of instances that are otherwise effectively immutable.",
+                                    "answer_start": 202
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_30",
+                            "question": "What is mentioned about Useful?",
+                            "answers": [
+                                {
+                                    "text": "Useful for expensive\ncomputed properties of instances that are otherwise effectively immutable.",
+                                    "answer_start": 202
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_31",
+                            "question": "Can you explain Useful?",
+                            "answers": [
+                                {
+                                    "text": "Useful for expensive\ncomputed properties of instances that are otherwise effectively immutable.",
+                                    "answer_start": 202
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_32",
+                            "question": "What makes Useful unique?",
+                            "answers": [
+                                {
+                                    "text": "Useful for expensive\ncomputed properties of instances that are otherwise effectively immutable.",
+                                    "answer_start": 202
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Similar\nto :func:`property`, with the addition of caching. Useful for expensive\ncomputed properties of instances that are otherwise effectively immutable. Example::\nclass DataSet:\ndef __init__(self, sequence_of_numbers):\nself._data = tuple(sequence_of_numbers)\n@cached_property\ndef stdev(self):\nreturn statistics.stdev(self._data)\nThe mechanics of :func:`cached_property` are somewhat different from\n:func:`property`. A regular property blocks attribute writes unless a\nsetter is defined. In contrast, a *cached_property* allows writes.",
+                    "qas": [
+                        {
+                            "id": "qa_33",
+                            "question": "What are the benefits of Example::?",
+                            "answers": [
+                                {
+                                    "text": "Example::\nclass DataSet:\ndef __init__(self, sequence_of_numbers):\nself._data = tuple(sequence_of_numbers)\n@cached_property\ndef stdev(self):\nreturn statistics.stdev(self._data)\nThe mechanics of :func:`cached_property` are somewhat different from\n:func:`property`.",
+                                    "answer_start": 155
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_34",
+                            "question": "What is mentioned about Example::?",
+                            "answers": [
+                                {
+                                    "text": "Example::\nclass DataSet:\ndef __init__(self, sequence_of_numbers):\nself._data = tuple(sequence_of_numbers)\n@cached_property\ndef stdev(self):\nreturn statistics.stdev(self._data)\nThe mechanics of :func:`cached_property` are somewhat different from\n:func:`property`.",
+                                    "answer_start": 155
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_35",
+                            "question": "What challenges are associated with Example::?",
+                            "answers": [
+                                {
+                                    "text": "Example::\nclass DataSet:\ndef __init__(self, sequence_of_numbers):\nself._data = tuple(sequence_of_numbers)\n@cached_property\ndef stdev(self):\nreturn statistics.stdev(self._data)\nThe mechanics of :func:`cached_property` are somewhat different from\n:func:`property`.",
+                                    "answer_start": 155
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_36",
+                            "question": "How does Example:: work?",
+                            "answers": [
+                                {
+                                    "text": "Example::\nclass DataSet:\ndef __init__(self, sequence_of_numbers):\nself._data = tuple(sequence_of_numbers)\n@cached_property\ndef stdev(self):\nreturn statistics.stdev(self._data)\nThe mechanics of :func:`cached_property` are somewhat different from\n:func:`property`.",
+                                    "answer_start": 155
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The *cached_property* decorator only runs on lookups and only when an\nattribute of the same name doesn't exist. When it does run, the\n*cached_property* writes to the attribute with the same name. Subsequent\nattribute reads and writes take precedence over the *cached_property*\nmethod and it works like a normal attribute. The cached value can be cleared by deleting the attribute. This\nallows the *cached_property* method to run again.",
+                    "qas": [
+                        {
+                            "id": "qa_37",
+                            "question": "How is Subsequent used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Subsequent\nattribute reads and writes take precedence over the *cached_property*\nmethod and it works like a normal attribute.",
+                                    "answer_start": 196
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_38",
+                            "question": "Can you explain Subsequent?",
+                            "answers": [
+                                {
+                                    "text": "Subsequent\nattribute reads and writes take precedence over the *cached_property*\nmethod and it works like a normal attribute.",
+                                    "answer_start": 196
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_39",
+                            "question": "What challenges are associated with Subsequent?",
+                            "answers": [
+                                {
+                                    "text": "Subsequent\nattribute reads and writes take precedence over the *cached_property*\nmethod and it works like a normal attribute.",
+                                    "answer_start": 196
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_40",
+                            "question": "What are the key features of Subsequent?",
+                            "answers": [
+                                {
+                                    "text": "Subsequent\nattribute reads and writes take precedence over the *cached_property*\nmethod and it works like a normal attribute.",
+                                    "answer_start": 196
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If the cached\nproperty is idempotent or otherwise not harmful to run more than once on an\ninstance, this is fine. If synchronization is needed, implement the necessary\nlocking inside the decorated getter function or around the cached property\naccess. Note, this decorator interferes with the operation of :pep:`412`\nkey-sharing dictionaries. This means that instance dictionaries\ncan take more space than usual. Also, this decorator requires that the ``__dict__`` attribute on each instance\nbe a mutable mapping.",
+                    "qas": [
+                        {
+                            "id": "qa_41",
+                            "question": "How is Note, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Note, this decorator interferes with the operation of :pep:`412`\nkey-sharing dictionaries.",
+                                    "answer_start": 251
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_42",
+                            "question": "What are the key features of Note,?",
+                            "answers": [
+                                {
+                                    "text": "Note, this decorator interferes with the operation of :pep:`412`\nkey-sharing dictionaries.",
+                                    "answer_start": 251
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_43",
+                            "question": "Why is Note, important?",
+                            "answers": [
+                                {
+                                    "text": "Note, this decorator interferes with the operation of :pep:`412`\nkey-sharing dictionaries.",
+                                    "answer_start": 251
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_44",
+                            "question": "What is the role of Note, in Python?",
+                            "answers": [
+                                {
+                                    "text": "Note, this decorator interferes with the operation of :pep:`412`\nkey-sharing dictionaries.",
+                                    "answer_start": 251
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Note, this decorator interferes with the operation of :pep:`412`\nkey-sharing dictionaries. This means that instance dictionaries\ncan take more space than usual. Also, this decorator requires that the ``__dict__`` attribute on each instance\nbe a mutable mapping. This means it will not work with some types, such as\nmetaclasses (since the ``__dict__`` attributes on type instances are\nread-only proxies for the class namespace), and those that specify\n``__slots__`` without including ``__dict__`` as one of the defined slots\n(as such classes don't provide a ``__dict__`` attribute at all). If a mutable mapping is not available or if space-efficient key sharing is\ndesired, an effect similar to :func:`cached_property` can also be achieved by\nstacking :func:`property` on top of :func:`lru_cache`.",
+                    "qas": [
+                        {
+                            "id": "qa_45",
+                            "question": "Why is Also, important?",
+                            "answers": [
+                                {
+                                    "text": "Also, this decorator requires that the ``__dict__`` attribute on each instance\nbe a mutable mapping.",
+                                    "answer_start": 161
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_46",
+                            "question": "What is mentioned about Also,?",
+                            "answers": [
+                                {
+                                    "text": "Also, this decorator requires that the ``__dict__`` attribute on each instance\nbe a mutable mapping.",
+                                    "answer_start": 161
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_47",
+                            "question": "How is Also, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Also, this decorator requires that the ``__dict__`` attribute on each instance\nbe a mutable mapping.",
+                                    "answer_start": 161
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_48",
+                            "question": "What are the key features of Also,?",
+                            "answers": [
+                                {
+                                    "text": "Also, this decorator requires that the ``__dict__`` attribute on each instance\nbe a mutable mapping.",
+                                    "answer_start": 161
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This means it will not work with some types, such as\nmetaclasses (since the ``__dict__`` attributes on type instances are\nread-only proxies for the class namespace), and those that specify\n``__slots__`` without including ``__dict__`` as one of the defined slots\n(as such classes don't provide a ``__dict__`` attribute at all). If a mutable mapping is not available or if space-efficient key sharing is\ndesired, an effect similar to :func:`cached_property` can also be achieved by\nstacking :func:`property` on top of :func:`lru_cache`. See\n:ref:`faq-cache-method-calls` for more details on how this differs from :func:`cached_property`. Prior to Python 3.12, ``cached_property`` included an undocumented lock to\nensure that in multi-threaded usage the getter function was guaranteed to\nrun only once per instance. However, the lock was per-property, not\nper-instance, which could result in unacceptably high lock contention.",
+                    "qas": [
+                        {
+                            "id": "qa_49",
+                            "question": "What are the key features of See?",
+                            "answers": [
+                                {
+                                    "text": "See\n:ref:`faq-cache-method-calls` for more details on how this differs from :func:`cached_property`.",
+                                    "answer_start": 535
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_50",
+                            "question": "What are the benefits of See?",
+                            "answers": [
+                                {
+                                    "text": "See\n:ref:`faq-cache-method-calls` for more details on how this differs from :func:`cached_property`.",
+                                    "answer_start": 535
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_51",
+                            "question": "Why is See important?",
+                            "answers": [
+                                {
+                                    "text": "See\n:ref:`faq-cache-method-calls` for more details on how this differs from :func:`cached_property`.",
+                                    "answer_start": 535
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_52",
+                            "question": "How does See work?",
+                            "answers": [
+                                {
+                                    "text": "See\n:ref:`faq-cache-method-calls` for more details on how this differs from :func:`cached_property`.",
+                                    "answer_start": 535
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If a mutable mapping is not available or if space-efficient key sharing is\ndesired, an effect similar to :func:`cached_property` can also be achieved by\nstacking :func:`property` on top of :func:`lru_cache`. See\n:ref:`faq-cache-method-calls` for more details on how this differs from :func:`cached_property`. Prior to Python 3.12, ``cached_property`` included an undocumented lock to\nensure that in multi-threaded usage the getter function was guaranteed to\nrun only once per instance. However, the lock was per-property, not\nper-instance, which could result in unacceptably high lock contention. In\nPython 3.12+ this locking is removed.",
+                    "qas": [
+                        {
+                            "id": "qa_53",
+                            "question": "What is mentioned about Prior?",
+                            "answers": [
+                                {
+                                    "text": "Prior to Python 3.12, ``cached_property`` included an undocumented lock to\nensure that in multi-threaded usage the getter function was guaranteed to\nrun only once per instance.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_54",
+                            "question": "How does Prior work?",
+                            "answers": [
+                                {
+                                    "text": "Prior to Python 3.12, ``cached_property`` included an undocumented lock to\nensure that in multi-threaded usage the getter function was guaranteed to\nrun only once per instance.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_55",
+                            "question": "How is Prior used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Prior to Python 3.12, ``cached_property`` included an undocumented lock to\nensure that in multi-threaded usage the getter function was guaranteed to\nrun only once per instance.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_56",
+                            "question": "What makes Prior unique?",
+                            "answers": [
+                                {
+                                    "text": "Prior to Python 3.12, ``cached_property`` included an undocumented lock to\nensure that in multi-threaded usage the getter function was guaranteed to\nrun only once per instance.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "See\n:ref:`faq-cache-method-calls` for more details on how this differs from :func:`cached_property`. Prior to Python 3.12, ``cached_property`` included an undocumented lock to\nensure that in multi-threaded usage the getter function was guaranteed to\nrun only once per instance. However, the lock was per-property, not\nper-instance, which could result in unacceptably high lock contention. In\nPython 3.12+ this locking is removed. Transform an old-style comparison function to a :term:`key function`.",
+                    "qas": [
+                        {
+                            "id": "qa_57",
+                            "question": "What is mentioned about However,?",
+                            "answers": [
+                                {
+                                    "text": "However, the lock was per-property, not\nper-instance, which could result in unacceptably high lock contention.",
+                                    "answer_start": 278
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_58",
+                            "question": "What are the benefits of However,?",
+                            "answers": [
+                                {
+                                    "text": "However, the lock was per-property, not\nper-instance, which could result in unacceptably high lock contention.",
+                                    "answer_start": 278
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_59",
+                            "question": "How does However, work?",
+                            "answers": [
+                                {
+                                    "text": "However, the lock was per-property, not\nper-instance, which could result in unacceptably high lock contention.",
+                                    "answer_start": 278
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_60",
+                            "question": "Can you explain However,?",
+                            "answers": [
+                                {
+                                    "text": "However, the lock was per-property, not\nper-instance, which could result in unacceptably high lock contention.",
+                                    "answer_start": 278
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "However, the lock was per-property, not\nper-instance, which could result in unacceptably high lock contention. In\nPython 3.12+ this locking is removed. Transform an old-style comparison function to a :term:`key function`. Used\nwith tools that accept key functions (such as :func:`sorted`, :func:`min`,\n:func:`max`, :func:`heapq.nlargest`, :func:`heapq.nsmallest`,\n:func:`itertools.groupby`). This function is primarily used as a transition\ntool for programs being converted from Python 2 which supported the use of\ncomparison functions.",
+                    "qas": [
+                        {
+                            "id": "qa_61",
+                            "question": "What are the key features of Transform?",
+                            "answers": [
+                                {
+                                    "text": "Transform an old-style comparison function to a :term:`key function`.",
+                                    "answer_start": 152
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_62",
+                            "question": "How is Transform used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Transform an old-style comparison function to a :term:`key function`.",
+                                    "answer_start": 152
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_63",
+                            "question": "Why is Transform important?",
+                            "answers": [
+                                {
+                                    "text": "Transform an old-style comparison function to a :term:`key function`.",
+                                    "answer_start": 152
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_64",
+                            "question": "What are the benefits of Transform?",
+                            "answers": [
+                                {
+                                    "text": "Transform an old-style comparison function to a :term:`key function`.",
+                                    "answer_start": 152
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "A comparison function is any callable that accepts two arguments, compares them,\nand returns a negative number for less-than, zero for equality, or a positive\nnumber for greater-than. A key function is a callable that accepts one\nargument and returns another value to be used as the sort key. Example::\nsorted(iterable, key=cmp_to_key(locale.strcoll))  # locale-aware sort order\nFor sorting examples and a brief sorting tutorial, see :ref:`sortinghowto`.\nlru_cache(maxsize=128, typed=False)\nDecorator to wrap a function with a memoizing callable that saves up to the\n*maxsize* most recent calls. It can save time when an expensive or I/O bound\nfunction is periodically called with the same arguments. The cache is threadsafe so that the wrapped function can be used in\nmultiple threads.",
+                    "qas": [
+                        {
+                            "id": "qa_65",
+                            "question": "What is mentioned about Example::?",
+                            "answers": [
+                                {
+                                    "text": "Example::\nsorted(iterable, key=cmp_to_key(locale.strcoll))  # locale-aware sort order\nFor sorting examples and a brief sorting tutorial, see :ref:`sortinghowto`.\nlru_cache(maxsize=128, typed=False)\nDecorator to wrap a function with a memoizing callable that saves up to the\n*maxsize* most recent calls.",
+                                    "answer_start": 293
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_66",
+                            "question": "What makes Example:: unique?",
+                            "answers": [
+                                {
+                                    "text": "Example::\nsorted(iterable, key=cmp_to_key(locale.strcoll))  # locale-aware sort order\nFor sorting examples and a brief sorting tutorial, see :ref:`sortinghowto`.\nlru_cache(maxsize=128, typed=False)\nDecorator to wrap a function with a memoizing callable that saves up to the\n*maxsize* most recent calls.",
+                                    "answer_start": 293
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_67",
+                            "question": "What are the benefits of Example::?",
+                            "answers": [
+                                {
+                                    "text": "Example::\nsorted(iterable, key=cmp_to_key(locale.strcoll))  # locale-aware sort order\nFor sorting examples and a brief sorting tutorial, see :ref:`sortinghowto`.\nlru_cache(maxsize=128, typed=False)\nDecorator to wrap a function with a memoizing callable that saves up to the\n*maxsize* most recent calls.",
+                                    "answer_start": 293
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_68",
+                            "question": "Can you explain Example::?",
+                            "answers": [
+                                {
+                                    "text": "Example::\nsorted(iterable, key=cmp_to_key(locale.strcoll))  # locale-aware sort order\nFor sorting examples and a brief sorting tutorial, see :ref:`sortinghowto`.\nlru_cache(maxsize=128, typed=False)\nDecorator to wrap a function with a memoizing callable that saves up to the\n*maxsize* most recent calls.",
+                                    "answer_start": 293
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This means that the underlying data structure will\nremain coherent during concurrent updates. It is possible for the wrapped function to be called more than once if\nanother thread makes an additional call before the initial call has been\ncompleted and cached. Since a dictionary is used to cache results, the positional and keyword\narguments to the function must be :term:`hashable`. Distinct argument patterns may be considered to be distinct calls with\nseparate cache entries. For example, ``f(a=1, b=2)`` and ``f(b=2, a=1)``\ndiffer in their keyword argument order and may have two separate cache\nentries.",
+                    "qas": [
+                        {
+                            "id": "qa_69",
+                            "question": "How does Since work?",
+                            "answers": [
+                                {
+                                    "text": "Since a dictionary is used to cache results, the positional and keyword\narguments to the function must be :term:`hashable`.",
+                                    "answer_start": 260
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_70",
+                            "question": "What challenges are associated with Since?",
+                            "answers": [
+                                {
+                                    "text": "Since a dictionary is used to cache results, the positional and keyword\narguments to the function must be :term:`hashable`.",
+                                    "answer_start": 260
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_71",
+                            "question": "What are the key features of Since?",
+                            "answers": [
+                                {
+                                    "text": "Since a dictionary is used to cache results, the positional and keyword\narguments to the function must be :term:`hashable`.",
+                                    "answer_start": 260
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_72",
+                            "question": "How is Since used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Since a dictionary is used to cache results, the positional and keyword\narguments to the function must be :term:`hashable`.",
+                                    "answer_start": 260
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "It is possible for the wrapped function to be called more than once if\nanother thread makes an additional call before the initial call has been\ncompleted and cached. Since a dictionary is used to cache results, the positional and keyword\narguments to the function must be :term:`hashable`. Distinct argument patterns may be considered to be distinct calls with\nseparate cache entries. For example, ``f(a=1, b=2)`` and ``f(b=2, a=1)``\ndiffer in their keyword argument order and may have two separate cache\nentries. If *user_function* is specified, it must be a callable.",
+                    "qas": [
+                        {
+                            "id": "qa_73",
+                            "question": "What is mentioned about Distinct?",
+                            "answers": [
+                                {
+                                    "text": "Distinct argument patterns may be considered to be distinct calls with\nseparate cache entries.",
+                                    "answer_start": 290
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_74",
+                            "question": "What challenges are associated with Distinct?",
+                            "answers": [
+                                {
+                                    "text": "Distinct argument patterns may be considered to be distinct calls with\nseparate cache entries.",
+                                    "answer_start": 290
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_75",
+                            "question": "How is Distinct used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Distinct argument patterns may be considered to be distinct calls with\nseparate cache entries.",
+                                    "answer_start": 290
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_76",
+                            "question": "How does Distinct work?",
+                            "answers": [
+                                {
+                                    "text": "Distinct argument patterns may be considered to be distinct calls with\nseparate cache entries.",
+                                    "answer_start": 290
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Since a dictionary is used to cache results, the positional and keyword\narguments to the function must be :term:`hashable`. Distinct argument patterns may be considered to be distinct calls with\nseparate cache entries. For example, ``f(a=1, b=2)`` and ``f(b=2, a=1)``\ndiffer in their keyword argument order and may have two separate cache\nentries. If *user_function* is specified, it must be a callable. This allows the\n*lru_cache* decorator to be applied directly to a user function, leaving\nthe *maxsize* at its default value of 128::\n@lru_cache\ndef count_vowels(sentence):\nreturn sum(sentence.count(vowel) for vowel in 'AEIOUaeiou')\nIf *maxsize* is set to ``None``, the LRU feature is disabled and the cache can\ngrow without bound.",
+                    "qas": [
+                        {
+                            "id": "qa_77",
+                            "question": "How does For work?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``f(a=1, b=2)`` and ``f(b=2, a=1)``\ndiffer in their keyword argument order and may have two separate cache\nentries.",
+                                    "answer_start": 219
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_78",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``f(a=1, b=2)`` and ``f(b=2, a=1)``\ndiffer in their keyword argument order and may have two separate cache\nentries.",
+                                    "answer_start": 219
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_79",
+                            "question": "What is the role of For in Python?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``f(a=1, b=2)`` and ``f(b=2, a=1)``\ndiffer in their keyword argument order and may have two separate cache\nentries.",
+                                    "answer_start": 219
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_80",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``f(a=1, b=2)`` and ``f(b=2, a=1)``\ndiffer in their keyword argument order and may have two separate cache\nentries.",
+                                    "answer_start": 219
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The wrapped function is instrumented with a :func:`!cache_parameters`\nfunction that returns a new :class:`dict` showing the values for *maxsize*\nand *typed*. This is for information purposes only. Mutating the values\nhas no effect. To help measure the effectiveness of the cache and tune the *maxsize*\nparameter, the wrapped function is instrumented with a :func:`cache_info`\nfunction that returns a :term:`named tuple` showing *hits*, *misses*,\n*maxsize* and *currsize*. The decorator also provides a :func:`cache_clear` function for clearing or\ninvalidating the cache.",
+                    "qas": [
+                        {
+                            "id": "qa_81",
+                            "question": "What is mentioned about Mutating?",
+                            "answers": [
+                                {
+                                    "text": "Mutating the values\nhas no effect.",
+                                    "answer_start": 197
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_82",
+                            "question": "What are the key features of Mutating?",
+                            "answers": [
+                                {
+                                    "text": "Mutating the values\nhas no effect.",
+                                    "answer_start": 197
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_83",
+                            "question": "What challenges are associated with Mutating?",
+                            "answers": [
+                                {
+                                    "text": "Mutating the values\nhas no effect.",
+                                    "answer_start": 197
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_84",
+                            "question": "What are the benefits of Mutating?",
+                            "answers": [
+                                {
+                                    "text": "Mutating the values\nhas no effect.",
+                                    "answer_start": 197
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The cache keeps references to the arguments and return values until they age\nout of the cache or until the cache is cleared. If a method is cached, the ``self`` instance argument is included in the\ncache. See :ref:`faq-cache-method-calls`\nAn `LRU (least recently used) cache\n<https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_(LRU)>`_\nworks best when the most recent calls are the best predictors of upcoming\ncalls (for example, the most popular articles on a news server tend to\nchange each day). The cache's size limit assures that the cache does not\ngrow without bound on long-running processes such as web servers. In general, the LRU cache should only be used when you want to reuse\npreviously computed values.",
+                    "qas": [
+                        {
+                            "id": "qa_85",
+                            "question": "What are the key features of See?",
+                            "answers": [
+                                {
+                                    "text": "See :ref:`faq-cache-method-calls`\nAn `LRU (least recently used) cache\n<https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_(LRU)>`_\nworks best when the most recent calls are the best predictors of upcoming\ncalls (for example, the most popular articles on a news server tend to\nchange each day).",
+                                    "answer_start": 205
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_86",
+                            "question": "How is See used in programming?",
+                            "answers": [
+                                {
+                                    "text": "See :ref:`faq-cache-method-calls`\nAn `LRU (least recently used) cache\n<https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_(LRU)>`_\nworks best when the most recent calls are the best predictors of upcoming\ncalls (for example, the most popular articles on a news server tend to\nchange each day).",
+                                    "answer_start": 205
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_87",
+                            "question": "Can you explain See?",
+                            "answers": [
+                                {
+                                    "text": "See :ref:`faq-cache-method-calls`\nAn `LRU (least recently used) cache\n<https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_(LRU)>`_\nworks best when the most recent calls are the best predictors of upcoming\ncalls (for example, the most popular articles on a news server tend to\nchange each day).",
+                                    "answer_start": 205
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_88",
+                            "question": "What are the benefits of See?",
+                            "answers": [
+                                {
+                                    "text": "See :ref:`faq-cache-method-calls`\nAn `LRU (least recently used) cache\n<https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_(LRU)>`_\nworks best when the most recent calls are the best predictors of upcoming\ncalls (for example, the most popular articles on a news server tend to\nchange each day).",
+                                    "answer_start": 205
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The cache's size limit assures that the cache does not\ngrow without bound on long-running processes such as web servers. In general, the LRU cache should only be used when you want to reuse\npreviously computed values. Accordingly, it doesn't make sense to cache\nfunctions with side-effects, functions that need to create\ndistinct mutable objects on each call (such as generators and async functions),\nor impure functions such as time() or random(). Example of an LRU cache for static web content::\n@lru_cache(maxsize=32)\ndef get_pep(num):\n'Retrieve text of a Python Enhancement Proposal'\nresource = f'https://peps.python.org/pep-{num:04d}'\ntry:\nwith urllib.request.urlopen(resource) as s:\nreturn s.read()\nexcept urllib.error.HTTPError:\nreturn 'Not Found'\nCacheInfo(hits=3, misses=8, maxsize=32, currsize=8)\nExample of efficiently computing\n`Fibonacci numbers <https://en.wikipedia.org/wiki/Fibonacci_number>`_\nusing a cache to implement a\n`dynamic programming <https://en.wikipedia.org/wiki/Dynamic_programming>`_\ntechnique::\n@lru_cache(maxsize=None)\ndef fib(n):\nif n < 2:\nreturn n\nreturn fib(n-1) + fib(n-2)\n[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]\nCacheInfo(hits=28, misses=16, maxsize=None, currsize=16)\nAdded the *typed* option. Added the *user_function* option.",
+                    "qas": [
+                        {
+                            "id": "qa_89",
+                            "question": "Can you explain Accordingly,?",
+                            "answers": [
+                                {
+                                    "text": "Accordingly, it doesn't make sense to cache\nfunctions with side-effects, functions that need to create\ndistinct mutable objects on each call (such as generators and async functions),\nor impure functions such as time() or random().",
+                                    "answer_start": 218
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_90",
+                            "question": "How does Accordingly, work?",
+                            "answers": [
+                                {
+                                    "text": "Accordingly, it doesn't make sense to cache\nfunctions with side-effects, functions that need to create\ndistinct mutable objects on each call (such as generators and async functions),\nor impure functions such as time() or random().",
+                                    "answer_start": 218
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_91",
+                            "question": "What are the key features of Accordingly,?",
+                            "answers": [
+                                {
+                                    "text": "Accordingly, it doesn't make sense to cache\nfunctions with side-effects, functions that need to create\ndistinct mutable objects on each call (such as generators and async functions),\nor impure functions such as time() or random().",
+                                    "answer_start": 218
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_92",
+                            "question": "What is mentioned about Accordingly,?",
+                            "answers": [
+                                {
+                                    "text": "Accordingly, it doesn't make sense to cache\nfunctions with side-effects, functions that need to create\ndistinct mutable objects on each call (such as generators and async functions),\nor impure functions such as time() or random().",
+                                    "answer_start": 218
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "In general, the LRU cache should only be used when you want to reuse\npreviously computed values. Accordingly, it doesn't make sense to cache\nfunctions with side-effects, functions that need to create\ndistinct mutable objects on each call (such as generators and async functions),\nor impure functions such as time() or random(). Example of an LRU cache for static web content::\n@lru_cache(maxsize=32)\ndef get_pep(num):\n'Retrieve text of a Python Enhancement Proposal'\nresource = f'https://peps.python.org/pep-{num:04d}'\ntry:\nwith urllib.request.urlopen(resource) as s:\nreturn s.read()\nexcept urllib.error.HTTPError:\nreturn 'Not Found'\nCacheInfo(hits=3, misses=8, maxsize=32, currsize=8)\nExample of efficiently computing\n`Fibonacci numbers <https://en.wikipedia.org/wiki/Fibonacci_number>`_\nusing a cache to implement a\n`dynamic programming <https://en.wikipedia.org/wiki/Dynamic_programming>`_\ntechnique::\n@lru_cache(maxsize=None)\ndef fib(n):\nif n < 2:\nreturn n\nreturn fib(n-1) + fib(n-2)\n[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]\nCacheInfo(hits=28, misses=16, maxsize=None, currsize=16)\nAdded the *typed* option. Added the *user_function* option. Added the function :func:`!cache_parameters`\nGiven a class defining one or more rich comparison ordering methods, this\nclass decorator supplies the rest.",
+                    "qas": [
+                        {
+                            "id": "qa_93",
+                            "question": "What challenges are associated with Example?",
+                            "answers": [
+                                {
+                                    "text": "Example of an LRU cache for static web content::\n@lru_cache(maxsize=32)\ndef get_pep(num):\n'Retrieve text of a Python Enhancement Proposal'\nresource = f'https://peps.python.org/pep-{num:04d}'\ntry:\nwith urllib.request.urlopen(resource) as s:\nreturn s.read()\nexcept urllib.error.HTTPError:\nreturn 'Not Found'\nCacheInfo(hits=3, misses=8, maxsize=32, currsize=8)\nExample of efficiently computing\n`Fibonacci numbers <https://en.wikipedia.org/wiki/Fibonacci_number>`_\nusing a cache to implement a\n`dynamic programming <https://en.wikipedia.org/wiki/Dynamic_programming>`_\ntechnique::\n@lru_cache(maxsize=None)\ndef fib(n):\nif n < 2:\nreturn n\nreturn fib(n-1) + fib(n-2)\n[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]\nCacheInfo(hits=28, misses=16, maxsize=None, currsize=16)\nAdded the *typed* option.",
+                                    "answer_start": 328
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_94",
+                            "question": "How does Example work?",
+                            "answers": [
+                                {
+                                    "text": "Example of an LRU cache for static web content::\n@lru_cache(maxsize=32)\ndef get_pep(num):\n'Retrieve text of a Python Enhancement Proposal'\nresource = f'https://peps.python.org/pep-{num:04d}'\ntry:\nwith urllib.request.urlopen(resource) as s:\nreturn s.read()\nexcept urllib.error.HTTPError:\nreturn 'Not Found'\nCacheInfo(hits=3, misses=8, maxsize=32, currsize=8)\nExample of efficiently computing\n`Fibonacci numbers <https://en.wikipedia.org/wiki/Fibonacci_number>`_\nusing a cache to implement a\n`dynamic programming <https://en.wikipedia.org/wiki/Dynamic_programming>`_\ntechnique::\n@lru_cache(maxsize=None)\ndef fib(n):\nif n < 2:\nreturn n\nreturn fib(n-1) + fib(n-2)\n[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]\nCacheInfo(hits=28, misses=16, maxsize=None, currsize=16)\nAdded the *typed* option.",
+                                    "answer_start": 328
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_95",
+                            "question": "What makes Example unique?",
+                            "answers": [
+                                {
+                                    "text": "Example of an LRU cache for static web content::\n@lru_cache(maxsize=32)\ndef get_pep(num):\n'Retrieve text of a Python Enhancement Proposal'\nresource = f'https://peps.python.org/pep-{num:04d}'\ntry:\nwith urllib.request.urlopen(resource) as s:\nreturn s.read()\nexcept urllib.error.HTTPError:\nreturn 'Not Found'\nCacheInfo(hits=3, misses=8, maxsize=32, currsize=8)\nExample of efficiently computing\n`Fibonacci numbers <https://en.wikipedia.org/wiki/Fibonacci_number>`_\nusing a cache to implement a\n`dynamic programming <https://en.wikipedia.org/wiki/Dynamic_programming>`_\ntechnique::\n@lru_cache(maxsize=None)\ndef fib(n):\nif n < 2:\nreturn n\nreturn fib(n-1) + fib(n-2)\n[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]\nCacheInfo(hits=28, misses=16, maxsize=None, currsize=16)\nAdded the *typed* option.",
+                                    "answer_start": 328
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_96",
+                            "question": "Why is Example important?",
+                            "answers": [
+                                {
+                                    "text": "Example of an LRU cache for static web content::\n@lru_cache(maxsize=32)\ndef get_pep(num):\n'Retrieve text of a Python Enhancement Proposal'\nresource = f'https://peps.python.org/pep-{num:04d}'\ntry:\nwith urllib.request.urlopen(resource) as s:\nreturn s.read()\nexcept urllib.error.HTTPError:\nreturn 'Not Found'\nCacheInfo(hits=3, misses=8, maxsize=32, currsize=8)\nExample of efficiently computing\n`Fibonacci numbers <https://en.wikipedia.org/wiki/Fibonacci_number>`_\nusing a cache to implement a\n`dynamic programming <https://en.wikipedia.org/wiki/Dynamic_programming>`_\ntechnique::\n@lru_cache(maxsize=None)\ndef fib(n):\nif n < 2:\nreturn n\nreturn fib(n-1) + fib(n-2)\n[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]\nCacheInfo(hits=28, misses=16, maxsize=None, currsize=16)\nAdded the *typed* option.",
+                                    "answer_start": 328
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This simplifies the effort involved\nin specifying all of the possible rich comparison operations:\nThe class must define one of :meth:`__lt__`, :meth:`__le__`,\n:meth:`__gt__`, or :meth:`__ge__`. In addition, the class should supply an :meth:`__eq__` method. For example::\n@total_ordering\nclass Student:\ndef _is_valid_operand(self, other):\nreturn (hasattr(other, \"lastname\") and\nhasattr(other, \"firstname\"))\ndef __eq__(self, other):\nif not self._is_valid_operand(other):\nreturn NotImplemented\nreturn ((self.lastname.lower(), self.firstname.lower()) ==\n(other.lastname.lower(), other.firstname.lower()))\ndef __lt__(self, other):\nif not self._is_valid_operand(other):\nreturn NotImplemented\nreturn ((self.lastname.lower(), self.firstname.lower()) <\n(other.lastname.lower(), other.firstname.lower()))\nWhile this decorator makes it easy to create well behaved totally\nordered types, it *does* come at the cost of slower execution and\nmore complex stack traces for the derived comparison methods. If\nperformance benchmarking indicates this is a bottleneck for a given\napplication, implementing all six rich comparison methods instead is\nlikely to provide an easy speed boost. This decorator makes no attempt to override methods that have been\ndeclared in the class *or its superclasses*.",
+                    "qas": [
+                        {
+                            "id": "qa_97",
+                            "question": "What is the role of For in Python?",
+                            "answers": [
+                                {
+                                    "text": "For example::\n@total_ordering\nclass Student:\ndef _is_valid_operand(self, other):\nreturn (hasattr(other, \"lastname\") and\nhasattr(other, \"firstname\"))\ndef __eq__(self, other):\nif not self._is_valid_operand(other):\nreturn NotImplemented\nreturn ((self.lastname.lower(), self.firstname.lower()) ==\n(other.lastname.lower(), other.firstname.lower()))\ndef __lt__(self, other):\nif not self._is_valid_operand(other):\nreturn NotImplemented\nreturn ((self.lastname.lower(), self.firstname.lower()) <\n(other.lastname.lower(), other.firstname.lower()))\nWhile this decorator makes it easy to create well behaved totally\nordered types, it *does* come at the cost of slower execution and\nmore complex stack traces for the derived comparison methods.",
+                                    "answer_start": 257
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_98",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For example::\n@total_ordering\nclass Student:\ndef _is_valid_operand(self, other):\nreturn (hasattr(other, \"lastname\") and\nhasattr(other, \"firstname\"))\ndef __eq__(self, other):\nif not self._is_valid_operand(other):\nreturn NotImplemented\nreturn ((self.lastname.lower(), self.firstname.lower()) ==\n(other.lastname.lower(), other.firstname.lower()))\ndef __lt__(self, other):\nif not self._is_valid_operand(other):\nreturn NotImplemented\nreturn ((self.lastname.lower(), self.firstname.lower()) <\n(other.lastname.lower(), other.firstname.lower()))\nWhile this decorator makes it easy to create well behaved totally\nordered types, it *does* come at the cost of slower execution and\nmore complex stack traces for the derived comparison methods.",
+                                    "answer_start": 257
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_99",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For example::\n@total_ordering\nclass Student:\ndef _is_valid_operand(self, other):\nreturn (hasattr(other, \"lastname\") and\nhasattr(other, \"firstname\"))\ndef __eq__(self, other):\nif not self._is_valid_operand(other):\nreturn NotImplemented\nreturn ((self.lastname.lower(), self.firstname.lower()) ==\n(other.lastname.lower(), other.firstname.lower()))\ndef __lt__(self, other):\nif not self._is_valid_operand(other):\nreturn NotImplemented\nreturn ((self.lastname.lower(), self.firstname.lower()) <\n(other.lastname.lower(), other.firstname.lower()))\nWhile this decorator makes it easy to create well behaved totally\nordered types, it *does* come at the cost of slower execution and\nmore complex stack traces for the derived comparison methods.",
+                                    "answer_start": 257
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_100",
+                            "question": "Why is For important?",
+                            "answers": [
+                                {
+                                    "text": "For example::\n@total_ordering\nclass Student:\ndef _is_valid_operand(self, other):\nreturn (hasattr(other, \"lastname\") and\nhasattr(other, \"firstname\"))\ndef __eq__(self, other):\nif not self._is_valid_operand(other):\nreturn NotImplemented\nreturn ((self.lastname.lower(), self.firstname.lower()) ==\n(other.lastname.lower(), other.firstname.lower()))\ndef __lt__(self, other):\nif not self._is_valid_operand(other):\nreturn NotImplemented\nreturn ((self.lastname.lower(), self.firstname.lower()) <\n(other.lastname.lower(), other.firstname.lower()))\nWhile this decorator makes it easy to create well behaved totally\nordered types, it *does* come at the cost of slower execution and\nmore complex stack traces for the derived comparison methods.",
+                                    "answer_start": 257
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,598 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "title": "syslog",
+            "paragraphs": [
+                {
+                    "context": ":mod:`!syslog` --- Unix syslog library routines\n:platform: Unix\n:synopsis: An interface to the Unix syslog library routines.\n--------------\nThis module provides an interface to the Unix ``syslog`` library routines. Refer to the Unix manual pages for a detailed description of the ``syslog``\nfacility. This module wraps the system ``syslog`` family of routines.",
+                    "qas": [
+                        {
+                            "id": "qa_1",
+                            "question": "Can you explain :mod:`!syslog`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!syslog` --- Unix syslog library routines\n:platform: Unix\n:synopsis: An interface to the Unix syslog library routines.\n--------------\nThis module provides an interface to the Unix ``syslog`` library routines.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_2",
+                            "question": "How does :mod:`!syslog` work?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!syslog` --- Unix syslog library routines\n:platform: Unix\n:synopsis: An interface to the Unix syslog library routines.\n--------------\nThis module provides an interface to the Unix ``syslog`` library routines.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_3",
+                            "question": "What makes :mod:`!syslog` unique?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!syslog` --- Unix syslog library routines\n:platform: Unix\n:synopsis: An interface to the Unix syslog library routines.\n--------------\nThis module provides an interface to the Unix ``syslog`` library routines.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_4",
+                            "question": "What challenges are associated with :mod:`!syslog`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!syslog` --- Unix syslog library routines\n:platform: Unix\n:synopsis: An interface to the Unix syslog library routines.\n--------------\nThis module provides an interface to the Unix ``syslog`` library routines.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": ":mod:`!syslog` --- Unix syslog library routines\n:platform: Unix\n:synopsis: An interface to the Unix syslog library routines.\n--------------\nThis module provides an interface to the Unix ``syslog`` library routines. Refer to the Unix manual pages for a detailed description of the ``syslog``\nfacility. This module wraps the system ``syslog`` family of routines. A pure Python\nlibrary that can speak to a syslog server is available in the\n:mod:`logging.handlers` module as :class:`~logging.handlers.SysLogHandler`.",
+                    "qas": [
+                        {
+                            "id": "qa_5",
+                            "question": "What is the role of Refer in Python?",
+                            "answers": [
+                                {
+                                    "text": "Refer to the Unix manual pages for a detailed description of the ``syslog``\nfacility.",
+                                    "answer_start": 215
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_6",
+                            "question": "Can you explain Refer?",
+                            "answers": [
+                                {
+                                    "text": "Refer to the Unix manual pages for a detailed description of the ``syslog``\nfacility.",
+                                    "answer_start": 215
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_7",
+                            "question": "What challenges are associated with Refer?",
+                            "answers": [
+                                {
+                                    "text": "Refer to the Unix manual pages for a detailed description of the ``syslog``\nfacility.",
+                                    "answer_start": 215
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_8",
+                            "question": "How is Refer used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Refer to the Unix manual pages for a detailed description of the ``syslog``\nfacility.",
+                                    "answer_start": 215
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The module defines the following functions:\nsyslog(priority, message)\nSend the string *message* to the system logger. A trailing newline is added\nif necessary. Each message is tagged with a priority composed of a\n*facility* and a *level*. The optional *priority* argument, which defaults\nto :const:`LOG_INFO`, determines the message priority. If the facility is\nnot encoded in *priority* using logical-or (``LOG_INFO | LOG_USER``), the\nvalue given in the :func:`openlog` call is used.",
+                    "qas": [
+                        {
+                            "id": "qa_9",
+                            "question": "How does Each work?",
+                            "answers": [
+                                {
+                                    "text": "Each message is tagged with a priority composed of a\n*facility* and a *level*.",
+                                    "answer_start": 160
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_10",
+                            "question": "Why is Each important?",
+                            "answers": [
+                                {
+                                    "text": "Each message is tagged with a priority composed of a\n*facility* and a *level*.",
+                                    "answer_start": 160
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_11",
+                            "question": "What are the benefits of Each?",
+                            "answers": [
+                                {
+                                    "text": "Each message is tagged with a priority composed of a\n*facility* and a *level*.",
+                                    "answer_start": 160
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_12",
+                            "question": "What are the key features of Each?",
+                            "answers": [
+                                {
+                                    "text": "Each message is tagged with a priority composed of a\n*facility* and a *level*.",
+                                    "answer_start": 160
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "In previous versions, :func:`openlog` would not be called automatically if\nit wasn't called prior to the call to :func:`syslog`, deferring to the syslog\nimplementation to call ``openlog()``. This function is restricted in subinterpreters.\n(Only code that runs in multiple interpreters is affected and\nthe restriction is not relevant for most users.)\n:func:`openlog` must be called in the main interpreter before :func:`syslog` may be used\nin a subinterpreter. Otherwise it will raise :exc:`RuntimeError`. Logging options of subsequent :func:`syslog` calls can be set by calling\n:func:`openlog`.  :func:`syslog` will call :func:`openlog` with no arguments\nif the log is not currently open. The optional *ident* keyword argument is a string which is prepended to every\nmessage, and defaults to ``sys.argv[0]`` with leading path components\nstripped.",
+                    "qas": [
+                        {
+                            "id": "qa_13",
+                            "question": "What challenges are associated with Otherwise?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise it will raise :exc:`RuntimeError`.",
+                                    "answer_start": 460
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_14",
+                            "question": "What are the key features of Otherwise?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise it will raise :exc:`RuntimeError`.",
+                                    "answer_start": 460
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_15",
+                            "question": "How does Otherwise work?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise it will raise :exc:`RuntimeError`.",
+                                    "answer_start": 460
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_16",
+                            "question": "What are the benefits of Otherwise?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise it will raise :exc:`RuntimeError`.",
+                                    "answer_start": 460
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This function is restricted in subinterpreters.\n(Only code that runs in multiple interpreters is affected and\nthe restriction is not relevant for most users.)\n:func:`openlog` must be called in the main interpreter before :func:`syslog` may be used\nin a subinterpreter. Otherwise it will raise :exc:`RuntimeError`. Logging options of subsequent :func:`syslog` calls can be set by calling\n:func:`openlog`.  :func:`syslog` will call :func:`openlog` with no arguments\nif the log is not currently open. The optional *ident* keyword argument is a string which is prepended to every\nmessage, and defaults to ``sys.argv[0]`` with leading path components\nstripped. The optional *logoption* keyword argument (default is 0) is a bit\nfield -- see below for possible values to combine.",
+                    "qas": [
+                        {
+                            "id": "qa_17",
+                            "question": "What is the role of Logging in Python?",
+                            "answers": [
+                                {
+                                    "text": "Logging options of subsequent :func:`syslog` calls can be set by calling\n:func:`openlog`.  :func:`syslog` will call :func:`openlog` with no arguments\nif the log is not currently open.",
+                                    "answer_start": 314
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_18",
+                            "question": "What is mentioned about Logging?",
+                            "answers": [
+                                {
+                                    "text": "Logging options of subsequent :func:`syslog` calls can be set by calling\n:func:`openlog`.  :func:`syslog` will call :func:`openlog` with no arguments\nif the log is not currently open.",
+                                    "answer_start": 314
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_19",
+                            "question": "What challenges are associated with Logging?",
+                            "answers": [
+                                {
+                                    "text": "Logging options of subsequent :func:`syslog` calls can be set by calling\n:func:`openlog`.  :func:`syslog` will call :func:`openlog` with no arguments\nif the log is not currently open.",
+                                    "answer_start": 314
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_20",
+                            "question": "What are the key features of Logging?",
+                            "answers": [
+                                {
+                                    "text": "Logging options of subsequent :func:`syslog` calls can be set by calling\n:func:`openlog`.  :func:`syslog` will call :func:`openlog` with no arguments\nif the log is not currently open.",
+                                    "answer_start": 314
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This function is restricted in subinterpreters.\n(Only code that runs in multiple interpreters is affected and\nthe restriction is not relevant for most users.)\nThis may only be called in the main interpreter. It will raise :exc:`RuntimeError` if called in a subinterpreter. Reset the syslog module values and call the system library ``closelog()``. This causes the module to behave as it does when initially imported. For\nexample, :func:`openlog` will be called on the first :func:`syslog` call (if\n:func:`openlog` hasn't already been called), and *ident* and other\n:func:`openlog` parameters are reset to defaults.",
+                    "qas": [
+                        {
+                            "id": "qa_21",
+                            "question": "What are the benefits of Reset?",
+                            "answers": [
+                                {
+                                    "text": "Reset the syslog module values and call the system library ``closelog()``.",
+                                    "answer_start": 273
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_22",
+                            "question": "Can you explain Reset?",
+                            "answers": [
+                                {
+                                    "text": "Reset the syslog module values and call the system library ``closelog()``.",
+                                    "answer_start": 273
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_23",
+                            "question": "How is Reset used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Reset the syslog module values and call the system library ``closelog()``.",
+                                    "answer_start": 273
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_24",
+                            "question": "What is mentioned about Reset?",
+                            "answers": [
+                                {
+                                    "text": "Reset the syslog module values and call the system library ``closelog()``.",
+                                    "answer_start": 273
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Reset the syslog module values and call the system library ``closelog()``. This causes the module to behave as it does when initially imported. For\nexample, :func:`openlog` will be called on the first :func:`syslog` call (if\n:func:`openlog` hasn't already been called), and *ident* and other\n:func:`openlog` parameters are reset to defaults. This function is restricted in subinterpreters.\n(Only code that runs in multiple interpreters is affected and\nthe restriction is not relevant for most users.)\nThis may only be called in the main interpreter. It will raise :exc:`RuntimeError` if called in a subinterpreter.",
+                    "qas": [
+                        {
+                            "id": "qa_25",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For\nexample, :func:`openlog` will be called on the first :func:`syslog` call (if\n:func:`openlog` hasn't already been called), and *ident* and other\n:func:`openlog` parameters are reset to defaults.",
+                                    "answer_start": 144
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_26",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For\nexample, :func:`openlog` will be called on the first :func:`syslog` call (if\n:func:`openlog` hasn't already been called), and *ident* and other\n:func:`openlog` parameters are reset to defaults.",
+                                    "answer_start": 144
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_27",
+                            "question": "How does For work?",
+                            "answers": [
+                                {
+                                    "text": "For\nexample, :func:`openlog` will be called on the first :func:`syslog` call (if\n:func:`openlog` hasn't already been called), and *ident* and other\n:func:`openlog` parameters are reset to defaults.",
+                                    "answer_start": 144
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_28",
+                            "question": "What is the role of For in Python?",
+                            "answers": [
+                                {
+                                    "text": "For\nexample, :func:`openlog` will be called on the first :func:`syslog` call (if\n:func:`openlog` hasn't already been called), and *ident* and other\n:func:`openlog` parameters are reset to defaults.",
+                                    "answer_start": 144
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This function is restricted in subinterpreters.\n(Only code that runs in multiple interpreters is affected and\nthe restriction is not relevant for most users.)\nThis may only be called in the main interpreter. It will raise :exc:`RuntimeError` if called in a subinterpreter. Set the priority mask to *maskpri* and return the previous mask value. Calls\nto :func:`syslog` with a priority level not set in *maskpri* are ignored. The default is to log all priorities.",
+                    "qas": [
+                        {
+                            "id": "qa_29",
+                            "question": "What makes Set unique?",
+                            "answers": [
+                                {
+                                    "text": "Set the priority mask to *maskpri* and return the previous mask value.",
+                                    "answer_start": 273
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_30",
+                            "question": "What are the key features of Set?",
+                            "answers": [
+                                {
+                                    "text": "Set the priority mask to *maskpri* and return the previous mask value.",
+                                    "answer_start": 273
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_31",
+                            "question": "How is Set used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Set the priority mask to *maskpri* and return the previous mask value.",
+                                    "answer_start": 273
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_32",
+                            "question": "How does Set work?",
+                            "answers": [
+                                {
+                                    "text": "Set the priority mask to *maskpri* and return the previous mask value.",
+                                    "answer_start": 273
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "It will raise :exc:`RuntimeError` if called in a subinterpreter. Set the priority mask to *maskpri* and return the previous mask value. Calls\nto :func:`syslog` with a priority level not set in *maskpri* are ignored. The default is to log all priorities. The function ``LOG_MASK(pri)``\ncalculates the mask for the individual priority *pri*.",
+                    "qas": [
+                        {
+                            "id": "qa_33",
+                            "question": "What challenges are associated with Calls?",
+                            "answers": [
+                                {
+                                    "text": "Calls\nto :func:`syslog` with a priority level not set in *maskpri* are ignored.",
+                                    "answer_start": 136
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_34",
+                            "question": "Can you explain Calls?",
+                            "answers": [
+                                {
+                                    "text": "Calls\nto :func:`syslog` with a priority level not set in *maskpri* are ignored.",
+                                    "answer_start": 136
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_35",
+                            "question": "What is mentioned about Calls?",
+                            "answers": [
+                                {
+                                    "text": "Calls\nto :func:`syslog` with a priority level not set in *maskpri* are ignored.",
+                                    "answer_start": 136
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_36",
+                            "question": "What are the key features of Calls?",
+                            "answers": [
+                                {
+                                    "text": "Calls\nto :func:`syslog` with a priority level not set in *maskpri* are ignored.",
+                                    "answer_start": 136
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The function\n``LOG_UPTO(pri)`` calculates the mask for all priorities up to and including\n*pri*. The module defines the following constants:\nLOG_ALERT\nLOG_CRIT\nLOG_ERR\nLOG_WARNING\nLOG_NOTICE\nLOG_INFO\nLOG_DEBUG\nPriority levels (high to low). LOG_AUTHPRIV\nLOG_CRON\nLOG_DAEMON\nLOG_FTP\nLOG_INSTALL\nLOG_KERN\nLOG_LAUNCHD\nLOG_LPR\nLOG_MAIL\nLOG_NETINFO\nLOG_NEWS\nLOG_RAS\nLOG_REMOTEAUTH\nLOG_SYSLOG\nLOG_USER\nLOG_UUCP\nLOG_LOCAL0\nLOG_LOCAL1\nLOG_LOCAL2\nLOG_LOCAL3\nLOG_LOCAL4\nLOG_LOCAL5\nLOG_LOCAL6\nLOG_LOCAL7\nFacilities, depending on availability in ``<syslog.h>`` for :const:`LOG_AUTHPRIV`,\n:const:`LOG_FTP`, :const:`LOG_NETINFO`, :const:`LOG_REMOTEAUTH`,\n:const:`LOG_INSTALL` and :const:`LOG_RAS`. Added :const:`LOG_FTP`, :const:`LOG_NETINFO`, :const:`LOG_REMOTEAUTH`,\n:const:`LOG_INSTALL`, :const:`LOG_RAS`, and :const:`LOG_LAUNCHD`. LOG_CONS\nLOG_NDELAY\nLOG_ODELAY\nLOG_NOWAIT\nLOG_PERROR\nLog options, depending on availability in ``<syslog.h>`` for\n:const:`LOG_ODELAY`, :const:`LOG_NOWAIT` and :const:`LOG_PERROR`.",
+                    "qas": [
+                        {
+                            "id": "qa_37",
+                            "question": "How is LOG_AUTHPRIV used in programming?",
+                            "answers": [
+                                {
+                                    "text": "LOG_AUTHPRIV\nLOG_CRON\nLOG_DAEMON\nLOG_FTP\nLOG_INSTALL\nLOG_KERN\nLOG_LAUNCHD\nLOG_LPR\nLOG_MAIL\nLOG_NETINFO\nLOG_NEWS\nLOG_RAS\nLOG_REMOTEAUTH\nLOG_SYSLOG\nLOG_USER\nLOG_UUCP\nLOG_LOCAL0\nLOG_LOCAL1\nLOG_LOCAL2\nLOG_LOCAL3\nLOG_LOCAL4\nLOG_LOCAL5\nLOG_LOCAL6\nLOG_LOCAL7\nFacilities, depending on availability in ``<syslog.h>`` for :const:`LOG_AUTHPRIV`,\n:const:`LOG_FTP`, :const:`LOG_NETINFO`, :const:`LOG_REMOTEAUTH`,\n:const:`LOG_INSTALL` and :const:`LOG_RAS`.",
+                                    "answer_start": 241
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_38",
+                            "question": "Why is LOG_AUTHPRIV important?",
+                            "answers": [
+                                {
+                                    "text": "LOG_AUTHPRIV\nLOG_CRON\nLOG_DAEMON\nLOG_FTP\nLOG_INSTALL\nLOG_KERN\nLOG_LAUNCHD\nLOG_LPR\nLOG_MAIL\nLOG_NETINFO\nLOG_NEWS\nLOG_RAS\nLOG_REMOTEAUTH\nLOG_SYSLOG\nLOG_USER\nLOG_UUCP\nLOG_LOCAL0\nLOG_LOCAL1\nLOG_LOCAL2\nLOG_LOCAL3\nLOG_LOCAL4\nLOG_LOCAL5\nLOG_LOCAL6\nLOG_LOCAL7\nFacilities, depending on availability in ``<syslog.h>`` for :const:`LOG_AUTHPRIV`,\n:const:`LOG_FTP`, :const:`LOG_NETINFO`, :const:`LOG_REMOTEAUTH`,\n:const:`LOG_INSTALL` and :const:`LOG_RAS`.",
+                                    "answer_start": 241
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_39",
+                            "question": "What is the role of LOG_AUTHPRIV in Python?",
+                            "answers": [
+                                {
+                                    "text": "LOG_AUTHPRIV\nLOG_CRON\nLOG_DAEMON\nLOG_FTP\nLOG_INSTALL\nLOG_KERN\nLOG_LAUNCHD\nLOG_LPR\nLOG_MAIL\nLOG_NETINFO\nLOG_NEWS\nLOG_RAS\nLOG_REMOTEAUTH\nLOG_SYSLOG\nLOG_USER\nLOG_UUCP\nLOG_LOCAL0\nLOG_LOCAL1\nLOG_LOCAL2\nLOG_LOCAL3\nLOG_LOCAL4\nLOG_LOCAL5\nLOG_LOCAL6\nLOG_LOCAL7\nFacilities, depending on availability in ``<syslog.h>`` for :const:`LOG_AUTHPRIV`,\n:const:`LOG_FTP`, :const:`LOG_NETINFO`, :const:`LOG_REMOTEAUTH`,\n:const:`LOG_INSTALL` and :const:`LOG_RAS`.",
+                                    "answer_start": 241
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_40",
+                            "question": "How does LOG_AUTHPRIV work?",
+                            "answers": [
+                                {
+                                    "text": "LOG_AUTHPRIV\nLOG_CRON\nLOG_DAEMON\nLOG_FTP\nLOG_INSTALL\nLOG_KERN\nLOG_LAUNCHD\nLOG_LPR\nLOG_MAIL\nLOG_NETINFO\nLOG_NEWS\nLOG_RAS\nLOG_REMOTEAUTH\nLOG_SYSLOG\nLOG_USER\nLOG_UUCP\nLOG_LOCAL0\nLOG_LOCAL1\nLOG_LOCAL2\nLOG_LOCAL3\nLOG_LOCAL4\nLOG_LOCAL5\nLOG_LOCAL6\nLOG_LOCAL7\nFacilities, depending on availability in ``<syslog.h>`` for :const:`LOG_AUTHPRIV`,\n:const:`LOG_FTP`, :const:`LOG_NETINFO`, :const:`LOG_REMOTEAUTH`,\n:const:`LOG_INSTALL` and :const:`LOG_RAS`.",
+                                    "answer_start": 241
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "LOG_AUTHPRIV\nLOG_CRON\nLOG_DAEMON\nLOG_FTP\nLOG_INSTALL\nLOG_KERN\nLOG_LAUNCHD\nLOG_LPR\nLOG_MAIL\nLOG_NETINFO\nLOG_NEWS\nLOG_RAS\nLOG_REMOTEAUTH\nLOG_SYSLOG\nLOG_USER\nLOG_UUCP\nLOG_LOCAL0\nLOG_LOCAL1\nLOG_LOCAL2\nLOG_LOCAL3\nLOG_LOCAL4\nLOG_LOCAL5\nLOG_LOCAL6\nLOG_LOCAL7\nFacilities, depending on availability in ``<syslog.h>`` for :const:`LOG_AUTHPRIV`,\n:const:`LOG_FTP`, :const:`LOG_NETINFO`, :const:`LOG_REMOTEAUTH`,\n:const:`LOG_INSTALL` and :const:`LOG_RAS`. Added :const:`LOG_FTP`, :const:`LOG_NETINFO`, :const:`LOG_REMOTEAUTH`,\n:const:`LOG_INSTALL`, :const:`LOG_RAS`, and :const:`LOG_LAUNCHD`. LOG_CONS\nLOG_NDELAY\nLOG_ODELAY\nLOG_NOWAIT\nLOG_PERROR\nLog options, depending on availability in ``<syslog.h>`` for\n:const:`LOG_ODELAY`, :const:`LOG_NOWAIT` and :const:`LOG_PERROR`. Examples\n--------\nSimple example\n~~~~~~~~~~~~~~\nA simple set of examples::\nimport syslog\nsyslog.syslog('Processing started')\nif error:\nsyslog.syslog(syslog.LOG_ERR, 'Processing started')\nAn example of setting some log options, these would include the process ID in\nlogged messages, and write the messages to the destination facility used for\nmail logging::\nsyslog.openlog(logoption=syslog.LOG_PID, facility=syslog.LOG_MAIL)\nsyslog.syslog('E-mail processing initiated...')",
+                    "qas": [
+                        {
+                            "id": "qa_41",
+                            "question": "What are the benefits of LOG_CONS?",
+                            "answers": [
+                                {
+                                    "text": "LOG_CONS\nLOG_NDELAY\nLOG_ODELAY\nLOG_NOWAIT\nLOG_PERROR\nLog options, depending on availability in ``<syslog.h>`` for\n:const:`LOG_ODELAY`, :const:`LOG_NOWAIT` and :const:`LOG_PERROR`.",
+                                    "answer_start": 580
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_42",
+                            "question": "What makes LOG_CONS unique?",
+                            "answers": [
+                                {
+                                    "text": "LOG_CONS\nLOG_NDELAY\nLOG_ODELAY\nLOG_NOWAIT\nLOG_PERROR\nLog options, depending on availability in ``<syslog.h>`` for\n:const:`LOG_ODELAY`, :const:`LOG_NOWAIT` and :const:`LOG_PERROR`.",
+                                    "answer_start": 580
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_43",
+                            "question": "What challenges are associated with LOG_CONS?",
+                            "answers": [
+                                {
+                                    "text": "LOG_CONS\nLOG_NDELAY\nLOG_ODELAY\nLOG_NOWAIT\nLOG_PERROR\nLog options, depending on availability in ``<syslog.h>`` for\n:const:`LOG_ODELAY`, :const:`LOG_NOWAIT` and :const:`LOG_PERROR`.",
+                                    "answer_start": 580
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_44",
+                            "question": "Can you explain LOG_CONS?",
+                            "answers": [
+                                {
+                                    "text": "LOG_CONS\nLOG_NDELAY\nLOG_ODELAY\nLOG_NOWAIT\nLOG_PERROR\nLog options, depending on availability in ``<syslog.h>`` for\n:const:`LOG_ODELAY`, :const:`LOG_NOWAIT` and :const:`LOG_PERROR`.",
+                                    "answer_start": 580
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Added :const:`LOG_FTP`, :const:`LOG_NETINFO`, :const:`LOG_REMOTEAUTH`,\n:const:`LOG_INSTALL`, :const:`LOG_RAS`, and :const:`LOG_LAUNCHD`. LOG_CONS\nLOG_NDELAY\nLOG_ODELAY\nLOG_NOWAIT\nLOG_PERROR\nLog options, depending on availability in ``<syslog.h>`` for\n:const:`LOG_ODELAY`, :const:`LOG_NOWAIT` and :const:`LOG_PERROR`. Examples\n--------\nSimple example\n~~~~~~~~~~~~~~\nA simple set of examples::\nimport syslog\nsyslog.syslog('Processing started')\nif error:\nsyslog.syslog(syslog.LOG_ERR, 'Processing started')\nAn example of setting some log options, these would include the process ID in\nlogged messages, and write the messages to the destination facility used for\nmail logging::\nsyslog.openlog(logoption=syslog.LOG_PID, facility=syslog.LOG_MAIL)\nsyslog.syslog('E-mail processing initiated...')",
+                    "qas": [
+                        {
+                            "id": "qa_45",
+                            "question": "What makes Examples unique?",
+                            "answers": [
+                                {
+                                    "text": "Examples\n--------\nSimple example\n~~~~~~~~~~~~~~\nA simple set of examples::\nimport syslog\nsyslog.syslog('Processing started')\nif error:\nsyslog.syslog(syslog.LOG_ERR, 'Processing started')\nAn example of setting some log options, these would include the process ID in\nlogged messages, and write the messages to the destination facility used for\nmail logging::\nsyslog.openlog(logoption=syslog.LOG_PID, facility=syslog.LOG_MAIL)\nsyslog.syslog('E-mail processing initiated...')",
+                                    "answer_start": 317
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_46",
+                            "question": "What are the benefits of Examples?",
+                            "answers": [
+                                {
+                                    "text": "Examples\n--------\nSimple example\n~~~~~~~~~~~~~~\nA simple set of examples::\nimport syslog\nsyslog.syslog('Processing started')\nif error:\nsyslog.syslog(syslog.LOG_ERR, 'Processing started')\nAn example of setting some log options, these would include the process ID in\nlogged messages, and write the messages to the destination facility used for\nmail logging::\nsyslog.openlog(logoption=syslog.LOG_PID, facility=syslog.LOG_MAIL)\nsyslog.syslog('E-mail processing initiated...')",
+                                    "answer_start": 317
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_47",
+                            "question": "Why is Examples important?",
+                            "answers": [
+                                {
+                                    "text": "Examples\n--------\nSimple example\n~~~~~~~~~~~~~~\nA simple set of examples::\nimport syslog\nsyslog.syslog('Processing started')\nif error:\nsyslog.syslog(syslog.LOG_ERR, 'Processing started')\nAn example of setting some log options, these would include the process ID in\nlogged messages, and write the messages to the destination facility used for\nmail logging::\nsyslog.openlog(logoption=syslog.LOG_PID, facility=syslog.LOG_MAIL)\nsyslog.syslog('E-mail processing initiated...')",
+                                    "answer_start": 317
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_48",
+                            "question": "Can you explain Examples?",
+                            "answers": [
+                                {
+                                    "text": "Examples\n--------\nSimple example\n~~~~~~~~~~~~~~\nA simple set of examples::\nimport syslog\nsyslog.syslog('Processing started')\nif error:\nsyslog.syslog(syslog.LOG_ERR, 'Processing started')\nAn example of setting some log options, these would include the process ID in\nlogged messages, and write the messages to the destination facility used for\nmail logging::\nsyslog.openlog(logoption=syslog.LOG_PID, facility=syslog.LOG_MAIL)\nsyslog.syslog('E-mail processing initiated...')",
+                                    "answer_start": 317
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

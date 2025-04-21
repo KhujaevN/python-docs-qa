@@ -1,0 +1,1235 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "title": "string",
+            "paragraphs": [
+                {
+                    "context": ":mod:`!string` --- Common string operations\n:synopsis: Common string operations.\n**Source code:** :source:`Lib/string.py`\n--------------\n:ref:`textseq`\n:ref:`string-methods`\nString constants\n----------------\nThe constants defined in this module are:\nThe concatenation of the :const:`ascii_lowercase` and :const:`ascii_uppercase`\nconstants described below. This value is not locale-dependent. The lowercase letters ``'abcdefghijklmnopqrstuvwxyz'``.",
+                    "qas": [
+                        {
+                            "id": "qa_1",
+                            "question": "What challenges are associated with :mod:`!string`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!string` --- Common string operations\n:synopsis: Common string operations.\n**Source code:** :source:`Lib/string.py`\n--------------\n:ref:`textseq`\n:ref:`string-methods`\nString constants\n----------------\nThe constants defined in this module are:\nThe concatenation of the :const:`ascii_lowercase` and :const:`ascii_uppercase`\nconstants described below.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_2",
+                            "question": "What are the benefits of :mod:`!string`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!string` --- Common string operations\n:synopsis: Common string operations.\n**Source code:** :source:`Lib/string.py`\n--------------\n:ref:`textseq`\n:ref:`string-methods`\nString constants\n----------------\nThe constants defined in this module are:\nThe concatenation of the :const:`ascii_lowercase` and :const:`ascii_uppercase`\nconstants described below.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_3",
+                            "question": "How is :mod:`!string` used in programming?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!string` --- Common string operations\n:synopsis: Common string operations.\n**Source code:** :source:`Lib/string.py`\n--------------\n:ref:`textseq`\n:ref:`string-methods`\nString constants\n----------------\nThe constants defined in this module are:\nThe concatenation of the :const:`ascii_lowercase` and :const:`ascii_uppercase`\nconstants described below.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_4",
+                            "question": "How does :mod:`!string` work?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!string` --- Common string operations\n:synopsis: Common string operations.\n**Source code:** :source:`Lib/string.py`\n--------------\n:ref:`textseq`\n:ref:`string-methods`\nString constants\n----------------\nThe constants defined in this module are:\nThe concatenation of the :const:`ascii_lowercase` and :const:`ascii_uppercase`\nconstants described below.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The string ``'0123456789abcdefABCDEF'``. The string ``'01234567'``. String of ASCII characters which are considered punctuation characters\nin the ``C`` locale: ``!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~``. String of ASCII characters which are considered printable by Python. This is a combination of :const:`digits`, :const:`ascii_letters`,\n:const:`punctuation`, and :const:`whitespace`.",
+                    "qas": [
+                        {
+                            "id": "qa_5",
+                            "question": "What makes String unique?",
+                            "answers": [
+                                {
+                                    "text": "String of ASCII characters which are considered punctuation characters\nin the ``C`` locale: ``!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~``.",
+                                    "answer_start": 68
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_6",
+                            "question": "How is String used in programming?",
+                            "answers": [
+                                {
+                                    "text": "String of ASCII characters which are considered punctuation characters\nin the ``C`` locale: ``!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~``.",
+                                    "answer_start": 68
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_7",
+                            "question": "What is mentioned about String?",
+                            "answers": [
+                                {
+                                    "text": "String of ASCII characters which are considered punctuation characters\nin the ``C`` locale: ``!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~``.",
+                                    "answer_start": 68
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_8",
+                            "question": "What are the benefits of String?",
+                            "answers": [
+                                {
+                                    "text": "String of ASCII characters which are considered punctuation characters\nin the ``C`` locale: ``!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~``.",
+                                    "answer_start": 68
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The string ``'01234567'``. String of ASCII characters which are considered punctuation characters\nin the ``C`` locale: ``!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~``. String of ASCII characters which are considered printable by Python. This is a combination of :const:`digits`, :const:`ascii_letters`,\n:const:`punctuation`, and :const:`whitespace`. By design, :meth:`string.printable.isprintable() <str.isprintable>`\nreturns :const:`False`.",
+                    "qas": [
+                        {
+                            "id": "qa_9",
+                            "question": "What challenges are associated with String?",
+                            "answers": [
+                                {
+                                    "text": "String of ASCII characters which are considered printable by Python.",
+                                    "answer_start": 157
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_10",
+                            "question": "Why is String important?",
+                            "answers": [
+                                {
+                                    "text": "String of ASCII characters which are considered printable by Python.",
+                                    "answer_start": 157
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_11",
+                            "question": "Can you explain String?",
+                            "answers": [
+                                {
+                                    "text": "String of ASCII characters which are considered printable by Python.",
+                                    "answer_start": 157
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_12",
+                            "question": "What is mentioned about String?",
+                            "answers": [
+                                {
+                                    "text": "String of ASCII characters which are considered printable by Python.",
+                                    "answer_start": 157
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "A string containing all ASCII characters that are considered whitespace. This includes the characters space, tab, linefeed, return, formfeed, and\nvertical tab. Custom String Formatting\n------------------------\nThe built-in string class provides the ability to do complex variable\nsubstitutions and value formatting via the :meth:`~str.format` method described in\n:pep:`3101`. The :class:`Formatter` class in the :mod:`string` module allows\nyou to create and customize your own string formatting behaviors using the same\nimplementation as the built-in :meth:`~str.format` method. The :class:`Formatter` class has the following public methods:\nThe primary API method.",
+                    "qas": [
+                        {
+                            "id": "qa_13",
+                            "question": "What is the role of Custom in Python?",
+                            "answers": [
+                                {
+                                    "text": "Custom String Formatting\n------------------------\nThe built-in string class provides the ability to do complex variable\nsubstitutions and value formatting via the :meth:`~str.format` method described in\n:pep:`3101`.",
+                                    "answer_start": 160
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_14",
+                            "question": "What makes Custom unique?",
+                            "answers": [
+                                {
+                                    "text": "Custom String Formatting\n------------------------\nThe built-in string class provides the ability to do complex variable\nsubstitutions and value formatting via the :meth:`~str.format` method described in\n:pep:`3101`.",
+                                    "answer_start": 160
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_15",
+                            "question": "What challenges are associated with Custom?",
+                            "answers": [
+                                {
+                                    "text": "Custom String Formatting\n------------------------\nThe built-in string class provides the ability to do complex variable\nsubstitutions and value formatting via the :meth:`~str.format` method described in\n:pep:`3101`.",
+                                    "answer_start": 160
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_16",
+                            "question": "Why is Custom important?",
+                            "answers": [
+                                {
+                                    "text": "Custom String Formatting\n------------------------\nThe built-in string class provides the ability to do complex variable\nsubstitutions and value formatting via the :meth:`~str.format` method described in\n:pep:`3101`.",
+                                    "answer_start": 160
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If there is no literal text\n(which can happen if two replacement fields occur consecutively), then\n*literal_text* will be a zero-length string. If there is no replacement\nfield, then the values of *field_name*, *format_spec* and *conversion*\nwill be ``None``. Given *field_name* as returned by :meth:`parse` (see above), convert it to\nan object to be formatted. Returns a tuple (obj, used_key). The default\nversion takes strings of the form defined in :pep:`3101`, such as\n\"0[name]\" or \"label.title\".  *args* and *kwargs* are as passed in to\n:meth:`vformat`.",
+                    "qas": [
+                        {
+                            "id": "qa_17",
+                            "question": "What challenges are associated with Given?",
+                            "answers": [
+                                {
+                                    "text": "Given *field_name* as returned by :meth:`parse` (see above), convert it to\nan object to be formatted.",
+                                    "answer_start": 260
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_18",
+                            "question": "What makes Given unique?",
+                            "answers": [
+                                {
+                                    "text": "Given *field_name* as returned by :meth:`parse` (see above), convert it to\nan object to be formatted.",
+                                    "answer_start": 260
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_19",
+                            "question": "How does Given work?",
+                            "answers": [
+                                {
+                                    "text": "Given *field_name* as returned by :meth:`parse` (see above), convert it to\nan object to be formatted.",
+                                    "answer_start": 260
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_20",
+                            "question": "Can you explain Given?",
+                            "answers": [
+                                {
+                                    "text": "Given *field_name* as returned by :meth:`parse` (see above), convert it to\nan object to be formatted.",
+                                    "answer_start": 260
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If there is no replacement\nfield, then the values of *field_name*, *format_spec* and *conversion*\nwill be ``None``. Given *field_name* as returned by :meth:`parse` (see above), convert it to\nan object to be formatted. Returns a tuple (obj, used_key). The default\nversion takes strings of the form defined in :pep:`3101`, such as\n\"0[name]\" or \"label.title\".  *args* and *kwargs* are as passed in to\n:meth:`vformat`. The return value *used_key* has the same meaning as the\n*key* parameter to :meth:`get_value`.",
+                    "qas": [
+                        {
+                            "id": "qa_21",
+                            "question": "What challenges are associated with Returns?",
+                            "answers": [
+                                {
+                                    "text": "Returns a tuple (obj, used_key).",
+                                    "answer_start": 218
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_22",
+                            "question": "How does Returns work?",
+                            "answers": [
+                                {
+                                    "text": "Returns a tuple (obj, used_key).",
+                                    "answer_start": 218
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_23",
+                            "question": "What are the benefits of Returns?",
+                            "answers": [
+                                {
+                                    "text": "Returns a tuple (obj, used_key).",
+                                    "answer_start": 218
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_24",
+                            "question": "What are the key features of Returns?",
+                            "answers": [
+                                {
+                                    "text": "Returns a tuple (obj, used_key).",
+                                    "answer_start": 218
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The default\nversion takes strings of the form defined in :pep:`3101`, such as\n\"0[name]\" or \"label.title\".  *args* and *kwargs* are as passed in to\n:meth:`vformat`. The return value *used_key* has the same meaning as the\n*key* parameter to :meth:`get_value`. Retrieve a given field value. The *key* argument will be either an\ninteger or a string. If it is an integer, it represents the index of the\npositional argument in *args*; if it is a string, then it represents a\nnamed argument in *kwargs*.",
+                    "qas": [
+                        {
+                            "id": "qa_25",
+                            "question": "What is the role of Retrieve in Python?",
+                            "answers": [
+                                {
+                                    "text": "Retrieve a given field value.",
+                                    "answer_start": 258
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_26",
+                            "question": "What challenges are associated with Retrieve?",
+                            "answers": [
+                                {
+                                    "text": "Retrieve a given field value.",
+                                    "answer_start": 258
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_27",
+                            "question": "Can you explain Retrieve?",
+                            "answers": [
+                                {
+                                    "text": "Retrieve a given field value.",
+                                    "answer_start": 258
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_28",
+                            "question": "What are the key features of Retrieve?",
+                            "answers": [
+                                {
+                                    "text": "Retrieve a given field value.",
+                                    "answer_start": 258
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If it is an integer, it represents the index of the\npositional argument in *args*; if it is a string, then it represents a\nnamed argument in *kwargs*. The *args* parameter is set to the list of positional arguments to\n:meth:`vformat`, and the *kwargs* parameter is set to the dictionary of\nkeyword arguments. For compound field names, these functions are only called for the first\ncomponent of the field name; subsequent components are handled through\nnormal attribute and indexing operations. So for example, the field expression '0.name' would cause\n:meth:`get_value` to be called with a *key* argument of 0. The ``name``\nattribute will be looked up after :meth:`get_value` returns by calling the\nbuilt-in :func:`getattr` function.",
+                    "qas": [
+                        {
+                            "id": "qa_29",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For compound field names, these functions are only called for the first\ncomponent of the field name; subsequent components are handled through\nnormal attribute and indexing operations.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_30",
+                            "question": "Why is For important?",
+                            "answers": [
+                                {
+                                    "text": "For compound field names, these functions are only called for the first\ncomponent of the field name; subsequent components are handled through\nnormal attribute and indexing operations.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_31",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For compound field names, these functions are only called for the first\ncomponent of the field name; subsequent components are handled through\nnormal attribute and indexing operations.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_32",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For compound field names, these functions are only called for the first\ncomponent of the field name; subsequent components are handled through\nnormal attribute and indexing operations.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The ``name``\nattribute will be looked up after :meth:`get_value` returns by calling the\nbuilt-in :func:`getattr` function. If the index or keyword refers to an item that does not exist, then an\n:exc:`IndexError` or :exc:`KeyError` should be raised. Implement checking for unused arguments if desired. The arguments to this\nfunction is the set of all argument keys that were actually referred to in\nthe format string (integers for positional arguments, and strings for\nnamed arguments), and a reference to the *args* and *kwargs* that was\npassed to vformat. The set of unused args can be calculated from these\nparameters.  :meth:`check_unused_args` is assumed to raise an exception if\nthe check fails.\n:meth:`format_field` simply calls the global :func:`format` built-in.",
+                    "qas": [
+                        {
+                            "id": "qa_33",
+                            "question": "What challenges are associated with Implement?",
+                            "answers": [
+                                {
+                                    "text": "Implement checking for unused arguments if desired.",
+                                    "answer_start": 249
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_34",
+                            "question": "How is Implement used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Implement checking for unused arguments if desired.",
+                                    "answer_start": 249
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_35",
+                            "question": "What is mentioned about Implement?",
+                            "answers": [
+                                {
+                                    "text": "Implement checking for unused arguments if desired.",
+                                    "answer_start": 249
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_36",
+                            "question": "What is the role of Implement in Python?",
+                            "answers": [
+                                {
+                                    "text": "Implement checking for unused arguments if desired.",
+                                    "answer_start": 249
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The set of unused args can be calculated from these\nparameters.  :meth:`check_unused_args` is assumed to raise an exception if\nthe check fails.\n:meth:`format_field` simply calls the global :func:`format` built-in. The\nmethod is provided so that subclasses can override it. Converts the value (returned by :meth:`get_field`) given a conversion type\n(as in the tuple returned by the :meth:`parse` method). The default\nversion understands 's' (str), 'r' (repr) and 'a' (ascii) conversion\ntypes. Format String Syntax\n--------------------\nThe :meth:`str.format` method and the :class:`Formatter` class share the same\nsyntax for format strings (although in the case of :class:`Formatter`,\nsubclasses can define their own format string syntax).",
+                    "qas": [
+                        {
+                            "id": "qa_37",
+                            "question": "How does Converts work?",
+                            "answers": [
+                                {
+                                    "text": "Converts the value (returned by :meth:`get_field`) given a conversion type\n(as in the tuple returned by the :meth:`parse` method).",
+                                    "answer_start": 273
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_38",
+                            "question": "What is mentioned about Converts?",
+                            "answers": [
+                                {
+                                    "text": "Converts the value (returned by :meth:`get_field`) given a conversion type\n(as in the tuple returned by the :meth:`parse` method).",
+                                    "answer_start": 273
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_39",
+                            "question": "What challenges are associated with Converts?",
+                            "answers": [
+                                {
+                                    "text": "Converts the value (returned by :meth:`get_field`) given a conversion type\n(as in the tuple returned by the :meth:`parse` method).",
+                                    "answer_start": 273
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_40",
+                            "question": "Why is Converts important?",
+                            "answers": [
+                                {
+                                    "text": "Converts the value (returned by :meth:`get_field`) given a conversion type\n(as in the tuple returned by the :meth:`parse` method).",
+                                    "answer_start": 273
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Converts the value (returned by :meth:`get_field`) given a conversion type\n(as in the tuple returned by the :meth:`parse` method). The default\nversion understands 's' (str), 'r' (repr) and 'a' (ascii) conversion\ntypes. Format String Syntax\n--------------------\nThe :meth:`str.format` method and the :class:`Formatter` class share the same\nsyntax for format strings (although in the case of :class:`Formatter`,\nsubclasses can define their own format string syntax). The syntax is\nrelated to that of :ref:`formatted string literals <f-strings>`, but it is\nless sophisticated and, in particular, does not support arbitrary expressions.\nsingle: {} (curly brackets); in string formatting\nsingle: . (dot); in string formatting\nsingle: [] (square brackets); in string formatting\nsingle: ! (exclamation); in string formatting\nsingle: : (colon); in string formatting\nFormat strings contain \"replacement fields\" surrounded by curly braces ``{}``. Anything that is not contained in braces is considered literal text, which is\ncopied unchanged to the output.",
+                    "qas": [
+                        {
+                            "id": "qa_41",
+                            "question": "Can you explain Format?",
+                            "answers": [
+                                {
+                                    "text": "Format String Syntax\n--------------------\nThe :meth:`str.format` method and the :class:`Formatter` class share the same\nsyntax for format strings (although in the case of :class:`Formatter`,\nsubclasses can define their own format string syntax).",
+                                    "answer_start": 219
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_42",
+                            "question": "How does Format work?",
+                            "answers": [
+                                {
+                                    "text": "Format String Syntax\n--------------------\nThe :meth:`str.format` method and the :class:`Formatter` class share the same\nsyntax for format strings (although in the case of :class:`Formatter`,\nsubclasses can define their own format string syntax).",
+                                    "answer_start": 219
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_43",
+                            "question": "How is Format used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Format String Syntax\n--------------------\nThe :meth:`str.format` method and the :class:`Formatter` class share the same\nsyntax for format strings (although in the case of :class:`Formatter`,\nsubclasses can define their own format string syntax).",
+                                    "answer_start": 219
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_44",
+                            "question": "What makes Format unique?",
+                            "answers": [
+                                {
+                                    "text": "Format String Syntax\n--------------------\nThe :meth:`str.format` method and the :class:`Formatter` class share the same\nsyntax for format strings (although in the case of :class:`Formatter`,\nsubclasses can define their own format string syntax).",
+                                    "answer_start": 219
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Format String Syntax\n--------------------\nThe :meth:`str.format` method and the :class:`Formatter` class share the same\nsyntax for format strings (although in the case of :class:`Formatter`,\nsubclasses can define their own format string syntax). The syntax is\nrelated to that of :ref:`formatted string literals <f-strings>`, but it is\nless sophisticated and, in particular, does not support arbitrary expressions.\nsingle: {} (curly brackets); in string formatting\nsingle: . (dot); in string formatting\nsingle: [] (square brackets); in string formatting\nsingle: ! (exclamation); in string formatting\nsingle: : (colon); in string formatting\nFormat strings contain \"replacement fields\" surrounded by curly braces ``{}``. Anything that is not contained in braces is considered literal text, which is\ncopied unchanged to the output. If you need to include a brace character in the\nliteral text, it can be escaped by doubling: ``{{`` and ``}}``. The grammar for a replacement field is as follows:\nreplacement_field: \"{\" [`field_name`] [\"!\" `conversion`] [\":\" `format_spec`] \"}\"\nfield_name: `arg_name` (\".\" `attribute_name` | \"[\" `element_index` \"]\")*\narg_name: [`~python-grammar:identifier` | `~python-grammar:digit`+]\nattribute_name: `~python-grammar:identifier`\nelement_index: `~python-grammar:digit`+ | `index_string`\nindex_string: <any source character except \"]\"> +\nconversion: \"r\" | \"s\" | \"a\"\nformat_spec: `format-spec:format_spec`\nIn less formal terms, the replacement field can start with a *field_name* that specifies\nthe object whose value is to be formatted and inserted\ninto the output instead of the replacement field.",
+                    "qas": [
+                        {
+                            "id": "qa_45",
+                            "question": "Why is Anything important?",
+                            "answers": [
+                                {
+                                    "text": "Anything that is not contained in braces is considered literal text, which is\ncopied unchanged to the output.",
+                                    "answer_start": 718
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_46",
+                            "question": "What is the role of Anything in Python?",
+                            "answers": [
+                                {
+                                    "text": "Anything that is not contained in braces is considered literal text, which is\ncopied unchanged to the output.",
+                                    "answer_start": 718
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_47",
+                            "question": "What makes Anything unique?",
+                            "answers": [
+                                {
+                                    "text": "Anything that is not contained in braces is considered literal text, which is\ncopied unchanged to the output.",
+                                    "answer_start": 718
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_48",
+                            "question": "Can you explain Anything?",
+                            "answers": [
+                                {
+                                    "text": "Anything that is not contained in braces is considered literal text, which is\ncopied unchanged to the output.",
+                                    "answer_start": 718
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The *field_name* is optionally followed by a  *conversion* field, which is\npreceded by an exclamation point ``'!'``, and a *format_spec*, which is preceded\nby a colon ``':'``. These specify a non-default format for the replacement value. See also the :ref:`formatspec` section. The *field_name* itself begins with an *arg_name* that is either a number or a\nkeyword. If it's a number, it refers to a positional argument, and if it's a keyword,\nit refers to a named keyword argument.",
+                    "qas": [
+                        {
+                            "id": "qa_49",
+                            "question": "What are the benefits of See?",
+                            "answers": [
+                                {
+                                    "text": "See also the :ref:`formatspec` section.",
+                                    "answer_start": 238
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_50",
+                            "question": "Can you explain See?",
+                            "answers": [
+                                {
+                                    "text": "See also the :ref:`formatspec` section.",
+                                    "answer_start": 238
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_51",
+                            "question": "What challenges are associated with See?",
+                            "answers": [
+                                {
+                                    "text": "See also the :ref:`formatspec` section.",
+                                    "answer_start": 238
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_52",
+                            "question": "What is the role of See in Python?",
+                            "answers": [
+                                {
+                                    "text": "See also the :ref:`formatspec` section.",
+                                    "answer_start": 238
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "An *arg_name* is treated as a number if\na call to :meth:`str.isdecimal` on the string would return true. If the numerical arg_names in a format string\nare 0, 1, 2, ... in sequence, they can all be omitted (not just some)\nand the numbers 0, 1, 2, ... will be automatically inserted in that order. Because *arg_name* is not quote-delimited, it is not possible to specify arbitrary\ndictionary keys (e.g., the strings ``'10'`` or ``':-]'``) within a format string. The *arg_name* can be followed by any number of index or\nattribute expressions. An expression of the form ``'.name'`` selects the named\nattribute using :func:`getattr`, while an expression of the form ``'[index]'``\ndoes an index lookup using :meth:`~object.__getitem__`.",
+                    "qas": [
+                        {
+                            "id": "qa_53",
+                            "question": "Why is Because important?",
+                            "answers": [
+                                {
+                                    "text": "Because *arg_name* is not quote-delimited, it is not possible to specify arbitrary\ndictionary keys (e.g., the strings ``'10'`` or ``':-]'``) within a format string.",
+                                    "answer_start": 296
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_54",
+                            "question": "What makes Because unique?",
+                            "answers": [
+                                {
+                                    "text": "Because *arg_name* is not quote-delimited, it is not possible to specify arbitrary\ndictionary keys (e.g., the strings ``'10'`` or ``':-]'``) within a format string.",
+                                    "answer_start": 296
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_55",
+                            "question": "What is the role of Because in Python?",
+                            "answers": [
+                                {
+                                    "text": "Because *arg_name* is not quote-delimited, it is not possible to specify arbitrary\ndictionary keys (e.g., the strings ``'10'`` or ``':-]'``) within a format string.",
+                                    "answer_start": 296
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_56",
+                            "question": "What are the key features of Because?",
+                            "answers": [
+                                {
+                                    "text": "Because *arg_name* is not quote-delimited, it is not possible to specify arbitrary\ndictionary keys (e.g., the strings ``'10'`` or ``':-]'``) within a format string.",
+                                    "answer_start": 296
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The positional argument specifiers can be omitted for :meth:`str.format`,\nso ``'{} {}'.format(a, b)`` is equivalent to ``'{0} {1}'.format(a, b)``. The positional argument specifiers can be omitted for :class:`Formatter`. Some simple format string examples::\n\"First, thou shalt count to {0}\"  # References first positional argument\n\"Bring me a {}\"                   # Implicitly references the first positional argument\n\"From {} to {}\"                   # Same as \"From {0} to {1}\"\n\"My quest is {name}\"              # References keyword argument 'name'\n\"Weight in tons {0.weight}\"       # 'weight' attribute of first positional arg\n\"Units destroyed: {players[0]}\"   # First element of keyword argument 'players'. The *conversion* field causes a type coercion before formatting. Normally, the\njob of formatting a value is done by the :meth:`~object.__format__` method of the value\nitself.",
+                    "qas": [
+                        {
+                            "id": "qa_57",
+                            "question": "How does Some work?",
+                            "answers": [
+                                {
+                                    "text": "Some simple format string examples::\n\"First, thou shalt count to {0}\"  # References first positional argument\n\"Bring me a {}\"                   # Implicitly references the first positional argument\n\"From {} to {}\"                   # Same as \"From {0} to {1}\"\n\"My quest is {name}\"              # References keyword argument 'name'\n\"Weight in tons {0.weight}\"       # 'weight' attribute of first positional arg\n\"Units destroyed: {players[0]}\"   # First element of keyword argument 'players'.",
+                                    "answer_start": 221
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_58",
+                            "question": "What makes Some unique?",
+                            "answers": [
+                                {
+                                    "text": "Some simple format string examples::\n\"First, thou shalt count to {0}\"  # References first positional argument\n\"Bring me a {}\"                   # Implicitly references the first positional argument\n\"From {} to {}\"                   # Same as \"From {0} to {1}\"\n\"My quest is {name}\"              # References keyword argument 'name'\n\"Weight in tons {0.weight}\"       # 'weight' attribute of first positional arg\n\"Units destroyed: {players[0]}\"   # First element of keyword argument 'players'.",
+                                    "answer_start": 221
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_59",
+                            "question": "What are the key features of Some?",
+                            "answers": [
+                                {
+                                    "text": "Some simple format string examples::\n\"First, thou shalt count to {0}\"  # References first positional argument\n\"Bring me a {}\"                   # Implicitly references the first positional argument\n\"From {} to {}\"                   # Same as \"From {0} to {1}\"\n\"My quest is {name}\"              # References keyword argument 'name'\n\"Weight in tons {0.weight}\"       # 'weight' attribute of first positional arg\n\"Units destroyed: {players[0]}\"   # First element of keyword argument 'players'.",
+                                    "answer_start": 221
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_60",
+                            "question": "Why is Some important?",
+                            "answers": [
+                                {
+                                    "text": "Some simple format string examples::\n\"First, thou shalt count to {0}\"  # References first positional argument\n\"Bring me a {}\"                   # Implicitly references the first positional argument\n\"From {} to {}\"                   # Same as \"From {0} to {1}\"\n\"My quest is {name}\"              # References keyword argument 'name'\n\"Weight in tons {0.weight}\"       # 'weight' attribute of first positional arg\n\"Units destroyed: {players[0]}\"   # First element of keyword argument 'players'.",
+                                    "answer_start": 221
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Some simple format string examples::\n\"First, thou shalt count to {0}\"  # References first positional argument\n\"Bring me a {}\"                   # Implicitly references the first positional argument\n\"From {} to {}\"                   # Same as \"From {0} to {1}\"\n\"My quest is {name}\"              # References keyword argument 'name'\n\"Weight in tons {0.weight}\"       # 'weight' attribute of first positional arg\n\"Units destroyed: {players[0]}\"   # First element of keyword argument 'players'. The *conversion* field causes a type coercion before formatting. Normally, the\njob of formatting a value is done by the :meth:`~object.__format__` method of the value\nitself. However, in some cases it is desirable to force a type to be formatted\nas a string, overriding its own definition of formatting. By converting the\nvalue to a string before calling :meth:`~object.__format__`, the normal formatting logic\nis bypassed.",
+                    "qas": [
+                        {
+                            "id": "qa_61",
+                            "question": "What challenges are associated with Normally,?",
+                            "answers": [
+                                {
+                                    "text": "Normally, the\njob of formatting a value is done by the :meth:`~object.__format__` method of the value\nitself.",
+                                    "answer_start": 556
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_62",
+                            "question": "How is Normally, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Normally, the\njob of formatting a value is done by the :meth:`~object.__format__` method of the value\nitself.",
+                                    "answer_start": 556
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_63",
+                            "question": "How does Normally, work?",
+                            "answers": [
+                                {
+                                    "text": "Normally, the\njob of formatting a value is done by the :meth:`~object.__format__` method of the value\nitself.",
+                                    "answer_start": 556
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_64",
+                            "question": "What are the benefits of Normally,?",
+                            "answers": [
+                                {
+                                    "text": "Normally, the\njob of formatting a value is done by the :meth:`~object.__format__` method of the value\nitself.",
+                                    "answer_start": 556
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The *conversion* field causes a type coercion before formatting. Normally, the\njob of formatting a value is done by the :meth:`~object.__format__` method of the value\nitself. However, in some cases it is desirable to force a type to be formatted\nas a string, overriding its own definition of formatting. By converting the\nvalue to a string before calling :meth:`~object.__format__`, the normal formatting logic\nis bypassed. Three conversion flags are currently supported: ``'!s'`` which calls :func:`str`\non the value, ``'!r'`` which calls :func:`repr` and ``'!a'`` which calls\n:func:`ascii`.",
+                    "qas": [
+                        {
+                            "id": "qa_65",
+                            "question": "How is However, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "However, in some cases it is desirable to force a type to be formatted\nas a string, overriding its own definition of formatting.",
+                                    "answer_start": 175
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_66",
+                            "question": "How does However, work?",
+                            "answers": [
+                                {
+                                    "text": "However, in some cases it is desirable to force a type to be formatted\nas a string, overriding its own definition of formatting.",
+                                    "answer_start": 175
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_67",
+                            "question": "Why is However, important?",
+                            "answers": [
+                                {
+                                    "text": "However, in some cases it is desirable to force a type to be formatted\nas a string, overriding its own definition of formatting.",
+                                    "answer_start": 175
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_68",
+                            "question": "What is mentioned about However,?",
+                            "answers": [
+                                {
+                                    "text": "However, in some cases it is desirable to force a type to be formatted\nas a string, overriding its own definition of formatting.",
+                                    "answer_start": 175
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "However, in some cases it is desirable to force a type to be formatted\nas a string, overriding its own definition of formatting. By converting the\nvalue to a string before calling :meth:`~object.__format__`, the normal formatting logic\nis bypassed. Three conversion flags are currently supported: ``'!s'`` which calls :func:`str`\non the value, ``'!r'`` which calls :func:`repr` and ``'!a'`` which calls\n:func:`ascii`. Some examples::\n\"Harold's a clever {0!s}\"        # Calls str() on the argument first\n\"Bring out the holy {name!r}\"    # Calls repr() on the argument first\n\"More {!a}\"                      # Calls ascii() on the argument first\nThe *format_spec* field contains a specification of how the value should be\npresented, including such details as field width, alignment, padding, decimal\nprecision and so on. Each value type can define its own \"formatting\nmini-language\" or interpretation of the *format_spec*.",
+                    "qas": [
+                        {
+                            "id": "qa_69",
+                            "question": "What makes Three unique?",
+                            "answers": [
+                                {
+                                    "text": "Three conversion flags are currently supported: ``'!s'`` which calls :func:`str`\non the value, ``'!r'`` which calls :func:`repr` and ``'!a'`` which calls\n:func:`ascii`.",
+                                    "answer_start": 249
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_70",
+                            "question": "What are the key features of Three?",
+                            "answers": [
+                                {
+                                    "text": "Three conversion flags are currently supported: ``'!s'`` which calls :func:`str`\non the value, ``'!r'`` which calls :func:`repr` and ``'!a'`` which calls\n:func:`ascii`.",
+                                    "answer_start": 249
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_71",
+                            "question": "Can you explain Three?",
+                            "answers": [
+                                {
+                                    "text": "Three conversion flags are currently supported: ``'!s'`` which calls :func:`str`\non the value, ``'!r'`` which calls :func:`repr` and ``'!a'`` which calls\n:func:`ascii`.",
+                                    "answer_start": 249
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_72",
+                            "question": "How is Three used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Three conversion flags are currently supported: ``'!s'`` which calls :func:`str`\non the value, ``'!r'`` which calls :func:`repr` and ``'!a'`` which calls\n:func:`ascii`.",
+                                    "answer_start": 249
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "By converting the\nvalue to a string before calling :meth:`~object.__format__`, the normal formatting logic\nis bypassed. Three conversion flags are currently supported: ``'!s'`` which calls :func:`str`\non the value, ``'!r'`` which calls :func:`repr` and ``'!a'`` which calls\n:func:`ascii`. Some examples::\n\"Harold's a clever {0!s}\"        # Calls str() on the argument first\n\"Bring out the holy {name!r}\"    # Calls repr() on the argument first\n\"More {!a}\"                      # Calls ascii() on the argument first\nThe *format_spec* field contains a specification of how the value should be\npresented, including such details as field width, alignment, padding, decimal\nprecision and so on. Each value type can define its own \"formatting\nmini-language\" or interpretation of the *format_spec*. Most built-in types support a common formatting mini-language, which is\ndescribed in the next section.",
+                    "qas": [
+                        {
+                            "id": "qa_73",
+                            "question": "Can you explain Some?",
+                            "answers": [
+                                {
+                                    "text": "Some examples::\n\"Harold's a clever {0!s}\"        # Calls str() on the argument first\n\"Bring out the holy {name!r}\"    # Calls repr() on the argument first\n\"More {!a}\"                      # Calls ascii() on the argument first\nThe *format_spec* field contains a specification of how the value should be\npresented, including such details as field width, alignment, padding, decimal\nprecision and so on.",
+                                    "answer_start": 289
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_74",
+                            "question": "How is Some used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Some examples::\n\"Harold's a clever {0!s}\"        # Calls str() on the argument first\n\"Bring out the holy {name!r}\"    # Calls repr() on the argument first\n\"More {!a}\"                      # Calls ascii() on the argument first\nThe *format_spec* field contains a specification of how the value should be\npresented, including such details as field width, alignment, padding, decimal\nprecision and so on.",
+                                    "answer_start": 289
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_75",
+                            "question": "Why is Some important?",
+                            "answers": [
+                                {
+                                    "text": "Some examples::\n\"Harold's a clever {0!s}\"        # Calls str() on the argument first\n\"Bring out the holy {name!r}\"    # Calls repr() on the argument first\n\"More {!a}\"                      # Calls ascii() on the argument first\nThe *format_spec* field contains a specification of how the value should be\npresented, including such details as field width, alignment, padding, decimal\nprecision and so on.",
+                                    "answer_start": 289
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_76",
+                            "question": "What is the role of Some in Python?",
+                            "answers": [
+                                {
+                                    "text": "Some examples::\n\"Harold's a clever {0!s}\"        # Calls str() on the argument first\n\"Bring out the holy {name!r}\"    # Calls repr() on the argument first\n\"More {!a}\"                      # Calls ascii() on the argument first\nThe *format_spec* field contains a specification of how the value should be\npresented, including such details as field width, alignment, padding, decimal\nprecision and so on.",
+                                    "answer_start": 289
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Three conversion flags are currently supported: ``'!s'`` which calls :func:`str`\non the value, ``'!r'`` which calls :func:`repr` and ``'!a'`` which calls\n:func:`ascii`. Some examples::\n\"Harold's a clever {0!s}\"        # Calls str() on the argument first\n\"Bring out the holy {name!r}\"    # Calls repr() on the argument first\n\"More {!a}\"                      # Calls ascii() on the argument first\nThe *format_spec* field contains a specification of how the value should be\npresented, including such details as field width, alignment, padding, decimal\nprecision and so on. Each value type can define its own \"formatting\nmini-language\" or interpretation of the *format_spec*. Most built-in types support a common formatting mini-language, which is\ndescribed in the next section. A *format_spec* field can also include nested replacement fields within it.",
+                    "qas": [
+                        {
+                            "id": "qa_77",
+                            "question": "Can you explain Each?",
+                            "answers": [
+                                {
+                                    "text": "Each value type can define its own \"formatting\nmini-language\" or interpretation of the *format_spec*.",
+                                    "answer_start": 570
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_78",
+                            "question": "How is Each used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Each value type can define its own \"formatting\nmini-language\" or interpretation of the *format_spec*.",
+                                    "answer_start": 570
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_79",
+                            "question": "What challenges are associated with Each?",
+                            "answers": [
+                                {
+                                    "text": "Each value type can define its own \"formatting\nmini-language\" or interpretation of the *format_spec*.",
+                                    "answer_start": 570
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_80",
+                            "question": "What makes Each unique?",
+                            "answers": [
+                                {
+                                    "text": "Each value type can define its own \"formatting\nmini-language\" or interpretation of the *format_spec*.",
+                                    "answer_start": 570
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Some examples::\n\"Harold's a clever {0!s}\"        # Calls str() on the argument first\n\"Bring out the holy {name!r}\"    # Calls repr() on the argument first\n\"More {!a}\"                      # Calls ascii() on the argument first\nThe *format_spec* field contains a specification of how the value should be\npresented, including such details as field width, alignment, padding, decimal\nprecision and so on. Each value type can define its own \"formatting\nmini-language\" or interpretation of the *format_spec*. Most built-in types support a common formatting mini-language, which is\ndescribed in the next section. A *format_spec* field can also include nested replacement fields within it. These nested replacement fields may contain a field name, conversion flag\nand format specification, but deeper nesting is\nnot allowed.",
+                    "qas": [
+                        {
+                            "id": "qa_81",
+                            "question": "What are the key features of Most?",
+                            "answers": [
+                                {
+                                    "text": "Most built-in types support a common formatting mini-language, which is\ndescribed in the next section.",
+                                    "answer_start": 503
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_82",
+                            "question": "How does Most work?",
+                            "answers": [
+                                {
+                                    "text": "Most built-in types support a common formatting mini-language, which is\ndescribed in the next section.",
+                                    "answer_start": 503
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_83",
+                            "question": "How is Most used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Most built-in types support a common formatting mini-language, which is\ndescribed in the next section.",
+                                    "answer_start": 503
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_84",
+                            "question": "What makes Most unique?",
+                            "answers": [
+                                {
+                                    "text": "Most built-in types support a common formatting mini-language, which is\ndescribed in the next section.",
+                                    "answer_start": 503
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The replacement fields within the\nformat_spec are substituted before the *format_spec* string is interpreted. This allows the formatting of a value to be dynamically specified. See the :ref:`formatexamples` section for some examples. Format Specification Mini-Language\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\"Format specifications\" are used within replacement fields contained within a\nformat string to define how individual values are presented (see\n:ref:`formatstrings` and :ref:`f-strings`). They can also be passed directly to the built-in\n:func:`format` function.",
+                    "qas": [
+                        {
+                            "id": "qa_85",
+                            "question": "What is the role of See in Python?",
+                            "answers": [
+                                {
+                                    "text": "See the :ref:`formatexamples` section for some examples.",
+                                    "answer_start": 177
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_86",
+                            "question": "What is mentioned about See?",
+                            "answers": [
+                                {
+                                    "text": "See the :ref:`formatexamples` section for some examples.",
+                                    "answer_start": 177
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_87",
+                            "question": "What are the benefits of See?",
+                            "answers": [
+                                {
+                                    "text": "See the :ref:`formatexamples` section for some examples.",
+                                    "answer_start": 177
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_88",
+                            "question": "How does See work?",
+                            "answers": [
+                                {
+                                    "text": "See the :ref:`formatexamples` section for some examples.",
+                                    "answer_start": 177
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This allows the formatting of a value to be dynamically specified. See the :ref:`formatexamples` section for some examples. Format Specification Mini-Language\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\"Format specifications\" are used within replacement fields contained within a\nformat string to define how individual values are presented (see\n:ref:`formatstrings` and :ref:`f-strings`). They can also be passed directly to the built-in\n:func:`format` function. Each formattable type may define how the format\nspecification is to be interpreted.",
+                    "qas": [
+                        {
+                            "id": "qa_89",
+                            "question": "How is Format used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Format Specification Mini-Language\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\"Format specifications\" are used within replacement fields contained within a\nformat string to define how individual values are presented (see\n:ref:`formatstrings` and :ref:`f-strings`).",
+                                    "answer_start": 124
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_90",
+                            "question": "What makes Format unique?",
+                            "answers": [
+                                {
+                                    "text": "Format Specification Mini-Language\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\"Format specifications\" are used within replacement fields contained within a\nformat string to define how individual values are presented (see\n:ref:`formatstrings` and :ref:`f-strings`).",
+                                    "answer_start": 124
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_91",
+                            "question": "What challenges are associated with Format?",
+                            "answers": [
+                                {
+                                    "text": "Format Specification Mini-Language\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\"Format specifications\" are used within replacement fields contained within a\nformat string to define how individual values are presented (see\n:ref:`formatstrings` and :ref:`f-strings`).",
+                                    "answer_start": 124
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_92",
+                            "question": "Why is Format important?",
+                            "answers": [
+                                {
+                                    "text": "Format Specification Mini-Language\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\"Format specifications\" are used within replacement fields contained within a\nformat string to define how individual values are presented (see\n:ref:`formatstrings` and :ref:`f-strings`).",
+                                    "answer_start": 124
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "See the :ref:`formatexamples` section for some examples. Format Specification Mini-Language\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\"Format specifications\" are used within replacement fields contained within a\nformat string to define how individual values are presented (see\n:ref:`formatstrings` and :ref:`f-strings`). They can also be passed directly to the built-in\n:func:`format` function. Each formattable type may define how the format\nspecification is to be interpreted. Most built-in types implement the following options for format specifications,\nalthough some of the formatting options are only supported by the numeric types.",
+                    "qas": [
+                        {
+                            "id": "qa_93",
+                            "question": "What are the benefits of They?",
+                            "answers": [
+                                {
+                                    "text": "They can also be passed directly to the built-in\n:func:`format` function.",
+                                    "answer_start": 314
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_94",
+                            "question": "Can you explain They?",
+                            "answers": [
+                                {
+                                    "text": "They can also be passed directly to the built-in\n:func:`format` function.",
+                                    "answer_start": 314
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_95",
+                            "question": "What are the key features of They?",
+                            "answers": [
+                                {
+                                    "text": "They can also be passed directly to the built-in\n:func:`format` function.",
+                                    "answer_start": 314
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_96",
+                            "question": "What is mentioned about They?",
+                            "answers": [
+                                {
+                                    "text": "They can also be passed directly to the built-in\n:func:`format` function.",
+                                    "answer_start": 314
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Format Specification Mini-Language\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\"Format specifications\" are used within replacement fields contained within a\nformat string to define how individual values are presented (see\n:ref:`formatstrings` and :ref:`f-strings`). They can also be passed directly to the built-in\n:func:`format` function. Each formattable type may define how the format\nspecification is to be interpreted. Most built-in types implement the following options for format specifications,\nalthough some of the formatting options are only supported by the numeric types. A general convention is that an empty format specification produces\nthe same result as if you had called :func:`str` on the value.",
+                    "qas": [
+                        {
+                            "id": "qa_97",
+                            "question": "How does Each work?",
+                            "answers": [
+                                {
+                                    "text": "Each formattable type may define how the format\nspecification is to be interpreted.",
+                                    "answer_start": 331
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_98",
+                            "question": "How is Each used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Each formattable type may define how the format\nspecification is to be interpreted.",
+                                    "answer_start": 331
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_99",
+                            "question": "What are the benefits of Each?",
+                            "answers": [
+                                {
+                                    "text": "Each formattable type may define how the format\nspecification is to be interpreted.",
+                                    "answer_start": 331
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_100",
+                            "question": "What is the role of Each in Python?",
+                            "answers": [
+                                {
+                                    "text": "Each formattable type may define how the format\nspecification is to be interpreted.",
+                                    "answer_start": 331
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1235 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "title": "sys",
+            "paragraphs": [
+                {
+                    "context": ":mod:`!sys` --- System-specific parameters and functions\n:synopsis: Access system-specific parameters and functions.\n--------------\nThis module provides access to some variables used or maintained by the\ninterpreter and to functions that interact strongly with the interpreter. It is\nalways available. Unless explicitly noted otherwise, all variables are read-only.",
+                    "qas": [
+                        {
+                            "id": "qa_1",
+                            "question": "What makes :mod:`!sys` unique?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!sys` --- System-specific parameters and functions\n:synopsis: Access system-specific parameters and functions.\n--------------\nThis module provides access to some variables used or maintained by the\ninterpreter and to functions that interact strongly with the interpreter.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_2",
+                            "question": "Why is :mod:`!sys` important?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!sys` --- System-specific parameters and functions\n:synopsis: Access system-specific parameters and functions.\n--------------\nThis module provides access to some variables used or maintained by the\ninterpreter and to functions that interact strongly with the interpreter.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_3",
+                            "question": "What are the benefits of :mod:`!sys`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!sys` --- System-specific parameters and functions\n:synopsis: Access system-specific parameters and functions.\n--------------\nThis module provides access to some variables used or maintained by the\ninterpreter and to functions that interact strongly with the interpreter.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_4",
+                            "question": "What is mentioned about :mod:`!sys`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!sys` --- System-specific parameters and functions\n:synopsis: Access system-specific parameters and functions.\n--------------\nThis module provides access to some variables used or maintained by the\ninterpreter and to functions that interact strongly with the interpreter.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": ":mod:`!sys` --- System-specific parameters and functions\n:synopsis: Access system-specific parameters and functions.\n--------------\nThis module provides access to some variables used or maintained by the\ninterpreter and to functions that interact strongly with the interpreter. It is\nalways available. Unless explicitly noted otherwise, all variables are read-only. On POSIX systems where Python was built with the standard ``configure``\nscript, this contains the ABI flags as specified by :pep:`3149`. Default flags became an empty string (``m`` flag for pymalloc has been\nremoved).",
+                    "qas": [
+                        {
+                            "id": "qa_5",
+                            "question": "How is Unless used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Unless explicitly noted otherwise, all variables are read-only.",
+                                    "answer_start": 302
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_6",
+                            "question": "What challenges are associated with Unless?",
+                            "answers": [
+                                {
+                                    "text": "Unless explicitly noted otherwise, all variables are read-only.",
+                                    "answer_start": 302
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_7",
+                            "question": "What are the key features of Unless?",
+                            "answers": [
+                                {
+                                    "text": "Unless explicitly noted otherwise, all variables are read-only.",
+                                    "answer_start": 302
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_8",
+                            "question": "What makes Unless unique?",
+                            "answers": [
+                                {
+                                    "text": "Unless explicitly noted otherwise, all variables are read-only.",
+                                    "answer_start": 302
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Unless explicitly noted otherwise, all variables are read-only. On POSIX systems where Python was built with the standard ``configure``\nscript, this contains the ABI flags as specified by :pep:`3149`. Default flags became an empty string (``m`` flag for pymalloc has been\nremoved). Append the callable *hook* to the list of active auditing hooks for the\ncurrent (sub)interpreter. When an auditing event is raised through the :func:`sys.audit` function, each\nhook will be called in the order it was added with the event name and the\ntuple of arguments.",
+                    "qas": [
+                        {
+                            "id": "qa_9",
+                            "question": "Why is Default important?",
+                            "answers": [
+                                {
+                                    "text": "Default flags became an empty string (``m`` flag for pymalloc has been\nremoved).",
+                                    "answer_start": 201
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_10",
+                            "question": "How is Default used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Default flags became an empty string (``m`` flag for pymalloc has been\nremoved).",
+                                    "answer_start": 201
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_11",
+                            "question": "What challenges are associated with Default?",
+                            "answers": [
+                                {
+                                    "text": "Default flags became an empty string (``m`` flag for pymalloc has been\nremoved).",
+                                    "answer_start": 201
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_12",
+                            "question": "What are the key features of Default?",
+                            "answers": [
+                                {
+                                    "text": "Default flags became an empty string (``m`` flag for pymalloc has been\nremoved).",
+                                    "answer_start": 201
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "On POSIX systems where Python was built with the standard ``configure``\nscript, this contains the ABI flags as specified by :pep:`3149`. Default flags became an empty string (``m`` flag for pymalloc has been\nremoved). Append the callable *hook* to the list of active auditing hooks for the\ncurrent (sub)interpreter. When an auditing event is raised through the :func:`sys.audit` function, each\nhook will be called in the order it was added with the event name and the\ntuple of arguments. Native hooks added by :c:func:`PySys_AddAuditHook` are\ncalled first, followed by hooks added in the current (sub)interpreter.",
+                    "qas": [
+                        {
+                            "id": "qa_13",
+                            "question": "What is mentioned about Append?",
+                            "answers": [
+                                {
+                                    "text": "Append the callable *hook* to the list of active auditing hooks for the\ncurrent (sub)interpreter.",
+                                    "answer_start": 218
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_14",
+                            "question": "How does Append work?",
+                            "answers": [
+                                {
+                                    "text": "Append the callable *hook* to the list of active auditing hooks for the\ncurrent (sub)interpreter.",
+                                    "answer_start": 218
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_15",
+                            "question": "What are the key features of Append?",
+                            "answers": [
+                                {
+                                    "text": "Append the callable *hook* to the list of active auditing hooks for the\ncurrent (sub)interpreter.",
+                                    "answer_start": 218
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_16",
+                            "question": "What are the benefits of Append?",
+                            "answers": [
+                                {
+                                    "text": "Append the callable *hook* to the list of active auditing hooks for the\ncurrent (sub)interpreter.",
+                                    "answer_start": 218
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Append the callable *hook* to the list of active auditing hooks for the\ncurrent (sub)interpreter. When an auditing event is raised through the :func:`sys.audit` function, each\nhook will be called in the order it was added with the event name and the\ntuple of arguments. Native hooks added by :c:func:`PySys_AddAuditHook` are\ncalled first, followed by hooks added in the current (sub)interpreter. Hooks\ncan then log the event, raise an exception to abort the operation,\nor terminate the process entirely. Note that audit hooks are primarily for collecting information about internal\nor otherwise unobservable actions, whether by Python or libraries written in\nPython.",
+                    "qas": [
+                        {
+                            "id": "qa_17",
+                            "question": "How is Native used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Native hooks added by :c:func:`PySys_AddAuditHook` are\ncalled first, followed by hooks added in the current (sub)interpreter.",
+                                    "answer_start": 270
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_18",
+                            "question": "Why is Native important?",
+                            "answers": [
+                                {
+                                    "text": "Native hooks added by :c:func:`PySys_AddAuditHook` are\ncalled first, followed by hooks added in the current (sub)interpreter.",
+                                    "answer_start": 270
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_19",
+                            "question": "How does Native work?",
+                            "answers": [
+                                {
+                                    "text": "Native hooks added by :c:func:`PySys_AddAuditHook` are\ncalled first, followed by hooks added in the current (sub)interpreter.",
+                                    "answer_start": 270
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_20",
+                            "question": "Can you explain Native?",
+                            "answers": [
+                                {
+                                    "text": "Native hooks added by :c:func:`PySys_AddAuditHook` are\ncalled first, followed by hooks added in the current (sub)interpreter.",
+                                    "answer_start": 270
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "When an auditing event is raised through the :func:`sys.audit` function, each\nhook will be called in the order it was added with the event name and the\ntuple of arguments. Native hooks added by :c:func:`PySys_AddAuditHook` are\ncalled first, followed by hooks added in the current (sub)interpreter. Hooks\ncan then log the event, raise an exception to abort the operation,\nor terminate the process entirely. Note that audit hooks are primarily for collecting information about internal\nor otherwise unobservable actions, whether by Python or libraries written in\nPython. They are not suitable for implementing a \"sandbox\".",
+                    "qas": [
+                        {
+                            "id": "qa_21",
+                            "question": "What makes Hooks unique?",
+                            "answers": [
+                                {
+                                    "text": "Hooks\ncan then log the event, raise an exception to abort the operation,\nor terminate the process entirely.",
+                                    "answer_start": 298
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_22",
+                            "question": "Can you explain Hooks?",
+                            "answers": [
+                                {
+                                    "text": "Hooks\ncan then log the event, raise an exception to abort the operation,\nor terminate the process entirely.",
+                                    "answer_start": 298
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_23",
+                            "question": "What is the role of Hooks in Python?",
+                            "answers": [
+                                {
+                                    "text": "Hooks\ncan then log the event, raise an exception to abort the operation,\nor terminate the process entirely.",
+                                    "answer_start": 298
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_24",
+                            "question": "Why is Hooks important?",
+                            "answers": [
+                                {
+                                    "text": "Hooks\ncan then log the event, raise an exception to abort the operation,\nor terminate the process entirely.",
+                                    "answer_start": 298
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Hooks\ncan then log the event, raise an exception to abort the operation,\nor terminate the process entirely. Note that audit hooks are primarily for collecting information about internal\nor otherwise unobservable actions, whether by Python or libraries written in\nPython. They are not suitable for implementing a \"sandbox\". In particular,\nmalicious code can trivially disable or bypass hooks added using this\nfunction. At a minimum, any security-sensitive hooks must be added using the\nC API :c:func:`PySys_AddAuditHook` before initialising the runtime, and any\nmodules allowing arbitrary memory modification (such as :mod:`ctypes`) should\nbe completely removed or closely monitored.",
+                    "qas": [
+                        {
+                            "id": "qa_25",
+                            "question": "Can you explain They?",
+                            "answers": [
+                                {
+                                    "text": "They are not suitable for implementing a \"sandbox\".",
+                                    "answer_start": 271
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_26",
+                            "question": "What are the key features of They?",
+                            "answers": [
+                                {
+                                    "text": "They are not suitable for implementing a \"sandbox\".",
+                                    "answer_start": 271
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_27",
+                            "question": "Why is They important?",
+                            "answers": [
+                                {
+                                    "text": "They are not suitable for implementing a \"sandbox\".",
+                                    "answer_start": 271
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_28",
+                            "question": "How is They used in programming?",
+                            "answers": [
+                                {
+                                    "text": "They are not suitable for implementing a \"sandbox\".",
+                                    "answer_start": 271
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "In particular,\nmalicious code can trivially disable or bypass hooks added using this\nfunction. At a minimum, any security-sensitive hooks must be added using the\nC API :c:func:`PySys_AddAuditHook` before initialising the runtime, and any\nmodules allowing arbitrary memory modification (such as :mod:`ctypes`) should\nbe completely removed or closely monitored. Calling :func:`sys.addaudithook` will itself raise an auditing event\nnamed ``sys.addaudithook`` with no arguments. If any\nexisting hooks raise an exception derived from :class:`RuntimeError`, the\nnew hook will not be added and the exception suppressed. As a result,\ncallers cannot assume that their hook has been added unless they control\nall existing hooks.",
+                    "qas": [
+                        {
+                            "id": "qa_29",
+                            "question": "What is the role of Calling in Python?",
+                            "answers": [
+                                {
+                                    "text": "Calling :func:`sys.addaudithook` will itself raise an auditing event\nnamed ``sys.addaudithook`` with no arguments.",
+                                    "answer_start": 360
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_30",
+                            "question": "What is mentioned about Calling?",
+                            "answers": [
+                                {
+                                    "text": "Calling :func:`sys.addaudithook` will itself raise an auditing event\nnamed ``sys.addaudithook`` with no arguments.",
+                                    "answer_start": 360
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_31",
+                            "question": "How does Calling work?",
+                            "answers": [
+                                {
+                                    "text": "Calling :func:`sys.addaudithook` will itself raise an auditing event\nnamed ``sys.addaudithook`` with no arguments.",
+                                    "answer_start": 360
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_32",
+                            "question": "What challenges are associated with Calling?",
+                            "answers": [
+                                {
+                                    "text": "Calling :func:`sys.addaudithook` will itself raise an auditing event\nnamed ``sys.addaudithook`` with no arguments.",
+                                    "answer_start": 360
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If any\nexisting hooks raise an exception derived from :class:`RuntimeError`, the\nnew hook will not be added and the exception suppressed. As a result,\ncallers cannot assume that their hook has been added unless they control\nall existing hooks. See the :ref:`audit events table <audit-events>` for all events raised by\nCPython, and :pep:`578` for the original design discussion. Exceptions derived from :class:`Exception` but not :class:`RuntimeError`\nare no longer suppressed. When tracing is enabled (see :func:`settrace`), Python hooks are only\ntraced if the callable has a ``__cantrace__`` member that is set to a\ntrue value.",
+                    "qas": [
+                        {
+                            "id": "qa_33",
+                            "question": "Can you explain See?",
+                            "answers": [
+                                {
+                                    "text": "See the :ref:`audit events table <audit-events>` for all events raised by\nCPython, and :pep:`578` for the original design discussion.",
+                                    "answer_start": 244
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_34",
+                            "question": "What makes See unique?",
+                            "answers": [
+                                {
+                                    "text": "See the :ref:`audit events table <audit-events>` for all events raised by\nCPython, and :pep:`578` for the original design discussion.",
+                                    "answer_start": 244
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_35",
+                            "question": "What are the key features of See?",
+                            "answers": [
+                                {
+                                    "text": "See the :ref:`audit events table <audit-events>` for all events raised by\nCPython, and :pep:`578` for the original design discussion.",
+                                    "answer_start": 244
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_36",
+                            "question": "What is mentioned about See?",
+                            "answers": [
+                                {
+                                    "text": "See the :ref:`audit events table <audit-events>` for all events raised by\nCPython, and :pep:`578` for the original design discussion.",
+                                    "answer_start": 244
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "As a result,\ncallers cannot assume that their hook has been added unless they control\nall existing hooks. See the :ref:`audit events table <audit-events>` for all events raised by\nCPython, and :pep:`578` for the original design discussion. Exceptions derived from :class:`Exception` but not :class:`RuntimeError`\nare no longer suppressed. When tracing is enabled (see :func:`settrace`), Python hooks are only\ntraced if the callable has a ``__cantrace__`` member that is set to a\ntrue value. Otherwise, trace functions will skip the hook.",
+                    "qas": [
+                        {
+                            "id": "qa_37",
+                            "question": "How is Exceptions used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Exceptions derived from :class:`Exception` but not :class:`RuntimeError`\nare no longer suppressed.",
+                                    "answer_start": 240
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_38",
+                            "question": "How does Exceptions work?",
+                            "answers": [
+                                {
+                                    "text": "Exceptions derived from :class:`Exception` but not :class:`RuntimeError`\nare no longer suppressed.",
+                                    "answer_start": 240
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_39",
+                            "question": "What are the key features of Exceptions?",
+                            "answers": [
+                                {
+                                    "text": "Exceptions derived from :class:`Exception` but not :class:`RuntimeError`\nare no longer suppressed.",
+                                    "answer_start": 240
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_40",
+                            "question": "Why is Exceptions important?",
+                            "answers": [
+                                {
+                                    "text": "Exceptions derived from :class:`Exception` but not :class:`RuntimeError`\nare no longer suppressed.",
+                                    "answer_start": 240
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Exceptions derived from :class:`Exception` but not :class:`RuntimeError`\nare no longer suppressed. When tracing is enabled (see :func:`settrace`), Python hooks are only\ntraced if the callable has a ``__cantrace__`` member that is set to a\ntrue value. Otherwise, trace functions will skip the hook. The list of command line arguments passed to a Python script. ``argv[0]`` is the\nscript name (it is operating system dependent whether this is a full pathname or\nnot). If the command was executed using the :option:`-c` command line option to\nthe interpreter, ``argv[0]`` is set to the string ``'-c'``.",
+                    "qas": [
+                        {
+                            "id": "qa_41",
+                            "question": "What is the role of Otherwise, in Python?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, trace functions will skip the hook.",
+                                    "answer_start": 251
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_42",
+                            "question": "How is Otherwise, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, trace functions will skip the hook.",
+                                    "answer_start": 251
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_43",
+                            "question": "How does Otherwise, work?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, trace functions will skip the hook.",
+                                    "answer_start": 251
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_44",
+                            "question": "What are the key features of Otherwise,?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, trace functions will skip the hook.",
+                                    "answer_start": 251
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If no script name\nwas passed to the Python interpreter, ``argv[0]`` is the empty string. To loop over the standard input, or the list of files given on the\ncommand line, see the :mod:`fileinput` module. See also :data:`sys.orig_argv`. On Unix, command line arguments are passed by bytes from OS. Python decodes\nthem with filesystem encoding and \"surrogateescape\" error handler.",
+                    "qas": [
+                        {
+                            "id": "qa_45",
+                            "question": "What challenges are associated with See?",
+                            "answers": [
+                                {
+                                    "text": "See also :data:`sys.orig_argv`.",
+                                    "answer_start": 203
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_46",
+                            "question": "Why is See important?",
+                            "answers": [
+                                {
+                                    "text": "See also :data:`sys.orig_argv`.",
+                                    "answer_start": 203
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_47",
+                            "question": "How is See used in programming?",
+                            "answers": [
+                                {
+                                    "text": "See also :data:`sys.orig_argv`.",
+                                    "answer_start": 203
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_48",
+                            "question": "What makes See unique?",
+                            "answers": [
+                                {
+                                    "text": "See also :data:`sys.orig_argv`.",
+                                    "answer_start": 203
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "See also :data:`sys.orig_argv`. On Unix, command line arguments are passed by bytes from OS. Python decodes\nthem with filesystem encoding and \"surrogateescape\" error handler. When you need original bytes, you can get it by\n``[os.fsencode(arg) for arg in sys.argv]``. Raise an auditing event and trigger any active auditing hooks.\n*event* is a string identifying the event, and *args* may contain\noptional arguments with more information about the event.",
+                    "qas": [
+                        {
+                            "id": "qa_49",
+                            "question": "What is the role of Python in Python?",
+                            "answers": [
+                                {
+                                    "text": "Python decodes\nthem with filesystem encoding and \"surrogateescape\" error handler.",
+                                    "answer_start": 93
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_50",
+                            "question": "What makes Python unique?",
+                            "answers": [
+                                {
+                                    "text": "Python decodes\nthem with filesystem encoding and \"surrogateescape\" error handler.",
+                                    "answer_start": 93
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_51",
+                            "question": "What are the benefits of Python?",
+                            "answers": [
+                                {
+                                    "text": "Python decodes\nthem with filesystem encoding and \"surrogateescape\" error handler.",
+                                    "answer_start": 93
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_52",
+                            "question": "What challenges are associated with Python?",
+                            "answers": [
+                                {
+                                    "text": "Python decodes\nthem with filesystem encoding and \"surrogateescape\" error handler.",
+                                    "answer_start": 93
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Python decodes\nthem with filesystem encoding and \"surrogateescape\" error handler. When you need original bytes, you can get it by\n``[os.fsencode(arg) for arg in sys.argv]``. Raise an auditing event and trigger any active auditing hooks.\n*event* is a string identifying the event, and *args* may contain\noptional arguments with more information about the event. The\nnumber and types of arguments for a given event are considered a\npublic and stable API and should not be modified between releases. For example, one auditing event is named ``os.chdir``.",
+                    "qas": [
+                        {
+                            "id": "qa_53",
+                            "question": "How does Raise work?",
+                            "answers": [
+                                {
+                                    "text": "Raise an auditing event and trigger any active auditing hooks.\n*event* is a string identifying the event, and *args* may contain\noptional arguments with more information about the event.",
+                                    "answer_start": 174
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_54",
+                            "question": "How is Raise used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Raise an auditing event and trigger any active auditing hooks.\n*event* is a string identifying the event, and *args* may contain\noptional arguments with more information about the event.",
+                                    "answer_start": 174
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_55",
+                            "question": "Why is Raise important?",
+                            "answers": [
+                                {
+                                    "text": "Raise an auditing event and trigger any active auditing hooks.\n*event* is a string identifying the event, and *args* may contain\noptional arguments with more information about the event.",
+                                    "answer_start": 174
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_56",
+                            "question": "What are the benefits of Raise?",
+                            "answers": [
+                                {
+                                    "text": "Raise an auditing event and trigger any active auditing hooks.\n*event* is a string identifying the event, and *args* may contain\noptional arguments with more information about the event.",
+                                    "answer_start": 174
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Raise an auditing event and trigger any active auditing hooks.\n*event* is a string identifying the event, and *args* may contain\noptional arguments with more information about the event. The\nnumber and types of arguments for a given event are considered a\npublic and stable API and should not be modified between releases. For example, one auditing event is named ``os.chdir``. This event has\none argument called *path* that will contain the requested new\nworking directory.\n:func:`sys.audit` will call the existing auditing hooks, passing\nthe event name and arguments, and will re-raise the first exception\nfrom any hook. In general, if an exception is raised, it should not\nbe handled and the process should be terminated as quickly as\npossible.",
+                    "qas": [
+                        {
+                            "id": "qa_57",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For example, one auditing event is named ``os.chdir``.",
+                                    "answer_start": 323
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_58",
+                            "question": "How is For used in programming?",
+                            "answers": [
+                                {
+                                    "text": "For example, one auditing event is named ``os.chdir``.",
+                                    "answer_start": 323
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_59",
+                            "question": "What is mentioned about For?",
+                            "answers": [
+                                {
+                                    "text": "For example, one auditing event is named ``os.chdir``.",
+                                    "answer_start": 323
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_60",
+                            "question": "What is the role of For in Python?",
+                            "answers": [
+                                {
+                                    "text": "For example, one auditing event is named ``os.chdir``.",
+                                    "answer_start": 323
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "In general, if an exception is raised, it should not\nbe handled and the process should be terminated as quickly as\npossible. This allows hook implementations to decide how to respond\nto particular events: they can merely log the event or abort the\noperation by raising an exception. Hooks are added using the :func:`sys.addaudithook` or\n:c:func:`PySys_AddAuditHook` functions. The native equivalent of this function is :c:func:`PySys_Audit`. Using the\nnative function is preferred when possible.",
+                    "qas": [
+                        {
+                            "id": "qa_61",
+                            "question": "How does Hooks work?",
+                            "answers": [
+                                {
+                                    "text": "Hooks are added using the :func:`sys.addaudithook` or\n:c:func:`PySys_AddAuditHook` functions.",
+                                    "answer_start": 283
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_62",
+                            "question": "What is mentioned about Hooks?",
+                            "answers": [
+                                {
+                                    "text": "Hooks are added using the :func:`sys.addaudithook` or\n:c:func:`PySys_AddAuditHook` functions.",
+                                    "answer_start": 283
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_63",
+                            "question": "Can you explain Hooks?",
+                            "answers": [
+                                {
+                                    "text": "Hooks are added using the :func:`sys.addaudithook` or\n:c:func:`PySys_AddAuditHook` functions.",
+                                    "answer_start": 283
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_64",
+                            "question": "What are the key features of Hooks?",
+                            "answers": [
+                                {
+                                    "text": "Hooks are added using the :func:`sys.addaudithook` or\n:c:func:`PySys_AddAuditHook` functions.",
+                                    "answer_start": 283
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The native equivalent of this function is :c:func:`PySys_Audit`. Using the\nnative function is preferred when possible. See the :ref:`audit events table <audit-events>` for all events raised by\nCPython. Equivalent to :data:`exec_prefix`, but refering to the base Python installation. When running under :ref:`sys-path-init-virtual-environments`,\n:data:`exec_prefix` gets overwritten to the virtual environment prefix.\n:data:`base_exec_prefix`, conversely, does not change, and always points to\nthe base Python installation.",
+                    "qas": [
+                        {
+                            "id": "qa_65",
+                            "question": "What is mentioned about See?",
+                            "answers": [
+                                {
+                                    "text": "See the :ref:`audit events table <audit-events>` for all events raised by\nCPython.",
+                                    "answer_start": 119
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_66",
+                            "question": "Why is See important?",
+                            "answers": [
+                                {
+                                    "text": "See the :ref:`audit events table <audit-events>` for all events raised by\nCPython.",
+                                    "answer_start": 119
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_67",
+                            "question": "What are the benefits of See?",
+                            "answers": [
+                                {
+                                    "text": "See the :ref:`audit events table <audit-events>` for all events raised by\nCPython.",
+                                    "answer_start": 119
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_68",
+                            "question": "What challenges are associated with See?",
+                            "answers": [
+                                {
+                                    "text": "See the :ref:`audit events table <audit-events>` for all events raised by\nCPython.",
+                                    "answer_start": 119
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Using the\nnative function is preferred when possible. See the :ref:`audit events table <audit-events>` for all events raised by\nCPython. Equivalent to :data:`exec_prefix`, but refering to the base Python installation. When running under :ref:`sys-path-init-virtual-environments`,\n:data:`exec_prefix` gets overwritten to the virtual environment prefix.\n:data:`base_exec_prefix`, conversely, does not change, and always points to\nthe base Python installation. Refer to :ref:`sys-path-init-virtual-environments` for more information.",
+                    "qas": [
+                        {
+                            "id": "qa_69",
+                            "question": "How is Equivalent used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Equivalent to :data:`exec_prefix`, but refering to the base Python installation.",
+                                    "answer_start": 137
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_70",
+                            "question": "Can you explain Equivalent?",
+                            "answers": [
+                                {
+                                    "text": "Equivalent to :data:`exec_prefix`, but refering to the base Python installation.",
+                                    "answer_start": 137
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_71",
+                            "question": "What makes Equivalent unique?",
+                            "answers": [
+                                {
+                                    "text": "Equivalent to :data:`exec_prefix`, but refering to the base Python installation.",
+                                    "answer_start": 137
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_72",
+                            "question": "Why is Equivalent important?",
+                            "answers": [
+                                {
+                                    "text": "Equivalent to :data:`exec_prefix`, but refering to the base Python installation.",
+                                    "answer_start": 137
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Equivalent to :data:`exec_prefix`, but refering to the base Python installation. When running under :ref:`sys-path-init-virtual-environments`,\n:data:`exec_prefix` gets overwritten to the virtual environment prefix.\n:data:`base_exec_prefix`, conversely, does not change, and always points to\nthe base Python installation. Refer to :ref:`sys-path-init-virtual-environments` for more information. Equivalent to :data:`prefix`, but refering to the base Python installation. When running under :ref:`virtual environment <venv-def>`,\n:data:`prefix` gets overwritten to the virtual environment prefix.\n:data:`base_prefix`, conversely, does not change, and always points to\nthe base Python installation.",
+                    "qas": [
+                        {
+                            "id": "qa_73",
+                            "question": "How is Refer used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Refer to :ref:`sys-path-init-virtual-environments` for more information.",
+                                    "answer_start": 321
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_74",
+                            "question": "What challenges are associated with Refer?",
+                            "answers": [
+                                {
+                                    "text": "Refer to :ref:`sys-path-init-virtual-environments` for more information.",
+                                    "answer_start": 321
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_75",
+                            "question": "What are the key features of Refer?",
+                            "answers": [
+                                {
+                                    "text": "Refer to :ref:`sys-path-init-virtual-environments` for more information.",
+                                    "answer_start": 321
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_76",
+                            "question": "What is the role of Refer in Python?",
+                            "answers": [
+                                {
+                                    "text": "Refer to :ref:`sys-path-init-virtual-environments` for more information.",
+                                    "answer_start": 321
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "When running under :ref:`sys-path-init-virtual-environments`,\n:data:`exec_prefix` gets overwritten to the virtual environment prefix.\n:data:`base_exec_prefix`, conversely, does not change, and always points to\nthe base Python installation. Refer to :ref:`sys-path-init-virtual-environments` for more information. Equivalent to :data:`prefix`, but refering to the base Python installation. When running under :ref:`virtual environment <venv-def>`,\n:data:`prefix` gets overwritten to the virtual environment prefix.\n:data:`base_prefix`, conversely, does not change, and always points to\nthe base Python installation. Refer to :ref:`sys-path-init-virtual-environments` for more information.",
+                    "qas": [
+                        {
+                            "id": "qa_77",
+                            "question": "What is the role of Equivalent in Python?",
+                            "answers": [
+                                {
+                                    "text": "Equivalent to :data:`prefix`, but refering to the base Python installation.",
+                                    "answer_start": 313
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_78",
+                            "question": "What are the key features of Equivalent?",
+                            "answers": [
+                                {
+                                    "text": "Equivalent to :data:`prefix`, but refering to the base Python installation.",
+                                    "answer_start": 313
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_79",
+                            "question": "How is Equivalent used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Equivalent to :data:`prefix`, but refering to the base Python installation.",
+                                    "answer_start": 313
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_80",
+                            "question": "What challenges are associated with Equivalent?",
+                            "answers": [
+                                {
+                                    "text": "Equivalent to :data:`prefix`, but refering to the base Python installation.",
+                                    "answer_start": 313
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Equivalent to :data:`prefix`, but refering to the base Python installation. When running under :ref:`virtual environment <venv-def>`,\n:data:`prefix` gets overwritten to the virtual environment prefix.\n:data:`base_prefix`, conversely, does not change, and always points to\nthe base Python installation. Refer to :ref:`sys-path-init-virtual-environments` for more information. An indicator of the native byte order. This will have the value ``'big'`` on\nbig-endian (most-significant byte first) platforms, and ``'little'`` on\nlittle-endian (least-significant byte first) platforms.",
+                    "qas": [
+                        {
+                            "id": "qa_81",
+                            "question": "What is mentioned about Refer?",
+                            "answers": [
+                                {
+                                    "text": "Refer to :ref:`sys-path-init-virtual-environments` for more information.",
+                                    "answer_start": 302
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_82",
+                            "question": "What are the benefits of Refer?",
+                            "answers": [
+                                {
+                                    "text": "Refer to :ref:`sys-path-init-virtual-environments` for more information.",
+                                    "answer_start": 302
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_83",
+                            "question": "What makes Refer unique?",
+                            "answers": [
+                                {
+                                    "text": "Refer to :ref:`sys-path-init-virtual-environments` for more information.",
+                                    "answer_start": 302
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_84",
+                            "question": "What is the role of Refer in Python?",
+                            "answers": [
+                                {
+                                    "text": "Refer to :ref:`sys-path-init-virtual-environments` for more information.",
+                                    "answer_start": 302
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This will have the value ``'big'`` on\nbig-endian (most-significant byte first) platforms, and ``'little'`` on\nlittle-endian (least-significant byte first) platforms. A tuple of strings containing the names of all modules that are compiled into this\nPython interpreter.  (This information is not available in any other way ---\n``modules.keys()`` only lists the imported modules.)\nSee also the :data:`sys.stdlib_module_names` list. Call ``func(*args)``, while tracing is enabled. The tracing state is saved,\nand restored afterwards. This is intended to be called from a debugger from\na checkpoint, to recursively debug or profile some other code.",
+                    "qas": [
+                        {
+                            "id": "qa_85",
+                            "question": "What are the benefits of Call?",
+                            "answers": [
+                                {
+                                    "text": "Call ``func(*args)``, while tracing is enabled.",
+                                    "answer_start": 430
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_86",
+                            "question": "How is Call used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Call ``func(*args)``, while tracing is enabled.",
+                                    "answer_start": 430
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_87",
+                            "question": "What is mentioned about Call?",
+                            "answers": [
+                                {
+                                    "text": "Call ``func(*args)``, while tracing is enabled.",
+                                    "answer_start": 430
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_88",
+                            "question": "Why is Call important?",
+                            "answers": [
+                                {
+                                    "text": "Call ``func(*args)``, while tracing is enabled.",
+                                    "answer_start": 430
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The tracing state is saved,\nand restored afterwards. This is intended to be called from a debugger from\na checkpoint, to recursively debug or profile some other code. Tracing is suspended while calling a tracing function set by\n:func:`settrace` or :func:`setprofile` to avoid infinite recursion.\n:func:`!call_tracing` enables explicit recursion of the tracing function. A string containing the copyright pertaining to the Python interpreter. Clear the internal type cache.",
+                    "qas": [
+                        {
+                            "id": "qa_89",
+                            "question": "What are the benefits of Tracing?",
+                            "answers": [
+                                {
+                                    "text": "Tracing is suspended while calling a tracing function set by\n:func:`settrace` or :func:`setprofile` to avoid infinite recursion.\n:func:`!call_tracing` enables explicit recursion of the tracing function.",
+                                    "answer_start": 167
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_90",
+                            "question": "Why is Tracing important?",
+                            "answers": [
+                                {
+                                    "text": "Tracing is suspended while calling a tracing function set by\n:func:`settrace` or :func:`setprofile` to avoid infinite recursion.\n:func:`!call_tracing` enables explicit recursion of the tracing function.",
+                                    "answer_start": 167
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_91",
+                            "question": "How does Tracing work?",
+                            "answers": [
+                                {
+                                    "text": "Tracing is suspended while calling a tracing function set by\n:func:`settrace` or :func:`setprofile` to avoid infinite recursion.\n:func:`!call_tracing` enables explicit recursion of the tracing function.",
+                                    "answer_start": 167
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_92",
+                            "question": "What makes Tracing unique?",
+                            "answers": [
+                                {
+                                    "text": "Tracing is suspended while calling a tracing function set by\n:func:`settrace` or :func:`setprofile` to avoid infinite recursion.\n:func:`!call_tracing` enables explicit recursion of the tracing function.",
+                                    "answer_start": 167
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Tracing is suspended while calling a tracing function set by\n:func:`settrace` or :func:`setprofile` to avoid infinite recursion.\n:func:`!call_tracing` enables explicit recursion of the tracing function. A string containing the copyright pertaining to the Python interpreter. Clear the internal type cache. The type cache is used to speed up attribute\nand method lookups. Use the function *only* to drop unnecessary references\nduring reference leak debugging.",
+                    "qas": [
+                        {
+                            "id": "qa_93",
+                            "question": "What makes Clear unique?",
+                            "answers": [
+                                {
+                                    "text": "Clear the internal type cache.",
+                                    "answer_start": 275
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_94",
+                            "question": "What is mentioned about Clear?",
+                            "answers": [
+                                {
+                                    "text": "Clear the internal type cache.",
+                                    "answer_start": 275
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_95",
+                            "question": "What is the role of Clear in Python?",
+                            "answers": [
+                                {
+                                    "text": "Clear the internal type cache.",
+                                    "answer_start": 275
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_96",
+                            "question": "What are the key features of Clear?",
+                            "answers": [
+                                {
+                                    "text": "Clear the internal type cache.",
+                                    "answer_start": 275
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This function should be used for internal and specialized purposes only. Use the more general :func:`_clear_internal_caches` function instead. Clear all internal performance-related caches. Use this function *only* to\nrelease unnecessary references and memory blocks when hunting for leaks. Return a dictionary mapping each thread's identifier to the topmost stack frame\ncurrently active in that thread at the time the function is called.",
+                    "qas": [
+                        {
+                            "id": "qa_97",
+                            "question": "What is mentioned about Clear?",
+                            "answers": [
+                                {
+                                    "text": "Clear all internal performance-related caches.",
+                                    "answer_start": 143
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_98",
+                            "question": "What are the key features of Clear?",
+                            "answers": [
+                                {
+                                    "text": "Clear all internal performance-related caches.",
+                                    "answer_start": 143
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_99",
+                            "question": "What is the role of Clear in Python?",
+                            "answers": [
+                                {
+                                    "text": "Clear all internal performance-related caches.",
+                                    "answer_start": 143
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_100",
+                            "question": "Can you explain Clear?",
+                            "answers": [
+                                {
+                                    "text": "Clear all internal performance-related caches.",
+                                    "answer_start": 143
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

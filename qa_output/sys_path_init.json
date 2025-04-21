@@ -1,0 +1,794 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "title": "sys_path_init",
+            "paragraphs": [
+                {
+                    "context": "This module search path\nmay be accessed at :data:`sys.path`. The first entry in the module search path is the directory that contains the\ninput script, if there is one. Otherwise, the first entry is the current\ndirectory, which is the case when executing the interactive shell, a :option:`-c`\ncommand, or :option:`-m` module. The :envvar:`PYTHONPATH` environment variable is often used to add directories\nto the search path. If this environment variable is found then the contents are\nadded to the module search path.\n:envvar:`PYTHONPATH` will affect all installed Python versions/environments.",
+                    "qas": [
+                        {
+                            "id": "qa_1",
+                            "question": "How does Otherwise, work?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, the first entry is the current\ndirectory, which is the case when executing the interactive shell, a :option:`-c`\ncommand, or :option:`-m` module.",
+                                    "answer_start": 169
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_2",
+                            "question": "What are the benefits of Otherwise,?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, the first entry is the current\ndirectory, which is the case when executing the interactive shell, a :option:`-c`\ncommand, or :option:`-m` module.",
+                                    "answer_start": 169
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_3",
+                            "question": "What are the key features of Otherwise,?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, the first entry is the current\ndirectory, which is the case when executing the interactive shell, a :option:`-c`\ncommand, or :option:`-m` module.",
+                                    "answer_start": 169
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_4",
+                            "question": "What makes Otherwise, unique?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, the first entry is the current\ndirectory, which is the case when executing the interactive shell, a :option:`-c`\ncommand, or :option:`-m` module.",
+                                    "answer_start": 169
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The :mod:`site` module offers more nuanced techniques as mentioned below. The next items added are the directories containing standard Python modules as\nwell as any :term:`extension module`\\s that these modules depend on. Extension\nmodules are ``.pyd`` files on Windows and ``.so`` files on other platforms. The\ndirectory with the platform-independent Python modules is called ``prefix``. The directory with the extension modules is called ``exec_prefix``.",
+                    "qas": [
+                        {
+                            "id": "qa_5",
+                            "question": "What are the key features of Extension?",
+                            "answers": [
+                                {
+                                    "text": "Extension\nmodules are ``.pyd`` files on Windows and ``.so`` files on other platforms.",
+                                    "answer_start": 222
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_6",
+                            "question": "Can you explain Extension?",
+                            "answers": [
+                                {
+                                    "text": "Extension\nmodules are ``.pyd`` files on Windows and ``.so`` files on other platforms.",
+                                    "answer_start": 222
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_7",
+                            "question": "What is mentioned about Extension?",
+                            "answers": [
+                                {
+                                    "text": "Extension\nmodules are ``.pyd`` files on Windows and ``.so`` files on other platforms.",
+                                    "answer_start": 222
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_8",
+                            "question": "What challenges are associated with Extension?",
+                            "answers": [
+                                {
+                                    "text": "Extension\nmodules are ``.pyd`` files on Windows and ``.so`` files on other platforms.",
+                                    "answer_start": 222
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The directory with the extension modules is called ``exec_prefix``. The :envvar:`PYTHONHOME` environment variable may be used to set the ``prefix``\nand ``exec_prefix`` locations. Otherwise these directories are found by using\nthe Python executable as a starting point and then looking for various 'landmark'\nfiles and directories. Note that any symbolic links are followed so the real\nPython executable location is used as the search starting point. The Python\nexecutable location is called ``home``.",
+                    "qas": [
+                        {
+                            "id": "qa_9",
+                            "question": "What is the role of Otherwise in Python?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise these directories are found by using\nthe Python executable as a starting point and then looking for various 'landmark'\nfiles and directories.",
+                                    "answer_start": 179
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_10",
+                            "question": "What are the key features of Otherwise?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise these directories are found by using\nthe Python executable as a starting point and then looking for various 'landmark'\nfiles and directories.",
+                                    "answer_start": 179
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_11",
+                            "question": "How does Otherwise work?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise these directories are found by using\nthe Python executable as a starting point and then looking for various 'landmark'\nfiles and directories.",
+                                    "answer_start": 179
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_12",
+                            "question": "What challenges are associated with Otherwise?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise these directories are found by using\nthe Python executable as a starting point and then looking for various 'landmark'\nfiles and directories.",
+                                    "answer_start": 179
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Note that any symbolic links are followed so the real\nPython executable location is used as the search starting point. The Python\nexecutable location is called ``home``. Once ``home`` is determined, the ``prefix`` directory is found by first looking\nfor :file:`python{majorversion}{minorversion}.zip` (``python311.zip``). On Windows\nthe zip archive is searched for in ``home`` and on Unix the archive is expected\nto be in :file:`lib`. Note that the expected zip archive location is added to the\nmodule search path even if the archive does not exist.",
+                    "qas": [
+                        {
+                            "id": "qa_13",
+                            "question": "Can you explain Once?",
+                            "answers": [
+                                {
+                                    "text": "Once ``home`` is determined, the ``prefix`` directory is found by first looking\nfor :file:`python{majorversion}{minorversion}.zip` (``python311.zip``).",
+                                    "answer_start": 170
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_14",
+                            "question": "How does Once work?",
+                            "answers": [
+                                {
+                                    "text": "Once ``home`` is determined, the ``prefix`` directory is found by first looking\nfor :file:`python{majorversion}{minorversion}.zip` (``python311.zip``).",
+                                    "answer_start": 170
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_15",
+                            "question": "What is mentioned about Once?",
+                            "answers": [
+                                {
+                                    "text": "Once ``home`` is determined, the ``prefix`` directory is found by first looking\nfor :file:`python{majorversion}{minorversion}.zip` (``python311.zip``).",
+                                    "answer_start": 170
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_16",
+                            "question": "What challenges are associated with Once?",
+                            "answers": [
+                                {
+                                    "text": "Once ``home`` is determined, the ``prefix`` directory is found by first looking\nfor :file:`python{majorversion}{minorversion}.zip` (``python311.zip``).",
+                                    "answer_start": 170
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Note that the expected zip archive location is added to the\nmodule search path even if the archive does not exist. If no archive was found,\nPython on Windows will continue the search for ``prefix`` by looking for :file:`Lib\\\\os.py`. Python on Unix will look for :file:`lib/python{majorversion}.{minorversion}/os.py`\n(``lib/python3.11/os.py``). On Windows ``prefix`` and ``exec_prefix`` are the same,\nhowever on other platforms :file:`lib/python{majorversion}.{minorversion}/lib-dynload`\n(``lib/python3.11/lib-dynload``) is searched for and used as an anchor for\n``exec_prefix``. On some platforms :file:`lib` may be :file:`lib64` or another value,\nsee :data:`sys.platlibdir` and :envvar:`PYTHONPLATLIBDIR`.",
+                    "qas": [
+                        {
+                            "id": "qa_17",
+                            "question": "What makes Python unique?",
+                            "answers": [
+                                {
+                                    "text": "Python on Unix will look for :file:`lib/python{majorversion}.{minorversion}/os.py`\n(``lib/python3.11/os.py``).",
+                                    "answer_start": 233
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_18",
+                            "question": "What challenges are associated with Python?",
+                            "answers": [
+                                {
+                                    "text": "Python on Unix will look for :file:`lib/python{majorversion}.{minorversion}/os.py`\n(``lib/python3.11/os.py``).",
+                                    "answer_start": 233
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_19",
+                            "question": "Why is Python important?",
+                            "answers": [
+                                {
+                                    "text": "Python on Unix will look for :file:`lib/python{majorversion}.{minorversion}/os.py`\n(``lib/python3.11/os.py``).",
+                                    "answer_start": 233
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_20",
+                            "question": "What is mentioned about Python?",
+                            "answers": [
+                                {
+                                    "text": "Python on Unix will look for :file:`lib/python{majorversion}.{minorversion}/os.py`\n(``lib/python3.11/os.py``).",
+                                    "answer_start": 233
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "On Windows ``prefix`` and ``exec_prefix`` are the same,\nhowever on other platforms :file:`lib/python{majorversion}.{minorversion}/lib-dynload`\n(``lib/python3.11/lib-dynload``) is searched for and used as an anchor for\n``exec_prefix``. On some platforms :file:`lib` may be :file:`lib64` or another value,\nsee :data:`sys.platlibdir` and :envvar:`PYTHONPLATLIBDIR`. Once found, ``prefix`` and ``exec_prefix`` are available at\n:data:`sys.base_prefix` and :data:`sys.base_exec_prefix` respectively. If :envvar:`PYTHONHOME` is not set, and a ``pyvenv.cfg`` file is found alongside\nthe main executable, or in its parent directory, :data:`sys.prefix` and\n:data:`sys.exec_prefix` get set to the directory containing ``pyvenv.cfg``,\notherwise they are set to the same value as :data:`sys.base_prefix` and\n:data:`sys.base_exec_prefix`, respectively. This is used by :ref:`sys-path-init-virtual-environments`.",
+                    "qas": [
+                        {
+                            "id": "qa_21",
+                            "question": "What are the benefits of Once?",
+                            "answers": [
+                                {
+                                    "text": "Once found, ``prefix`` and ``exec_prefix`` are available at\n:data:`sys.base_prefix` and :data:`sys.base_exec_prefix` respectively.",
+                                    "answer_start": 363
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_22",
+                            "question": "What is the role of Once in Python?",
+                            "answers": [
+                                {
+                                    "text": "Once found, ``prefix`` and ``exec_prefix`` are available at\n:data:`sys.base_prefix` and :data:`sys.base_exec_prefix` respectively.",
+                                    "answer_start": 363
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_23",
+                            "question": "How is Once used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Once found, ``prefix`` and ``exec_prefix`` are available at\n:data:`sys.base_prefix` and :data:`sys.base_exec_prefix` respectively.",
+                                    "answer_start": 363
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_24",
+                            "question": "What is mentioned about Once?",
+                            "answers": [
+                                {
+                                    "text": "Once found, ``prefix`` and ``exec_prefix`` are available at\n:data:`sys.base_prefix` and :data:`sys.base_exec_prefix` respectively.",
+                                    "answer_start": 363
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If :envvar:`PYTHONHOME` is not set, and a ``pyvenv.cfg`` file is found alongside\nthe main executable, or in its parent directory, :data:`sys.prefix` and\n:data:`sys.exec_prefix` get set to the directory containing ``pyvenv.cfg``,\notherwise they are set to the same value as :data:`sys.base_prefix` and\n:data:`sys.base_exec_prefix`, respectively. This is used by :ref:`sys-path-init-virtual-environments`. Finally, the :mod:`site` module is processed and :file:`site-packages` directories\nare added to the module search path. A common way to customize the search path is\nto create :mod:`sitecustomize` or :mod:`usercustomize` modules as described in\nthe :mod:`site` module documentation. Certain command line options may further affect path calculations.",
+                    "qas": [
+                        {
+                            "id": "qa_25",
+                            "question": "What is mentioned about Finally,?",
+                            "answers": [
+                                {
+                                    "text": "Finally, the :mod:`site` module is processed and :file:`site-packages` directories\nare added to the module search path.",
+                                    "answer_start": 404
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_26",
+                            "question": "Can you explain Finally,?",
+                            "answers": [
+                                {
+                                    "text": "Finally, the :mod:`site` module is processed and :file:`site-packages` directories\nare added to the module search path.",
+                                    "answer_start": 404
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_27",
+                            "question": "What challenges are associated with Finally,?",
+                            "answers": [
+                                {
+                                    "text": "Finally, the :mod:`site` module is processed and :file:`site-packages` directories\nare added to the module search path.",
+                                    "answer_start": 404
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_28",
+                            "question": "How does Finally, work?",
+                            "answers": [
+                                {
+                                    "text": "Finally, the :mod:`site` module is processed and :file:`site-packages` directories\nare added to the module search path.",
+                                    "answer_start": 404
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Finally, the :mod:`site` module is processed and :file:`site-packages` directories\nare added to the module search path. A common way to customize the search path is\nto create :mod:`sitecustomize` or :mod:`usercustomize` modules as described in\nthe :mod:`site` module documentation. Certain command line options may further affect path calculations. See :option:`-E`, :option:`-I`, :option:`-s` and :option:`-S` for further details.\n:data:`sys.prefix` and :data:`sys.exec_prefix` are now set to the\n``pyvenv.cfg`` directory during the path initialization. This was previously\ndone by :mod:`site`, therefore affected by :option:`-S`.",
+                    "qas": [
+                        {
+                            "id": "qa_29",
+                            "question": "What are the benefits of Certain?",
+                            "answers": [
+                                {
+                                    "text": "Certain command line options may further affect path calculations.",
+                                    "answer_start": 282
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_30",
+                            "question": "What makes Certain unique?",
+                            "answers": [
+                                {
+                                    "text": "Certain command line options may further affect path calculations.",
+                                    "answer_start": 282
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_31",
+                            "question": "What challenges are associated with Certain?",
+                            "answers": [
+                                {
+                                    "text": "Certain command line options may further affect path calculations.",
+                                    "answer_start": 282
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_32",
+                            "question": "What is the role of Certain in Python?",
+                            "answers": [
+                                {
+                                    "text": "Certain command line options may further affect path calculations.",
+                                    "answer_start": 282
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "A common way to customize the search path is\nto create :mod:`sitecustomize` or :mod:`usercustomize` modules as described in\nthe :mod:`site` module documentation. Certain command line options may further affect path calculations. See :option:`-E`, :option:`-I`, :option:`-s` and :option:`-S` for further details.\n:data:`sys.prefix` and :data:`sys.exec_prefix` are now set to the\n``pyvenv.cfg`` directory during the path initialization. This was previously\ndone by :mod:`site`, therefore affected by :option:`-S`. Virtual Environments\n--------------------\nVirtual environments place a ``pyvenv.cfg`` file in their prefix, which causes\n:data:`sys.prefix` and :data:`sys.exec_prefix` to point to them, instead of the\nbase installation.",
+                    "qas": [
+                        {
+                            "id": "qa_33",
+                            "question": "What is mentioned about See?",
+                            "answers": [
+                                {
+                                    "text": "See :option:`-E`, :option:`-I`, :option:`-s` and :option:`-S` for further details.\n:data:`sys.prefix` and :data:`sys.exec_prefix` are now set to the\n``pyvenv.cfg`` directory during the path initialization.",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_34",
+                            "question": "What is the role of See in Python?",
+                            "answers": [
+                                {
+                                    "text": "See :option:`-E`, :option:`-I`, :option:`-s` and :option:`-S` for further details.\n:data:`sys.prefix` and :data:`sys.exec_prefix` are now set to the\n``pyvenv.cfg`` directory during the path initialization.",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_35",
+                            "question": "How does See work?",
+                            "answers": [
+                                {
+                                    "text": "See :option:`-E`, :option:`-I`, :option:`-s` and :option:`-S` for further details.\n:data:`sys.prefix` and :data:`sys.exec_prefix` are now set to the\n``pyvenv.cfg`` directory during the path initialization.",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_36",
+                            "question": "What makes See unique?",
+                            "answers": [
+                                {
+                                    "text": "See :option:`-E`, :option:`-I`, :option:`-s` and :option:`-S` for further details.\n:data:`sys.prefix` and :data:`sys.exec_prefix` are now set to the\n``pyvenv.cfg`` directory during the path initialization.",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "See :option:`-E`, :option:`-I`, :option:`-s` and :option:`-S` for further details.\n:data:`sys.prefix` and :data:`sys.exec_prefix` are now set to the\n``pyvenv.cfg`` directory during the path initialization. This was previously\ndone by :mod:`site`, therefore affected by :option:`-S`. Virtual Environments\n--------------------\nVirtual environments place a ``pyvenv.cfg`` file in their prefix, which causes\n:data:`sys.prefix` and :data:`sys.exec_prefix` to point to them, instead of the\nbase installation. The ``prefix`` and ``exec_prefix`` values of the base installation are available\nat :data:`sys.base_prefix` and :data:`sys.base_exec_prefix`. As well as being used as a marker to identify virtual environments,\n``pyvenv.cfg`` may also be used to configure the :mod:`site` initialization.",
+                    "qas": [
+                        {
+                            "id": "qa_37",
+                            "question": "What challenges are associated with Virtual?",
+                            "answers": [
+                                {
+                                    "text": "Virtual Environments\n--------------------\nVirtual environments place a ``pyvenv.cfg`` file in their prefix, which causes\n:data:`sys.prefix` and :data:`sys.exec_prefix` to point to them, instead of the\nbase installation.",
+                                    "answer_start": 283
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_38",
+                            "question": "What is mentioned about Virtual?",
+                            "answers": [
+                                {
+                                    "text": "Virtual Environments\n--------------------\nVirtual environments place a ``pyvenv.cfg`` file in their prefix, which causes\n:data:`sys.prefix` and :data:`sys.exec_prefix` to point to them, instead of the\nbase installation.",
+                                    "answer_start": 283
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_39",
+                            "question": "What are the benefits of Virtual?",
+                            "answers": [
+                                {
+                                    "text": "Virtual Environments\n--------------------\nVirtual environments place a ``pyvenv.cfg`` file in their prefix, which causes\n:data:`sys.prefix` and :data:`sys.exec_prefix` to point to them, instead of the\nbase installation.",
+                                    "answer_start": 283
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_40",
+                            "question": "How does Virtual work?",
+                            "answers": [
+                                {
+                                    "text": "Virtual Environments\n--------------------\nVirtual environments place a ``pyvenv.cfg`` file in their prefix, which causes\n:data:`sys.prefix` and :data:`sys.exec_prefix` to point to them, instead of the\nbase installation.",
+                                    "answer_start": 283
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The ``prefix`` and ``exec_prefix`` values of the base installation are available\nat :data:`sys.base_prefix` and :data:`sys.base_exec_prefix`. As well as being used as a marker to identify virtual environments,\n``pyvenv.cfg`` may also be used to configure the :mod:`site` initialization. Please refer to :mod:`site`'s\n:ref:`virtual environments documentation <site-virtual-environments-configuration>`.\n:envvar:`PYTHONHOME` overrides the ``pyvenv.cfg`` detection. There are other ways how \"virtual environments\" could be implemented, this\ndocumentation referes implementations based on the ``pyvenv.cfg`` mechanism,\nsuch as :mod:`venv`. Most virtual environment implementations follow the\nmodel set by :mod:`venv`, but there may be exotic implementations that\ndiverge from it.\n_pth files\n----------\nTo completely override :data:`sys.path` create a ``._pth`` file with the same\nname as the shared library or executable (``python._pth`` or ``python311._pth``).",
+                    "qas": [
+                        {
+                            "id": "qa_41",
+                            "question": "What challenges are associated with Please?",
+                            "answers": [
+                                {
+                                    "text": "Please refer to :mod:`site`'s\n:ref:`virtual environments documentation <site-virtual-environments-configuration>`.\n:envvar:`PYTHONHOME` overrides the ``pyvenv.cfg`` detection.",
+                                    "answer_start": 287
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_42",
+                            "question": "What are the benefits of Please?",
+                            "answers": [
+                                {
+                                    "text": "Please refer to :mod:`site`'s\n:ref:`virtual environments documentation <site-virtual-environments-configuration>`.\n:envvar:`PYTHONHOME` overrides the ``pyvenv.cfg`` detection.",
+                                    "answer_start": 287
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_43",
+                            "question": "What is the role of Please in Python?",
+                            "answers": [
+                                {
+                                    "text": "Please refer to :mod:`site`'s\n:ref:`virtual environments documentation <site-virtual-environments-configuration>`.\n:envvar:`PYTHONHOME` overrides the ``pyvenv.cfg`` detection.",
+                                    "answer_start": 287
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_44",
+                            "question": "What are the key features of Please?",
+                            "answers": [
+                                {
+                                    "text": "Please refer to :mod:`site`'s\n:ref:`virtual environments documentation <site-virtual-environments-configuration>`.\n:envvar:`PYTHONHOME` overrides the ``pyvenv.cfg`` detection.",
+                                    "answer_start": 287
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "As well as being used as a marker to identify virtual environments,\n``pyvenv.cfg`` may also be used to configure the :mod:`site` initialization. Please refer to :mod:`site`'s\n:ref:`virtual environments documentation <site-virtual-environments-configuration>`.\n:envvar:`PYTHONHOME` overrides the ``pyvenv.cfg`` detection. There are other ways how \"virtual environments\" could be implemented, this\ndocumentation referes implementations based on the ``pyvenv.cfg`` mechanism,\nsuch as :mod:`venv`. Most virtual environment implementations follow the\nmodel set by :mod:`venv`, but there may be exotic implementations that\ndiverge from it.\n_pth files\n----------\nTo completely override :data:`sys.path` create a ``._pth`` file with the same\nname as the shared library or executable (``python._pth`` or ``python311._pth``). The shared library path is always known on Windows, however it may not be\navailable on other platforms.",
+                    "qas": [
+                        {
+                            "id": "qa_45",
+                            "question": "What is mentioned about There?",
+                            "answers": [
+                                {
+                                    "text": "There are other ways how \"virtual environments\" could be implemented, this\ndocumentation referes implementations based on the ``pyvenv.cfg`` mechanism,\nsuch as :mod:`venv`.",
+                                    "answer_start": 321
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_46",
+                            "question": "How does There work?",
+                            "answers": [
+                                {
+                                    "text": "There are other ways how \"virtual environments\" could be implemented, this\ndocumentation referes implementations based on the ``pyvenv.cfg`` mechanism,\nsuch as :mod:`venv`.",
+                                    "answer_start": 321
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_47",
+                            "question": "Can you explain There?",
+                            "answers": [
+                                {
+                                    "text": "There are other ways how \"virtual environments\" could be implemented, this\ndocumentation referes implementations based on the ``pyvenv.cfg`` mechanism,\nsuch as :mod:`venv`.",
+                                    "answer_start": 321
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_48",
+                            "question": "What are the key features of There?",
+                            "answers": [
+                                {
+                                    "text": "There are other ways how \"virtual environments\" could be implemented, this\ndocumentation referes implementations based on the ``pyvenv.cfg`` mechanism,\nsuch as :mod:`venv`.",
+                                    "answer_start": 321
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Please refer to :mod:`site`'s\n:ref:`virtual environments documentation <site-virtual-environments-configuration>`.\n:envvar:`PYTHONHOME` overrides the ``pyvenv.cfg`` detection. There are other ways how \"virtual environments\" could be implemented, this\ndocumentation referes implementations based on the ``pyvenv.cfg`` mechanism,\nsuch as :mod:`venv`. Most virtual environment implementations follow the\nmodel set by :mod:`venv`, but there may be exotic implementations that\ndiverge from it.\n_pth files\n----------\nTo completely override :data:`sys.path` create a ``._pth`` file with the same\nname as the shared library or executable (``python._pth`` or ``python311._pth``). The shared library path is always known on Windows, however it may not be\navailable on other platforms. In the ``._pth`` file specify one line for each path\nto add to :data:`sys.path`.",
+                    "qas": [
+                        {
+                            "id": "qa_49",
+                            "question": "What makes Most unique?",
+                            "answers": [
+                                {
+                                    "text": "Most virtual environment implementations follow the\nmodel set by :mod:`venv`, but there may be exotic implementations that\ndiverge from it.\n_pth files\n----------\nTo completely override :data:`sys.path` create a ``._pth`` file with the same\nname as the shared library or executable (``python._pth`` or ``python311._pth``).",
+                                    "answer_start": 349
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_50",
+                            "question": "Can you explain Most?",
+                            "answers": [
+                                {
+                                    "text": "Most virtual environment implementations follow the\nmodel set by :mod:`venv`, but there may be exotic implementations that\ndiverge from it.\n_pth files\n----------\nTo completely override :data:`sys.path` create a ``._pth`` file with the same\nname as the shared library or executable (``python._pth`` or ``python311._pth``).",
+                                    "answer_start": 349
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_51",
+                            "question": "What is mentioned about Most?",
+                            "answers": [
+                                {
+                                    "text": "Most virtual environment implementations follow the\nmodel set by :mod:`venv`, but there may be exotic implementations that\ndiverge from it.\n_pth files\n----------\nTo completely override :data:`sys.path` create a ``._pth`` file with the same\nname as the shared library or executable (``python._pth`` or ``python311._pth``).",
+                                    "answer_start": 349
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_52",
+                            "question": "How is Most used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Most virtual environment implementations follow the\nmodel set by :mod:`venv`, but there may be exotic implementations that\ndiverge from it.\n_pth files\n----------\nTo completely override :data:`sys.path` create a ``._pth`` file with the same\nname as the shared library or executable (``python._pth`` or ``python311._pth``).",
+                                    "answer_start": 349
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The file based on the shared library name overrides\nthe one based on the executable, which allows paths to be restricted for any\nprogram loading the runtime if desired. When the file exists, all registry and environment variables are ignored,\nisolated mode is enabled, and :mod:`site` is not imported unless one line in the\nfile specifies ``import site``. Blank paths and lines starting with ``#`` are\nignored. Each path may be absolute or relative to the location of the file. Import statements other than to ``site`` are not permitted, and arbitrary code\ncannot be specified.",
+                    "qas": [
+                        {
+                            "id": "qa_53",
+                            "question": "What is mentioned about Blank?",
+                            "answers": [
+                                {
+                                    "text": "Blank paths and lines starting with ``#`` are\nignored.",
+                                    "answer_start": 356
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_54",
+                            "question": "How does Blank work?",
+                            "answers": [
+                                {
+                                    "text": "Blank paths and lines starting with ``#`` are\nignored.",
+                                    "answer_start": 356
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_55",
+                            "question": "Can you explain Blank?",
+                            "answers": [
+                                {
+                                    "text": "Blank paths and lines starting with ``#`` are\nignored.",
+                                    "answer_start": 356
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_56",
+                            "question": "What challenges are associated with Blank?",
+                            "answers": [
+                                {
+                                    "text": "Blank paths and lines starting with ``#`` are\nignored.",
+                                    "answer_start": 356
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "When the file exists, all registry and environment variables are ignored,\nisolated mode is enabled, and :mod:`site` is not imported unless one line in the\nfile specifies ``import site``. Blank paths and lines starting with ``#`` are\nignored. Each path may be absolute or relative to the location of the file. Import statements other than to ``site`` are not permitted, and arbitrary code\ncannot be specified. Note that ``.pth`` files (without leading underscore) will be processed normally\nby the :mod:`site` module when ``import site`` has been specified.",
+                    "qas": [
+                        {
+                            "id": "qa_57",
+                            "question": "What is mentioned about Each?",
+                            "answers": [
+                                {
+                                    "text": "Each path may be absolute or relative to the location of the file.",
+                                    "answer_start": 242
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_58",
+                            "question": "Why is Each important?",
+                            "answers": [
+                                {
+                                    "text": "Each path may be absolute or relative to the location of the file.",
+                                    "answer_start": 242
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_59",
+                            "question": "How does Each work?",
+                            "answers": [
+                                {
+                                    "text": "Each path may be absolute or relative to the location of the file.",
+                                    "answer_start": 242
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_60",
+                            "question": "What are the benefits of Each?",
+                            "answers": [
+                                {
+                                    "text": "Each path may be absolute or relative to the location of the file.",
+                                    "answer_start": 242
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Import statements other than to ``site`` are not permitted, and arbitrary code\ncannot be specified. Note that ``.pth`` files (without leading underscore) will be processed normally\nby the :mod:`site` module when ``import site`` has been specified. Embedded Python\n---------------\nIf Python is embedded within another application :c:func:`Py_InitializeFromConfig` and\nthe :c:type:`PyConfig` structure can be used to initialize Python. The path specific\ndetails are described at :ref:`init-path-config`.\n* :ref:`windows_finding_modules` for detailed Windows notes.\n* :ref:`using-on-unix` for Unix details.",
+                    "qas": [
+                        {
+                            "id": "qa_61",
+                            "question": "How does Embedded work?",
+                            "answers": [
+                                {
+                                    "text": "Embedded Python\n---------------\nIf Python is embedded within another application :c:func:`Py_InitializeFromConfig` and\nthe :c:type:`PyConfig` structure can be used to initialize Python.",
+                                    "answer_start": 248
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_62",
+                            "question": "Why is Embedded important?",
+                            "answers": [
+                                {
+                                    "text": "Embedded Python\n---------------\nIf Python is embedded within another application :c:func:`Py_InitializeFromConfig` and\nthe :c:type:`PyConfig` structure can be used to initialize Python.",
+                                    "answer_start": 248
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_63",
+                            "question": "Can you explain Embedded?",
+                            "answers": [
+                                {
+                                    "text": "Embedded Python\n---------------\nIf Python is embedded within another application :c:func:`Py_InitializeFromConfig` and\nthe :c:type:`PyConfig` structure can be used to initialize Python.",
+                                    "answer_start": 248
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_64",
+                            "question": "What makes Embedded unique?",
+                            "answers": [
+                                {
+                                    "text": "Embedded Python\n---------------\nIf Python is embedded within another application :c:func:`Py_InitializeFromConfig` and\nthe :c:type:`PyConfig` structure can be used to initialize Python.",
+                                    "answer_start": 248
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

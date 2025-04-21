@@ -1,0 +1,1235 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "title": "math",
+            "paragraphs": [
+                {
+                    "context": ":mod:`!math` --- Mathematical functions\n:synopsis: Mathematical functions (sin() etc.).\nfrom math import fsum\n--------------\nThis module provides access to the mathematical functions defined by the C\nstandard. These functions cannot be used with complex numbers; use the functions of the\nsame name from the :mod:`cmath` module if you require support for complex\nnumbers. The distinction between functions which support complex numbers and\nthose which don't is made since most users do not want to learn quite as much\nmathematics as required to understand complex numbers.",
+                    "qas": [
+                        {
+                            "id": "qa_1",
+                            "question": "Can you explain :mod:`!math`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!math` --- Mathematical functions\n:synopsis: Mathematical functions (sin() etc.).\nfrom math import fsum\n--------------\nThis module provides access to the mathematical functions defined by the C\nstandard.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_2",
+                            "question": "What are the key features of :mod:`!math`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!math` --- Mathematical functions\n:synopsis: Mathematical functions (sin() etc.).\nfrom math import fsum\n--------------\nThis module provides access to the mathematical functions defined by the C\nstandard.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_3",
+                            "question": "What is the role of :mod:`!math` in Python?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!math` --- Mathematical functions\n:synopsis: Mathematical functions (sin() etc.).\nfrom math import fsum\n--------------\nThis module provides access to the mathematical functions defined by the C\nstandard.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_4",
+                            "question": "What is mentioned about :mod:`!math`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!math` --- Mathematical functions\n:synopsis: Mathematical functions (sin() etc.).\nfrom math import fsum\n--------------\nThis module provides access to the mathematical functions defined by the C\nstandard.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "These functions cannot be used with complex numbers; use the functions of the\nsame name from the :mod:`cmath` module if you require support for complex\nnumbers. The distinction between functions which support complex numbers and\nthose which don't is made since most users do not want to learn quite as much\nmathematics as required to understand complex numbers. Receiving an exception\ninstead of a complex result allows earlier detection of the unexpected complex\nnumber used as a parameter, so that the programmer can determine how and why it\nwas generated in the first place. The following functions are provided by this module. Except when explicitly\nnoted otherwise, all return values are floats.\n**Number-theoretic functions**\n--------------------------------------------------------------------------------------------------\n:func:`comb(n, k) <comb>`                             Number of ways to choose *k* items from *n* items without repetition and without order\n:func:`factorial(n) <factorial>`                      *n* factorial\n:func:`gcd(*integers) <gcd>`                          Greatest common divisor of the integer arguments\n:func:`isqrt(n) <isqrt>`                              Integer square root of a nonnegative integer *n*\n:func:`lcm(*integers) <lcm>`                          Least common multiple of the integer arguments\n:func:`perm(n, k) <perm>`                             Number of ways to choose *k* items from *n* items without repetition and with order\n**Floating point arithmetic**\n--------------------------------------------------------------------------------------------------\n:func:`ceil(x) <ceil>`                                Ceiling of *x*, the smallest integer greater than or equal to *x*\n:func:`fabs(x) <fabs>`                                Absolute value of *x*\n:func:`floor(x)  <floor>`                             Floor of *x*, the largest integer less than or equal to *x*\n:func:`fma(x, y, z) <fma>`                            Fused multiply-add operation: ``(x * y) + z``\n:func:`fmod(x, y) <fmod>`                             Remainder of division ``x / y``\n:func:`modf(x) <modf>`                                Fractional and integer parts of *x*\n:func:`remainder(x, y) <remainder>`                   Remainder of *x* with respect to *y*\n:func:`trunc(x) <trunc>`                              Integer part of *x*\n**Floating point manipulation functions**\n--------------------------------------------------------------------------------------------------\n:func:`copysign(x, y) <copysign>`                     Magnitude (absolute value) of *x* with the sign of *y*\n:func:`frexp(x) <frexp>`                              Mantissa and exponent of *x*\n:func:`isclose(a, b, rel_tol, abs_tol) <isclose>`     Check if the values *a* and *b* are close to each other\n:func:`isfinite(x) <isfinite>`                        Check if *x* is neither an infinity nor a NaN\n:func:`isinf(x) <isinf>`                              Check if *x* is a positive or negative infinity\n:func:`isnan(x) <isnan>`                              Check if *x* is a NaN  (not a number)\n:func:`ldexp(x, i) <ldexp>`                           ``x * (2**i)``, inverse of function :func:`frexp`\n:func:`nextafter(x, y, steps) <nextafter>`            Floating-point value *steps* steps after *x* towards *y*\n:func:`ulp(x) <ulp>`                                  Value of the least significant bit of *x*\n**Power, exponential and logarithmic functions**\n--------------------------------------------------------------------------------------------------\n:func:`cbrt(x) <cbrt>`                                Cube root of *x*\n:func:`exp(x) <exp>`                                  *e* raised to the power *x*\n:func:`exp2(x) <exp2>`                                *2* raised to the power *x*\n:func:`expm1(x) <expm1>`                              *e* raised to the power *x*, minus 1\n:func:`log(x, base) <log>`                            Logarithm of *x* to the given base (*e* by default)\n:func:`log1p(x) <log1p>`                              Natural logarithm of *1+x* (base *e*)\n:func:`log2(x) <log2>`                                Base-2 logarithm of *x*\n:func:`log10(x) <log10>`                              Base-10 logarithm of *x*\n:func:`pow(x, y) <math.pow>`                          *x* raised to the power *y*\n:func:`sqrt(x) <sqrt>`                                Square root of *x*\n**Summation and product functions**\n--------------------------------------------------------------------------------------------------\n:func:`dist(p, q) <dist>`                             Euclidean distance between two points *p* and *q* given as an iterable of coordinates\n:func:`fsum(iterable) <fsum>`                         Sum of values in the input *iterable*\n:func:`hypot(*coordinates) <hypot>`                   Euclidean norm of an iterable of coordinates\n:func:`prod(iterable, start) <prod>`                  Product of elements in the input *iterable* with a *start* value\n:func:`sumprod(p, q) <sumprod>`                       Sum of products from two iterables *p* and *q*\n**Angular conversion**\n--------------------------------------------------------------------------------------------------\n:func:`degrees(x) <degrees>`                          Convert angle *x* from radians to degrees\n:func:`radians(x) <radians>`                          Convert angle *x* from degrees to radians\n**Trigonometric functions**\n--------------------------------------------------------------------------------------------------\n:func:`acos(x) <acos>`                                Arc cosine of *x*\n:func:`asin(x) <asin>`                                Arc sine of *x*\n:func:`atan(x) <atan>`                                Arc tangent of *x*\n:func:`atan2(y, x) <atan2>`                           ``atan(y / x)``\n:func:`cos(x) <cos>`                                  Cosine of *x*\n:func:`sin(x) <sin>`                                  Sine of *x*\n:func:`tan(x) <tan>`                                  Tangent of *x*\n**Hyperbolic functions**\n--------------------------------------------------------------------------------------------------\n:func:`acosh(x) <acosh>`                              Inverse hyperbolic cosine of *x*\n:func:`asinh(x) <asinh>`                              Inverse hyperbolic sine of *x*\n:func:`atanh(x) <atanh>`                              Inverse hyperbolic tangent of *x*\n:func:`cosh(x) <cosh>`                                Hyperbolic cosine of *x*\n:func:`sinh(x) <sinh>`                                Hyperbolic sine of *x*\n:func:`tanh(x) <tanh>`                                Hyperbolic tangent of *x*\n**Special functions**\n--------------------------------------------------------------------------------------------------\n:func:`erf(x) <erf>`                                  `Error function <https://en.wikipedia.org/wiki/Error_function>`_ at *x*\n:func:`erfc(x) <erfc>`                                `Complementary error function <https://en.wikipedia.org/wiki/Error_function>`_ at *x*\n:func:`gamma(x) <gamma>`                              `Gamma function <https://en.wikipedia.org/wiki/Gamma_function>`_ at *x*\n:func:`lgamma(x) <lgamma>`                            Natural logarithm of the absolute value of the `Gamma function <https://en.wikipedia.org/wiki/Gamma_function>`_ at *x*\n**Constants**\n--------------------------------------------------------------------------------------------------\n:data:`pi`                                            *π* = 3.141592...\n:data:`e`                                             *e* = 2.718281...\n:data:`tau`                                           *τ* = 2\\ *π* = 6.283185...\n:data:`inf`                                           Positive infinity\n:data:`nan`                                           \"Not a number\" (NaN)\nNumber-theoretic functions\n--------------------------\nReturn the number of ways to choose *k* items from *n* items without repetition\nand without order.",
+                    "qas": [
+                        {
+                            "id": "qa_5",
+                            "question": "What is the role of Receiving in Python?",
+                            "answers": [
+                                {
+                                    "text": "Receiving an exception\ninstead of a complex result allows earlier detection of the unexpected complex\nnumber used as a parameter, so that the programmer can determine how and why it\nwas generated in the first place.",
+                                    "answer_start": 362
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_6",
+                            "question": "Why is Receiving important?",
+                            "answers": [
+                                {
+                                    "text": "Receiving an exception\ninstead of a complex result allows earlier detection of the unexpected complex\nnumber used as a parameter, so that the programmer can determine how and why it\nwas generated in the first place.",
+                                    "answer_start": 362
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_7",
+                            "question": "What makes Receiving unique?",
+                            "answers": [
+                                {
+                                    "text": "Receiving an exception\ninstead of a complex result allows earlier detection of the unexpected complex\nnumber used as a parameter, so that the programmer can determine how and why it\nwas generated in the first place.",
+                                    "answer_start": 362
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_8",
+                            "question": "What are the key features of Receiving?",
+                            "answers": [
+                                {
+                                    "text": "Receiving an exception\ninstead of a complex result allows earlier detection of the unexpected complex\nnumber used as a parameter, so that the programmer can determine how and why it\nwas generated in the first place.",
+                                    "answer_start": 362
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The following functions are provided by this module. Except when explicitly\nnoted otherwise, all return values are floats.\n**Number-theoretic functions**\n--------------------------------------------------------------------------------------------------\n:func:`comb(n, k) <comb>`                             Number of ways to choose *k* items from *n* items without repetition and without order\n:func:`factorial(n) <factorial>`                      *n* factorial\n:func:`gcd(*integers) <gcd>`                          Greatest common divisor of the integer arguments\n:func:`isqrt(n) <isqrt>`                              Integer square root of a nonnegative integer *n*\n:func:`lcm(*integers) <lcm>`                          Least common multiple of the integer arguments\n:func:`perm(n, k) <perm>`                             Number of ways to choose *k* items from *n* items without repetition and with order\n**Floating point arithmetic**\n--------------------------------------------------------------------------------------------------\n:func:`ceil(x) <ceil>`                                Ceiling of *x*, the smallest integer greater than or equal to *x*\n:func:`fabs(x) <fabs>`                                Absolute value of *x*\n:func:`floor(x)  <floor>`                             Floor of *x*, the largest integer less than or equal to *x*\n:func:`fma(x, y, z) <fma>`                            Fused multiply-add operation: ``(x * y) + z``\n:func:`fmod(x, y) <fmod>`                             Remainder of division ``x / y``\n:func:`modf(x) <modf>`                                Fractional and integer parts of *x*\n:func:`remainder(x, y) <remainder>`                   Remainder of *x* with respect to *y*\n:func:`trunc(x) <trunc>`                              Integer part of *x*\n**Floating point manipulation functions**\n--------------------------------------------------------------------------------------------------\n:func:`copysign(x, y) <copysign>`                     Magnitude (absolute value) of *x* with the sign of *y*\n:func:`frexp(x) <frexp>`                              Mantissa and exponent of *x*\n:func:`isclose(a, b, rel_tol, abs_tol) <isclose>`     Check if the values *a* and *b* are close to each other\n:func:`isfinite(x) <isfinite>`                        Check if *x* is neither an infinity nor a NaN\n:func:`isinf(x) <isinf>`                              Check if *x* is a positive or negative infinity\n:func:`isnan(x) <isnan>`                              Check if *x* is a NaN  (not a number)\n:func:`ldexp(x, i) <ldexp>`                           ``x * (2**i)``, inverse of function :func:`frexp`\n:func:`nextafter(x, y, steps) <nextafter>`            Floating-point value *steps* steps after *x* towards *y*\n:func:`ulp(x) <ulp>`                                  Value of the least significant bit of *x*\n**Power, exponential and logarithmic functions**\n--------------------------------------------------------------------------------------------------\n:func:`cbrt(x) <cbrt>`                                Cube root of *x*\n:func:`exp(x) <exp>`                                  *e* raised to the power *x*\n:func:`exp2(x) <exp2>`                                *2* raised to the power *x*\n:func:`expm1(x) <expm1>`                              *e* raised to the power *x*, minus 1\n:func:`log(x, base) <log>`                            Logarithm of *x* to the given base (*e* by default)\n:func:`log1p(x) <log1p>`                              Natural logarithm of *1+x* (base *e*)\n:func:`log2(x) <log2>`                                Base-2 logarithm of *x*\n:func:`log10(x) <log10>`                              Base-10 logarithm of *x*\n:func:`pow(x, y) <math.pow>`                          *x* raised to the power *y*\n:func:`sqrt(x) <sqrt>`                                Square root of *x*\n**Summation and product functions**\n--------------------------------------------------------------------------------------------------\n:func:`dist(p, q) <dist>`                             Euclidean distance between two points *p* and *q* given as an iterable of coordinates\n:func:`fsum(iterable) <fsum>`                         Sum of values in the input *iterable*\n:func:`hypot(*coordinates) <hypot>`                   Euclidean norm of an iterable of coordinates\n:func:`prod(iterable, start) <prod>`                  Product of elements in the input *iterable* with a *start* value\n:func:`sumprod(p, q) <sumprod>`                       Sum of products from two iterables *p* and *q*\n**Angular conversion**\n--------------------------------------------------------------------------------------------------\n:func:`degrees(x) <degrees>`                          Convert angle *x* from radians to degrees\n:func:`radians(x) <radians>`                          Convert angle *x* from degrees to radians\n**Trigonometric functions**\n--------------------------------------------------------------------------------------------------\n:func:`acos(x) <acos>`                                Arc cosine of *x*\n:func:`asin(x) <asin>`                                Arc sine of *x*\n:func:`atan(x) <atan>`                                Arc tangent of *x*\n:func:`atan2(y, x) <atan2>`                           ``atan(y / x)``\n:func:`cos(x) <cos>`                                  Cosine of *x*\n:func:`sin(x) <sin>`                                  Sine of *x*\n:func:`tan(x) <tan>`                                  Tangent of *x*\n**Hyperbolic functions**\n--------------------------------------------------------------------------------------------------\n:func:`acosh(x) <acosh>`                              Inverse hyperbolic cosine of *x*\n:func:`asinh(x) <asinh>`                              Inverse hyperbolic sine of *x*\n:func:`atanh(x) <atanh>`                              Inverse hyperbolic tangent of *x*\n:func:`cosh(x) <cosh>`                                Hyperbolic cosine of *x*\n:func:`sinh(x) <sinh>`                                Hyperbolic sine of *x*\n:func:`tanh(x) <tanh>`                                Hyperbolic tangent of *x*\n**Special functions**\n--------------------------------------------------------------------------------------------------\n:func:`erf(x) <erf>`                                  `Error function <https://en.wikipedia.org/wiki/Error_function>`_ at *x*\n:func:`erfc(x) <erfc>`                                `Complementary error function <https://en.wikipedia.org/wiki/Error_function>`_ at *x*\n:func:`gamma(x) <gamma>`                              `Gamma function <https://en.wikipedia.org/wiki/Gamma_function>`_ at *x*\n:func:`lgamma(x) <lgamma>`                            Natural logarithm of the absolute value of the `Gamma function <https://en.wikipedia.org/wiki/Gamma_function>`_ at *x*\n**Constants**\n--------------------------------------------------------------------------------------------------\n:data:`pi`                                            *π* = 3.141592...\n:data:`e`                                             *e* = 2.718281...\n:data:`tau`                                           *τ* = 2\\ *π* = 6.283185...\n:data:`inf`                                           Positive infinity\n:data:`nan`                                           \"Not a number\" (NaN)\nNumber-theoretic functions\n--------------------------\nReturn the number of ways to choose *k* items from *n* items without repetition\nand without order. Evaluates to ``n! / (k! * (n - k)!)`` when ``k <= n`` and evaluates\nto zero when ``k > n``. Also called the binomial coefficient because it is equivalent\nto the coefficient of k-th term in polynomial expansion of\n``(1 + x)ⁿ``. Raises :exc:`TypeError` if either of the arguments are not integers.",
+                    "qas": [
+                        {
+                            "id": "qa_9",
+                            "question": "What challenges are associated with Evaluates?",
+                            "answers": [
+                                {
+                                    "text": "Evaluates to ``n! / (k! * (n - k)!)`` when ``k <= n`` and evaluates\nto zero when ``k > n``.",
+                                    "answer_start": 7378
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_10",
+                            "question": "What is mentioned about Evaluates?",
+                            "answers": [
+                                {
+                                    "text": "Evaluates to ``n! / (k! * (n - k)!)`` when ``k <= n`` and evaluates\nto zero when ``k > n``.",
+                                    "answer_start": 7378
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_11",
+                            "question": "What makes Evaluates unique?",
+                            "answers": [
+                                {
+                                    "text": "Evaluates to ``n! / (k! * (n - k)!)`` when ``k <= n`` and evaluates\nto zero when ``k > n``.",
+                                    "answer_start": 7378
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_12",
+                            "question": "Can you explain Evaluates?",
+                            "answers": [
+                                {
+                                    "text": "Evaluates to ``n! / (k! * (n - k)!)`` when ``k <= n`` and evaluates\nto zero when ``k > n``.",
+                                    "answer_start": 7378
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Evaluates to ``n! / (k! * (n - k)!)`` when ``k <= n`` and evaluates\nto zero when ``k > n``. Also called the binomial coefficient because it is equivalent\nto the coefficient of k-th term in polynomial expansion of\n``(1 + x)ⁿ``. Raises :exc:`TypeError` if either of the arguments are not integers. Raises :exc:`ValueError` if either of the arguments are negative. Return *n* factorial as an integer.",
+                    "qas": [
+                        {
+                            "id": "qa_13",
+                            "question": "What challenges are associated with Raises?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`TypeError` if either of the arguments are not integers.",
+                                    "answer_start": 227
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_14",
+                            "question": "What makes Raises unique?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`TypeError` if either of the arguments are not integers.",
+                                    "answer_start": 227
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_15",
+                            "question": "How is Raises used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`TypeError` if either of the arguments are not integers.",
+                                    "answer_start": 227
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_16",
+                            "question": "Can you explain Raises?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`TypeError` if either of the arguments are not integers.",
+                                    "answer_start": 227
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Also called the binomial coefficient because it is equivalent\nto the coefficient of k-th term in polynomial expansion of\n``(1 + x)ⁿ``. Raises :exc:`TypeError` if either of the arguments are not integers. Raises :exc:`ValueError` if either of the arguments are negative. Return *n* factorial as an integer. Raises :exc:`ValueError` if *n* is not integral or\nis negative.",
+                    "qas": [
+                        {
+                            "id": "qa_17",
+                            "question": "What makes Raises unique?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`ValueError` if either of the arguments are negative.",
+                                    "answer_start": 204
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_18",
+                            "question": "What challenges are associated with Raises?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`ValueError` if either of the arguments are negative.",
+                                    "answer_start": 204
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_19",
+                            "question": "How is Raises used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`ValueError` if either of the arguments are negative.",
+                                    "answer_start": 204
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_20",
+                            "question": "What is the role of Raises in Python?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`ValueError` if either of the arguments are negative.",
+                                    "answer_start": 204
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Raises :exc:`ValueError` if either of the arguments are negative. Return *n* factorial as an integer. Raises :exc:`ValueError` if *n* is not integral or\nis negative. Floats with integral values (like ``5.0``) are no longer accepted. Return the greatest common divisor of the specified integer arguments.",
+                    "qas": [
+                        {
+                            "id": "qa_21",
+                            "question": "How is Raises used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`ValueError` if *n* is not integral or\nis negative.",
+                                    "answer_start": 102
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_22",
+                            "question": "What makes Raises unique?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`ValueError` if *n* is not integral or\nis negative.",
+                                    "answer_start": 102
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_23",
+                            "question": "Why is Raises important?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`ValueError` if *n* is not integral or\nis negative.",
+                                    "answer_start": 102
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_24",
+                            "question": "What is the role of Raises in Python?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`ValueError` if *n* is not integral or\nis negative.",
+                                    "answer_start": 102
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Return *n* factorial as an integer. Raises :exc:`ValueError` if *n* is not integral or\nis negative. Floats with integral values (like ``5.0``) are no longer accepted. Return the greatest common divisor of the specified integer arguments. If any of the arguments is nonzero, then the returned value is the largest\npositive integer that is a divisor of all arguments.",
+                    "qas": [
+                        {
+                            "id": "qa_25",
+                            "question": "Why is Floats important?",
+                            "answers": [
+                                {
+                                    "text": "Floats with integral values (like ``5.0``) are no longer accepted.",
+                                    "answer_start": 100
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_26",
+                            "question": "What is the role of Floats in Python?",
+                            "answers": [
+                                {
+                                    "text": "Floats with integral values (like ``5.0``) are no longer accepted.",
+                                    "answer_start": 100
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_27",
+                            "question": "What challenges are associated with Floats?",
+                            "answers": [
+                                {
+                                    "text": "Floats with integral values (like ``5.0``) are no longer accepted.",
+                                    "answer_start": 100
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_28",
+                            "question": "Can you explain Floats?",
+                            "answers": [
+                                {
+                                    "text": "Floats with integral values (like ``5.0``) are no longer accepted.",
+                                    "answer_start": 100
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If all arguments\nare zero, then the returned value is ``0``.  ``gcd()`` without arguments\nreturns ``0``. Added support for an arbitrary number of arguments. Formerly, only two\narguments were supported. Return the integer square root of the nonnegative integer *n*. This is the\nfloor of the exact square root of *n*, or equivalently the greatest integer\n*a* such that *a*\\ ² |nbsp| ≤ |nbsp| *n*.",
+                    "qas": [
+                        {
+                            "id": "qa_29",
+                            "question": "What is the role of Formerly, in Python?",
+                            "answers": [
+                                {
+                                    "text": "Formerly, only two\narguments were supported.",
+                                    "answer_start": 157
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_30",
+                            "question": "What are the benefits of Formerly,?",
+                            "answers": [
+                                {
+                                    "text": "Formerly, only two\narguments were supported.",
+                                    "answer_start": 157
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_31",
+                            "question": "How is Formerly, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Formerly, only two\narguments were supported.",
+                                    "answer_start": 157
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_32",
+                            "question": "Can you explain Formerly,?",
+                            "answers": [
+                                {
+                                    "text": "Formerly, only two\narguments were supported.",
+                                    "answer_start": 157
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Return the integer square root of the nonnegative integer *n*. This is the\nfloor of the exact square root of *n*, or equivalently the greatest integer\n*a* such that *a*\\ ² |nbsp| ≤ |nbsp| *n*. For some applications, it may be more convenient to have the least integer\n*a* such that *n* |nbsp| ≤ |nbsp| *a*\\ ², or in other words the ceiling of\nthe exact square root of *n*. For positive *n*, this can be computed using\n``a = 1 + isqrt(n - 1)``. Return the least common multiple of the specified integer arguments.",
+                    "qas": [
+                        {
+                            "id": "qa_33",
+                            "question": "What is mentioned about For?",
+                            "answers": [
+                                {
+                                    "text": "For some applications, it may be more convenient to have the least integer\n*a* such that *n* |nbsp| ≤ |nbsp| *a*\\ ², or in other words the ceiling of\nthe exact square root of *n*.",
+                                    "answer_start": 193
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_34",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For some applications, it may be more convenient to have the least integer\n*a* such that *n* |nbsp| ≤ |nbsp| *a*\\ ², or in other words the ceiling of\nthe exact square root of *n*.",
+                                    "answer_start": 193
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_35",
+                            "question": "How is For used in programming?",
+                            "answers": [
+                                {
+                                    "text": "For some applications, it may be more convenient to have the least integer\n*a* such that *n* |nbsp| ≤ |nbsp| *a*\\ ², or in other words the ceiling of\nthe exact square root of *n*.",
+                                    "answer_start": 193
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_36",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For some applications, it may be more convenient to have the least integer\n*a* such that *n* |nbsp| ≤ |nbsp| *a*\\ ², or in other words the ceiling of\nthe exact square root of *n*.",
+                                    "answer_start": 193
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This is the\nfloor of the exact square root of *n*, or equivalently the greatest integer\n*a* such that *a*\\ ² |nbsp| ≤ |nbsp| *n*. For some applications, it may be more convenient to have the least integer\n*a* such that *n* |nbsp| ≤ |nbsp| *a*\\ ², or in other words the ceiling of\nthe exact square root of *n*. For positive *n*, this can be computed using\n``a = 1 + isqrt(n - 1)``. Return the least common multiple of the specified integer arguments. If all arguments are nonzero, then the returned value is the smallest\npositive integer that is a multiple of all arguments.",
+                    "qas": [
+                        {
+                            "id": "qa_37",
+                            "question": "How does For work?",
+                            "answers": [
+                                {
+                                    "text": "For positive *n*, this can be computed using\n``a = 1 + isqrt(n - 1)``.",
+                                    "answer_start": 310
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_38",
+                            "question": "What makes For unique?",
+                            "answers": [
+                                {
+                                    "text": "For positive *n*, this can be computed using\n``a = 1 + isqrt(n - 1)``.",
+                                    "answer_start": 310
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_39",
+                            "question": "What is the role of For in Python?",
+                            "answers": [
+                                {
+                                    "text": "For positive *n*, this can be computed using\n``a = 1 + isqrt(n - 1)``.",
+                                    "answer_start": 310
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_40",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For positive *n*, this can be computed using\n``a = 1 + isqrt(n - 1)``.",
+                                    "answer_start": 310
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If any of the arguments\nis zero, then the returned value is ``0``.  ``lcm()`` without arguments\nreturns ``1``. Return the number of ways to choose *k* items from *n* items\nwithout repetition and with order. Evaluates to ``n! / (n - k)!`` when ``k <= n`` and evaluates\nto zero when ``k > n``. If *k* is not specified or is ``None``, then *k* defaults to *n*\nand the function returns ``n!``. Raises :exc:`TypeError` if either of the arguments are not integers.",
+                    "qas": [
+                        {
+                            "id": "qa_41",
+                            "question": "What is mentioned about Evaluates?",
+                            "answers": [
+                                {
+                                    "text": "Evaluates to ``n! / (n - k)!`` when ``k <= n`` and evaluates\nto zero when ``k > n``.",
+                                    "answer_start": 207
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_42",
+                            "question": "How is Evaluates used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Evaluates to ``n! / (n - k)!`` when ``k <= n`` and evaluates\nto zero when ``k > n``.",
+                                    "answer_start": 207
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_43",
+                            "question": "What makes Evaluates unique?",
+                            "answers": [
+                                {
+                                    "text": "Evaluates to ``n! / (n - k)!`` when ``k <= n`` and evaluates\nto zero when ``k > n``.",
+                                    "answer_start": 207
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_44",
+                            "question": "What are the benefits of Evaluates?",
+                            "answers": [
+                                {
+                                    "text": "Evaluates to ``n! / (n - k)!`` when ``k <= n`` and evaluates\nto zero when ``k > n``.",
+                                    "answer_start": 207
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Evaluates to ``n! / (n - k)!`` when ``k <= n`` and evaluates\nto zero when ``k > n``. If *k* is not specified or is ``None``, then *k* defaults to *n*\nand the function returns ``n!``. Raises :exc:`TypeError` if either of the arguments are not integers. Raises :exc:`ValueError` if either of the arguments are negative. Floating point arithmetic\n-------------------------\nReturn the ceiling of *x*, the smallest integer greater than or equal to *x*.",
+                    "qas": [
+                        {
+                            "id": "qa_45",
+                            "question": "What are the benefits of Raises?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`TypeError` if either of the arguments are not integers.",
+                                    "answer_start": 183
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_46",
+                            "question": "What are the key features of Raises?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`TypeError` if either of the arguments are not integers.",
+                                    "answer_start": 183
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_47",
+                            "question": "Can you explain Raises?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`TypeError` if either of the arguments are not integers.",
+                                    "answer_start": 183
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_48",
+                            "question": "What is the role of Raises in Python?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`TypeError` if either of the arguments are not integers.",
+                                    "answer_start": 183
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If *k* is not specified or is ``None``, then *k* defaults to *n*\nand the function returns ``n!``. Raises :exc:`TypeError` if either of the arguments are not integers. Raises :exc:`ValueError` if either of the arguments are negative. Floating point arithmetic\n-------------------------\nReturn the ceiling of *x*, the smallest integer greater than or equal to *x*. If *x* is not a float, delegates to :meth:`x.__ceil__ <object.__ceil__>`,\nwhich should return an :class:`~numbers.Integral` value.",
+                    "qas": [
+                        {
+                            "id": "qa_49",
+                            "question": "How does Raises work?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`ValueError` if either of the arguments are negative.",
+                                    "answer_start": 167
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_50",
+                            "question": "What are the key features of Raises?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`ValueError` if either of the arguments are negative.",
+                                    "answer_start": 167
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_51",
+                            "question": "Can you explain Raises?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`ValueError` if either of the arguments are negative.",
+                                    "answer_start": 167
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_52",
+                            "question": "What is mentioned about Raises?",
+                            "answers": [
+                                {
+                                    "text": "Raises :exc:`ValueError` if either of the arguments are negative.",
+                                    "answer_start": 167
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Raises :exc:`TypeError` if either of the arguments are not integers. Raises :exc:`ValueError` if either of the arguments are negative. Floating point arithmetic\n-------------------------\nReturn the ceiling of *x*, the smallest integer greater than or equal to *x*. If *x* is not a float, delegates to :meth:`x.__ceil__ <object.__ceil__>`,\nwhich should return an :class:`~numbers.Integral` value. Return the absolute value of *x*.",
+                    "qas": [
+                        {
+                            "id": "qa_53",
+                            "question": "What are the benefits of Floating?",
+                            "answers": [
+                                {
+                                    "text": "Floating point arithmetic\n-------------------------\nReturn the ceiling of *x*, the smallest integer greater than or equal to *x*.",
+                                    "answer_start": 135
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_54",
+                            "question": "How is Floating used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Floating point arithmetic\n-------------------------\nReturn the ceiling of *x*, the smallest integer greater than or equal to *x*.",
+                                    "answer_start": 135
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_55",
+                            "question": "What is the role of Floating in Python?",
+                            "answers": [
+                                {
+                                    "text": "Floating point arithmetic\n-------------------------\nReturn the ceiling of *x*, the smallest integer greater than or equal to *x*.",
+                                    "answer_start": 135
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_56",
+                            "question": "What makes Floating unique?",
+                            "answers": [
+                                {
+                                    "text": "Floating point arithmetic\n-------------------------\nReturn the ceiling of *x*, the smallest integer greater than or equal to *x*.",
+                                    "answer_start": 135
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Return the floor of *x*, the largest integer less than or equal to *x*. If\n*x* is not a float, delegates to :meth:`x.__floor__ <object.__floor__>`, which\nshould return an :class:`~numbers.Integral` value. Fused multiply-add operation. Return ``(x * y) + z``, computed as though with\ninfinite precision and range followed by a single round to the ``float``\nformat. This operation often provides better accuracy than the direct\nexpression ``(x * y) + z``.",
+                    "qas": [
+                        {
+                            "id": "qa_57",
+                            "question": "What is the role of Fused in Python?",
+                            "answers": [
+                                {
+                                    "text": "Fused multiply-add operation.",
+                                    "answer_start": 205
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_58",
+                            "question": "Can you explain Fused?",
+                            "answers": [
+                                {
+                                    "text": "Fused multiply-add operation.",
+                                    "answer_start": 205
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_59",
+                            "question": "How is Fused used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Fused multiply-add operation.",
+                                    "answer_start": 205
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_60",
+                            "question": "What are the key features of Fused?",
+                            "answers": [
+                                {
+                                    "text": "Fused multiply-add operation.",
+                                    "answer_start": 205
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Note that the\nPython expression ``x % y`` may not return the same result. The intent of the C\nstandard is that ``fmod(x, y)`` be exactly (mathematically; to infinite\nprecision) equal to ``x - n*y`` for some integer *n* such that the result has\nthe same sign as *x* and magnitude less than ``abs(y)``. Python's ``x % y``\nreturns a result with the sign of *y* instead, and may not be exactly computable\nfor float arguments. For example, ``fmod(-1e-100, 1e100)`` is ``-1e-100``, but\nthe result of Python's ``-1e-100 % 1e100`` is ``1e100-1e-100``, which cannot be\nrepresented exactly as a float, and rounds to the surprising ``1e100``. For\nthis reason, function :func:`fmod` is generally preferred when working with\nfloats, while Python's ``x % y`` is preferred when working with integers.",
+                    "qas": [
+                        {
+                            "id": "qa_61",
+                            "question": "What are the key features of Python's?",
+                            "answers": [
+                                {
+                                    "text": "Python's ``x % y``\nreturns a result with the sign of *y* instead, and may not be exactly computable\nfor float arguments.",
+                                    "answer_start": 301
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_62",
+                            "question": "What is mentioned about Python's?",
+                            "answers": [
+                                {
+                                    "text": "Python's ``x % y``\nreturns a result with the sign of *y* instead, and may not be exactly computable\nfor float arguments.",
+                                    "answer_start": 301
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_63",
+                            "question": "What is the role of Python's in Python?",
+                            "answers": [
+                                {
+                                    "text": "Python's ``x % y``\nreturns a result with the sign of *y* instead, and may not be exactly computable\nfor float arguments.",
+                                    "answer_start": 301
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_64",
+                            "question": "How does Python's work?",
+                            "answers": [
+                                {
+                                    "text": "Python's ``x % y``\nreturns a result with the sign of *y* instead, and may not be exactly computable\nfor float arguments.",
+                                    "answer_start": 301
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The intent of the C\nstandard is that ``fmod(x, y)`` be exactly (mathematically; to infinite\nprecision) equal to ``x - n*y`` for some integer *n* such that the result has\nthe same sign as *x* and magnitude less than ``abs(y)``. Python's ``x % y``\nreturns a result with the sign of *y* instead, and may not be exactly computable\nfor float arguments. For example, ``fmod(-1e-100, 1e100)`` is ``-1e-100``, but\nthe result of Python's ``-1e-100 % 1e100`` is ``1e100-1e-100``, which cannot be\nrepresented exactly as a float, and rounds to the surprising ``1e100``. For\nthis reason, function :func:`fmod` is generally preferred when working with\nfloats, while Python's ``x % y`` is preferred when working with integers. Return the fractional and integer parts of *x*.",
+                    "qas": [
+                        {
+                            "id": "qa_65",
+                            "question": "How does For work?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``fmod(-1e-100, 1e100)`` is ``-1e-100``, but\nthe result of Python's ``-1e-100 % 1e100`` is ``1e100-1e-100``, which cannot be\nrepresented exactly as a float, and rounds to the surprising ``1e100``.",
+                                    "answer_start": 348
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_66",
+                            "question": "What makes For unique?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``fmod(-1e-100, 1e100)`` is ``-1e-100``, but\nthe result of Python's ``-1e-100 % 1e100`` is ``1e100-1e-100``, which cannot be\nrepresented exactly as a float, and rounds to the surprising ``1e100``.",
+                                    "answer_start": 348
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_67",
+                            "question": "What challenges are associated with For?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``fmod(-1e-100, 1e100)`` is ``-1e-100``, but\nthe result of Python's ``-1e-100 % 1e100`` is ``1e100-1e-100``, which cannot be\nrepresented exactly as a float, and rounds to the surprising ``1e100``.",
+                                    "answer_start": 348
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_68",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``fmod(-1e-100, 1e100)`` is ``-1e-100``, but\nthe result of Python's ``-1e-100 % 1e100`` is ``1e100-1e-100``, which cannot be\nrepresented exactly as a float, and rounds to the surprising ``1e100``.",
+                                    "answer_start": 348
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Python's ``x % y``\nreturns a result with the sign of *y* instead, and may not be exactly computable\nfor float arguments. For example, ``fmod(-1e-100, 1e100)`` is ``-1e-100``, but\nthe result of Python's ``-1e-100 % 1e100`` is ``1e100-1e-100``, which cannot be\nrepresented exactly as a float, and rounds to the surprising ``1e100``. For\nthis reason, function :func:`fmod` is generally preferred when working with\nfloats, while Python's ``x % y`` is preferred when working with integers. Return the fractional and integer parts of *x*. Both results carry the sign\nof *x* and are floats.",
+                    "qas": [
+                        {
+                            "id": "qa_69",
+                            "question": "Why is For important?",
+                            "answers": [
+                                {
+                                    "text": "For\nthis reason, function :func:`fmod` is generally preferred when working with\nfloats, while Python's ``x % y`` is preferred when working with integers.",
+                                    "answer_start": 331
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_70",
+                            "question": "What challenges are associated with For?",
+                            "answers": [
+                                {
+                                    "text": "For\nthis reason, function :func:`fmod` is generally preferred when working with\nfloats, while Python's ``x % y`` is preferred when working with integers.",
+                                    "answer_start": 331
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_71",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For\nthis reason, function :func:`fmod` is generally preferred when working with\nfloats, while Python's ``x % y`` is preferred when working with integers.",
+                                    "answer_start": 331
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_72",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For\nthis reason, function :func:`fmod` is generally preferred when working with\nfloats, while Python's ``x % y`` is preferred when working with integers.",
+                                    "answer_start": 331
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "For\nthis reason, function :func:`fmod` is generally preferred when working with\nfloats, while Python's ``x % y`` is preferred when working with integers. Return the fractional and integer parts of *x*. Both results carry the sign\nof *x* and are floats. Note that :func:`modf` has a different call/return pattern\nthan its C equivalents: it takes a single argument and return a pair of\nvalues, rather than returning its second return value through an 'output\nparameter' (there is no such thing in Python). Return the IEEE 754-style remainder of *x* with respect to *y*.",
+                    "qas": [
+                        {
+                            "id": "qa_73",
+                            "question": "What makes Both unique?",
+                            "answers": [
+                                {
+                                    "text": "Both results carry the sign\nof *x* and are floats.",
+                                    "answer_start": 202
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_74",
+                            "question": "What are the key features of Both?",
+                            "answers": [
+                                {
+                                    "text": "Both results carry the sign\nof *x* and are floats.",
+                                    "answer_start": 202
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_75",
+                            "question": "What challenges are associated with Both?",
+                            "answers": [
+                                {
+                                    "text": "Both results carry the sign\nof *x* and are floats.",
+                                    "answer_start": 202
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_76",
+                            "question": "Can you explain Both?",
+                            "answers": [
+                                {
+                                    "text": "Both results carry the sign\nof *x* and are floats.",
+                                    "answer_start": 202
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Note that :func:`modf` has a different call/return pattern\nthan its C equivalents: it takes a single argument and return a pair of\nvalues, rather than returning its second return value through an 'output\nparameter' (there is no such thing in Python). Return the IEEE 754-style remainder of *x* with respect to *y*. For\nfinite *x* and finite nonzero *y*, this is the difference ``x - n*y``,\nwhere ``n`` is the closest integer to the exact value of the quotient ``x /\ny``. If ``x / y`` is exactly halfway between two consecutive integers, the\nnearest *even* integer is used for ``n``. The remainder ``r = remainder(x,\ny)`` thus always satisfies ``abs(r) <= 0.5 * abs(y)``.",
+                    "qas": [
+                        {
+                            "id": "qa_77",
+                            "question": "What challenges are associated with For?",
+                            "answers": [
+                                {
+                                    "text": "For\nfinite *x* and finite nonzero *y*, this is the difference ``x - n*y``,\nwhere ``n`` is the closest integer to the exact value of the quotient ``x /\ny``.",
+                                    "answer_start": 315
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_78",
+                            "question": "What makes For unique?",
+                            "answers": [
+                                {
+                                    "text": "For\nfinite *x* and finite nonzero *y*, this is the difference ``x - n*y``,\nwhere ``n`` is the closest integer to the exact value of the quotient ``x /\ny``.",
+                                    "answer_start": 315
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_79",
+                            "question": "Why is For important?",
+                            "answers": [
+                                {
+                                    "text": "For\nfinite *x* and finite nonzero *y*, this is the difference ``x - n*y``,\nwhere ``n`` is the closest integer to the exact value of the quotient ``x /\ny``.",
+                                    "answer_start": 315
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_80",
+                            "question": "What is the role of For in Python?",
+                            "answers": [
+                                {
+                                    "text": "For\nfinite *x* and finite nonzero *y*, this is the difference ``x - n*y``,\nwhere ``n`` is the closest integer to the exact value of the quotient ``x /\ny``.",
+                                    "answer_start": 315
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If ``x / y`` is exactly halfway between two consecutive integers, the\nnearest *even* integer is used for ``n``. The remainder ``r = remainder(x,\ny)`` thus always satisfies ``abs(r) <= 0.5 * abs(y)``. Special cases follow IEEE 754: in particular, ``remainder(x, math.inf)`` is\n*x* for any finite *x*, and ``remainder(x, 0)`` and\n``remainder(math.inf, x)`` raise :exc:`ValueError` for any non-NaN *x*. If the result of the remainder operation is zero, that zero will have\nthe same sign as *x*. On platforms using IEEE 754 binary floating point, the result of this\noperation is always exactly representable: no rounding error is introduced.",
+                    "qas": [
+                        {
+                            "id": "qa_81",
+                            "question": "What challenges are associated with Special?",
+                            "answers": [
+                                {
+                                    "text": "Special cases follow IEEE 754: in particular, ``remainder(x, math.inf)`` is\n*x* for any finite *x*, and ``remainder(x, 0)`` and\n``remainder(math.inf, x)`` raise :exc:`ValueError` for any non-NaN *x*.",
+                                    "answer_start": 200
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_82",
+                            "question": "How does Special work?",
+                            "answers": [
+                                {
+                                    "text": "Special cases follow IEEE 754: in particular, ``remainder(x, math.inf)`` is\n*x* for any finite *x*, and ``remainder(x, 0)`` and\n``remainder(math.inf, x)`` raise :exc:`ValueError` for any non-NaN *x*.",
+                                    "answer_start": 200
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_83",
+                            "question": "What is mentioned about Special?",
+                            "answers": [
+                                {
+                                    "text": "Special cases follow IEEE 754: in particular, ``remainder(x, math.inf)`` is\n*x* for any finite *x*, and ``remainder(x, 0)`` and\n``remainder(math.inf, x)`` raise :exc:`ValueError` for any non-NaN *x*.",
+                                    "answer_start": 200
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_84",
+                            "question": "What is the role of Special in Python?",
+                            "answers": [
+                                {
+                                    "text": "Special cases follow IEEE 754: in particular, ``remainder(x, math.inf)`` is\n*x* for any finite *x*, and ``remainder(x, 0)`` and\n``remainder(math.inf, x)`` raise :exc:`ValueError` for any non-NaN *x*.",
+                                    "answer_start": 200
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This rounds toward 0: ``trunc()`` is\nequivalent to :func:`floor` for positive *x*, and equivalent to :func:`ceil`\nfor negative *x*. If *x* is not a float, delegates to :meth:`x.__trunc__\n<object.__trunc__>`, which should return an :class:`~numbers.Integral` value. For the :func:`ceil`, :func:`floor`, and :func:`modf` functions, note that *all*\nfloating-point numbers of sufficiently large magnitude are exact integers. Python floats typically carry no more than 53 bits of precision (the same as the\nplatform C double type), in which case any float *x* with ``abs(x) >= 2**52``\nnecessarily has no fractional bits. Floating point manipulation functions\n-------------------------------------\nReturn a float with the magnitude (absolute value) of *x* but the sign of\n*y*.",
+                    "qas": [
+                        {
+                            "id": "qa_85",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For the :func:`ceil`, :func:`floor`, and :func:`modf` functions, note that *all*\nfloating-point numbers of sufficiently large magnitude are exact integers.",
+                                    "answer_start": 265
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_86",
+                            "question": "What challenges are associated with For?",
+                            "answers": [
+                                {
+                                    "text": "For the :func:`ceil`, :func:`floor`, and :func:`modf` functions, note that *all*\nfloating-point numbers of sufficiently large magnitude are exact integers.",
+                                    "answer_start": 265
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_87",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For the :func:`ceil`, :func:`floor`, and :func:`modf` functions, note that *all*\nfloating-point numbers of sufficiently large magnitude are exact integers.",
+                                    "answer_start": 265
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_88",
+                            "question": "What is mentioned about For?",
+                            "answers": [
+                                {
+                                    "text": "For the :func:`ceil`, :func:`floor`, and :func:`modf` functions, note that *all*\nfloating-point numbers of sufficiently large magnitude are exact integers.",
+                                    "answer_start": 265
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If *x* is not a float, delegates to :meth:`x.__trunc__\n<object.__trunc__>`, which should return an :class:`~numbers.Integral` value. For the :func:`ceil`, :func:`floor`, and :func:`modf` functions, note that *all*\nfloating-point numbers of sufficiently large magnitude are exact integers. Python floats typically carry no more than 53 bits of precision (the same as the\nplatform C double type), in which case any float *x* with ``abs(x) >= 2**52``\nnecessarily has no fractional bits. Floating point manipulation functions\n-------------------------------------\nReturn a float with the magnitude (absolute value) of *x* but the sign of\n*y*. On platforms that support signed zeros, ``copysign(1.0, -0.0)``\nreturns *-1.0*.",
+                    "qas": [
+                        {
+                            "id": "qa_89",
+                            "question": "Why is Python important?",
+                            "answers": [
+                                {
+                                    "text": "Python floats typically carry no more than 53 bits of precision (the same as the\nplatform C double type), in which case any float *x* with ``abs(x) >= 2**52``\nnecessarily has no fractional bits.",
+                                    "answer_start": 289
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_90",
+                            "question": "What are the benefits of Python?",
+                            "answers": [
+                                {
+                                    "text": "Python floats typically carry no more than 53 bits of precision (the same as the\nplatform C double type), in which case any float *x* with ``abs(x) >= 2**52``\nnecessarily has no fractional bits.",
+                                    "answer_start": 289
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_91",
+                            "question": "What is mentioned about Python?",
+                            "answers": [
+                                {
+                                    "text": "Python floats typically carry no more than 53 bits of precision (the same as the\nplatform C double type), in which case any float *x* with ``abs(x) >= 2**52``\nnecessarily has no fractional bits.",
+                                    "answer_start": 289
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_92",
+                            "question": "How does Python work?",
+                            "answers": [
+                                {
+                                    "text": "Python floats typically carry no more than 53 bits of precision (the same as the\nplatform C double type), in which case any float *x* with ``abs(x) >= 2**52``\nnecessarily has no fractional bits.",
+                                    "answer_start": 289
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "For the :func:`ceil`, :func:`floor`, and :func:`modf` functions, note that *all*\nfloating-point numbers of sufficiently large magnitude are exact integers. Python floats typically carry no more than 53 bits of precision (the same as the\nplatform C double type), in which case any float *x* with ``abs(x) >= 2**52``\nnecessarily has no fractional bits. Floating point manipulation functions\n-------------------------------------\nReturn a float with the magnitude (absolute value) of *x* but the sign of\n*y*. On platforms that support signed zeros, ``copysign(1.0, -0.0)``\nreturns *-1.0*. Return the mantissa and exponent of *x* as the pair ``(m, e)``.  *m* is a float\nand *e* is an integer such that ``x == m * 2**e`` exactly.",
+                    "qas": [
+                        {
+                            "id": "qa_93",
+                            "question": "What are the benefits of Floating?",
+                            "answers": [
+                                {
+                                    "text": "Floating point manipulation functions\n-------------------------------------\nReturn a float with the magnitude (absolute value) of *x* but the sign of\n*y*.",
+                                    "answer_start": 351
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_94",
+                            "question": "What are the key features of Floating?",
+                            "answers": [
+                                {
+                                    "text": "Floating point manipulation functions\n-------------------------------------\nReturn a float with the magnitude (absolute value) of *x* but the sign of\n*y*.",
+                                    "answer_start": 351
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_95",
+                            "question": "Why is Floating important?",
+                            "answers": [
+                                {
+                                    "text": "Floating point manipulation functions\n-------------------------------------\nReturn a float with the magnitude (absolute value) of *x* but the sign of\n*y*.",
+                                    "answer_start": 351
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_96",
+                            "question": "What makes Floating unique?",
+                            "answers": [
+                                {
+                                    "text": "Floating point manipulation functions\n-------------------------------------\nReturn a float with the magnitude (absolute value) of *x* but the sign of\n*y*.",
+                                    "answer_start": 351
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Note that :func:`frexp` has a different call/return pattern\nthan its C equivalents: it takes a single argument and return a pair of\nvalues, rather than returning its second return value through an 'output\nparameter' (there is no such thing in Python). Return ``True`` if the values *a* and *b* are close to each other and\n``False`` otherwise. Whether or not two values are considered close is determined according to\ngiven absolute and relative tolerances. If no errors occur, the result will\nbe: ``abs(a-b) <= max(rel_tol * max(abs(a), abs(b)), abs_tol)``.\n*rel_tol* is the relative tolerance -- it is the maximum allowed difference\nbetween *a* and *b*, relative to the larger absolute value of *a* or *b*. For example, to set a tolerance of 5%, pass ``rel_tol=0.05``.",
+                    "qas": [
+                        {
+                            "id": "qa_97",
+                            "question": "Why is Whether important?",
+                            "answers": [
+                                {
+                                    "text": "Whether or not two values are considered close is determined according to\ngiven absolute and relative tolerances.",
+                                    "answer_start": 343
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_98",
+                            "question": "How does Whether work?",
+                            "answers": [
+                                {
+                                    "text": "Whether or not two values are considered close is determined according to\ngiven absolute and relative tolerances.",
+                                    "answer_start": 343
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_99",
+                            "question": "What are the benefits of Whether?",
+                            "answers": [
+                                {
+                                    "text": "Whether or not two values are considered close is determined according to\ngiven absolute and relative tolerances.",
+                                    "answer_start": 343
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_100",
+                            "question": "Can you explain Whether?",
+                            "answers": [
+                                {
+                                    "text": "Whether or not two values are considered close is determined according to\ngiven absolute and relative tolerances.",
+                                    "answer_start": 343
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

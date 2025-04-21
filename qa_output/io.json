@@ -1,0 +1,1235 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "title": "io",
+            "paragraphs": [
+                {
+                    "context": ":mod:`!io` --- Core tools for working with streams\n:synopsis: Core tools for working with streams.\n**Source code:** :source:`Lib/io.py`\n--------------\nOverview\n--------\nsingle: file object; io module\nThe :mod:`io` module provides Python's main facilities for dealing with various\ntypes of I/O. There are three main types of I/O: *text I/O*, *binary I/O*\nand *raw I/O*. These are generic categories, and various backing stores can\nbe used for each of them.",
+                    "qas": [
+                        {
+                            "id": "qa_1",
+                            "question": "What makes :mod:`!io` unique?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!io` --- Core tools for working with streams\n:synopsis: Core tools for working with streams.\n**Source code:** :source:`Lib/io.py`\n--------------\nOverview\n--------\nsingle: file object; io module\nThe :mod:`io` module provides Python's main facilities for dealing with various\ntypes of I/O.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_2",
+                            "question": "Can you explain :mod:`!io`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!io` --- Core tools for working with streams\n:synopsis: Core tools for working with streams.\n**Source code:** :source:`Lib/io.py`\n--------------\nOverview\n--------\nsingle: file object; io module\nThe :mod:`io` module provides Python's main facilities for dealing with various\ntypes of I/O.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_3",
+                            "question": "How is :mod:`!io` used in programming?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!io` --- Core tools for working with streams\n:synopsis: Core tools for working with streams.\n**Source code:** :source:`Lib/io.py`\n--------------\nOverview\n--------\nsingle: file object; io module\nThe :mod:`io` module provides Python's main facilities for dealing with various\ntypes of I/O.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_4",
+                            "question": "How does :mod:`!io` work?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!io` --- Core tools for working with streams\n:synopsis: Core tools for working with streams.\n**Source code:** :source:`Lib/io.py`\n--------------\nOverview\n--------\nsingle: file object; io module\nThe :mod:`io` module provides Python's main facilities for dealing with various\ntypes of I/O.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": ":mod:`!io` --- Core tools for working with streams\n:synopsis: Core tools for working with streams.\n**Source code:** :source:`Lib/io.py`\n--------------\nOverview\n--------\nsingle: file object; io module\nThe :mod:`io` module provides Python's main facilities for dealing with various\ntypes of I/O. There are three main types of I/O: *text I/O*, *binary I/O*\nand *raw I/O*. These are generic categories, and various backing stores can\nbe used for each of them. A concrete object belonging to any of these\ncategories is called a :term:`file object`.",
+                    "qas": [
+                        {
+                            "id": "qa_5",
+                            "question": "What is the role of There in Python?",
+                            "answers": [
+                                {
+                                    "text": "There are three main types of I/O: *text I/O*, *binary I/O*\nand *raw I/O*.",
+                                    "answer_start": 294
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_6",
+                            "question": "How does There work?",
+                            "answers": [
+                                {
+                                    "text": "There are three main types of I/O: *text I/O*, *binary I/O*\nand *raw I/O*.",
+                                    "answer_start": 294
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_7",
+                            "question": "Can you explain There?",
+                            "answers": [
+                                {
+                                    "text": "There are three main types of I/O: *text I/O*, *binary I/O*\nand *raw I/O*.",
+                                    "answer_start": 294
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_8",
+                            "question": "What are the benefits of There?",
+                            "answers": [
+                                {
+                                    "text": "There are three main types of I/O: *text I/O*, *binary I/O*\nand *raw I/O*.",
+                                    "answer_start": 294
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "These are generic categories, and various backing stores can\nbe used for each of them. A concrete object belonging to any of these\ncategories is called a :term:`file object`. Other common terms are *stream*\nand *file-like object*. Independent of its category, each concrete stream object will also have\nvarious capabilities: it can be read-only, write-only, or read-write. It can\nalso allow arbitrary random access (seeking forwards or backwards to any\nlocation), or only sequential access (for example in the case of a socket or\npipe).",
+                    "qas": [
+                        {
+                            "id": "qa_9",
+                            "question": "How is Other used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Other common terms are *stream*\nand *file-like object*.",
+                                    "answer_start": 175
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_10",
+                            "question": "What makes Other unique?",
+                            "answers": [
+                                {
+                                    "text": "Other common terms are *stream*\nand *file-like object*.",
+                                    "answer_start": 175
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_11",
+                            "question": "What are the benefits of Other?",
+                            "answers": [
+                                {
+                                    "text": "Other common terms are *stream*\nand *file-like object*.",
+                                    "answer_start": 175
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_12",
+                            "question": "What is the role of Other in Python?",
+                            "answers": [
+                                {
+                                    "text": "Other common terms are *stream*\nand *file-like object*.",
+                                    "answer_start": 175
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "A concrete object belonging to any of these\ncategories is called a :term:`file object`. Other common terms are *stream*\nand *file-like object*. Independent of its category, each concrete stream object will also have\nvarious capabilities: it can be read-only, write-only, or read-write. It can\nalso allow arbitrary random access (seeking forwards or backwards to any\nlocation), or only sequential access (for example in the case of a socket or\npipe). All streams are careful about the type of data you give to them.",
+                    "qas": [
+                        {
+                            "id": "qa_13",
+                            "question": "What is mentioned about Independent?",
+                            "answers": [
+                                {
+                                    "text": "Independent of its category, each concrete stream object will also have\nvarious capabilities: it can be read-only, write-only, or read-write.",
+                                    "answer_start": 144
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_14",
+                            "question": "What challenges are associated with Independent?",
+                            "answers": [
+                                {
+                                    "text": "Independent of its category, each concrete stream object will also have\nvarious capabilities: it can be read-only, write-only, or read-write.",
+                                    "answer_start": 144
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_15",
+                            "question": "How does Independent work?",
+                            "answers": [
+                                {
+                                    "text": "Independent of its category, each concrete stream object will also have\nvarious capabilities: it can be read-only, write-only, or read-write.",
+                                    "answer_start": 144
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_16",
+                            "question": "Can you explain Independent?",
+                            "answers": [
+                                {
+                                    "text": "Independent of its category, each concrete stream object will also have\nvarious capabilities: it can be read-only, write-only, or read-write.",
+                                    "answer_start": 144
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Independent of its category, each concrete stream object will also have\nvarious capabilities: it can be read-only, write-only, or read-write. It can\nalso allow arbitrary random access (seeking forwards or backwards to any\nlocation), or only sequential access (for example in the case of a socket or\npipe). All streams are careful about the type of data you give to them. For example\ngiving a :class:`str` object to the :meth:`!write` method of a binary stream\nwill raise a :exc:`TypeError`. So will giving a :class:`bytes` object to the\n:meth:`!write` method of a text stream.",
+                    "qas": [
+                        {
+                            "id": "qa_17",
+                            "question": "Why is All important?",
+                            "answers": [
+                                {
+                                    "text": "All streams are careful about the type of data you give to them.",
+                                    "answer_start": 306
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_18",
+                            "question": "What is mentioned about All?",
+                            "answers": [
+                                {
+                                    "text": "All streams are careful about the type of data you give to them.",
+                                    "answer_start": 306
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_19",
+                            "question": "What is the role of All in Python?",
+                            "answers": [
+                                {
+                                    "text": "All streams are careful about the type of data you give to them.",
+                                    "answer_start": 306
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_20",
+                            "question": "Can you explain All?",
+                            "answers": [
+                                {
+                                    "text": "All streams are careful about the type of data you give to them.",
+                                    "answer_start": 306
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "It can\nalso allow arbitrary random access (seeking forwards or backwards to any\nlocation), or only sequential access (for example in the case of a socket or\npipe). All streams are careful about the type of data you give to them. For example\ngiving a :class:`str` object to the :meth:`!write` method of a binary stream\nwill raise a :exc:`TypeError`. So will giving a :class:`bytes` object to the\n:meth:`!write` method of a text stream. Operations that used to raise :exc:`IOError` now raise :exc:`OSError`, since\n:exc:`IOError` is now an alias of :exc:`OSError`.",
+                    "qas": [
+                        {
+                            "id": "qa_21",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For example\ngiving a :class:`str` object to the :meth:`!write` method of a binary stream\nwill raise a :exc:`TypeError`.",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_22",
+                            "question": "How is For used in programming?",
+                            "answers": [
+                                {
+                                    "text": "For example\ngiving a :class:`str` object to the :meth:`!write` method of a binary stream\nwill raise a :exc:`TypeError`.",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_23",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For example\ngiving a :class:`str` object to the :meth:`!write` method of a binary stream\nwill raise a :exc:`TypeError`.",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_24",
+                            "question": "Why is For important?",
+                            "answers": [
+                                {
+                                    "text": "For example\ngiving a :class:`str` object to the :meth:`!write` method of a binary stream\nwill raise a :exc:`TypeError`.",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "For example\ngiving a :class:`str` object to the :meth:`!write` method of a binary stream\nwill raise a :exc:`TypeError`. So will giving a :class:`bytes` object to the\n:meth:`!write` method of a text stream. Operations that used to raise :exc:`IOError` now raise :exc:`OSError`, since\n:exc:`IOError` is now an alias of :exc:`OSError`. Text I/O\n^^^^^^^^\nText I/O expects and produces :class:`str` objects. This means that whenever\nthe backing store is natively made of bytes (such as in the case of a file),\nencoding and decoding of data is made transparently as well as optional\ntranslation of platform-specific newline characters.",
+                    "qas": [
+                        {
+                            "id": "qa_25",
+                            "question": "What makes Operations unique?",
+                            "answers": [
+                                {
+                                    "text": "Operations that used to raise :exc:`IOError` now raise :exc:`OSError`, since\n:exc:`IOError` is now an alias of :exc:`OSError`.",
+                                    "answer_start": 206
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_26",
+                            "question": "Why is Operations important?",
+                            "answers": [
+                                {
+                                    "text": "Operations that used to raise :exc:`IOError` now raise :exc:`OSError`, since\n:exc:`IOError` is now an alias of :exc:`OSError`.",
+                                    "answer_start": 206
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_27",
+                            "question": "What are the key features of Operations?",
+                            "answers": [
+                                {
+                                    "text": "Operations that used to raise :exc:`IOError` now raise :exc:`OSError`, since\n:exc:`IOError` is now an alias of :exc:`OSError`.",
+                                    "answer_start": 206
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_28",
+                            "question": "What challenges are associated with Operations?",
+                            "answers": [
+                                {
+                                    "text": "Operations that used to raise :exc:`IOError` now raise :exc:`OSError`, since\n:exc:`IOError` is now an alias of :exc:`OSError`.",
+                                    "answer_start": 206
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "So will giving a :class:`bytes` object to the\n:meth:`!write` method of a text stream. Operations that used to raise :exc:`IOError` now raise :exc:`OSError`, since\n:exc:`IOError` is now an alias of :exc:`OSError`. Text I/O\n^^^^^^^^\nText I/O expects and produces :class:`str` objects. This means that whenever\nthe backing store is natively made of bytes (such as in the case of a file),\nencoding and decoding of data is made transparently as well as optional\ntranslation of platform-specific newline characters. The easiest way to create a text stream is with :meth:`open`, optionally\nspecifying an encoding::\nf = open(\"myfile.txt\", \"r\", encoding=\"utf-8\")\nIn-memory text streams are also available as :class:`StringIO` objects::\nf = io.StringIO(\"some initial text data\")\nWhen working with a non-blocking stream, be aware that read operations on text I/O objects\nmight raise a :exc:`BlockingIOError` if the stream cannot perform the operation\nimmediately.",
+                    "qas": [
+                        {
+                            "id": "qa_29",
+                            "question": "Can you explain Text?",
+                            "answers": [
+                                {
+                                    "text": "Text I/O\n^^^^^^^^\nText I/O expects and produces :class:`str` objects.",
+                                    "answer_start": 213
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_30",
+                            "question": "What is mentioned about Text?",
+                            "answers": [
+                                {
+                                    "text": "Text I/O\n^^^^^^^^\nText I/O expects and produces :class:`str` objects.",
+                                    "answer_start": 213
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_31",
+                            "question": "How is Text used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Text I/O\n^^^^^^^^\nText I/O expects and produces :class:`str` objects.",
+                                    "answer_start": 213
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_32",
+                            "question": "What are the benefits of Text?",
+                            "answers": [
+                                {
+                                    "text": "Text I/O\n^^^^^^^^\nText I/O expects and produces :class:`str` objects.",
+                                    "answer_start": 213
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The easiest way to create a text stream is with :meth:`open`, optionally\nspecifying an encoding::\nf = open(\"myfile.txt\", \"r\", encoding=\"utf-8\")\nIn-memory text streams are also available as :class:`StringIO` objects::\nf = io.StringIO(\"some initial text data\")\nWhen working with a non-blocking stream, be aware that read operations on text I/O objects\nmight raise a :exc:`BlockingIOError` if the stream cannot perform the operation\nimmediately. The text stream API is described in detail in the documentation of\n:class:`TextIOBase`. Binary I/O\n^^^^^^^^^^\nBinary I/O (also called *buffered I/O*) expects\n:term:`bytes-like objects <bytes-like object>` and produces :class:`bytes`\nobjects. No encoding, decoding, or newline translation is performed. This\ncategory of streams can be used for all kinds of non-text data, and also when\nmanual control over the handling of text data is desired.",
+                    "qas": [
+                        {
+                            "id": "qa_33",
+                            "question": "How is Binary used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Binary I/O\n^^^^^^^^^^\nBinary I/O (also called *buffered I/O*) expects\n:term:`bytes-like objects <bytes-like object>` and produces :class:`bytes`\nobjects.",
+                                    "answer_start": 531
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_34",
+                            "question": "How does Binary work?",
+                            "answers": [
+                                {
+                                    "text": "Binary I/O\n^^^^^^^^^^\nBinary I/O (also called *buffered I/O*) expects\n:term:`bytes-like objects <bytes-like object>` and produces :class:`bytes`\nobjects.",
+                                    "answer_start": 531
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_35",
+                            "question": "What is the role of Binary in Python?",
+                            "answers": [
+                                {
+                                    "text": "Binary I/O\n^^^^^^^^^^\nBinary I/O (also called *buffered I/O*) expects\n:term:`bytes-like objects <bytes-like object>` and produces :class:`bytes`\nobjects.",
+                                    "answer_start": 531
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_36",
+                            "question": "What makes Binary unique?",
+                            "answers": [
+                                {
+                                    "text": "Binary I/O\n^^^^^^^^^^\nBinary I/O (also called *buffered I/O*) expects\n:term:`bytes-like objects <bytes-like object>` and produces :class:`bytes`\nobjects.",
+                                    "answer_start": 531
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This\ncategory of streams can be used for all kinds of non-text data, and also when\nmanual control over the handling of text data is desired. The easiest way to create a binary stream is with :meth:`open` with ``'b'`` in\nthe mode string::\nf = open(\"myfile.jpg\", \"rb\")\nIn-memory binary streams are also available as :class:`BytesIO` objects::\nf = io.BytesIO(b\"some initial binary data: \\x00\\x01\")\nThe binary stream API is described in detail in the docs of\n:class:`BufferedIOBase`. Other library modules may provide additional ways to create text or binary\nstreams. See :meth:`socket.socket.makefile` for example. Raw I/O\n^^^^^^^\nRaw I/O (also called *unbuffered I/O*) is generally used as a low-level\nbuilding-block for binary and text streams; it is rarely useful to directly\nmanipulate a raw stream from user code.",
+                    "qas": [
+                        {
+                            "id": "qa_37",
+                            "question": "How is Other used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Other library modules may provide additional ways to create text or binary\nstreams.",
+                                    "answer_start": 480
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_38",
+                            "question": "Can you explain Other?",
+                            "answers": [
+                                {
+                                    "text": "Other library modules may provide additional ways to create text or binary\nstreams.",
+                                    "answer_start": 480
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_39",
+                            "question": "What are the benefits of Other?",
+                            "answers": [
+                                {
+                                    "text": "Other library modules may provide additional ways to create text or binary\nstreams.",
+                                    "answer_start": 480
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_40",
+                            "question": "What is the role of Other in Python?",
+                            "answers": [
+                                {
+                                    "text": "Other library modules may provide additional ways to create text or binary\nstreams.",
+                                    "answer_start": 480
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The easiest way to create a binary stream is with :meth:`open` with ``'b'`` in\nthe mode string::\nf = open(\"myfile.jpg\", \"rb\")\nIn-memory binary streams are also available as :class:`BytesIO` objects::\nf = io.BytesIO(b\"some initial binary data: \\x00\\x01\")\nThe binary stream API is described in detail in the docs of\n:class:`BufferedIOBase`. Other library modules may provide additional ways to create text or binary\nstreams. See :meth:`socket.socket.makefile` for example. Raw I/O\n^^^^^^^\nRaw I/O (also called *unbuffered I/O*) is generally used as a low-level\nbuilding-block for binary and text streams; it is rarely useful to directly\nmanipulate a raw stream from user code. Nevertheless, you can create a raw\nstream by opening a file in binary mode with buffering disabled::\nf = open(\"myfile.jpg\", \"rb\", buffering=0)\nThe raw stream API is described in detail in the docs of :class:`RawIOBase`.",
+                    "qas": [
+                        {
+                            "id": "qa_41",
+                            "question": "What is mentioned about See?",
+                            "answers": [
+                                {
+                                    "text": "See :meth:`socket.socket.makefile` for example.",
+                                    "answer_start": 423
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_42",
+                            "question": "What challenges are associated with See?",
+                            "answers": [
+                                {
+                                    "text": "See :meth:`socket.socket.makefile` for example.",
+                                    "answer_start": 423
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_43",
+                            "question": "What makes See unique?",
+                            "answers": [
+                                {
+                                    "text": "See :meth:`socket.socket.makefile` for example.",
+                                    "answer_start": 423
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_44",
+                            "question": "What are the benefits of See?",
+                            "answers": [
+                                {
+                                    "text": "See :meth:`socket.socket.makefile` for example.",
+                                    "answer_start": 423
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Other library modules may provide additional ways to create text or binary\nstreams. See :meth:`socket.socket.makefile` for example. Raw I/O\n^^^^^^^\nRaw I/O (also called *unbuffered I/O*) is generally used as a low-level\nbuilding-block for binary and text streams; it is rarely useful to directly\nmanipulate a raw stream from user code. Nevertheless, you can create a raw\nstream by opening a file in binary mode with buffering disabled::\nf = open(\"myfile.jpg\", \"rb\", buffering=0)\nThe raw stream API is described in detail in the docs of :class:`RawIOBase`. Text Encoding\n-------------\nThe default encoding of :class:`TextIOWrapper` and :func:`open` is\nlocale-specific (:func:`locale.getencoding`).",
+                    "qas": [
+                        {
+                            "id": "qa_45",
+                            "question": "How does Raw work?",
+                            "answers": [
+                                {
+                                    "text": "Raw I/O\n^^^^^^^\nRaw I/O (also called *unbuffered I/O*) is generally used as a low-level\nbuilding-block for binary and text streams; it is rarely useful to directly\nmanipulate a raw stream from user code.",
+                                    "answer_start": 132
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_46",
+                            "question": "Why is Raw important?",
+                            "answers": [
+                                {
+                                    "text": "Raw I/O\n^^^^^^^\nRaw I/O (also called *unbuffered I/O*) is generally used as a low-level\nbuilding-block for binary and text streams; it is rarely useful to directly\nmanipulate a raw stream from user code.",
+                                    "answer_start": 132
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_47",
+                            "question": "What is mentioned about Raw?",
+                            "answers": [
+                                {
+                                    "text": "Raw I/O\n^^^^^^^\nRaw I/O (also called *unbuffered I/O*) is generally used as a low-level\nbuilding-block for binary and text streams; it is rarely useful to directly\nmanipulate a raw stream from user code.",
+                                    "answer_start": 132
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_48",
+                            "question": "What makes Raw unique?",
+                            "answers": [
+                                {
+                                    "text": "Raw I/O\n^^^^^^^\nRaw I/O (also called *unbuffered I/O*) is generally used as a low-level\nbuilding-block for binary and text streams; it is rarely useful to directly\nmanipulate a raw stream from user code.",
+                                    "answer_start": 132
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "See :meth:`socket.socket.makefile` for example. Raw I/O\n^^^^^^^\nRaw I/O (also called *unbuffered I/O*) is generally used as a low-level\nbuilding-block for binary and text streams; it is rarely useful to directly\nmanipulate a raw stream from user code. Nevertheless, you can create a raw\nstream by opening a file in binary mode with buffering disabled::\nf = open(\"myfile.jpg\", \"rb\", buffering=0)\nThe raw stream API is described in detail in the docs of :class:`RawIOBase`. Text Encoding\n-------------\nThe default encoding of :class:`TextIOWrapper` and :func:`open` is\nlocale-specific (:func:`locale.getencoding`). However, many developers forget to specify the encoding when opening text files\nencoded in UTF-8 (e.g. JSON, TOML, Markdown, etc...) since most Unix\nplatforms use UTF-8 locale by default.",
+                    "qas": [
+                        {
+                            "id": "qa_49",
+                            "question": "What are the key features of Nevertheless,?",
+                            "answers": [
+                                {
+                                    "text": "Nevertheless, you can create a raw\nstream by opening a file in binary mode with buffering disabled::\nf = open(\"myfile.jpg\", \"rb\", buffering=0)\nThe raw stream API is described in detail in the docs of :class:`RawIOBase`.",
+                                    "answer_start": 252
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_50",
+                            "question": "What challenges are associated with Nevertheless,?",
+                            "answers": [
+                                {
+                                    "text": "Nevertheless, you can create a raw\nstream by opening a file in binary mode with buffering disabled::\nf = open(\"myfile.jpg\", \"rb\", buffering=0)\nThe raw stream API is described in detail in the docs of :class:`RawIOBase`.",
+                                    "answer_start": 252
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_51",
+                            "question": "What are the benefits of Nevertheless,?",
+                            "answers": [
+                                {
+                                    "text": "Nevertheless, you can create a raw\nstream by opening a file in binary mode with buffering disabled::\nf = open(\"myfile.jpg\", \"rb\", buffering=0)\nThe raw stream API is described in detail in the docs of :class:`RawIOBase`.",
+                                    "answer_start": 252
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_52",
+                            "question": "How does Nevertheless, work?",
+                            "answers": [
+                                {
+                                    "text": "Nevertheless, you can create a raw\nstream by opening a file in binary mode with buffering disabled::\nf = open(\"myfile.jpg\", \"rb\", buffering=0)\nThe raw stream API is described in detail in the docs of :class:`RawIOBase`.",
+                                    "answer_start": 252
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Raw I/O\n^^^^^^^\nRaw I/O (also called *unbuffered I/O*) is generally used as a low-level\nbuilding-block for binary and text streams; it is rarely useful to directly\nmanipulate a raw stream from user code. Nevertheless, you can create a raw\nstream by opening a file in binary mode with buffering disabled::\nf = open(\"myfile.jpg\", \"rb\", buffering=0)\nThe raw stream API is described in detail in the docs of :class:`RawIOBase`. Text Encoding\n-------------\nThe default encoding of :class:`TextIOWrapper` and :func:`open` is\nlocale-specific (:func:`locale.getencoding`). However, many developers forget to specify the encoding when opening text files\nencoded in UTF-8 (e.g. JSON, TOML, Markdown, etc...) since most Unix\nplatforms use UTF-8 locale by default. This causes bugs because the locale\nencoding is not UTF-8 for most Windows users.",
+                    "qas": [
+                        {
+                            "id": "qa_53",
+                            "question": "Why is Text important?",
+                            "answers": [
+                                {
+                                    "text": "Text Encoding\n-------------\nThe default encoding of :class:`TextIOWrapper` and :func:`open` is\nlocale-specific (:func:`locale.getencoding`).",
+                                    "answer_start": 424
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_54",
+                            "question": "What is mentioned about Text?",
+                            "answers": [
+                                {
+                                    "text": "Text Encoding\n-------------\nThe default encoding of :class:`TextIOWrapper` and :func:`open` is\nlocale-specific (:func:`locale.getencoding`).",
+                                    "answer_start": 424
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_55",
+                            "question": "How is Text used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Text Encoding\n-------------\nThe default encoding of :class:`TextIOWrapper` and :func:`open` is\nlocale-specific (:func:`locale.getencoding`).",
+                                    "answer_start": 424
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_56",
+                            "question": "What makes Text unique?",
+                            "answers": [
+                                {
+                                    "text": "Text Encoding\n-------------\nThe default encoding of :class:`TextIOWrapper` and :func:`open` is\nlocale-specific (:func:`locale.getencoding`).",
+                                    "answer_start": 424
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Nevertheless, you can create a raw\nstream by opening a file in binary mode with buffering disabled::\nf = open(\"myfile.jpg\", \"rb\", buffering=0)\nThe raw stream API is described in detail in the docs of :class:`RawIOBase`. Text Encoding\n-------------\nThe default encoding of :class:`TextIOWrapper` and :func:`open` is\nlocale-specific (:func:`locale.getencoding`). However, many developers forget to specify the encoding when opening text files\nencoded in UTF-8 (e.g. JSON, TOML, Markdown, etc...) since most Unix\nplatforms use UTF-8 locale by default. This causes bugs because the locale\nencoding is not UTF-8 for most Windows users. For example::\n# May not work on Windows when non-ASCII characters in the file.\nwith open(\"README.md\") as f:\nlong_description = f.read()\nAccordingly, it is highly recommended that you specify the encoding\nexplicitly when opening text files.",
+                    "qas": [
+                        {
+                            "id": "qa_57",
+                            "question": "What is mentioned about However,?",
+                            "answers": [
+                                {
+                                    "text": "However, many developers forget to specify the encoding when opening text files\nencoded in UTF-8 (e.g. JSON, TOML, Markdown, etc...) since most Unix\nplatforms use UTF-8 locale by default.",
+                                    "answer_start": 361
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_58",
+                            "question": "How is However, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "However, many developers forget to specify the encoding when opening text files\nencoded in UTF-8 (e.g. JSON, TOML, Markdown, etc...) since most Unix\nplatforms use UTF-8 locale by default.",
+                                    "answer_start": 361
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_59",
+                            "question": "What are the key features of However,?",
+                            "answers": [
+                                {
+                                    "text": "However, many developers forget to specify the encoding when opening text files\nencoded in UTF-8 (e.g. JSON, TOML, Markdown, etc...) since most Unix\nplatforms use UTF-8 locale by default.",
+                                    "answer_start": 361
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_60",
+                            "question": "What challenges are associated with However,?",
+                            "answers": [
+                                {
+                                    "text": "However, many developers forget to specify the encoding when opening text files\nencoded in UTF-8 (e.g. JSON, TOML, Markdown, etc...) since most Unix\nplatforms use UTF-8 locale by default.",
+                                    "answer_start": 361
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "However, many developers forget to specify the encoding when opening text files\nencoded in UTF-8 (e.g. JSON, TOML, Markdown, etc...) since most Unix\nplatforms use UTF-8 locale by default. This causes bugs because the locale\nencoding is not UTF-8 for most Windows users. For example::\n# May not work on Windows when non-ASCII characters in the file.\nwith open(\"README.md\") as f:\nlong_description = f.read()\nAccordingly, it is highly recommended that you specify the encoding\nexplicitly when opening text files. If you want to use UTF-8, pass\n``encoding=\"utf-8\"``. To use the current locale encoding,\n``encoding=\"locale\"`` is supported since Python 3.10.\n:ref:`utf8-mode`\nPython UTF-8 Mode can be used to change the default encoding to\nUTF-8 from locale-specific encoding.\n:pep:`686`\nPython 3.15 will make :ref:`utf8-mode` default.",
+                    "qas": [
+                        {
+                            "id": "qa_61",
+                            "question": "What is mentioned about For?",
+                            "answers": [
+                                {
+                                    "text": "For example::\n# May not work on Windows when non-ASCII characters in the file.\nwith open(\"README.md\") as f:\nlong_description = f.read()\nAccordingly, it is highly recommended that you specify the encoding\nexplicitly when opening text files.",
+                                    "answer_start": 270
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_62",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For example::\n# May not work on Windows when non-ASCII characters in the file.\nwith open(\"README.md\") as f:\nlong_description = f.read()\nAccordingly, it is highly recommended that you specify the encoding\nexplicitly when opening text files.",
+                                    "answer_start": 270
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_63",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For example::\n# May not work on Windows when non-ASCII characters in the file.\nwith open(\"README.md\") as f:\nlong_description = f.read()\nAccordingly, it is highly recommended that you specify the encoding\nexplicitly when opening text files.",
+                                    "answer_start": 270
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_64",
+                            "question": "What makes For unique?",
+                            "answers": [
+                                {
+                                    "text": "For example::\n# May not work on Windows when non-ASCII characters in the file.\nwith open(\"README.md\") as f:\nlong_description = f.read()\nAccordingly, it is highly recommended that you specify the encoding\nexplicitly when opening text files.",
+                                    "answer_start": 270
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If you want to use UTF-8, pass\n``encoding=\"utf-8\"``. To use the current locale encoding,\n``encoding=\"locale\"`` is supported since Python 3.10.\n:ref:`utf8-mode`\nPython UTF-8 Mode can be used to change the default encoding to\nUTF-8 from locale-specific encoding.\n:pep:`686`\nPython 3.15 will make :ref:`utf8-mode` default. Opt-in EncodingWarning\n^^^^^^^^^^^^^^^^^^^^^^\nSee :pep:`597` for more details. To find where the default locale encoding is used, you can enable\nthe :option:`-X warn_default_encoding <-X>` command line option or set the\n:envvar:`PYTHONWARNDEFAULTENCODING` environment variable, which will\nemit an :exc:`EncodingWarning` when the default encoding is used. If you are providing an API that uses :func:`open` or\n:class:`TextIOWrapper` and passes ``encoding=None`` as a parameter, you\ncan use :func:`text_encoding` so that callers of the API will emit an\n:exc:`EncodingWarning` if they don't pass an ``encoding``.",
+                    "qas": [
+                        {
+                            "id": "qa_65",
+                            "question": "How is Opt-in used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Opt-in EncodingWarning\n^^^^^^^^^^^^^^^^^^^^^^\nSee :pep:`597` for more details.",
+                                    "answer_start": 320
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_66",
+                            "question": "What is mentioned about Opt-in?",
+                            "answers": [
+                                {
+                                    "text": "Opt-in EncodingWarning\n^^^^^^^^^^^^^^^^^^^^^^\nSee :pep:`597` for more details.",
+                                    "answer_start": 320
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_67",
+                            "question": "What is the role of Opt-in in Python?",
+                            "answers": [
+                                {
+                                    "text": "Opt-in EncodingWarning\n^^^^^^^^^^^^^^^^^^^^^^\nSee :pep:`597` for more details.",
+                                    "answer_start": 320
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_68",
+                            "question": "Can you explain Opt-in?",
+                            "answers": [
+                                {
+                                    "text": "Opt-in EncodingWarning\n^^^^^^^^^^^^^^^^^^^^^^\nSee :pep:`597` for more details.",
+                                    "answer_start": 320
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "To find where the default locale encoding is used, you can enable\nthe :option:`-X warn_default_encoding <-X>` command line option or set the\n:envvar:`PYTHONWARNDEFAULTENCODING` environment variable, which will\nemit an :exc:`EncodingWarning` when the default encoding is used. If you are providing an API that uses :func:`open` or\n:class:`TextIOWrapper` and passes ``encoding=None`` as a parameter, you\ncan use :func:`text_encoding` so that callers of the API will emit an\n:exc:`EncodingWarning` if they don't pass an ``encoding``. However,\nplease consider using UTF-8 by default (i.e. ``encoding=\"utf-8\"``) for\nnew APIs. High-level Module Interface\n---------------------------\nAn int containing the default buffer size used by the module's buffered I/O\nclasses.  :func:`open` uses the file's blksize (as obtained by\n:func:`os.stat`) if possible. This is an alias for the builtin :func:`open` function.",
+                    "qas": [
+                        {
+                            "id": "qa_69",
+                            "question": "How is However, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "However,\nplease consider using UTF-8 by default (i.e. ``encoding=\"utf-8\"``) for\nnew APIs.",
+                                    "answer_start": 531
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_70",
+                            "question": "How does However, work?",
+                            "answers": [
+                                {
+                                    "text": "However,\nplease consider using UTF-8 by default (i.e. ``encoding=\"utf-8\"``) for\nnew APIs.",
+                                    "answer_start": 531
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_71",
+                            "question": "What makes However, unique?",
+                            "answers": [
+                                {
+                                    "text": "However,\nplease consider using UTF-8 by default (i.e. ``encoding=\"utf-8\"``) for\nnew APIs.",
+                                    "answer_start": 531
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_72",
+                            "question": "What are the key features of However,?",
+                            "answers": [
+                                {
+                                    "text": "However,\nplease consider using UTF-8 by default (i.e. ``encoding=\"utf-8\"``) for\nnew APIs.",
+                                    "answer_start": 531
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If you are providing an API that uses :func:`open` or\n:class:`TextIOWrapper` and passes ``encoding=None`` as a parameter, you\ncan use :func:`text_encoding` so that callers of the API will emit an\n:exc:`EncodingWarning` if they don't pass an ``encoding``. However,\nplease consider using UTF-8 by default (i.e. ``encoding=\"utf-8\"``) for\nnew APIs. High-level Module Interface\n---------------------------\nAn int containing the default buffer size used by the module's buffered I/O\nclasses.  :func:`open` uses the file's blksize (as obtained by\n:func:`os.stat`) if possible. This is an alias for the builtin :func:`open` function. This function raises an :ref:`auditing event <auditing>` ``open`` with\narguments *path*, *mode* and *flags*.",
+                    "qas": [
+                        {
+                            "id": "qa_73",
+                            "question": "What are the key features of High-level?",
+                            "answers": [
+                                {
+                                    "text": "High-level Module Interface\n---------------------------\nAn int containing the default buffer size used by the module's buffered I/O\nclasses.  :func:`open` uses the file's blksize (as obtained by\n:func:`os.stat`) if possible.",
+                                    "answer_start": 345
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_74",
+                            "question": "What are the benefits of High-level?",
+                            "answers": [
+                                {
+                                    "text": "High-level Module Interface\n---------------------------\nAn int containing the default buffer size used by the module's buffered I/O\nclasses.  :func:`open` uses the file's blksize (as obtained by\n:func:`os.stat`) if possible.",
+                                    "answer_start": 345
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_75",
+                            "question": "What challenges are associated with High-level?",
+                            "answers": [
+                                {
+                                    "text": "High-level Module Interface\n---------------------------\nAn int containing the default buffer size used by the module's buffered I/O\nclasses.  :func:`open` uses the file's blksize (as obtained by\n:func:`os.stat`) if possible.",
+                                    "answer_start": 345
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_76",
+                            "question": "Can you explain High-level?",
+                            "answers": [
+                                {
+                                    "text": "High-level Module Interface\n---------------------------\nAn int containing the default buffer size used by the module's buffered I/O\nclasses.  :func:`open` uses the file's blksize (as obtained by\n:func:`os.stat`) if possible.",
+                                    "answer_start": 345
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This function raises an :ref:`auditing event <auditing>` ``open`` with\narguments *path*, *mode* and *flags*. The *mode* and *flags*\narguments may have been modified or inferred from the original call. Opens the provided file with mode ``'rb'``. This function should be used\nwhen the intent is to treat the contents as executable code.\n*path* should be a :class:`str` and an absolute path. The behavior of this function may be overridden by an earlier call to the\n:c:func:`PyFile_SetOpenCodeHook`.",
+                    "qas": [
+                        {
+                            "id": "qa_77",
+                            "question": "What is the role of Opens in Python?",
+                            "answers": [
+                                {
+                                    "text": "Opens the provided file with mode ``'rb'``.",
+                                    "answer_start": 201
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_78",
+                            "question": "What makes Opens unique?",
+                            "answers": [
+                                {
+                                    "text": "Opens the provided file with mode ``'rb'``.",
+                                    "answer_start": 201
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_79",
+                            "question": "What are the key features of Opens?",
+                            "answers": [
+                                {
+                                    "text": "Opens the provided file with mode ``'rb'``.",
+                                    "answer_start": 201
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_80",
+                            "question": "Can you explain Opens?",
+                            "answers": [
+                                {
+                                    "text": "Opens the provided file with mode ``'rb'``.",
+                                    "answer_start": 201
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This function should be used\nwhen the intent is to treat the contents as executable code.\n*path* should be a :class:`str` and an absolute path. The behavior of this function may be overridden by an earlier call to the\n:c:func:`PyFile_SetOpenCodeHook`. However, assuming that *path* is a\n:class:`str` and an absolute path, ``open_code(path)`` should always behave\nthe same as ``open(path, 'rb')``. Overriding the behavior is intended for\nadditional validation or preprocessing of the file. This is a helper function for callables that use :func:`open` or\n:class:`TextIOWrapper` and have an ``encoding=None`` parameter.",
+                    "qas": [
+                        {
+                            "id": "qa_81",
+                            "question": "How is However, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "However, assuming that *path* is a\n:class:`str` and an absolute path, ``open_code(path)`` should always behave\nthe same as ``open(path, 'rb')``.",
+                                    "answer_start": 252
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_82",
+                            "question": "What challenges are associated with However,?",
+                            "answers": [
+                                {
+                                    "text": "However, assuming that *path* is a\n:class:`str` and an absolute path, ``open_code(path)`` should always behave\nthe same as ``open(path, 'rb')``.",
+                                    "answer_start": 252
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_83",
+                            "question": "What are the key features of However,?",
+                            "answers": [
+                                {
+                                    "text": "However, assuming that *path* is a\n:class:`str` and an absolute path, ``open_code(path)`` should always behave\nthe same as ``open(path, 'rb')``.",
+                                    "answer_start": 252
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_84",
+                            "question": "Can you explain However,?",
+                            "answers": [
+                                {
+                                    "text": "However, assuming that *path* is a\n:class:`str` and an absolute path, ``open_code(path)`` should always behave\nthe same as ``open(path, 'rb')``.",
+                                    "answer_start": 252
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The behavior of this function may be overridden by an earlier call to the\n:c:func:`PyFile_SetOpenCodeHook`. However, assuming that *path* is a\n:class:`str` and an absolute path, ``open_code(path)`` should always behave\nthe same as ``open(path, 'rb')``. Overriding the behavior is intended for\nadditional validation or preprocessing of the file. This is a helper function for callables that use :func:`open` or\n:class:`TextIOWrapper` and have an ``encoding=None`` parameter. This function returns *encoding* if it is not ``None``.",
+                    "qas": [
+                        {
+                            "id": "qa_85",
+                            "question": "What are the key features of Overriding?",
+                            "answers": [
+                                {
+                                    "text": "Overriding the behavior is intended for\nadditional validation or preprocessing of the file.",
+                                    "answer_start": 253
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_86",
+                            "question": "What are the benefits of Overriding?",
+                            "answers": [
+                                {
+                                    "text": "Overriding the behavior is intended for\nadditional validation or preprocessing of the file.",
+                                    "answer_start": 253
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_87",
+                            "question": "What is mentioned about Overriding?",
+                            "answers": [
+                                {
+                                    "text": "Overriding the behavior is intended for\nadditional validation or preprocessing of the file.",
+                                    "answer_start": 253
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_88",
+                            "question": "What challenges are associated with Overriding?",
+                            "answers": [
+                                {
+                                    "text": "Overriding the behavior is intended for\nadditional validation or preprocessing of the file.",
+                                    "answer_start": 253
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This is a helper function for callables that use :func:`open` or\n:class:`TextIOWrapper` and have an ``encoding=None`` parameter. This function returns *encoding* if it is not ``None``. Otherwise, it returns ``\"locale\"`` or ``\"utf-8\"`` depending on\n:ref:`UTF-8 Mode <utf8-mode>`. This function emits an :class:`EncodingWarning` if\n:data:`sys.flags.warn_default_encoding <sys.flags>` is true and *encoding*\nis ``None``. *stacklevel* specifies where the warning is emitted. For example::\ndef read_text(path, encoding=None):\nencoding = io.text_encoding(encoding)  # stacklevel=2\nwith open(path, encoding) as f:\nreturn f.read()\nIn this example, an :class:`EncodingWarning` is emitted for the caller of\n``read_text()``.",
+                    "qas": [
+                        {
+                            "id": "qa_89",
+                            "question": "Can you explain Otherwise,?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, it returns ``\"locale\"`` or ``\"utf-8\"`` depending on\n:ref:`UTF-8 Mode <utf8-mode>`.",
+                                    "answer_start": 185
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_90",
+                            "question": "What is mentioned about Otherwise,?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, it returns ``\"locale\"`` or ``\"utf-8\"`` depending on\n:ref:`UTF-8 Mode <utf8-mode>`.",
+                                    "answer_start": 185
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_91",
+                            "question": "What are the key features of Otherwise,?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, it returns ``\"locale\"`` or ``\"utf-8\"`` depending on\n:ref:`UTF-8 Mode <utf8-mode>`.",
+                                    "answer_start": 185
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_92",
+                            "question": "What challenges are associated with Otherwise,?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, it returns ``\"locale\"`` or ``\"utf-8\"`` depending on\n:ref:`UTF-8 Mode <utf8-mode>`.",
+                                    "answer_start": 185
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Otherwise, it returns ``\"locale\"`` or ``\"utf-8\"`` depending on\n:ref:`UTF-8 Mode <utf8-mode>`. This function emits an :class:`EncodingWarning` if\n:data:`sys.flags.warn_default_encoding <sys.flags>` is true and *encoding*\nis ``None``. *stacklevel* specifies where the warning is emitted. For example::\ndef read_text(path, encoding=None):\nencoding = io.text_encoding(encoding)  # stacklevel=2\nwith open(path, encoding) as f:\nreturn f.read()\nIn this example, an :class:`EncodingWarning` is emitted for the caller of\n``read_text()``. See :ref:`io-text-encoding` for more information.\n:func:`text_encoding` returns \"utf-8\" when UTF-8 mode is enabled and\n*encoding* is ``None``. This is a compatibility alias for the builtin :exc:`BlockingIOError`\nexception.",
+                    "qas": [
+                        {
+                            "id": "qa_93",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For example::\ndef read_text(path, encoding=None):\nencoding = io.text_encoding(encoding)  # stacklevel=2\nwith open(path, encoding) as f:\nreturn f.read()\nIn this example, an :class:`EncodingWarning` is emitted for the caller of\n``read_text()``.",
+                                    "answer_start": 286
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_94",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For example::\ndef read_text(path, encoding=None):\nencoding = io.text_encoding(encoding)  # stacklevel=2\nwith open(path, encoding) as f:\nreturn f.read()\nIn this example, an :class:`EncodingWarning` is emitted for the caller of\n``read_text()``.",
+                                    "answer_start": 286
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_95",
+                            "question": "What is the role of For in Python?",
+                            "answers": [
+                                {
+                                    "text": "For example::\ndef read_text(path, encoding=None):\nencoding = io.text_encoding(encoding)  # stacklevel=2\nwith open(path, encoding) as f:\nreturn f.read()\nIn this example, an :class:`EncodingWarning` is emitted for the caller of\n``read_text()``.",
+                                    "answer_start": 286
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_96",
+                            "question": "What makes For unique?",
+                            "answers": [
+                                {
+                                    "text": "For example::\ndef read_text(path, encoding=None):\nencoding = io.text_encoding(encoding)  # stacklevel=2\nwith open(path, encoding) as f:\nreturn f.read()\nIn this example, an :class:`EncodingWarning` is emitted for the caller of\n``read_text()``.",
+                                    "answer_start": 286
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This function emits an :class:`EncodingWarning` if\n:data:`sys.flags.warn_default_encoding <sys.flags>` is true and *encoding*\nis ``None``. *stacklevel* specifies where the warning is emitted. For example::\ndef read_text(path, encoding=None):\nencoding = io.text_encoding(encoding)  # stacklevel=2\nwith open(path, encoding) as f:\nreturn f.read()\nIn this example, an :class:`EncodingWarning` is emitted for the caller of\n``read_text()``. See :ref:`io-text-encoding` for more information.\n:func:`text_encoding` returns \"utf-8\" when UTF-8 mode is enabled and\n*encoding* is ``None``. This is a compatibility alias for the builtin :exc:`BlockingIOError`\nexception. An exception inheriting :exc:`OSError` and :exc:`ValueError` that is raised\nwhen an unsupported operation is called on a stream.\n:mod:`sys`\ncontains the standard IO streams: :data:`sys.stdin`, :data:`sys.stdout`,\nand :data:`sys.stderr`.",
+                    "qas": [
+                        {
+                            "id": "qa_97",
+                            "question": "What challenges are associated with See?",
+                            "answers": [
+                                {
+                                    "text": "See :ref:`io-text-encoding` for more information.\n:func:`text_encoding` returns \"utf-8\" when UTF-8 mode is enabled and\n*encoding* is ``None``.",
+                                    "answer_start": 435
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_98",
+                            "question": "What are the benefits of See?",
+                            "answers": [
+                                {
+                                    "text": "See :ref:`io-text-encoding` for more information.\n:func:`text_encoding` returns \"utf-8\" when UTF-8 mode is enabled and\n*encoding* is ``None``.",
+                                    "answer_start": 435
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_99",
+                            "question": "What are the key features of See?",
+                            "answers": [
+                                {
+                                    "text": "See :ref:`io-text-encoding` for more information.\n:func:`text_encoding` returns \"utf-8\" when UTF-8 mode is enabled and\n*encoding* is ``None``.",
+                                    "answer_start": 435
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_100",
+                            "question": "What is mentioned about See?",
+                            "answers": [
+                                {
+                                    "text": "See :ref:`io-text-encoding` for more information.\n:func:`text_encoding` returns \"utf-8\" when UTF-8 mode is enabled and\n*encoding* is ``None``.",
+                                    "answer_start": 435
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

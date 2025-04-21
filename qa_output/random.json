@@ -1,0 +1,1235 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "title": "random",
+            "paragraphs": [
+                {
+                    "context": ":mod:`!random` --- Generate pseudo-random numbers\n:synopsis: Generate pseudo-random numbers with various common distributions.\n**Source code:** :source:`Lib/random.py`\n--------------\nThis module implements pseudo-random number generators for various\ndistributions. For integers, there is uniform selection from a range. For sequences, there is\nuniform selection of a random element, a function to generate a random\npermutation of a list in-place, and a function for random sampling without\nreplacement.",
+                    "qas": [
+                        {
+                            "id": "qa_1",
+                            "question": "Why is :mod:`!random` important?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!random` --- Generate pseudo-random numbers\n:synopsis: Generate pseudo-random numbers with various common distributions.\n**Source code:** :source:`Lib/random.py`\n--------------\nThis module implements pseudo-random number generators for various\ndistributions.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_2",
+                            "question": "How does :mod:`!random` work?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!random` --- Generate pseudo-random numbers\n:synopsis: Generate pseudo-random numbers with various common distributions.\n**Source code:** :source:`Lib/random.py`\n--------------\nThis module implements pseudo-random number generators for various\ndistributions.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_3",
+                            "question": "How is :mod:`!random` used in programming?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!random` --- Generate pseudo-random numbers\n:synopsis: Generate pseudo-random numbers with various common distributions.\n**Source code:** :source:`Lib/random.py`\n--------------\nThis module implements pseudo-random number generators for various\ndistributions.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_4",
+                            "question": "What challenges are associated with :mod:`!random`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!random` --- Generate pseudo-random numbers\n:synopsis: Generate pseudo-random numbers with various common distributions.\n**Source code:** :source:`Lib/random.py`\n--------------\nThis module implements pseudo-random number generators for various\ndistributions.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": ":mod:`!random` --- Generate pseudo-random numbers\n:synopsis: Generate pseudo-random numbers with various common distributions.\n**Source code:** :source:`Lib/random.py`\n--------------\nThis module implements pseudo-random number generators for various\ndistributions. For integers, there is uniform selection from a range. For sequences, there is\nuniform selection of a random element, a function to generate a random\npermutation of a list in-place, and a function for random sampling without\nreplacement. On the real line, there are functions to compute uniform, normal (Gaussian),\nlognormal, negative exponential, gamma, and beta distributions.",
+                    "qas": [
+                        {
+                            "id": "qa_5",
+                            "question": "How is For used in programming?",
+                            "answers": [
+                                {
+                                    "text": "For integers, there is uniform selection from a range.",
+                                    "answer_start": 265
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_6",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For integers, there is uniform selection from a range.",
+                                    "answer_start": 265
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_7",
+                            "question": "What makes For unique?",
+                            "answers": [
+                                {
+                                    "text": "For integers, there is uniform selection from a range.",
+                                    "answer_start": 265
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_8",
+                            "question": "What is mentioned about For?",
+                            "answers": [
+                                {
+                                    "text": "For integers, there is uniform selection from a range.",
+                                    "answer_start": 265
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": ":mod:`!random` --- Generate pseudo-random numbers\n:synopsis: Generate pseudo-random numbers with various common distributions.\n**Source code:** :source:`Lib/random.py`\n--------------\nThis module implements pseudo-random number generators for various\ndistributions. For integers, there is uniform selection from a range. For sequences, there is\nuniform selection of a random element, a function to generate a random\npermutation of a list in-place, and a function for random sampling without\nreplacement. On the real line, there are functions to compute uniform, normal (Gaussian),\nlognormal, negative exponential, gamma, and beta distributions. For generating\ndistributions of angles, the von Mises distribution is available.",
+                    "qas": [
+                        {
+                            "id": "qa_9",
+                            "question": "What is the role of For in Python?",
+                            "answers": [
+                                {
+                                    "text": "For sequences, there is\nuniform selection of a random element, a function to generate a random\npermutation of a list in-place, and a function for random sampling without\nreplacement.",
+                                    "answer_start": 320
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_10",
+                            "question": "What challenges are associated with For?",
+                            "answers": [
+                                {
+                                    "text": "For sequences, there is\nuniform selection of a random element, a function to generate a random\npermutation of a list in-place, and a function for random sampling without\nreplacement.",
+                                    "answer_start": 320
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_11",
+                            "question": "Why is For important?",
+                            "answers": [
+                                {
+                                    "text": "For sequences, there is\nuniform selection of a random element, a function to generate a random\npermutation of a list in-place, and a function for random sampling without\nreplacement.",
+                                    "answer_start": 320
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_12",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For sequences, there is\nuniform selection of a random element, a function to generate a random\npermutation of a list in-place, and a function for random sampling without\nreplacement.",
+                                    "answer_start": 320
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "For sequences, there is\nuniform selection of a random element, a function to generate a random\npermutation of a list in-place, and a function for random sampling without\nreplacement. On the real line, there are functions to compute uniform, normal (Gaussian),\nlognormal, negative exponential, gamma, and beta distributions. For generating\ndistributions of angles, the von Mises distribution is available. Almost all module functions depend on the basic function :func:`.random`, which\ngenerates a random float uniformly in the half-open range ``0.0 <= X < 1.0``. Python uses the Mersenne Twister as the core generator.",
+                    "qas": [
+                        {
+                            "id": "qa_13",
+                            "question": "What challenges are associated with For?",
+                            "answers": [
+                                {
+                                    "text": "For generating\ndistributions of angles, the von Mises distribution is available.",
+                                    "answer_start": 324
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_14",
+                            "question": "What makes For unique?",
+                            "answers": [
+                                {
+                                    "text": "For generating\ndistributions of angles, the von Mises distribution is available.",
+                                    "answer_start": 324
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_15",
+                            "question": "Why is For important?",
+                            "answers": [
+                                {
+                                    "text": "For generating\ndistributions of angles, the von Mises distribution is available.",
+                                    "answer_start": 324
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_16",
+                            "question": "What is mentioned about For?",
+                            "answers": [
+                                {
+                                    "text": "For generating\ndistributions of angles, the von Mises distribution is available.",
+                                    "answer_start": 324
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "On the real line, there are functions to compute uniform, normal (Gaussian),\nlognormal, negative exponential, gamma, and beta distributions. For generating\ndistributions of angles, the von Mises distribution is available. Almost all module functions depend on the basic function :func:`.random`, which\ngenerates a random float uniformly in the half-open range ``0.0 <= X < 1.0``. Python uses the Mersenne Twister as the core generator. It produces 53-bit precision\nfloats and has a period of 2\\*\\*19937-1.",
+                    "qas": [
+                        {
+                            "id": "qa_17",
+                            "question": "What challenges are associated with Almost?",
+                            "answers": [
+                                {
+                                    "text": "Almost all module functions depend on the basic function :func:`.random`, which\ngenerates a random float uniformly in the half-open range ``0.0 <= X < 1.0``.",
+                                    "answer_start": 222
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_18",
+                            "question": "What is the role of Almost in Python?",
+                            "answers": [
+                                {
+                                    "text": "Almost all module functions depend on the basic function :func:`.random`, which\ngenerates a random float uniformly in the half-open range ``0.0 <= X < 1.0``.",
+                                    "answer_start": 222
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_19",
+                            "question": "Why is Almost important?",
+                            "answers": [
+                                {
+                                    "text": "Almost all module functions depend on the basic function :func:`.random`, which\ngenerates a random float uniformly in the half-open range ``0.0 <= X < 1.0``.",
+                                    "answer_start": 222
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_20",
+                            "question": "What makes Almost unique?",
+                            "answers": [
+                                {
+                                    "text": "Almost all module functions depend on the basic function :func:`.random`, which\ngenerates a random float uniformly in the half-open range ``0.0 <= X < 1.0``.",
+                                    "answer_start": 222
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "For generating\ndistributions of angles, the von Mises distribution is available. Almost all module functions depend on the basic function :func:`.random`, which\ngenerates a random float uniformly in the half-open range ``0.0 <= X < 1.0``. Python uses the Mersenne Twister as the core generator. It produces 53-bit precision\nfloats and has a period of 2\\*\\*19937-1. The underlying implementation in C is\nboth fast and threadsafe.",
+                    "qas": [
+                        {
+                            "id": "qa_21",
+                            "question": "What is the role of Python in Python?",
+                            "answers": [
+                                {
+                                    "text": "Python uses the Mersenne Twister as the core generator.",
+                                    "answer_start": 239
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_22",
+                            "question": "Can you explain Python?",
+                            "answers": [
+                                {
+                                    "text": "Python uses the Mersenne Twister as the core generator.",
+                                    "answer_start": 239
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_23",
+                            "question": "How is Python used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Python uses the Mersenne Twister as the core generator.",
+                                    "answer_start": 239
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_24",
+                            "question": "How does Python work?",
+                            "answers": [
+                                {
+                                    "text": "Python uses the Mersenne Twister as the core generator.",
+                                    "answer_start": 239
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The underlying implementation in C is\nboth fast and threadsafe. The Mersenne Twister is one of the most extensively\ntested random number generators in existence. However, being completely\ndeterministic, it is not suitable for all purposes, and is completely unsuitable\nfor cryptographic purposes. The functions supplied by this module are actually bound methods of a hidden\ninstance of the :class:`random.Random` class. You can instantiate your own\ninstances of :class:`Random` to get generators that don't share state.",
+                    "qas": [
+                        {
+                            "id": "qa_25",
+                            "question": "What are the benefits of However,?",
+                            "answers": [
+                                {
+                                    "text": "However, being completely\ndeterministic, it is not suitable for all purposes, and is completely unsuitable\nfor cryptographic purposes.",
+                                    "answer_start": 162
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_26",
+                            "question": "How is However, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "However, being completely\ndeterministic, it is not suitable for all purposes, and is completely unsuitable\nfor cryptographic purposes.",
+                                    "answer_start": 162
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_27",
+                            "question": "Why is However, important?",
+                            "answers": [
+                                {
+                                    "text": "However, being completely\ndeterministic, it is not suitable for all purposes, and is completely unsuitable\nfor cryptographic purposes.",
+                                    "answer_start": 162
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_28",
+                            "question": "What are the key features of However,?",
+                            "answers": [
+                                {
+                                    "text": "However, being completely\ndeterministic, it is not suitable for all purposes, and is completely unsuitable\nfor cryptographic purposes.",
+                                    "answer_start": 162
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "However, being completely\ndeterministic, it is not suitable for all purposes, and is completely unsuitable\nfor cryptographic purposes. The functions supplied by this module are actually bound methods of a hidden\ninstance of the :class:`random.Random` class. You can instantiate your own\ninstances of :class:`Random` to get generators that don't share state. Class :class:`Random` can also be subclassed if you want to use a different\nbasic generator of your own devising: see the documentation on that class for\nmore details. The :mod:`random` module also provides the :class:`SystemRandom` class which\nuses the system function :func:`os.urandom` to generate random numbers\nfrom sources provided by the operating system.",
+                    "qas": [
+                        {
+                            "id": "qa_29",
+                            "question": "What is the role of You in Python?",
+                            "answers": [
+                                {
+                                    "text": "You can instantiate your own\ninstances of :class:`Random` to get generators that don't share state.",
+                                    "answer_start": 258
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_30",
+                            "question": "How does You work?",
+                            "answers": [
+                                {
+                                    "text": "You can instantiate your own\ninstances of :class:`Random` to get generators that don't share state.",
+                                    "answer_start": 258
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_31",
+                            "question": "What are the benefits of You?",
+                            "answers": [
+                                {
+                                    "text": "You can instantiate your own\ninstances of :class:`Random` to get generators that don't share state.",
+                                    "answer_start": 258
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_32",
+                            "question": "Why is You important?",
+                            "answers": [
+                                {
+                                    "text": "You can instantiate your own\ninstances of :class:`Random` to get generators that don't share state.",
+                                    "answer_start": 258
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The functions supplied by this module are actually bound methods of a hidden\ninstance of the :class:`random.Random` class. You can instantiate your own\ninstances of :class:`Random` to get generators that don't share state. Class :class:`Random` can also be subclassed if you want to use a different\nbasic generator of your own devising: see the documentation on that class for\nmore details. The :mod:`random` module also provides the :class:`SystemRandom` class which\nuses the system function :func:`os.urandom` to generate random numbers\nfrom sources provided by the operating system. The pseudo-random generators of this module should not be used for\nsecurity purposes.",
+                    "qas": [
+                        {
+                            "id": "qa_33",
+                            "question": "How is Class used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Class :class:`Random` can also be subclassed if you want to use a different\nbasic generator of your own devising: see the documentation on that class for\nmore details.",
+                                    "answer_start": 223
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_34",
+                            "question": "What challenges are associated with Class?",
+                            "answers": [
+                                {
+                                    "text": "Class :class:`Random` can also be subclassed if you want to use a different\nbasic generator of your own devising: see the documentation on that class for\nmore details.",
+                                    "answer_start": 223
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_35",
+                            "question": "Can you explain Class?",
+                            "answers": [
+                                {
+                                    "text": "Class :class:`Random` can also be subclassed if you want to use a different\nbasic generator of your own devising: see the documentation on that class for\nmore details.",
+                                    "answer_start": 223
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_36",
+                            "question": "What are the benefits of Class?",
+                            "answers": [
+                                {
+                                    "text": "Class :class:`Random` can also be subclassed if you want to use a different\nbasic generator of your own devising: see the documentation on that class for\nmore details.",
+                                    "answer_start": 223
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The :mod:`random` module also provides the :class:`SystemRandom` class which\nuses the system function :func:`os.urandom` to generate random numbers\nfrom sources provided by the operating system. The pseudo-random generators of this module should not be used for\nsecurity purposes. For security or cryptographic uses, see the\n:mod:`secrets` module. M. Matsumoto and T.",
+                    "qas": [
+                        {
+                            "id": "qa_37",
+                            "question": "How is For used in programming?",
+                            "answers": [
+                                {
+                                    "text": "For security or cryptographic uses, see the\n:mod:`secrets` module.",
+                                    "answer_start": 281
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_38",
+                            "question": "Why is For important?",
+                            "answers": [
+                                {
+                                    "text": "For security or cryptographic uses, see the\n:mod:`secrets` module.",
+                                    "answer_start": 281
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_39",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For security or cryptographic uses, see the\n:mod:`secrets` module.",
+                                    "answer_start": 281
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_40",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For security or cryptographic uses, see the\n:mod:`secrets` module.",
+                                    "answer_start": 281
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "For security or cryptographic uses, see the\n:mod:`secrets` module. M. Matsumoto and T. Nishimura, \"Mersenne Twister: A 623-dimensionally\nequidistributed uniform pseudorandom number generator\", ACM Transactions on\nModeling and Computer Simulation Vol. 8, No. 1, January pp.3--30 1998.\n`Complementary-Multiply-with-Carry recipe\n<https://code.activestate.com/recipes/576707-long-period-random-number-generator/>`_ for a compatible alternative\nrandom number generator with a long period and comparatively simple update\noperations. The global random number generator and instances of :class:`Random` are thread-safe.",
+                    "qas": [
+                        {
+                            "id": "qa_41",
+                            "question": "What challenges are associated with Matsumoto?",
+                            "answers": [
+                                {
+                                    "text": "Matsumoto and T.",
+                                    "answer_start": 70
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_42",
+                            "question": "How does Matsumoto work?",
+                            "answers": [
+                                {
+                                    "text": "Matsumoto and T.",
+                                    "answer_start": 70
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_43",
+                            "question": "What is mentioned about Matsumoto?",
+                            "answers": [
+                                {
+                                    "text": "Matsumoto and T.",
+                                    "answer_start": 70
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_44",
+                            "question": "What are the benefits of Matsumoto?",
+                            "answers": [
+                                {
+                                    "text": "Matsumoto and T.",
+                                    "answer_start": 70
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "M. Matsumoto and T. Nishimura, \"Mersenne Twister: A 623-dimensionally\nequidistributed uniform pseudorandom number generator\", ACM Transactions on\nModeling and Computer Simulation Vol. 8, No. 1, January pp.3--30 1998.\n`Complementary-Multiply-with-Carry recipe\n<https://code.activestate.com/recipes/576707-long-period-random-number-generator/>`_ for a compatible alternative\nrandom number generator with a long period and comparatively simple update\noperations. The global random number generator and instances of :class:`Random` are thread-safe. However, in the free-threaded build, concurrent calls to the global generator or\nto the same instance of :class:`Random` may encounter contention and poor performance.",
+                    "qas": [
+                        {
+                            "id": "qa_45",
+                            "question": "How is Nishimura, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Nishimura, \"Mersenne Twister: A 623-dimensionally\nequidistributed uniform pseudorandom number generator\", ACM Transactions on\nModeling and Computer Simulation Vol. 8, No. 1, January pp.3--30 1998.\n`Complementary-Multiply-with-Carry recipe\n<https://code.activestate.com/recipes/576707-long-period-random-number-generator/>`_ for a compatible alternative\nrandom number generator with a long period and comparatively simple update\noperations.",
+                                    "answer_start": 20
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_46",
+                            "question": "How does Nishimura, work?",
+                            "answers": [
+                                {
+                                    "text": "Nishimura, \"Mersenne Twister: A 623-dimensionally\nequidistributed uniform pseudorandom number generator\", ACM Transactions on\nModeling and Computer Simulation Vol. 8, No. 1, January pp.3--30 1998.\n`Complementary-Multiply-with-Carry recipe\n<https://code.activestate.com/recipes/576707-long-period-random-number-generator/>`_ for a compatible alternative\nrandom number generator with a long period and comparatively simple update\noperations.",
+                                    "answer_start": 20
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_47",
+                            "question": "What is mentioned about Nishimura,?",
+                            "answers": [
+                                {
+                                    "text": "Nishimura, \"Mersenne Twister: A 623-dimensionally\nequidistributed uniform pseudorandom number generator\", ACM Transactions on\nModeling and Computer Simulation Vol. 8, No. 1, January pp.3--30 1998.\n`Complementary-Multiply-with-Carry recipe\n<https://code.activestate.com/recipes/576707-long-period-random-number-generator/>`_ for a compatible alternative\nrandom number generator with a long period and comparatively simple update\noperations.",
+                                    "answer_start": 20
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_48",
+                            "question": "What makes Nishimura, unique?",
+                            "answers": [
+                                {
+                                    "text": "Nishimura, \"Mersenne Twister: A 623-dimensionally\nequidistributed uniform pseudorandom number generator\", ACM Transactions on\nModeling and Computer Simulation Vol. 8, No. 1, January pp.3--30 1998.\n`Complementary-Multiply-with-Carry recipe\n<https://code.activestate.com/recipes/576707-long-period-random-number-generator/>`_ for a compatible alternative\nrandom number generator with a long period and comparatively simple update\noperations.",
+                                    "answer_start": 20
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Nishimura, \"Mersenne Twister: A 623-dimensionally\nequidistributed uniform pseudorandom number generator\", ACM Transactions on\nModeling and Computer Simulation Vol. 8, No. 1, January pp.3--30 1998.\n`Complementary-Multiply-with-Carry recipe\n<https://code.activestate.com/recipes/576707-long-period-random-number-generator/>`_ for a compatible alternative\nrandom number generator with a long period and comparatively simple update\noperations. The global random number generator and instances of :class:`Random` are thread-safe. However, in the free-threaded build, concurrent calls to the global generator or\nto the same instance of :class:`Random` may encounter contention and poor performance. Consider using separate instances of :class:`Random` per thread instead. Bookkeeping functions\n---------------------\nInitialize the random number generator.",
+                    "qas": [
+                        {
+                            "id": "qa_49",
+                            "question": "What challenges are associated with However,?",
+                            "answers": [
+                                {
+                                    "text": "However, in the free-threaded build, concurrent calls to the global generator or\nto the same instance of :class:`Random` may encounter contention and poor performance.",
+                                    "answer_start": 525
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_50",
+                            "question": "What makes However, unique?",
+                            "answers": [
+                                {
+                                    "text": "However, in the free-threaded build, concurrent calls to the global generator or\nto the same instance of :class:`Random` may encounter contention and poor performance.",
+                                    "answer_start": 525
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_51",
+                            "question": "What is mentioned about However,?",
+                            "answers": [
+                                {
+                                    "text": "However, in the free-threaded build, concurrent calls to the global generator or\nto the same instance of :class:`Random` may encounter contention and poor performance.",
+                                    "answer_start": 525
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_52",
+                            "question": "How does However, work?",
+                            "answers": [
+                                {
+                                    "text": "However, in the free-threaded build, concurrent calls to the global generator or\nto the same instance of :class:`Random` may encounter contention and poor performance.",
+                                    "answer_start": 525
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The global random number generator and instances of :class:`Random` are thread-safe. However, in the free-threaded build, concurrent calls to the global generator or\nto the same instance of :class:`Random` may encounter contention and poor performance. Consider using separate instances of :class:`Random` per thread instead. Bookkeeping functions\n---------------------\nInitialize the random number generator. If *a* is omitted or ``None``, the current system time is used.",
+                    "qas": [
+                        {
+                            "id": "qa_53",
+                            "question": "What is mentioned about Consider?",
+                            "answers": [
+                                {
+                                    "text": "Consider using separate instances of :class:`Random` per thread instead.",
+                                    "answer_start": 253
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_54",
+                            "question": "What are the key features of Consider?",
+                            "answers": [
+                                {
+                                    "text": "Consider using separate instances of :class:`Random` per thread instead.",
+                                    "answer_start": 253
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_55",
+                            "question": "How does Consider work?",
+                            "answers": [
+                                {
+                                    "text": "Consider using separate instances of :class:`Random` per thread instead.",
+                                    "answer_start": 253
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_56",
+                            "question": "How is Consider used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Consider using separate instances of :class:`Random` per thread instead.",
+                                    "answer_start": 253
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "However, in the free-threaded build, concurrent calls to the global generator or\nto the same instance of :class:`Random` may encounter contention and poor performance. Consider using separate instances of :class:`Random` per thread instead. Bookkeeping functions\n---------------------\nInitialize the random number generator. If *a* is omitted or ``None``, the current system time is used. If\nrandomness sources are provided by the operating system, they are used\ninstead of the system time (see the :func:`os.urandom` function for details\non availability).",
+                    "qas": [
+                        {
+                            "id": "qa_57",
+                            "question": "How does Bookkeeping work?",
+                            "answers": [
+                                {
+                                    "text": "Bookkeeping functions\n---------------------\nInitialize the random number generator.",
+                                    "answer_start": 241
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_58",
+                            "question": "How is Bookkeeping used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Bookkeeping functions\n---------------------\nInitialize the random number generator.",
+                                    "answer_start": 241
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_59",
+                            "question": "What are the benefits of Bookkeeping?",
+                            "answers": [
+                                {
+                                    "text": "Bookkeeping functions\n---------------------\nInitialize the random number generator.",
+                                    "answer_start": 241
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_60",
+                            "question": "What is the role of Bookkeeping in Python?",
+                            "answers": [
+                                {
+                                    "text": "Bookkeeping functions\n---------------------\nInitialize the random number generator.",
+                                    "answer_start": 241
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If\nrandomness sources are provided by the operating system, they are used\ninstead of the system time (see the :func:`os.urandom` function for details\non availability). If *a* is an int, it is used directly. With version 2 (the default), a :class:`str`, :class:`bytes`, or :class:`bytearray`\nobject gets converted to an :class:`int` and all of its bits are used. With version 1 (provided for reproducing random sequences from older versions\nof Python), the algorithm for :class:`str` and :class:`bytes` generates a\nnarrower range of seeds. Moved to the version 2 scheme which uses all of the bits in a string seed.",
+                    "qas": [
+                        {
+                            "id": "qa_61",
+                            "question": "Can you explain With?",
+                            "answers": [
+                                {
+                                    "text": "With version 2 (the default), a :class:`str`, :class:`bytes`, or :class:`bytearray`\nobject gets converted to an :class:`int` and all of its bits are used.",
+                                    "answer_start": 207
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_62",
+                            "question": "What is mentioned about With?",
+                            "answers": [
+                                {
+                                    "text": "With version 2 (the default), a :class:`str`, :class:`bytes`, or :class:`bytearray`\nobject gets converted to an :class:`int` and all of its bits are used.",
+                                    "answer_start": 207
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_63",
+                            "question": "What are the benefits of With?",
+                            "answers": [
+                                {
+                                    "text": "With version 2 (the default), a :class:`str`, :class:`bytes`, or :class:`bytearray`\nobject gets converted to an :class:`int` and all of its bits are used.",
+                                    "answer_start": 207
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_64",
+                            "question": "What challenges are associated with With?",
+                            "answers": [
+                                {
+                                    "text": "With version 2 (the default), a :class:`str`, :class:`bytes`, or :class:`bytearray`\nobject gets converted to an :class:`int` and all of its bits are used.",
+                                    "answer_start": 207
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If *a* is an int, it is used directly. With version 2 (the default), a :class:`str`, :class:`bytes`, or :class:`bytearray`\nobject gets converted to an :class:`int` and all of its bits are used. With version 1 (provided for reproducing random sequences from older versions\nof Python), the algorithm for :class:`str` and :class:`bytes` generates a\nnarrower range of seeds. Moved to the version 2 scheme which uses all of the bits in a string seed. The *seed* must be one of the following types:\n``None``, :class:`int`, :class:`float`, :class:`str`,\n:class:`bytes`, or :class:`bytearray`.",
+                    "qas": [
+                        {
+                            "id": "qa_65",
+                            "question": "What is mentioned about With?",
+                            "answers": [
+                                {
+                                    "text": "With version 1 (provided for reproducing random sequences from older versions\nof Python), the algorithm for :class:`str` and :class:`bytes` generates a\nnarrower range of seeds.",
+                                    "answer_start": 194
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_66",
+                            "question": "How is With used in programming?",
+                            "answers": [
+                                {
+                                    "text": "With version 1 (provided for reproducing random sequences from older versions\nof Python), the algorithm for :class:`str` and :class:`bytes` generates a\nnarrower range of seeds.",
+                                    "answer_start": 194
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_67",
+                            "question": "Why is With important?",
+                            "answers": [
+                                {
+                                    "text": "With version 1 (provided for reproducing random sequences from older versions\nof Python), the algorithm for :class:`str` and :class:`bytes` generates a\nnarrower range of seeds.",
+                                    "answer_start": 194
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_68",
+                            "question": "What are the benefits of With?",
+                            "answers": [
+                                {
+                                    "text": "With version 1 (provided for reproducing random sequences from older versions\nof Python), the algorithm for :class:`str` and :class:`bytes` generates a\nnarrower range of seeds.",
+                                    "answer_start": 194
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "With version 2 (the default), a :class:`str`, :class:`bytes`, or :class:`bytearray`\nobject gets converted to an :class:`int` and all of its bits are used. With version 1 (provided for reproducing random sequences from older versions\nof Python), the algorithm for :class:`str` and :class:`bytes` generates a\nnarrower range of seeds. Moved to the version 2 scheme which uses all of the bits in a string seed. The *seed* must be one of the following types:\n``None``, :class:`int`, :class:`float`, :class:`str`,\n:class:`bytes`, or :class:`bytearray`. Return an object capturing the current internal state of the generator.",
+                    "qas": [
+                        {
+                            "id": "qa_69",
+                            "question": "Can you explain Moved?",
+                            "answers": [
+                                {
+                                    "text": "Moved to the version 2 scheme which uses all of the bits in a string seed.",
+                                    "answer_start": 332
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_70",
+                            "question": "What are the benefits of Moved?",
+                            "answers": [
+                                {
+                                    "text": "Moved to the version 2 scheme which uses all of the bits in a string seed.",
+                                    "answer_start": 332
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_71",
+                            "question": "What is mentioned about Moved?",
+                            "answers": [
+                                {
+                                    "text": "Moved to the version 2 scheme which uses all of the bits in a string seed.",
+                                    "answer_start": 332
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_72",
+                            "question": "What is the role of Moved in Python?",
+                            "answers": [
+                                {
+                                    "text": "Moved to the version 2 scheme which uses all of the bits in a string seed.",
+                                    "answer_start": 332
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Return an object capturing the current internal state of the generator. This\nobject can be passed to :func:`setstate` to restore the state.\n*state* should have been obtained from a previous call to :func:`getstate`, and\n:func:`setstate` restores the internal state of the generator to what it was at\nthe time :func:`getstate` was called. Functions for bytes\n-------------------\nGenerate *n* random bytes. This method should not be used for generating security tokens. Use :func:`secrets.token_bytes` instead.",
+                    "qas": [
+                        {
+                            "id": "qa_73",
+                            "question": "What are the benefits of Functions?",
+                            "answers": [
+                                {
+                                    "text": "Functions for bytes\n-------------------\nGenerate *n* random bytes.",
+                                    "answer_start": 338
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_74",
+                            "question": "What challenges are associated with Functions?",
+                            "answers": [
+                                {
+                                    "text": "Functions for bytes\n-------------------\nGenerate *n* random bytes.",
+                                    "answer_start": 338
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_75",
+                            "question": "How does Functions work?",
+                            "answers": [
+                                {
+                                    "text": "Functions for bytes\n-------------------\nGenerate *n* random bytes.",
+                                    "answer_start": 338
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_76",
+                            "question": "What is the role of Functions in Python?",
+                            "answers": [
+                                {
+                                    "text": "Functions for bytes\n-------------------\nGenerate *n* random bytes.",
+                                    "answer_start": 338
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This method should not be used for generating security tokens. Use :func:`secrets.token_bytes` instead. Functions for integers\n----------------------\nrandrange(start, stop[, step])\nReturn a randomly selected element from ``range(start, stop, step)``. This is roughly equivalent to ``choice(range(start, stop, step))`` but\nsupports arbitrarily large ranges and is optimized for common cases. The positional argument pattern matches the :func:`range` function.",
+                    "qas": [
+                        {
+                            "id": "qa_77",
+                            "question": "What makes Functions unique?",
+                            "answers": [
+                                {
+                                    "text": "Functions for integers\n----------------------\nrandrange(start, stop[, step])\nReturn a randomly selected element from ``range(start, stop, step)``.",
+                                    "answer_start": 104
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_78",
+                            "question": "What challenges are associated with Functions?",
+                            "answers": [
+                                {
+                                    "text": "Functions for integers\n----------------------\nrandrange(start, stop[, step])\nReturn a randomly selected element from ``range(start, stop, step)``.",
+                                    "answer_start": 104
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_79",
+                            "question": "Why is Functions important?",
+                            "answers": [
+                                {
+                                    "text": "Functions for integers\n----------------------\nrandrange(start, stop[, step])\nReturn a randomly selected element from ``range(start, stop, step)``.",
+                                    "answer_start": 104
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_80",
+                            "question": "What is the role of Functions in Python?",
+                            "answers": [
+                                {
+                                    "text": "Functions for integers\n----------------------\nrandrange(start, stop[, step])\nReturn a randomly selected element from ``range(start, stop, step)``.",
+                                    "answer_start": 104
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This is roughly equivalent to ``choice(range(start, stop, step))`` but\nsupports arbitrarily large ranges and is optimized for common cases. The positional argument pattern matches the :func:`range` function. Keyword arguments should not be used because they can be interpreted\nin unexpected ways. For example ``randrange(start=100)`` is interpreted\nas ``randrange(0, 100, 1)``.\n:meth:`randrange` is more sophisticated about producing equally distributed\nvalues. Formerly it used a style like ``int(random()*n)`` which could produce\nslightly uneven distributions.",
+                    "qas": [
+                        {
+                            "id": "qa_81",
+                            "question": "What is mentioned about Keyword?",
+                            "answers": [
+                                {
+                                    "text": "Keyword arguments should not be used because they can be interpreted\nin unexpected ways.",
+                                    "answer_start": 208
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_82",
+                            "question": "What challenges are associated with Keyword?",
+                            "answers": [
+                                {
+                                    "text": "Keyword arguments should not be used because they can be interpreted\nin unexpected ways.",
+                                    "answer_start": 208
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_83",
+                            "question": "Can you explain Keyword?",
+                            "answers": [
+                                {
+                                    "text": "Keyword arguments should not be used because they can be interpreted\nin unexpected ways.",
+                                    "answer_start": 208
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_84",
+                            "question": "What are the benefits of Keyword?",
+                            "answers": [
+                                {
+                                    "text": "Keyword arguments should not be used because they can be interpreted\nin unexpected ways.",
+                                    "answer_start": 208
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The positional argument pattern matches the :func:`range` function. Keyword arguments should not be used because they can be interpreted\nin unexpected ways. For example ``randrange(start=100)`` is interpreted\nas ``randrange(0, 100, 1)``.\n:meth:`randrange` is more sophisticated about producing equally distributed\nvalues. Formerly it used a style like ``int(random()*n)`` which could produce\nslightly uneven distributions. Automatic conversion of non-integer types is no longer supported.",
+                    "qas": [
+                        {
+                            "id": "qa_85",
+                            "question": "What challenges are associated with For?",
+                            "answers": [
+                                {
+                                    "text": "For example ``randrange(start=100)`` is interpreted\nas ``randrange(0, 100, 1)``.\n:meth:`randrange` is more sophisticated about producing equally distributed\nvalues.",
+                                    "answer_start": 157
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_86",
+                            "question": "What is mentioned about For?",
+                            "answers": [
+                                {
+                                    "text": "For example ``randrange(start=100)`` is interpreted\nas ``randrange(0, 100, 1)``.\n:meth:`randrange` is more sophisticated about producing equally distributed\nvalues.",
+                                    "answer_start": 157
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_87",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For example ``randrange(start=100)`` is interpreted\nas ``randrange(0, 100, 1)``.\n:meth:`randrange` is more sophisticated about producing equally distributed\nvalues.",
+                                    "answer_start": 157
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_88",
+                            "question": "What makes For unique?",
+                            "answers": [
+                                {
+                                    "text": "For example ``randrange(start=100)`` is interpreted\nas ``randrange(0, 100, 1)``.\n:meth:`randrange` is more sophisticated about producing equally distributed\nvalues.",
+                                    "answer_start": 157
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "For example ``randrange(start=100)`` is interpreted\nas ``randrange(0, 100, 1)``.\n:meth:`randrange` is more sophisticated about producing equally distributed\nvalues. Formerly it used a style like ``int(random()*n)`` which could produce\nslightly uneven distributions. Automatic conversion of non-integer types is no longer supported. Calls such as ``randrange(10.0)`` and ``randrange(Fraction(10, 1))``\nnow raise a :exc:`TypeError`. Return a random integer *N* such that ``a <= N <= b``.",
+                    "qas": [
+                        {
+                            "id": "qa_89",
+                            "question": "What is the role of Automatic in Python?",
+                            "answers": [
+                                {
+                                    "text": "Automatic conversion of non-integer types is no longer supported.",
+                                    "answer_start": 266
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_90",
+                            "question": "What challenges are associated with Automatic?",
+                            "answers": [
+                                {
+                                    "text": "Automatic conversion of non-integer types is no longer supported.",
+                                    "answer_start": 266
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_91",
+                            "question": "What are the key features of Automatic?",
+                            "answers": [
+                                {
+                                    "text": "Automatic conversion of non-integer types is no longer supported.",
+                                    "answer_start": 266
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_92",
+                            "question": "What makes Automatic unique?",
+                            "answers": [
+                                {
+                                    "text": "Automatic conversion of non-integer types is no longer supported.",
+                                    "answer_start": 266
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Formerly it used a style like ``int(random()*n)`` which could produce\nslightly uneven distributions. Automatic conversion of non-integer types is no longer supported. Calls such as ``randrange(10.0)`` and ``randrange(Fraction(10, 1))``\nnow raise a :exc:`TypeError`. Return a random integer *N* such that ``a <= N <= b``. Alias for\n``randrange(a, b+1)``.",
+                    "qas": [
+                        {
+                            "id": "qa_93",
+                            "question": "How does Calls work?",
+                            "answers": [
+                                {
+                                    "text": "Calls such as ``randrange(10.0)`` and ``randrange(Fraction(10, 1))``\nnow raise a :exc:`TypeError`.",
+                                    "answer_start": 167
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_94",
+                            "question": "What makes Calls unique?",
+                            "answers": [
+                                {
+                                    "text": "Calls such as ``randrange(10.0)`` and ``randrange(Fraction(10, 1))``\nnow raise a :exc:`TypeError`.",
+                                    "answer_start": 167
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_95",
+                            "question": "What is the role of Calls in Python?",
+                            "answers": [
+                                {
+                                    "text": "Calls such as ``randrange(10.0)`` and ``randrange(Fraction(10, 1))``\nnow raise a :exc:`TypeError`.",
+                                    "answer_start": 167
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_96",
+                            "question": "How is Calls used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Calls such as ``randrange(10.0)`` and ``randrange(Fraction(10, 1))``\nnow raise a :exc:`TypeError`.",
+                                    "answer_start": 167
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Calls such as ``randrange(10.0)`` and ``randrange(Fraction(10, 1))``\nnow raise a :exc:`TypeError`. Return a random integer *N* such that ``a <= N <= b``. Alias for\n``randrange(a, b+1)``. Returns a non-negative Python integer with *k* random bits. This method\nis supplied with the Mersenne Twister generator and some other generators\nmay also provide it as an optional part of the API.",
+                    "qas": [
+                        {
+                            "id": "qa_97",
+                            "question": "How is Alias used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Alias for\n``randrange(a, b+1)``.",
+                                    "answer_start": 154
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_98",
+                            "question": "What is mentioned about Alias?",
+                            "answers": [
+                                {
+                                    "text": "Alias for\n``randrange(a, b+1)``.",
+                                    "answer_start": 154
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_99",
+                            "question": "Why is Alias important?",
+                            "answers": [
+                                {
+                                    "text": "Alias for\n``randrange(a, b+1)``.",
+                                    "answer_start": 154
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_100",
+                            "question": "What challenges are associated with Alias?",
+                            "answers": [
+                                {
+                                    "text": "Alias for\n``randrange(a, b+1)``.",
+                                    "answer_start": 154
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

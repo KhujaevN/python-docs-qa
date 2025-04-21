@@ -1,0 +1,1235 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "title": "sysconfig",
+            "paragraphs": [
+                {
+                    "context": ":mod:`!sysconfig` --- Provide access to Python's configuration information\n:synopsis: Python's configuration information\n**Source code:** :source:`Lib/sysconfig`\nsingle: configuration information\n--------------\nThe :mod:`sysconfig` module provides access to Python's configuration\ninformation like the list of installation paths and the configuration variables\nrelevant for the current platform. Configuration variables\n-----------------------\nA Python distribution contains a :file:`Makefile` and a :file:`pyconfig.h`\nheader file that are necessary to build both the Python binary itself and\nthird-party C extensions compiled using ``setuptools``.\n:mod:`sysconfig` puts all variables found in these files in a dictionary that\ncan be accessed using :func:`get_config_vars` or :func:`get_config_var`. Notice that on Windows, it's a much smaller set.",
+                    "qas": [
+                        {
+                            "id": "qa_1",
+                            "question": "What are the benefits of :mod:`!sysconfig`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!sysconfig` --- Provide access to Python's configuration information\n:synopsis: Python's configuration information\n**Source code:** :source:`Lib/sysconfig`\nsingle: configuration information\n--------------\nThe :mod:`sysconfig` module provides access to Python's configuration\ninformation like the list of installation paths and the configuration variables\nrelevant for the current platform.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_2",
+                            "question": "How does :mod:`!sysconfig` work?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!sysconfig` --- Provide access to Python's configuration information\n:synopsis: Python's configuration information\n**Source code:** :source:`Lib/sysconfig`\nsingle: configuration information\n--------------\nThe :mod:`sysconfig` module provides access to Python's configuration\ninformation like the list of installation paths and the configuration variables\nrelevant for the current platform.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_3",
+                            "question": "How is :mod:`!sysconfig` used in programming?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!sysconfig` --- Provide access to Python's configuration information\n:synopsis: Python's configuration information\n**Source code:** :source:`Lib/sysconfig`\nsingle: configuration information\n--------------\nThe :mod:`sysconfig` module provides access to Python's configuration\ninformation like the list of installation paths and the configuration variables\nrelevant for the current platform.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_4",
+                            "question": "Why is :mod:`!sysconfig` important?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!sysconfig` --- Provide access to Python's configuration information\n:synopsis: Python's configuration information\n**Source code:** :source:`Lib/sysconfig`\nsingle: configuration information\n--------------\nThe :mod:`sysconfig` module provides access to Python's configuration\ninformation like the list of installation paths and the configuration variables\nrelevant for the current platform.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": ":mod:`!sysconfig` --- Provide access to Python's configuration information\n:synopsis: Python's configuration information\n**Source code:** :source:`Lib/sysconfig`\nsingle: configuration information\n--------------\nThe :mod:`sysconfig` module provides access to Python's configuration\ninformation like the list of installation paths and the configuration variables\nrelevant for the current platform. Configuration variables\n-----------------------\nA Python distribution contains a :file:`Makefile` and a :file:`pyconfig.h`\nheader file that are necessary to build both the Python binary itself and\nthird-party C extensions compiled using ``setuptools``.\n:mod:`sysconfig` puts all variables found in these files in a dictionary that\ncan be accessed using :func:`get_config_vars` or :func:`get_config_var`. Notice that on Windows, it's a much smaller set. With no arguments, return a dictionary of all configuration variables\nrelevant for the current platform.",
+                    "qas": [
+                        {
+                            "id": "qa_5",
+                            "question": "What is mentioned about Configuration?",
+                            "answers": [
+                                {
+                                    "text": "Configuration variables\n-----------------------\nA Python distribution contains a :file:`Makefile` and a :file:`pyconfig.h`\nheader file that are necessary to build both the Python binary itself and\nthird-party C extensions compiled using ``setuptools``.\n:mod:`sysconfig` puts all variables found in these files in a dictionary that\ncan be accessed using :func:`get_config_vars` or :func:`get_config_var`.",
+                                    "answer_start": 396
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_6",
+                            "question": "What are the benefits of Configuration?",
+                            "answers": [
+                                {
+                                    "text": "Configuration variables\n-----------------------\nA Python distribution contains a :file:`Makefile` and a :file:`pyconfig.h`\nheader file that are necessary to build both the Python binary itself and\nthird-party C extensions compiled using ``setuptools``.\n:mod:`sysconfig` puts all variables found in these files in a dictionary that\ncan be accessed using :func:`get_config_vars` or :func:`get_config_var`.",
+                                    "answer_start": 396
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_7",
+                            "question": "What are the key features of Configuration?",
+                            "answers": [
+                                {
+                                    "text": "Configuration variables\n-----------------------\nA Python distribution contains a :file:`Makefile` and a :file:`pyconfig.h`\nheader file that are necessary to build both the Python binary itself and\nthird-party C extensions compiled using ``setuptools``.\n:mod:`sysconfig` puts all variables found in these files in a dictionary that\ncan be accessed using :func:`get_config_vars` or :func:`get_config_var`.",
+                                    "answer_start": 396
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_8",
+                            "question": "Why is Configuration important?",
+                            "answers": [
+                                {
+                                    "text": "Configuration variables\n-----------------------\nA Python distribution contains a :file:`Makefile` and a :file:`pyconfig.h`\nheader file that are necessary to build both the Python binary itself and\nthird-party C extensions compiled using ``setuptools``.\n:mod:`sysconfig` puts all variables found in these files in a dictionary that\ncan be accessed using :func:`get_config_vars` or :func:`get_config_var`.",
+                                    "answer_start": 396
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": ":mod:`!sysconfig` --- Provide access to Python's configuration information\n:synopsis: Python's configuration information\n**Source code:** :source:`Lib/sysconfig`\nsingle: configuration information\n--------------\nThe :mod:`sysconfig` module provides access to Python's configuration\ninformation like the list of installation paths and the configuration variables\nrelevant for the current platform. Configuration variables\n-----------------------\nA Python distribution contains a :file:`Makefile` and a :file:`pyconfig.h`\nheader file that are necessary to build both the Python binary itself and\nthird-party C extensions compiled using ``setuptools``.\n:mod:`sysconfig` puts all variables found in these files in a dictionary that\ncan be accessed using :func:`get_config_vars` or :func:`get_config_var`. Notice that on Windows, it's a much smaller set. With no arguments, return a dictionary of all configuration variables\nrelevant for the current platform. With arguments, return a list of values that result from looking up each\nargument in the configuration variable dictionary.",
+                    "qas": [
+                        {
+                            "id": "qa_9",
+                            "question": "What challenges are associated with Notice?",
+                            "answers": [
+                                {
+                                    "text": "Notice that on Windows, it's a much smaller set.",
+                                    "answer_start": 800
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_10",
+                            "question": "Why is Notice important?",
+                            "answers": [
+                                {
+                                    "text": "Notice that on Windows, it's a much smaller set.",
+                                    "answer_start": 800
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_11",
+                            "question": "What is mentioned about Notice?",
+                            "answers": [
+                                {
+                                    "text": "Notice that on Windows, it's a much smaller set.",
+                                    "answer_start": 800
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_12",
+                            "question": "What are the key features of Notice?",
+                            "answers": [
+                                {
+                                    "text": "Notice that on Windows, it's a much smaller set.",
+                                    "answer_start": 800
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Configuration variables\n-----------------------\nA Python distribution contains a :file:`Makefile` and a :file:`pyconfig.h`\nheader file that are necessary to build both the Python binary itself and\nthird-party C extensions compiled using ``setuptools``.\n:mod:`sysconfig` puts all variables found in these files in a dictionary that\ncan be accessed using :func:`get_config_vars` or :func:`get_config_var`. Notice that on Windows, it's a much smaller set. With no arguments, return a dictionary of all configuration variables\nrelevant for the current platform. With arguments, return a list of values that result from looking up each\nargument in the configuration variable dictionary. For each argument, if the value is not found, return ``None``.",
+                    "qas": [
+                        {
+                            "id": "qa_13",
+                            "question": "Why is With important?",
+                            "answers": [
+                                {
+                                    "text": "With no arguments, return a dictionary of all configuration variables\nrelevant for the current platform.",
+                                    "answer_start": 453
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_14",
+                            "question": "How is With used in programming?",
+                            "answers": [
+                                {
+                                    "text": "With no arguments, return a dictionary of all configuration variables\nrelevant for the current platform.",
+                                    "answer_start": 453
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_15",
+                            "question": "What challenges are associated with With?",
+                            "answers": [
+                                {
+                                    "text": "With no arguments, return a dictionary of all configuration variables\nrelevant for the current platform.",
+                                    "answer_start": 453
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_16",
+                            "question": "Can you explain With?",
+                            "answers": [
+                                {
+                                    "text": "With no arguments, return a dictionary of all configuration variables\nrelevant for the current platform.",
+                                    "answer_start": 453
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Notice that on Windows, it's a much smaller set. With no arguments, return a dictionary of all configuration variables\nrelevant for the current platform. With arguments, return a list of values that result from looking up each\nargument in the configuration variable dictionary. For each argument, if the value is not found, return ``None``. Return the value of a single variable *name*.",
+                    "qas": [
+                        {
+                            "id": "qa_17",
+                            "question": "What are the benefits of With?",
+                            "answers": [
+                                {
+                                    "text": "With arguments, return a list of values that result from looking up each\nargument in the configuration variable dictionary.",
+                                    "answer_start": 154
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_18",
+                            "question": "What is the role of With in Python?",
+                            "answers": [
+                                {
+                                    "text": "With arguments, return a list of values that result from looking up each\nargument in the configuration variable dictionary.",
+                                    "answer_start": 154
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_19",
+                            "question": "Why is With important?",
+                            "answers": [
+                                {
+                                    "text": "With arguments, return a list of values that result from looking up each\nargument in the configuration variable dictionary.",
+                                    "answer_start": 154
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_20",
+                            "question": "What makes With unique?",
+                            "answers": [
+                                {
+                                    "text": "With arguments, return a list of values that result from looking up each\nargument in the configuration variable dictionary.",
+                                    "answer_start": 154
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "With no arguments, return a dictionary of all configuration variables\nrelevant for the current platform. With arguments, return a list of values that result from looking up each\nargument in the configuration variable dictionary. For each argument, if the value is not found, return ``None``. Return the value of a single variable *name*. Equivalent to\n``get_config_vars().get(name)``.",
+                    "qas": [
+                        {
+                            "id": "qa_21",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For each argument, if the value is not found, return ``None``.",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_22",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For each argument, if the value is not found, return ``None``.",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_23",
+                            "question": "What challenges are associated with For?",
+                            "answers": [
+                                {
+                                    "text": "For each argument, if the value is not found, return ``None``.",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_24",
+                            "question": "What is the role of For in Python?",
+                            "answers": [
+                                {
+                                    "text": "For each argument, if the value is not found, return ``None``.",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "For each argument, if the value is not found, return ``None``. Return the value of a single variable *name*. Equivalent to\n``get_config_vars().get(name)``. If *name* is not found, return ``None``. Example of usage::\n0\n'/usr/local/lib'\n['ar', 'g++']\nInstallation paths\n------------------\nPython uses an installation scheme that differs depending on the platform and on\nthe installation options.",
+                    "qas": [
+                        {
+                            "id": "qa_25",
+                            "question": "What is the role of Equivalent in Python?",
+                            "answers": [
+                                {
+                                    "text": "Equivalent to\n``get_config_vars().get(name)``.",
+                                    "answer_start": 109
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_26",
+                            "question": "Can you explain Equivalent?",
+                            "answers": [
+                                {
+                                    "text": "Equivalent to\n``get_config_vars().get(name)``.",
+                                    "answer_start": 109
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_27",
+                            "question": "Why is Equivalent important?",
+                            "answers": [
+                                {
+                                    "text": "Equivalent to\n``get_config_vars().get(name)``.",
+                                    "answer_start": 109
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_28",
+                            "question": "What is mentioned about Equivalent?",
+                            "answers": [
+                                {
+                                    "text": "Equivalent to\n``get_config_vars().get(name)``.",
+                                    "answer_start": 109
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Equivalent to\n``get_config_vars().get(name)``. If *name* is not found, return ``None``. Example of usage::\n0\n'/usr/local/lib'\n['ar', 'g++']\nInstallation paths\n------------------\nPython uses an installation scheme that differs depending on the platform and on\nthe installation options. These schemes are stored in :mod:`sysconfig` under\nunique identifiers based on the value returned by :const:`os.name`. The schemes are used by package installers to determine where to copy files to.",
+                    "qas": [
+                        {
+                            "id": "qa_29",
+                            "question": "Why is Example important?",
+                            "answers": [
+                                {
+                                    "text": "Example of usage::\n0\n'/usr/local/lib'\n['ar', 'g++']\nInstallation paths\n------------------\nPython uses an installation scheme that differs depending on the platform and on\nthe installation options.",
+                                    "answer_start": 88
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_30",
+                            "question": "What is mentioned about Example?",
+                            "answers": [
+                                {
+                                    "text": "Example of usage::\n0\n'/usr/local/lib'\n['ar', 'g++']\nInstallation paths\n------------------\nPython uses an installation scheme that differs depending on the platform and on\nthe installation options.",
+                                    "answer_start": 88
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_31",
+                            "question": "What makes Example unique?",
+                            "answers": [
+                                {
+                                    "text": "Example of usage::\n0\n'/usr/local/lib'\n['ar', 'g++']\nInstallation paths\n------------------\nPython uses an installation scheme that differs depending on the platform and on\nthe installation options.",
+                                    "answer_start": 88
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_32",
+                            "question": "What is the role of Example in Python?",
+                            "answers": [
+                                {
+                                    "text": "Example of usage::\n0\n'/usr/local/lib'\n['ar', 'g++']\nInstallation paths\n------------------\nPython uses an installation scheme that differs depending on the platform and on\nthe installation options.",
+                                    "answer_start": 88
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "These schemes are stored in :mod:`sysconfig` under\nunique identifiers based on the value returned by :const:`os.name`. The schemes are used by package installers to determine where to copy files to. Python currently supports nine schemes:\n- *posix_prefix*: scheme for POSIX platforms like Linux or macOS. This is\nthe default scheme used when Python or a component is installed.\n- *posix_home*: scheme for POSIX platforms, when the *home* option is used. This scheme defines paths located under a specific home prefix.\n- *posix_user*: scheme for POSIX platforms, when the *user* option is used.",
+                    "qas": [
+                        {
+                            "id": "qa_33",
+                            "question": "What makes Python unique?",
+                            "answers": [
+                                {
+                                    "text": "Python currently supports nine schemes:\n- *posix_prefix*: scheme for POSIX platforms like Linux or macOS.",
+                                    "answer_start": 199
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_34",
+                            "question": "How does Python work?",
+                            "answers": [
+                                {
+                                    "text": "Python currently supports nine schemes:\n- *posix_prefix*: scheme for POSIX platforms like Linux or macOS.",
+                                    "answer_start": 199
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_35",
+                            "question": "What are the key features of Python?",
+                            "answers": [
+                                {
+                                    "text": "Python currently supports nine schemes:\n- *posix_prefix*: scheme for POSIX platforms like Linux or macOS.",
+                                    "answer_start": 199
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_36",
+                            "question": "Why is Python important?",
+                            "answers": [
+                                {
+                                    "text": "Python currently supports nine schemes:\n- *posix_prefix*: scheme for POSIX platforms like Linux or macOS.",
+                                    "answer_start": 199
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This scheme defines paths located under the user's home directory\n(:const:`site.USER_BASE`).\n- *posix_venv*: scheme for :mod:`Python virtual environments <venv>` on POSIX\nplatforms; by default it is the same as *posix_prefix*.\n- *nt*: scheme for Windows. This is the default scheme used when Python or a component is installed.\n- *nt_user*: scheme for Windows, when the *user* option is used.\n- *nt_venv*: scheme for :mod:`Python virtual environments <venv>` on Windows;\nby default it is the same as *nt*.\n- *venv*: a scheme with values from either *posix_venv* or *nt_venv* depending\non the platform Python runs on.\n- *osx_framework_user*: scheme for macOS, when the *user* option is used. Each scheme is itself composed of a series of paths and each path has a unique\nidentifier. Python currently uses eight paths:\n- *stdlib*: directory containing the standard Python library files that are not\nplatform-specific.\n- *platstdlib*: directory containing the standard Python library files that are\nplatform-specific.\n- *platlib*: directory for site-specific, platform-specific files.\n- *purelib*: directory for site-specific, non-platform-specific files ('pure' Python).\n- *include*: directory for non-platform-specific header files for\nthe Python C-API.\n- *platinclude*: directory for platform-specific header files for\nthe Python C-API.\n- *scripts*: directory for script files.\n- *data*: directory for data files. User scheme\n---------------\nThis scheme is designed to be the most convenient solution for users that don't\nhave write permission to the global site-packages directory or don't want to\ninstall into it.",
+                    "qas": [
+                        {
+                            "id": "qa_37",
+                            "question": "What challenges are associated with Each?",
+                            "answers": [
+                                {
+                                    "text": "Each scheme is itself composed of a series of paths and each path has a unique\nidentifier.",
+                                    "answer_start": 691
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_38",
+                            "question": "How does Each work?",
+                            "answers": [
+                                {
+                                    "text": "Each scheme is itself composed of a series of paths and each path has a unique\nidentifier.",
+                                    "answer_start": 691
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_39",
+                            "question": "What are the benefits of Each?",
+                            "answers": [
+                                {
+                                    "text": "Each scheme is itself composed of a series of paths and each path has a unique\nidentifier.",
+                                    "answer_start": 691
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_40",
+                            "question": "What makes Each unique?",
+                            "answers": [
+                                {
+                                    "text": "Each scheme is itself composed of a series of paths and each path has a unique\nidentifier.",
+                                    "answer_start": 691
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This is the default scheme used when Python or a component is installed.\n- *nt_user*: scheme for Windows, when the *user* option is used.\n- *nt_venv*: scheme for :mod:`Python virtual environments <venv>` on Windows;\nby default it is the same as *nt*.\n- *venv*: a scheme with values from either *posix_venv* or *nt_venv* depending\non the platform Python runs on.\n- *osx_framework_user*: scheme for macOS, when the *user* option is used. Each scheme is itself composed of a series of paths and each path has a unique\nidentifier. Python currently uses eight paths:\n- *stdlib*: directory containing the standard Python library files that are not\nplatform-specific.\n- *platstdlib*: directory containing the standard Python library files that are\nplatform-specific.\n- *platlib*: directory for site-specific, platform-specific files.\n- *purelib*: directory for site-specific, non-platform-specific files ('pure' Python).\n- *include*: directory for non-platform-specific header files for\nthe Python C-API.\n- *platinclude*: directory for platform-specific header files for\nthe Python C-API.\n- *scripts*: directory for script files.\n- *data*: directory for data files. User scheme\n---------------\nThis scheme is designed to be the most convenient solution for users that don't\nhave write permission to the global site-packages directory or don't want to\ninstall into it. Files will be installed into subdirectories of :const:`site.USER_BASE` (written\nas :file:`{userbase}` hereafter).",
+                    "qas": [
+                        {
+                            "id": "qa_41",
+                            "question": "How does Python work?",
+                            "answers": [
+                                {
+                                    "text": "Python currently uses eight paths:\n- *stdlib*: directory containing the standard Python library files that are not\nplatform-specific.\n- *platstdlib*: directory containing the standard Python library files that are\nplatform-specific.\n- *platlib*: directory for site-specific, platform-specific files.\n- *purelib*: directory for site-specific, non-platform-specific files ('pure' Python).\n- *include*: directory for non-platform-specific header files for\nthe Python C-API.\n- *platinclude*: directory for platform-specific header files for\nthe Python C-API.\n- *scripts*: directory for script files.\n- *data*: directory for data files.",
+                                    "answer_start": 527
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_42",
+                            "question": "How is Python used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Python currently uses eight paths:\n- *stdlib*: directory containing the standard Python library files that are not\nplatform-specific.\n- *platstdlib*: directory containing the standard Python library files that are\nplatform-specific.\n- *platlib*: directory for site-specific, platform-specific files.\n- *purelib*: directory for site-specific, non-platform-specific files ('pure' Python).\n- *include*: directory for non-platform-specific header files for\nthe Python C-API.\n- *platinclude*: directory for platform-specific header files for\nthe Python C-API.\n- *scripts*: directory for script files.\n- *data*: directory for data files.",
+                                    "answer_start": 527
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_43",
+                            "question": "What makes Python unique?",
+                            "answers": [
+                                {
+                                    "text": "Python currently uses eight paths:\n- *stdlib*: directory containing the standard Python library files that are not\nplatform-specific.\n- *platstdlib*: directory containing the standard Python library files that are\nplatform-specific.\n- *platlib*: directory for site-specific, platform-specific files.\n- *purelib*: directory for site-specific, non-platform-specific files ('pure' Python).\n- *include*: directory for non-platform-specific header files for\nthe Python C-API.\n- *platinclude*: directory for platform-specific header files for\nthe Python C-API.\n- *scripts*: directory for script files.\n- *data*: directory for data files.",
+                                    "answer_start": 527
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_44",
+                            "question": "What challenges are associated with Python?",
+                            "answers": [
+                                {
+                                    "text": "Python currently uses eight paths:\n- *stdlib*: directory containing the standard Python library files that are not\nplatform-specific.\n- *platstdlib*: directory containing the standard Python library files that are\nplatform-specific.\n- *platlib*: directory for site-specific, platform-specific files.\n- *purelib*: directory for site-specific, non-platform-specific files ('pure' Python).\n- *include*: directory for non-platform-specific header files for\nthe Python C-API.\n- *platinclude*: directory for platform-specific header files for\nthe Python C-API.\n- *scripts*: directory for script files.\n- *data*: directory for data files.",
+                                    "answer_start": 527
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Each scheme is itself composed of a series of paths and each path has a unique\nidentifier. Python currently uses eight paths:\n- *stdlib*: directory containing the standard Python library files that are not\nplatform-specific.\n- *platstdlib*: directory containing the standard Python library files that are\nplatform-specific.\n- *platlib*: directory for site-specific, platform-specific files.\n- *purelib*: directory for site-specific, non-platform-specific files ('pure' Python).\n- *include*: directory for non-platform-specific header files for\nthe Python C-API.\n- *platinclude*: directory for platform-specific header files for\nthe Python C-API.\n- *scripts*: directory for script files.\n- *data*: directory for data files. User scheme\n---------------\nThis scheme is designed to be the most convenient solution for users that don't\nhave write permission to the global site-packages directory or don't want to\ninstall into it. Files will be installed into subdirectories of :const:`site.USER_BASE` (written\nas :file:`{userbase}` hereafter). This scheme installs pure Python modules and\nextension modules in the same location (also known as :const:`site.USER_SITE`).\n``posix_user``\n^^^^^^^^^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{userbase}/lib/python{X.Y}`\n*platstdlib*   :file:`{userbase}/lib/python{X.Y}`\n*platlib*      :file:`{userbase}/lib/python{X.Y}/site-packages`\n*purelib*      :file:`{userbase}/lib/python{X.Y}/site-packages`\n*include*      :file:`{userbase}/include/python{X.Y}`\n*scripts*      :file:`{userbase}/bin`\n*data*         :file:`{userbase}`\n``nt_user``\n^^^^^^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{userbase}\\\\Python{XY}`\n*platstdlib*   :file:`{userbase}\\\\Python{XY}`\n*platlib*      :file:`{userbase}\\\\Python{XY}\\\\site-packages`\n*purelib*      :file:`{userbase}\\\\Python{XY}\\\\site-packages`\n*include*      :file:`{userbase}\\\\Python{XY}\\\\Include`\n*scripts*      :file:`{userbase}\\\\Python{XY}\\\\Scripts`\n*data*         :file:`{userbase}`\n``osx_framework_user``\n^^^^^^^^^^^^^^^^^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{userbase}/lib/python`\n*platstdlib*   :file:`{userbase}/lib/python`\n*platlib*      :file:`{userbase}/lib/python/site-packages`\n*purelib*      :file:`{userbase}/lib/python/site-packages`\n*include*      :file:`{userbase}/include/python{X.Y}`\n*scripts*      :file:`{userbase}/bin`\n*data*         :file:`{userbase}`\nHome scheme\n-----------\nThe idea behind the \"home scheme\" is that you build and maintain a personal\nstash of Python modules.",
+                    "qas": [
+                        {
+                            "id": "qa_45",
+                            "question": "Can you explain User?",
+                            "answers": [
+                                {
+                                    "text": "User scheme\n---------------\nThis scheme is designed to be the most convenient solution for users that don't\nhave write permission to the global site-packages directory or don't want to\ninstall into it.",
+                                    "answer_start": 723
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_46",
+                            "question": "How does User work?",
+                            "answers": [
+                                {
+                                    "text": "User scheme\n---------------\nThis scheme is designed to be the most convenient solution for users that don't\nhave write permission to the global site-packages directory or don't want to\ninstall into it.",
+                                    "answer_start": 723
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_47",
+                            "question": "What are the key features of User?",
+                            "answers": [
+                                {
+                                    "text": "User scheme\n---------------\nThis scheme is designed to be the most convenient solution for users that don't\nhave write permission to the global site-packages directory or don't want to\ninstall into it.",
+                                    "answer_start": 723
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_48",
+                            "question": "What challenges are associated with User?",
+                            "answers": [
+                                {
+                                    "text": "User scheme\n---------------\nThis scheme is designed to be the most convenient solution for users that don't\nhave write permission to the global site-packages directory or don't want to\ninstall into it.",
+                                    "answer_start": 723
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Python currently uses eight paths:\n- *stdlib*: directory containing the standard Python library files that are not\nplatform-specific.\n- *platstdlib*: directory containing the standard Python library files that are\nplatform-specific.\n- *platlib*: directory for site-specific, platform-specific files.\n- *purelib*: directory for site-specific, non-platform-specific files ('pure' Python).\n- *include*: directory for non-platform-specific header files for\nthe Python C-API.\n- *platinclude*: directory for platform-specific header files for\nthe Python C-API.\n- *scripts*: directory for script files.\n- *data*: directory for data files. User scheme\n---------------\nThis scheme is designed to be the most convenient solution for users that don't\nhave write permission to the global site-packages directory or don't want to\ninstall into it. Files will be installed into subdirectories of :const:`site.USER_BASE` (written\nas :file:`{userbase}` hereafter). This scheme installs pure Python modules and\nextension modules in the same location (also known as :const:`site.USER_SITE`).\n``posix_user``\n^^^^^^^^^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{userbase}/lib/python{X.Y}`\n*platstdlib*   :file:`{userbase}/lib/python{X.Y}`\n*platlib*      :file:`{userbase}/lib/python{X.Y}/site-packages`\n*purelib*      :file:`{userbase}/lib/python{X.Y}/site-packages`\n*include*      :file:`{userbase}/include/python{X.Y}`\n*scripts*      :file:`{userbase}/bin`\n*data*         :file:`{userbase}`\n``nt_user``\n^^^^^^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{userbase}\\\\Python{XY}`\n*platstdlib*   :file:`{userbase}\\\\Python{XY}`\n*platlib*      :file:`{userbase}\\\\Python{XY}\\\\site-packages`\n*purelib*      :file:`{userbase}\\\\Python{XY}\\\\site-packages`\n*include*      :file:`{userbase}\\\\Python{XY}\\\\Include`\n*scripts*      :file:`{userbase}\\\\Python{XY}\\\\Scripts`\n*data*         :file:`{userbase}`\n``osx_framework_user``\n^^^^^^^^^^^^^^^^^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{userbase}/lib/python`\n*platstdlib*   :file:`{userbase}/lib/python`\n*platlib*      :file:`{userbase}/lib/python/site-packages`\n*purelib*      :file:`{userbase}/lib/python/site-packages`\n*include*      :file:`{userbase}/include/python{X.Y}`\n*scripts*      :file:`{userbase}/bin`\n*data*         :file:`{userbase}`\nHome scheme\n-----------\nThe idea behind the \"home scheme\" is that you build and maintain a personal\nstash of Python modules. This scheme's name is derived from the idea of a\n\"home\" directory on Unix, since it's not unusual for a Unix user to make their\nhome directory have a layout similar to :file:`/usr/` or :file:`/usr/local/`.",
+                    "qas": [
+                        {
+                            "id": "qa_49",
+                            "question": "What is mentioned about Files?",
+                            "answers": [
+                                {
+                                    "text": "Files will be installed into subdirectories of :const:`site.USER_BASE` (written\nas :file:`{userbase}` hereafter).",
+                                    "answer_start": 834
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_50",
+                            "question": "How does Files work?",
+                            "answers": [
+                                {
+                                    "text": "Files will be installed into subdirectories of :const:`site.USER_BASE` (written\nas :file:`{userbase}` hereafter).",
+                                    "answer_start": 834
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_51",
+                            "question": "How is Files used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Files will be installed into subdirectories of :const:`site.USER_BASE` (written\nas :file:`{userbase}` hereafter).",
+                                    "answer_start": 834
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_52",
+                            "question": "What challenges are associated with Files?",
+                            "answers": [
+                                {
+                                    "text": "Files will be installed into subdirectories of :const:`site.USER_BASE` (written\nas :file:`{userbase}` hereafter).",
+                                    "answer_start": 834
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This scheme can be used by anyone, regardless of the operating system they\nare installing for.\n``posix_home``\n^^^^^^^^^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{home}/lib/python`\n*platstdlib*   :file:`{home}/lib/python`\n*platlib*      :file:`{home}/lib/python`\n*purelib*      :file:`{home}/lib/python`\n*include*      :file:`{home}/include/python`\n*platinclude*  :file:`{home}/include/python`\n*scripts*      :file:`{home}/bin`\n*data*         :file:`{home}`\nPrefix scheme\n-------------\nThe \"prefix scheme\" is useful when you wish to use one Python installation to\nperform the build/install (i.e., to run the setup script), but install modules\ninto the third-party module directory of a different Python installation (or\nsomething that looks like a different Python installation). If this sounds a\ntrifle unusual, it is---that's why the user and home schemes come before. However,\nthere are at least two known cases where the prefix scheme will be useful. First, consider that many Linux distributions put Python in :file:`/usr`, rather\nthan the more traditional :file:`/usr/local`. This is entirely appropriate,\nsince in those cases Python is part of \"the system\" rather than a local add-on.",
+                    "qas": [
+                        {
+                            "id": "qa_53",
+                            "question": "What is mentioned about However,?",
+                            "answers": [
+                                {
+                                    "text": "However,\nthere are at least two known cases where the prefix scheme will be useful.",
+                                    "answer_start": 894
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_54",
+                            "question": "What challenges are associated with However,?",
+                            "answers": [
+                                {
+                                    "text": "However,\nthere are at least two known cases where the prefix scheme will be useful.",
+                                    "answer_start": 894
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_55",
+                            "question": "How is However, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "However,\nthere are at least two known cases where the prefix scheme will be useful.",
+                                    "answer_start": 894
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_56",
+                            "question": "What are the benefits of However,?",
+                            "answers": [
+                                {
+                                    "text": "However,\nthere are at least two known cases where the prefix scheme will be useful.",
+                                    "answer_start": 894
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If this sounds a\ntrifle unusual, it is---that's why the user and home schemes come before. However,\nthere are at least two known cases where the prefix scheme will be useful. First, consider that many Linux distributions put Python in :file:`/usr`, rather\nthan the more traditional :file:`/usr/local`. This is entirely appropriate,\nsince in those cases Python is part of \"the system\" rather than a local add-on. However, if you are installing Python modules from source, you probably want\nthem to go in :file:`/usr/local/lib/python2.{X}` rather than\n:file:`/usr/lib/python2.{X}`.",
+                    "qas": [
+                        {
+                            "id": "qa_57",
+                            "question": "What is the role of First, in Python?",
+                            "answers": [
+                                {
+                                    "text": "First, consider that many Linux distributions put Python in :file:`/usr`, rather\nthan the more traditional :file:`/usr/local`.",
+                                    "answer_start": 175
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_58",
+                            "question": "How does First, work?",
+                            "answers": [
+                                {
+                                    "text": "First, consider that many Linux distributions put Python in :file:`/usr`, rather\nthan the more traditional :file:`/usr/local`.",
+                                    "answer_start": 175
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_59",
+                            "question": "What are the benefits of First,?",
+                            "answers": [
+                                {
+                                    "text": "First, consider that many Linux distributions put Python in :file:`/usr`, rather\nthan the more traditional :file:`/usr/local`.",
+                                    "answer_start": 175
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_60",
+                            "question": "What challenges are associated with First,?",
+                            "answers": [
+                                {
+                                    "text": "First, consider that many Linux distributions put Python in :file:`/usr`, rather\nthan the more traditional :file:`/usr/local`.",
+                                    "answer_start": 175
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "First, consider that many Linux distributions put Python in :file:`/usr`, rather\nthan the more traditional :file:`/usr/local`. This is entirely appropriate,\nsince in those cases Python is part of \"the system\" rather than a local add-on. However, if you are installing Python modules from source, you probably want\nthem to go in :file:`/usr/local/lib/python2.{X}` rather than\n:file:`/usr/lib/python2.{X}`. Another possibility is a network filesystem where the name used to write to a\nremote directory is different from the name used to read it: for example, the\nPython interpreter accessed as :file:`/usr/local/bin/python` might search for\nmodules in :file:`/usr/local/lib/python2.{X}`, but those modules would have to\nbe installed to, say, :file:`/mnt/{@server}/export/lib/python2.{X}`.\n``posix_prefix``\n^^^^^^^^^^^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{prefix}/lib/python{X.Y}`\n*platstdlib*   :file:`{prefix}/lib/python{X.Y}`\n*platlib*      :file:`{prefix}/lib/python{X.Y}/site-packages`\n*purelib*      :file:`{prefix}/lib/python{X.Y}/site-packages`\n*include*      :file:`{prefix}/include/python{X.Y}`\n*platinclude*  :file:`{prefix}/include/python{X.Y}`\n*scripts*      :file:`{prefix}/bin`\n*data*         :file:`{prefix}`\n``nt``\n^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{prefix}\\\\Lib`\n*platstdlib*   :file:`{prefix}\\\\Lib`\n*platlib*      :file:`{prefix}\\\\Lib\\\\site-packages`\n*purelib*      :file:`{prefix}\\\\Lib\\\\site-packages`\n*include*      :file:`{prefix}\\\\Include`\n*platinclude*  :file:`{prefix}\\\\Include`\n*scripts*      :file:`{prefix}\\\\Scripts`\n*data*         :file:`{prefix}`\nInstallation path functions\n---------------------------\n:mod:`sysconfig` provides some functions to determine these installation paths. Return a tuple containing all schemes currently supported in\n:mod:`sysconfig`.",
+                    "qas": [
+                        {
+                            "id": "qa_61",
+                            "question": "How does However, work?",
+                            "answers": [
+                                {
+                                    "text": "However, if you are installing Python modules from source, you probably want\nthem to go in :file:`/usr/local/lib/python2.{X}` rather than\n:file:`/usr/lib/python2.{X}`.",
+                                    "answer_start": 237
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_62",
+                            "question": "What is mentioned about However,?",
+                            "answers": [
+                                {
+                                    "text": "However, if you are installing Python modules from source, you probably want\nthem to go in :file:`/usr/local/lib/python2.{X}` rather than\n:file:`/usr/lib/python2.{X}`.",
+                                    "answer_start": 237
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_63",
+                            "question": "What makes However, unique?",
+                            "answers": [
+                                {
+                                    "text": "However, if you are installing Python modules from source, you probably want\nthem to go in :file:`/usr/local/lib/python2.{X}` rather than\n:file:`/usr/lib/python2.{X}`.",
+                                    "answer_start": 237
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_64",
+                            "question": "What challenges are associated with However,?",
+                            "answers": [
+                                {
+                                    "text": "However, if you are installing Python modules from source, you probably want\nthem to go in :file:`/usr/local/lib/python2.{X}` rather than\n:file:`/usr/lib/python2.{X}`.",
+                                    "answer_start": 237
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This is entirely appropriate,\nsince in those cases Python is part of \"the system\" rather than a local add-on. However, if you are installing Python modules from source, you probably want\nthem to go in :file:`/usr/local/lib/python2.{X}` rather than\n:file:`/usr/lib/python2.{X}`. Another possibility is a network filesystem where the name used to write to a\nremote directory is different from the name used to read it: for example, the\nPython interpreter accessed as :file:`/usr/local/bin/python` might search for\nmodules in :file:`/usr/local/lib/python2.{X}`, but those modules would have to\nbe installed to, say, :file:`/mnt/{@server}/export/lib/python2.{X}`.\n``posix_prefix``\n^^^^^^^^^^^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{prefix}/lib/python{X.Y}`\n*platstdlib*   :file:`{prefix}/lib/python{X.Y}`\n*platlib*      :file:`{prefix}/lib/python{X.Y}/site-packages`\n*purelib*      :file:`{prefix}/lib/python{X.Y}/site-packages`\n*include*      :file:`{prefix}/include/python{X.Y}`\n*platinclude*  :file:`{prefix}/include/python{X.Y}`\n*scripts*      :file:`{prefix}/bin`\n*data*         :file:`{prefix}`\n``nt``\n^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{prefix}\\\\Lib`\n*platstdlib*   :file:`{prefix}\\\\Lib`\n*platlib*      :file:`{prefix}\\\\Lib\\\\site-packages`\n*purelib*      :file:`{prefix}\\\\Lib\\\\site-packages`\n*include*      :file:`{prefix}\\\\Include`\n*platinclude*  :file:`{prefix}\\\\Include`\n*scripts*      :file:`{prefix}\\\\Scripts`\n*data*         :file:`{prefix}`\nInstallation path functions\n---------------------------\n:mod:`sysconfig` provides some functions to determine these installation paths. Return a tuple containing all schemes currently supported in\n:mod:`sysconfig`. Return the default scheme name for the current platform.",
+                    "qas": [
+                        {
+                            "id": "qa_65",
+                            "question": "What are the benefits of Another?",
+                            "answers": [
+                                {
+                                    "text": "Another possibility is a network filesystem where the name used to write to a\nremote directory is different from the name used to read it: for example, the\nPython interpreter accessed as :file:`/usr/local/bin/python` might search for\nmodules in :file:`/usr/local/lib/python2.{X}`, but those modules would have to\nbe installed to, say, :file:`/mnt/{@server}/export/lib/python2.{X}`.\n``posix_prefix``\n^^^^^^^^^^^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{prefix}/lib/python{X.Y}`\n*platstdlib*   :file:`{prefix}/lib/python{X.Y}`\n*platlib*      :file:`{prefix}/lib/python{X.Y}/site-packages`\n*purelib*      :file:`{prefix}/lib/python{X.Y}/site-packages`\n*include*      :file:`{prefix}/include/python{X.Y}`\n*platinclude*  :file:`{prefix}/include/python{X.Y}`\n*scripts*      :file:`{prefix}/bin`\n*data*         :file:`{prefix}`\n``nt``\n^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{prefix}\\\\Lib`\n*platstdlib*   :file:`{prefix}\\\\Lib`\n*platlib*      :file:`{prefix}\\\\Lib\\\\site-packages`\n*purelib*      :file:`{prefix}\\\\Lib\\\\site-packages`\n*include*      :file:`{prefix}\\\\Include`\n*platinclude*  :file:`{prefix}\\\\Include`\n*scripts*      :file:`{prefix}\\\\Scripts`\n*data*         :file:`{prefix}`\nInstallation path functions\n---------------------------\n:mod:`sysconfig` provides some functions to determine these installation paths.",
+                                    "answer_start": 278
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_66",
+                            "question": "Can you explain Another?",
+                            "answers": [
+                                {
+                                    "text": "Another possibility is a network filesystem where the name used to write to a\nremote directory is different from the name used to read it: for example, the\nPython interpreter accessed as :file:`/usr/local/bin/python` might search for\nmodules in :file:`/usr/local/lib/python2.{X}`, but those modules would have to\nbe installed to, say, :file:`/mnt/{@server}/export/lib/python2.{X}`.\n``posix_prefix``\n^^^^^^^^^^^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{prefix}/lib/python{X.Y}`\n*platstdlib*   :file:`{prefix}/lib/python{X.Y}`\n*platlib*      :file:`{prefix}/lib/python{X.Y}/site-packages`\n*purelib*      :file:`{prefix}/lib/python{X.Y}/site-packages`\n*include*      :file:`{prefix}/include/python{X.Y}`\n*platinclude*  :file:`{prefix}/include/python{X.Y}`\n*scripts*      :file:`{prefix}/bin`\n*data*         :file:`{prefix}`\n``nt``\n^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{prefix}\\\\Lib`\n*platstdlib*   :file:`{prefix}\\\\Lib`\n*platlib*      :file:`{prefix}\\\\Lib\\\\site-packages`\n*purelib*      :file:`{prefix}\\\\Lib\\\\site-packages`\n*include*      :file:`{prefix}\\\\Include`\n*platinclude*  :file:`{prefix}\\\\Include`\n*scripts*      :file:`{prefix}\\\\Scripts`\n*data*         :file:`{prefix}`\nInstallation path functions\n---------------------------\n:mod:`sysconfig` provides some functions to determine these installation paths.",
+                                    "answer_start": 278
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_67",
+                            "question": "What challenges are associated with Another?",
+                            "answers": [
+                                {
+                                    "text": "Another possibility is a network filesystem where the name used to write to a\nremote directory is different from the name used to read it: for example, the\nPython interpreter accessed as :file:`/usr/local/bin/python` might search for\nmodules in :file:`/usr/local/lib/python2.{X}`, but those modules would have to\nbe installed to, say, :file:`/mnt/{@server}/export/lib/python2.{X}`.\n``posix_prefix``\n^^^^^^^^^^^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{prefix}/lib/python{X.Y}`\n*platstdlib*   :file:`{prefix}/lib/python{X.Y}`\n*platlib*      :file:`{prefix}/lib/python{X.Y}/site-packages`\n*purelib*      :file:`{prefix}/lib/python{X.Y}/site-packages`\n*include*      :file:`{prefix}/include/python{X.Y}`\n*platinclude*  :file:`{prefix}/include/python{X.Y}`\n*scripts*      :file:`{prefix}/bin`\n*data*         :file:`{prefix}`\n``nt``\n^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{prefix}\\\\Lib`\n*platstdlib*   :file:`{prefix}\\\\Lib`\n*platlib*      :file:`{prefix}\\\\Lib\\\\site-packages`\n*purelib*      :file:`{prefix}\\\\Lib\\\\site-packages`\n*include*      :file:`{prefix}\\\\Include`\n*platinclude*  :file:`{prefix}\\\\Include`\n*scripts*      :file:`{prefix}\\\\Scripts`\n*data*         :file:`{prefix}`\nInstallation path functions\n---------------------------\n:mod:`sysconfig` provides some functions to determine these installation paths.",
+                                    "answer_start": 278
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_68",
+                            "question": "How is Another used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Another possibility is a network filesystem where the name used to write to a\nremote directory is different from the name used to read it: for example, the\nPython interpreter accessed as :file:`/usr/local/bin/python` might search for\nmodules in :file:`/usr/local/lib/python2.{X}`, but those modules would have to\nbe installed to, say, :file:`/mnt/{@server}/export/lib/python2.{X}`.\n``posix_prefix``\n^^^^^^^^^^^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{prefix}/lib/python{X.Y}`\n*platstdlib*   :file:`{prefix}/lib/python{X.Y}`\n*platlib*      :file:`{prefix}/lib/python{X.Y}/site-packages`\n*purelib*      :file:`{prefix}/lib/python{X.Y}/site-packages`\n*include*      :file:`{prefix}/include/python{X.Y}`\n*platinclude*  :file:`{prefix}/include/python{X.Y}`\n*scripts*      :file:`{prefix}/bin`\n*data*         :file:`{prefix}`\n``nt``\n^^^^^^\nPath           Installation directory\n*stdlib*       :file:`{prefix}\\\\Lib`\n*platstdlib*   :file:`{prefix}\\\\Lib`\n*platlib*      :file:`{prefix}\\\\Lib\\\\site-packages`\n*purelib*      :file:`{prefix}\\\\Lib\\\\site-packages`\n*include*      :file:`{prefix}\\\\Include`\n*platinclude*  :file:`{prefix}\\\\Include`\n*scripts*      :file:`{prefix}\\\\Scripts`\n*data*         :file:`{prefix}`\nInstallation path functions\n---------------------------\n:mod:`sysconfig` provides some functions to determine these installation paths.",
+                                    "answer_start": 278
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "When Python runs from a virtual environment and ``key=\"prefix\"``,\nthe *venv* scheme is returned. Return a dict containing preferred scheme names on the current platform. Python implementers and redistributors may add their preferred schemes to\nthe ``_INSTALL_SCHEMES`` module-level global value, and modify this function\nto return those scheme names, to e.g. provide different schemes for system\nand language package managers to use, so packages installed by either do not\nmix with those by the other. End users should not use this function, but :func:`get_default_scheme` and\n:func:`get_preferred_scheme` instead. Return a tuple containing all path names currently supported in\n:mod:`sysconfig`.",
+                    "qas": [
+                        {
+                            "id": "qa_69",
+                            "question": "What makes Python unique?",
+                            "answers": [
+                                {
+                                    "text": "Python implementers and redistributors may add their preferred schemes to\nthe ``_INSTALL_SCHEMES`` module-level global value, and modify this function\nto return those scheme names, to e.g. provide different schemes for system\nand language package managers to use, so packages installed by either do not\nmix with those by the other.",
+                                    "answer_start": 170
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_70",
+                            "question": "How is Python used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Python implementers and redistributors may add their preferred schemes to\nthe ``_INSTALL_SCHEMES`` module-level global value, and modify this function\nto return those scheme names, to e.g. provide different schemes for system\nand language package managers to use, so packages installed by either do not\nmix with those by the other.",
+                                    "answer_start": 170
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_71",
+                            "question": "What is the role of Python in Python?",
+                            "answers": [
+                                {
+                                    "text": "Python implementers and redistributors may add their preferred schemes to\nthe ``_INSTALL_SCHEMES`` module-level global value, and modify this function\nto return those scheme names, to e.g. provide different schemes for system\nand language package managers to use, so packages installed by either do not\nmix with those by the other.",
+                                    "answer_start": 170
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_72",
+                            "question": "What is mentioned about Python?",
+                            "answers": [
+                                {
+                                    "text": "Python implementers and redistributors may add their preferred schemes to\nthe ``_INSTALL_SCHEMES`` module-level global value, and modify this function\nto return those scheme names, to e.g. provide different schemes for system\nand language package managers to use, so packages installed by either do not\nmix with those by the other.",
+                                    "answer_start": 170
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Return a dict containing preferred scheme names on the current platform. Python implementers and redistributors may add their preferred schemes to\nthe ``_INSTALL_SCHEMES`` module-level global value, and modify this function\nto return those scheme names, to e.g. provide different schemes for system\nand language package managers to use, so packages installed by either do not\nmix with those by the other. End users should not use this function, but :func:`get_default_scheme` and\n:func:`get_preferred_scheme` instead. Return a tuple containing all path names currently supported in\n:mod:`sysconfig`. Return an installation path corresponding to the path *name*, from the\ninstall scheme named *scheme*.\n*name* has to be a value from the list returned by :func:`get_path_names`.\n:mod:`sysconfig` stores installation paths corresponding to each path name,\nfor each platform, with variables to be expanded.",
+                    "qas": [
+                        {
+                            "id": "qa_73",
+                            "question": "What are the benefits of End?",
+                            "answers": [
+                                {
+                                    "text": "End users should not use this function, but :func:`get_default_scheme` and\n:func:`get_preferred_scheme` instead.",
+                                    "answer_start": 405
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_74",
+                            "question": "What are the key features of End?",
+                            "answers": [
+                                {
+                                    "text": "End users should not use this function, but :func:`get_default_scheme` and\n:func:`get_preferred_scheme` instead.",
+                                    "answer_start": 405
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_75",
+                            "question": "How does End work?",
+                            "answers": [
+                                {
+                                    "text": "End users should not use this function, but :func:`get_default_scheme` and\n:func:`get_preferred_scheme` instead.",
+                                    "answer_start": 405
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_76",
+                            "question": "What challenges are associated with End?",
+                            "answers": [
+                                {
+                                    "text": "End users should not use this function, but :func:`get_default_scheme` and\n:func:`get_preferred_scheme` instead.",
+                                    "answer_start": 405
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Return a tuple containing all path names currently supported in\n:mod:`sysconfig`. Return an installation path corresponding to the path *name*, from the\ninstall scheme named *scheme*.\n*name* has to be a value from the list returned by :func:`get_path_names`.\n:mod:`sysconfig` stores installation paths corresponding to each path name,\nfor each platform, with variables to be expanded. For instance the *stdlib*\npath for the *nt* scheme is: ``{base}/Lib``.\n:func:`get_path` will use the variables returned by :func:`get_config_vars`\nto expand the path. All variables have default values for each platform so\none may call this function and get the default value. If *scheme* is provided, it must be a value from the list returned by\n:func:`get_scheme_names`.",
+                    "qas": [
+                        {
+                            "id": "qa_77",
+                            "question": "How is For used in programming?",
+                            "answers": [
+                                {
+                                    "text": "For instance the *stdlib*\npath for the *nt* scheme is: ``{base}/Lib``.\n:func:`get_path` will use the variables returned by :func:`get_config_vars`\nto expand the path.",
+                                    "answer_start": 385
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_78",
+                            "question": "How does For work?",
+                            "answers": [
+                                {
+                                    "text": "For instance the *stdlib*\npath for the *nt* scheme is: ``{base}/Lib``.\n:func:`get_path` will use the variables returned by :func:`get_config_vars`\nto expand the path.",
+                                    "answer_start": 385
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_79",
+                            "question": "What makes For unique?",
+                            "answers": [
+                                {
+                                    "text": "For instance the *stdlib*\npath for the *nt* scheme is: ``{base}/Lib``.\n:func:`get_path` will use the variables returned by :func:`get_config_vars`\nto expand the path.",
+                                    "answer_start": 385
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_80",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For instance the *stdlib*\npath for the *nt* scheme is: ``{base}/Lib``.\n:func:`get_path` will use the variables returned by :func:`get_config_vars`\nto expand the path.",
+                                    "answer_start": 385
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Return an installation path corresponding to the path *name*, from the\ninstall scheme named *scheme*.\n*name* has to be a value from the list returned by :func:`get_path_names`.\n:mod:`sysconfig` stores installation paths corresponding to each path name,\nfor each platform, with variables to be expanded. For instance the *stdlib*\npath for the *nt* scheme is: ``{base}/Lib``.\n:func:`get_path` will use the variables returned by :func:`get_config_vars`\nto expand the path. All variables have default values for each platform so\none may call this function and get the default value. If *scheme* is provided, it must be a value from the list returned by\n:func:`get_scheme_names`. Otherwise, the default scheme for the current\nplatform is used.",
+                    "qas": [
+                        {
+                            "id": "qa_81",
+                            "question": "How is All used in programming?",
+                            "answers": [
+                                {
+                                    "text": "All variables have default values for each platform so\none may call this function and get the default value.",
+                                    "answer_start": 470
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_82",
+                            "question": "Can you explain All?",
+                            "answers": [
+                                {
+                                    "text": "All variables have default values for each platform so\none may call this function and get the default value.",
+                                    "answer_start": 470
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_83",
+                            "question": "What are the benefits of All?",
+                            "answers": [
+                                {
+                                    "text": "All variables have default values for each platform so\none may call this function and get the default value.",
+                                    "answer_start": 470
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_84",
+                            "question": "Why is All important?",
+                            "answers": [
+                                {
+                                    "text": "All variables have default values for each platform so\none may call this function and get the default value.",
+                                    "answer_start": 470
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "All variables have default values for each platform so\none may call this function and get the default value. If *scheme* is provided, it must be a value from the list returned by\n:func:`get_scheme_names`. Otherwise, the default scheme for the current\nplatform is used. If *vars* is provided, it must be a dictionary of variables that will update\nthe dictionary returned by :func:`get_config_vars`. If *expand* is set to ``False``, the path will not be expanded using the\nvariables.",
+                    "qas": [
+                        {
+                            "id": "qa_85",
+                            "question": "Can you explain Otherwise,?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, the default scheme for the current\nplatform is used.",
+                                    "answer_start": 205
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_86",
+                            "question": "How is Otherwise, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, the default scheme for the current\nplatform is used.",
+                                    "answer_start": 205
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_87",
+                            "question": "What is the role of Otherwise, in Python?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, the default scheme for the current\nplatform is used.",
+                                    "answer_start": 205
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_88",
+                            "question": "What are the benefits of Otherwise,?",
+                            "answers": [
+                                {
+                                    "text": "Otherwise, the default scheme for the current\nplatform is used.",
+                                    "answer_start": 205
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If *name* is not found, raise a :exc:`KeyError`. Return a dictionary containing all installation paths corresponding to an\ninstallation scheme. See :func:`get_path` for more information. If *scheme* is not provided, will use the default scheme for the current\nplatform. If *vars* is provided, it must be a dictionary of variables that will\nupdate the dictionary used to expand the paths.",
+                    "qas": [
+                        {
+                            "id": "qa_89",
+                            "question": "What are the benefits of See?",
+                            "answers": [
+                                {
+                                    "text": "See :func:`get_path` for more information.",
+                                    "answer_start": 144
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_90",
+                            "question": "What challenges are associated with See?",
+                            "answers": [
+                                {
+                                    "text": "See :func:`get_path` for more information.",
+                                    "answer_start": 144
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_91",
+                            "question": "What is the role of See in Python?",
+                            "answers": [
+                                {
+                                    "text": "See :func:`get_path` for more information.",
+                                    "answer_start": 144
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_92",
+                            "question": "How does See work?",
+                            "answers": [
+                                {
+                                    "text": "See :func:`get_path` for more information.",
+                                    "answer_start": 144
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If *expand* is set to false, the paths will not be expanded. If *scheme* is not an existing scheme, :func:`get_paths` will raise a\n:exc:`KeyError`. Other functions\n---------------\nReturn the ``MAJOR.MINOR`` Python version number as a string. Similar to\n``'%d.%d' % sys.version_info[:2]``. Return a string that identifies the current platform.",
+                    "qas": [
+                        {
+                            "id": "qa_93",
+                            "question": "How is Other used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Other functions\n---------------\nReturn the ``MAJOR.MINOR`` Python version number as a string.",
+                                    "answer_start": 148
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_94",
+                            "question": "Why is Other important?",
+                            "answers": [
+                                {
+                                    "text": "Other functions\n---------------\nReturn the ``MAJOR.MINOR`` Python version number as a string.",
+                                    "answer_start": 148
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_95",
+                            "question": "What are the benefits of Other?",
+                            "answers": [
+                                {
+                                    "text": "Other functions\n---------------\nReturn the ``MAJOR.MINOR`` Python version number as a string.",
+                                    "answer_start": 148
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_96",
+                            "question": "How does Other work?",
+                            "answers": [
+                                {
+                                    "text": "Other functions\n---------------\nReturn the ``MAJOR.MINOR`` Python version number as a string.",
+                                    "answer_start": 148
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If *scheme* is not an existing scheme, :func:`get_paths` will raise a\n:exc:`KeyError`. Other functions\n---------------\nReturn the ``MAJOR.MINOR`` Python version number as a string. Similar to\n``'%d.%d' % sys.version_info[:2]``. Return a string that identifies the current platform. This is used mainly to distinguish platform-specific build directories and\nplatform-specific built distributions.",
+                    "qas": [
+                        {
+                            "id": "qa_97",
+                            "question": "How does Similar work?",
+                            "answers": [
+                                {
+                                    "text": "Similar to\n``'%d.%d' % sys.version_info[:2]``.",
+                                    "answer_start": 181
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_98",
+                            "question": "What is mentioned about Similar?",
+                            "answers": [
+                                {
+                                    "text": "Similar to\n``'%d.%d' % sys.version_info[:2]``.",
+                                    "answer_start": 181
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_99",
+                            "question": "What makes Similar unique?",
+                            "answers": [
+                                {
+                                    "text": "Similar to\n``'%d.%d' % sys.version_info[:2]``.",
+                                    "answer_start": 181
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_100",
+                            "question": "What are the benefits of Similar?",
+                            "answers": [
+                                {
+                                    "text": "Similar to\n``'%d.%d' % sys.version_info[:2]``.",
+                                    "answer_start": 181
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

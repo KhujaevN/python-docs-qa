@@ -1,0 +1,1235 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "title": "re",
+            "paragraphs": [
+                {
+                    "context": ":mod:`!re` --- Regular expression operations\n:synopsis: Regular expression operations.\n**Source code:** :source:`Lib/re/`\n--------------\nThis module provides regular expression matching operations similar to\nthose found in Perl. Both patterns and strings to be searched can be Unicode strings (:class:`str`)\nas well as 8-bit strings (:class:`bytes`). However, Unicode strings and 8-bit strings cannot be mixed:\nthat is, you cannot match a Unicode string with a bytes pattern or\nvice-versa; similarly, when asking for a substitution, the replacement\nstring must be of the same type as both the pattern and the search string.",
+                    "qas": [
+                        {
+                            "id": "qa_1",
+                            "question": "What makes :mod:`!re` unique?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!re` --- Regular expression operations\n:synopsis: Regular expression operations.\n**Source code:** :source:`Lib/re/`\n--------------\nThis module provides regular expression matching operations similar to\nthose found in Perl.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_2",
+                            "question": "What is mentioned about :mod:`!re`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!re` --- Regular expression operations\n:synopsis: Regular expression operations.\n**Source code:** :source:`Lib/re/`\n--------------\nThis module provides regular expression matching operations similar to\nthose found in Perl.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_3",
+                            "question": "How is :mod:`!re` used in programming?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!re` --- Regular expression operations\n:synopsis: Regular expression operations.\n**Source code:** :source:`Lib/re/`\n--------------\nThis module provides regular expression matching operations similar to\nthose found in Perl.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_4",
+                            "question": "What is the role of :mod:`!re` in Python?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!re` --- Regular expression operations\n:synopsis: Regular expression operations.\n**Source code:** :source:`Lib/re/`\n--------------\nThis module provides regular expression matching operations similar to\nthose found in Perl.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": ":mod:`!re` --- Regular expression operations\n:synopsis: Regular expression operations.\n**Source code:** :source:`Lib/re/`\n--------------\nThis module provides regular expression matching operations similar to\nthose found in Perl. Both patterns and strings to be searched can be Unicode strings (:class:`str`)\nas well as 8-bit strings (:class:`bytes`). However, Unicode strings and 8-bit strings cannot be mixed:\nthat is, you cannot match a Unicode string with a bytes pattern or\nvice-versa; similarly, when asking for a substitution, the replacement\nstring must be of the same type as both the pattern and the search string. Regular expressions use the backslash character (``'\\'``) to indicate\nspecial forms or to allow special characters to be used without invoking\ntheir special meaning.",
+                    "qas": [
+                        {
+                            "id": "qa_5",
+                            "question": "What is mentioned about Both?",
+                            "answers": [
+                                {
+                                    "text": "Both patterns and strings to be searched can be Unicode strings (:class:`str`)\nas well as 8-bit strings (:class:`bytes`).",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_6",
+                            "question": "Can you explain Both?",
+                            "answers": [
+                                {
+                                    "text": "Both patterns and strings to be searched can be Unicode strings (:class:`str`)\nas well as 8-bit strings (:class:`bytes`).",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_7",
+                            "question": "Why is Both important?",
+                            "answers": [
+                                {
+                                    "text": "Both patterns and strings to be searched can be Unicode strings (:class:`str`)\nas well as 8-bit strings (:class:`bytes`).",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_8",
+                            "question": "How is Both used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Both patterns and strings to be searched can be Unicode strings (:class:`str`)\nas well as 8-bit strings (:class:`bytes`).",
+                                    "answer_start": 229
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": ":mod:`!re` --- Regular expression operations\n:synopsis: Regular expression operations.\n**Source code:** :source:`Lib/re/`\n--------------\nThis module provides regular expression matching operations similar to\nthose found in Perl. Both patterns and strings to be searched can be Unicode strings (:class:`str`)\nas well as 8-bit strings (:class:`bytes`). However, Unicode strings and 8-bit strings cannot be mixed:\nthat is, you cannot match a Unicode string with a bytes pattern or\nvice-versa; similarly, when asking for a substitution, the replacement\nstring must be of the same type as both the pattern and the search string. Regular expressions use the backslash character (``'\\'``) to indicate\nspecial forms or to allow special characters to be used without invoking\ntheir special meaning. This collides with Python's usage of the same\ncharacter for the same purpose in string literals; for example, to match\na literal backslash, one might have to write ``'\\\\\\\\'`` as the pattern\nstring, because the regular expression must be ``\\\\``, and each\nbackslash must be expressed as ``\\\\`` inside a regular Python string\nliteral.",
+                    "qas": [
+                        {
+                            "id": "qa_9",
+                            "question": "What challenges are associated with However,?",
+                            "answers": [
+                                {
+                                    "text": "However, Unicode strings and 8-bit strings cannot be mixed:\nthat is, you cannot match a Unicode string with a bytes pattern or\nvice-versa; similarly, when asking for a substitution, the replacement\nstring must be of the same type as both the pattern and the search string.",
+                                    "answer_start": 351
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_10",
+                            "question": "What is the role of However, in Python?",
+                            "answers": [
+                                {
+                                    "text": "However, Unicode strings and 8-bit strings cannot be mixed:\nthat is, you cannot match a Unicode string with a bytes pattern or\nvice-versa; similarly, when asking for a substitution, the replacement\nstring must be of the same type as both the pattern and the search string.",
+                                    "answer_start": 351
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_11",
+                            "question": "How does However, work?",
+                            "answers": [
+                                {
+                                    "text": "However, Unicode strings and 8-bit strings cannot be mixed:\nthat is, you cannot match a Unicode string with a bytes pattern or\nvice-versa; similarly, when asking for a substitution, the replacement\nstring must be of the same type as both the pattern and the search string.",
+                                    "answer_start": 351
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_12",
+                            "question": "What are the key features of However,?",
+                            "answers": [
+                                {
+                                    "text": "However, Unicode strings and 8-bit strings cannot be mixed:\nthat is, you cannot match a Unicode string with a bytes pattern or\nvice-versa; similarly, when asking for a substitution, the replacement\nstring must be of the same type as both the pattern and the search string.",
+                                    "answer_start": 351
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Both patterns and strings to be searched can be Unicode strings (:class:`str`)\nas well as 8-bit strings (:class:`bytes`). However, Unicode strings and 8-bit strings cannot be mixed:\nthat is, you cannot match a Unicode string with a bytes pattern or\nvice-versa; similarly, when asking for a substitution, the replacement\nstring must be of the same type as both the pattern and the search string. Regular expressions use the backslash character (``'\\'``) to indicate\nspecial forms or to allow special characters to be used without invoking\ntheir special meaning. This collides with Python's usage of the same\ncharacter for the same purpose in string literals; for example, to match\na literal backslash, one might have to write ``'\\\\\\\\'`` as the pattern\nstring, because the regular expression must be ``\\\\``, and each\nbackslash must be expressed as ``\\\\`` inside a regular Python string\nliteral. Also, please note that any invalid escape sequences in Python's\nusage of the backslash in string literals now generate a :exc:`SyntaxWarning`\nand in the future this will become a :exc:`SyntaxError`.",
+                    "qas": [
+                        {
+                            "id": "qa_13",
+                            "question": "What challenges are associated with Regular?",
+                            "answers": [
+                                {
+                                    "text": "Regular expressions use the backslash character (``'\\'``) to indicate\nspecial forms or to allow special characters to be used without invoking\ntheir special meaning.",
+                                    "answer_start": 395
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_14",
+                            "question": "Why is Regular important?",
+                            "answers": [
+                                {
+                                    "text": "Regular expressions use the backslash character (``'\\'``) to indicate\nspecial forms or to allow special characters to be used without invoking\ntheir special meaning.",
+                                    "answer_start": 395
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_15",
+                            "question": "What is the role of Regular in Python?",
+                            "answers": [
+                                {
+                                    "text": "Regular expressions use the backslash character (``'\\'``) to indicate\nspecial forms or to allow special characters to be used without invoking\ntheir special meaning.",
+                                    "answer_start": 395
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_16",
+                            "question": "What are the key features of Regular?",
+                            "answers": [
+                                {
+                                    "text": "Regular expressions use the backslash character (``'\\'``) to indicate\nspecial forms or to allow special characters to be used without invoking\ntheir special meaning.",
+                                    "answer_start": 395
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Regular expressions use the backslash character (``'\\'``) to indicate\nspecial forms or to allow special characters to be used without invoking\ntheir special meaning. This collides with Python's usage of the same\ncharacter for the same purpose in string literals; for example, to match\na literal backslash, one might have to write ``'\\\\\\\\'`` as the pattern\nstring, because the regular expression must be ``\\\\``, and each\nbackslash must be expressed as ``\\\\`` inside a regular Python string\nliteral. Also, please note that any invalid escape sequences in Python's\nusage of the backslash in string literals now generate a :exc:`SyntaxWarning`\nand in the future this will become a :exc:`SyntaxError`. This behaviour\nwill happen even if it is a valid escape sequence for a regular expression. The solution is to use Python's raw string notation for regular expression\npatterns; backslashes are not handled in any special way in a string literal\nprefixed with ``'r'``.",
+                    "qas": [
+                        {
+                            "id": "qa_17",
+                            "question": "What challenges are associated with Also,?",
+                            "answers": [
+                                {
+                                    "text": "Also, please note that any invalid escape sequences in Python's\nusage of the backslash in string literals now generate a :exc:`SyntaxWarning`\nand in the future this will become a :exc:`SyntaxError`.",
+                                    "answer_start": 498
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_18",
+                            "question": "How does Also, work?",
+                            "answers": [
+                                {
+                                    "text": "Also, please note that any invalid escape sequences in Python's\nusage of the backslash in string literals now generate a :exc:`SyntaxWarning`\nand in the future this will become a :exc:`SyntaxError`.",
+                                    "answer_start": 498
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_19",
+                            "question": "What are the benefits of Also,?",
+                            "answers": [
+                                {
+                                    "text": "Also, please note that any invalid escape sequences in Python's\nusage of the backslash in string literals now generate a :exc:`SyntaxWarning`\nand in the future this will become a :exc:`SyntaxError`.",
+                                    "answer_start": 498
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_20",
+                            "question": "What are the key features of Also,?",
+                            "answers": [
+                                {
+                                    "text": "Also, please note that any invalid escape sequences in Python's\nusage of the backslash in string literals now generate a :exc:`SyntaxWarning`\nand in the future this will become a :exc:`SyntaxError`.",
+                                    "answer_start": 498
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The solution is to use Python's raw string notation for regular expression\npatterns; backslashes are not handled in any special way in a string literal\nprefixed with ``'r'``. So ``r\"\\n\"`` is a two-character string containing\n``'\\'`` and ``'n'``, while ``\"\\n\"`` is a one-character string containing a\nnewline. Usually patterns will be expressed in Python code using this raw\nstring notation. It is important to note that most regular expression operations are available as\nmodule-level functions and methods on\n:ref:`compiled regular expressions <re-objects>`. The functions are shortcuts\nthat don't require you to compile a regex object first, but miss some\nfine-tuning parameters.",
+                    "qas": [
+                        {
+                            "id": "qa_21",
+                            "question": "What are the benefits of Usually?",
+                            "answers": [
+                                {
+                                    "text": "Usually patterns will be expressed in Python code using this raw\nstring notation.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_22",
+                            "question": "How is Usually used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Usually patterns will be expressed in Python code using this raw\nstring notation.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_23",
+                            "question": "How does Usually work?",
+                            "answers": [
+                                {
+                                    "text": "Usually patterns will be expressed in Python code using this raw\nstring notation.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_24",
+                            "question": "What are the key features of Usually?",
+                            "answers": [
+                                {
+                                    "text": "Usually patterns will be expressed in Python code using this raw\nstring notation.",
+                                    "answer_start": 309
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The functions are shortcuts\nthat don't require you to compile a regex object first, but miss some\nfine-tuning parameters. The third-party :pypi:`regex` module,\nwhich has an API compatible with the standard library :mod:`re` module,\nbut offers additional functionality and a more thorough Unicode support. Regular Expression Syntax\n-------------------------\nA regular expression (or RE) specifies a set of strings that matches it; the\nfunctions in this module let you check if a particular string matches a given\nregular expression (or if a given regular expression matches a particular\nstring, which comes down to the same thing). Regular expressions can be concatenated to form new regular expressions; if *A*\nand *B* are both regular expressions, then *AB* is also a regular expression. In general, if a string *p* matches *A* and another string *q* matches *B*, the\nstring *pq* will match AB.",
+                    "qas": [
+                        {
+                            "id": "qa_25",
+                            "question": "How is Regular used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Regular Expression Syntax\n-------------------------\nA regular expression (or RE) specifies a set of strings that matches it; the\nfunctions in this module let you check if a particular string matches a given\nregular expression (or if a given regular expression matches a particular\nstring, which comes down to the same thing).",
+                                    "answer_start": 305
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_26",
+                            "question": "What makes Regular unique?",
+                            "answers": [
+                                {
+                                    "text": "Regular Expression Syntax\n-------------------------\nA regular expression (or RE) specifies a set of strings that matches it; the\nfunctions in this module let you check if a particular string matches a given\nregular expression (or if a given regular expression matches a particular\nstring, which comes down to the same thing).",
+                                    "answer_start": 305
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_27",
+                            "question": "What are the key features of Regular?",
+                            "answers": [
+                                {
+                                    "text": "Regular Expression Syntax\n-------------------------\nA regular expression (or RE) specifies a set of strings that matches it; the\nfunctions in this module let you check if a particular string matches a given\nregular expression (or if a given regular expression matches a particular\nstring, which comes down to the same thing).",
+                                    "answer_start": 305
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_28",
+                            "question": "Why is Regular important?",
+                            "answers": [
+                                {
+                                    "text": "Regular Expression Syntax\n-------------------------\nA regular expression (or RE) specifies a set of strings that matches it; the\nfunctions in this module let you check if a particular string matches a given\nregular expression (or if a given regular expression matches a particular\nstring, which comes down to the same thing).",
+                                    "answer_start": 305
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The third-party :pypi:`regex` module,\nwhich has an API compatible with the standard library :mod:`re` module,\nbut offers additional functionality and a more thorough Unicode support. Regular Expression Syntax\n-------------------------\nA regular expression (or RE) specifies a set of strings that matches it; the\nfunctions in this module let you check if a particular string matches a given\nregular expression (or if a given regular expression matches a particular\nstring, which comes down to the same thing). Regular expressions can be concatenated to form new regular expressions; if *A*\nand *B* are both regular expressions, then *AB* is also a regular expression. In general, if a string *p* matches *A* and another string *q* matches *B*, the\nstring *pq* will match AB. This holds unless *A* or *B* contain low precedence\noperations; boundary conditions between *A* and *B*; or have numbered group\nreferences.",
+                    "qas": [
+                        {
+                            "id": "qa_29",
+                            "question": "Why is Regular important?",
+                            "answers": [
+                                {
+                                    "text": "Regular expressions can be concatenated to form new regular expressions; if *A*\nand *B* are both regular expressions, then *AB* is also a regular expression.",
+                                    "answer_start": 509
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_30",
+                            "question": "How does Regular work?",
+                            "answers": [
+                                {
+                                    "text": "Regular expressions can be concatenated to form new regular expressions; if *A*\nand *B* are both regular expressions, then *AB* is also a regular expression.",
+                                    "answer_start": 509
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_31",
+                            "question": "What is the role of Regular in Python?",
+                            "answers": [
+                                {
+                                    "text": "Regular expressions can be concatenated to form new regular expressions; if *A*\nand *B* are both regular expressions, then *AB* is also a regular expression.",
+                                    "answer_start": 509
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_32",
+                            "question": "What are the key features of Regular?",
+                            "answers": [
+                                {
+                                    "text": "Regular expressions can be concatenated to form new regular expressions; if *A*\nand *B* are both regular expressions, then *AB* is also a regular expression.",
+                                    "answer_start": 509
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "In general, if a string *p* matches *A* and another string *q* matches *B*, the\nstring *pq* will match AB. This holds unless *A* or *B* contain low precedence\noperations; boundary conditions between *A* and *B*; or have numbered group\nreferences. Thus, complex expressions can easily be constructed from simpler\nprimitive expressions like the ones described here. For details of the theory\nand implementation of regular expressions, consult the Friedl book [Frie09]_,\nor almost any textbook about compiler construction. A brief explanation of the format of regular expressions follows.",
+                    "qas": [
+                        {
+                            "id": "qa_33",
+                            "question": "What challenges are associated with Thus,?",
+                            "answers": [
+                                {
+                                    "text": "Thus, complex expressions can easily be constructed from simpler\nprimitive expressions like the ones described here.",
+                                    "answer_start": 247
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_34",
+                            "question": "What is the role of Thus, in Python?",
+                            "answers": [
+                                {
+                                    "text": "Thus, complex expressions can easily be constructed from simpler\nprimitive expressions like the ones described here.",
+                                    "answer_start": 247
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_35",
+                            "question": "Can you explain Thus,?",
+                            "answers": [
+                                {
+                                    "text": "Thus, complex expressions can easily be constructed from simpler\nprimitive expressions like the ones described here.",
+                                    "answer_start": 247
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_36",
+                            "question": "How is Thus, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Thus, complex expressions can easily be constructed from simpler\nprimitive expressions like the ones described here.",
+                                    "answer_start": 247
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This holds unless *A* or *B* contain low precedence\noperations; boundary conditions between *A* and *B*; or have numbered group\nreferences. Thus, complex expressions can easily be constructed from simpler\nprimitive expressions like the ones described here. For details of the theory\nand implementation of regular expressions, consult the Friedl book [Frie09]_,\nor almost any textbook about compiler construction. A brief explanation of the format of regular expressions follows. For further\ninformation and a gentler presentation, consult the :ref:`regex-howto`.",
+                    "qas": [
+                        {
+                            "id": "qa_37",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For details of the theory\nand implementation of regular expressions, consult the Friedl book [Frie09]_,\nor almost any textbook about compiler construction.",
+                                    "answer_start": 257
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_38",
+                            "question": "What challenges are associated with For?",
+                            "answers": [
+                                {
+                                    "text": "For details of the theory\nand implementation of regular expressions, consult the Friedl book [Frie09]_,\nor almost any textbook about compiler construction.",
+                                    "answer_start": 257
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_39",
+                            "question": "How does For work?",
+                            "answers": [
+                                {
+                                    "text": "For details of the theory\nand implementation of regular expressions, consult the Friedl book [Frie09]_,\nor almost any textbook about compiler construction.",
+                                    "answer_start": 257
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_40",
+                            "question": "How is For used in programming?",
+                            "answers": [
+                                {
+                                    "text": "For details of the theory\nand implementation of regular expressions, consult the Friedl book [Frie09]_,\nor almost any textbook about compiler construction.",
+                                    "answer_start": 257
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "For details of the theory\nand implementation of regular expressions, consult the Friedl book [Frie09]_,\nor almost any textbook about compiler construction. A brief explanation of the format of regular expressions follows. For further\ninformation and a gentler presentation, consult the :ref:`regex-howto`. Regular expressions can contain both special and ordinary characters. Most\nordinary characters, like ``'A'``, ``'a'``, or ``'0'``, are the simplest regular\nexpressions; they simply match themselves.",
+                    "qas": [
+                        {
+                            "id": "qa_41",
+                            "question": "What challenges are associated with For?",
+                            "answers": [
+                                {
+                                    "text": "For further\ninformation and a gentler presentation, consult the :ref:`regex-howto`.",
+                                    "answer_start": 222
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_42",
+                            "question": "Why is For important?",
+                            "answers": [
+                                {
+                                    "text": "For further\ninformation and a gentler presentation, consult the :ref:`regex-howto`.",
+                                    "answer_start": 222
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_43",
+                            "question": "How does For work?",
+                            "answers": [
+                                {
+                                    "text": "For further\ninformation and a gentler presentation, consult the :ref:`regex-howto`.",
+                                    "answer_start": 222
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_44",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For further\ninformation and a gentler presentation, consult the :ref:`regex-howto`.",
+                                    "answer_start": 222
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "A brief explanation of the format of regular expressions follows. For further\ninformation and a gentler presentation, consult the :ref:`regex-howto`. Regular expressions can contain both special and ordinary characters. Most\nordinary characters, like ``'A'``, ``'a'``, or ``'0'``, are the simplest regular\nexpressions; they simply match themselves. You can concatenate ordinary\ncharacters, so ``last`` matches the string ``'last'``.  (In the rest of this\nsection, we'll write RE's in ``this special style``, usually without quotes, and\nstrings to be matched ``'in single quotes'``.)\nSome characters, like ``'|'`` or ``'('``, are special.",
+                    "qas": [
+                        {
+                            "id": "qa_45",
+                            "question": "Why is Regular important?",
+                            "answers": [
+                                {
+                                    "text": "Regular expressions can contain both special and ordinary characters.",
+                                    "answer_start": 150
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_46",
+                            "question": "Can you explain Regular?",
+                            "answers": [
+                                {
+                                    "text": "Regular expressions can contain both special and ordinary characters.",
+                                    "answer_start": 150
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_47",
+                            "question": "How is Regular used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Regular expressions can contain both special and ordinary characters.",
+                                    "answer_start": 150
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_48",
+                            "question": "What are the key features of Regular?",
+                            "answers": [
+                                {
+                                    "text": "Regular expressions can contain both special and ordinary characters.",
+                                    "answer_start": 150
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "For further\ninformation and a gentler presentation, consult the :ref:`regex-howto`. Regular expressions can contain both special and ordinary characters. Most\nordinary characters, like ``'A'``, ``'a'``, or ``'0'``, are the simplest regular\nexpressions; they simply match themselves. You can concatenate ordinary\ncharacters, so ``last`` matches the string ``'last'``.  (In the rest of this\nsection, we'll write RE's in ``this special style``, usually without quotes, and\nstrings to be matched ``'in single quotes'``.)\nSome characters, like ``'|'`` or ``'('``, are special. Special\ncharacters either stand for classes of ordinary characters, or affect\nhow the regular expressions around them are interpreted.",
+                    "qas": [
+                        {
+                            "id": "qa_49",
+                            "question": "What challenges are associated with Most?",
+                            "answers": [
+                                {
+                                    "text": "Most\nordinary characters, like ``'A'``, ``'a'``, or ``'0'``, are the simplest regular\nexpressions; they simply match themselves.",
+                                    "answer_start": 154
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_50",
+                            "question": "How is Most used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Most\nordinary characters, like ``'A'``, ``'a'``, or ``'0'``, are the simplest regular\nexpressions; they simply match themselves.",
+                                    "answer_start": 154
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_51",
+                            "question": "How does Most work?",
+                            "answers": [
+                                {
+                                    "text": "Most\nordinary characters, like ``'A'``, ``'a'``, or ``'0'``, are the simplest regular\nexpressions; they simply match themselves.",
+                                    "answer_start": 154
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_52",
+                            "question": "What are the key features of Most?",
+                            "answers": [
+                                {
+                                    "text": "Most\nordinary characters, like ``'A'``, ``'a'``, or ``'0'``, are the simplest regular\nexpressions; they simply match themselves.",
+                                    "answer_start": 154
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Regular expressions can contain both special and ordinary characters. Most\nordinary characters, like ``'A'``, ``'a'``, or ``'0'``, are the simplest regular\nexpressions; they simply match themselves. You can concatenate ordinary\ncharacters, so ``last`` matches the string ``'last'``.  (In the rest of this\nsection, we'll write RE's in ``this special style``, usually without quotes, and\nstrings to be matched ``'in single quotes'``.)\nSome characters, like ``'|'`` or ``'('``, are special. Special\ncharacters either stand for classes of ordinary characters, or affect\nhow the regular expressions around them are interpreted. Repetition operators or quantifiers (``*``, ``+``, ``?``, ``{m,n}``, etc) cannot be\ndirectly nested.",
+                    "qas": [
+                        {
+                            "id": "qa_53",
+                            "question": "How is You used in programming?",
+                            "answers": [
+                                {
+                                    "text": "You can concatenate ordinary\ncharacters, so ``last`` matches the string ``'last'``.  (In the rest of this\nsection, we'll write RE's in ``this special style``, usually without quotes, and\nstrings to be matched ``'in single quotes'``.)\nSome characters, like ``'|'`` or ``'('``, are special.",
+                                    "answer_start": 199
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_54",
+                            "question": "What are the key features of You?",
+                            "answers": [
+                                {
+                                    "text": "You can concatenate ordinary\ncharacters, so ``last`` matches the string ``'last'``.  (In the rest of this\nsection, we'll write RE's in ``this special style``, usually without quotes, and\nstrings to be matched ``'in single quotes'``.)\nSome characters, like ``'|'`` or ``'('``, are special.",
+                                    "answer_start": 199
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_55",
+                            "question": "What challenges are associated with You?",
+                            "answers": [
+                                {
+                                    "text": "You can concatenate ordinary\ncharacters, so ``last`` matches the string ``'last'``.  (In the rest of this\nsection, we'll write RE's in ``this special style``, usually without quotes, and\nstrings to be matched ``'in single quotes'``.)\nSome characters, like ``'|'`` or ``'('``, are special.",
+                                    "answer_start": 199
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_56",
+                            "question": "What is the role of You in Python?",
+                            "answers": [
+                                {
+                                    "text": "You can concatenate ordinary\ncharacters, so ``last`` matches the string ``'last'``.  (In the rest of this\nsection, we'll write RE's in ``this special style``, usually without quotes, and\nstrings to be matched ``'in single quotes'``.)\nSome characters, like ``'|'`` or ``'('``, are special.",
+                                    "answer_start": 199
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Most\nordinary characters, like ``'A'``, ``'a'``, or ``'0'``, are the simplest regular\nexpressions; they simply match themselves. You can concatenate ordinary\ncharacters, so ``last`` matches the string ``'last'``.  (In the rest of this\nsection, we'll write RE's in ``this special style``, usually without quotes, and\nstrings to be matched ``'in single quotes'``.)\nSome characters, like ``'|'`` or ``'('``, are special. Special\ncharacters either stand for classes of ordinary characters, or affect\nhow the regular expressions around them are interpreted. Repetition operators or quantifiers (``*``, ``+``, ``?``, ``{m,n}``, etc) cannot be\ndirectly nested. This avoids ambiguity with the non-greedy modifier suffix\n``?``, and with other modifiers in other implementations.",
+                    "qas": [
+                        {
+                            "id": "qa_57",
+                            "question": "What is the role of Special in Python?",
+                            "answers": [
+                                {
+                                    "text": "Special\ncharacters either stand for classes of ordinary characters, or affect\nhow the regular expressions around them are interpreted.",
+                                    "answer_start": 418
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_58",
+                            "question": "What challenges are associated with Special?",
+                            "answers": [
+                                {
+                                    "text": "Special\ncharacters either stand for classes of ordinary characters, or affect\nhow the regular expressions around them are interpreted.",
+                                    "answer_start": 418
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_59",
+                            "question": "How is Special used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Special\ncharacters either stand for classes of ordinary characters, or affect\nhow the regular expressions around them are interpreted.",
+                                    "answer_start": 418
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_60",
+                            "question": "What is mentioned about Special?",
+                            "answers": [
+                                {
+                                    "text": "Special\ncharacters either stand for classes of ordinary characters, or affect\nhow the regular expressions around them are interpreted.",
+                                    "answer_start": 418
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "You can concatenate ordinary\ncharacters, so ``last`` matches the string ``'last'``.  (In the rest of this\nsection, we'll write RE's in ``this special style``, usually without quotes, and\nstrings to be matched ``'in single quotes'``.)\nSome characters, like ``'|'`` or ``'('``, are special. Special\ncharacters either stand for classes of ordinary characters, or affect\nhow the regular expressions around them are interpreted. Repetition operators or quantifiers (``*``, ``+``, ``?``, ``{m,n}``, etc) cannot be\ndirectly nested. This avoids ambiguity with the non-greedy modifier suffix\n``?``, and with other modifiers in other implementations. To apply a second\nrepetition to an inner repetition, parentheses may be used.",
+                    "qas": [
+                        {
+                            "id": "qa_61",
+                            "question": "What challenges are associated with Repetition?",
+                            "answers": [
+                                {
+                                    "text": "Repetition operators or quantifiers (``*``, ``+``, ``?``, ``{m,n}``, etc) cannot be\ndirectly nested.",
+                                    "answer_start": 424
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_62",
+                            "question": "Can you explain Repetition?",
+                            "answers": [
+                                {
+                                    "text": "Repetition operators or quantifiers (``*``, ``+``, ``?``, ``{m,n}``, etc) cannot be\ndirectly nested.",
+                                    "answer_start": 424
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_63",
+                            "question": "Why is Repetition important?",
+                            "answers": [
+                                {
+                                    "text": "Repetition operators or quantifiers (``*``, ``+``, ``?``, ``{m,n}``, etc) cannot be\ndirectly nested.",
+                                    "answer_start": 424
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_64",
+                            "question": "How is Repetition used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Repetition operators or quantifiers (``*``, ``+``, ``?``, ``{m,n}``, etc) cannot be\ndirectly nested.",
+                                    "answer_start": 424
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This avoids ambiguity with the non-greedy modifier suffix\n``?``, and with other modifiers in other implementations. To apply a second\nrepetition to an inner repetition, parentheses may be used. For example,\nthe expression ``(?:a{6})*`` matches any multiple of six ``'a'`` characters. The special characters are:\n``.``\n(Dot.)  In the default mode, this matches any character except a newline. If\nthe :const:`DOTALL` flag has been specified, this matches any character\nincluding a newline.  ``(?s:.)`` matches any character regardless of flags.\n``^``\n(Caret.)  Matches the start of the string, and in :const:`MULTILINE` mode also\nmatches immediately after each newline.\n``$``\nMatches the end of the string or just before the newline at the end of the\nstring, and in :const:`MULTILINE` mode also matches before a newline.  ``foo``\nmatches both 'foo' and 'foobar', while the regular expression ``foo$`` matches\nonly 'foo'.",
+                    "qas": [
+                        {
+                            "id": "qa_65",
+                            "question": "What is mentioned about For?",
+                            "answers": [
+                                {
+                                    "text": "For example,\nthe expression ``(?:a{6})*`` matches any multiple of six ``'a'`` characters.",
+                                    "answer_start": 194
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_66",
+                            "question": "Why is For important?",
+                            "answers": [
+                                {
+                                    "text": "For example,\nthe expression ``(?:a{6})*`` matches any multiple of six ``'a'`` characters.",
+                                    "answer_start": 194
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_67",
+                            "question": "How does For work?",
+                            "answers": [
+                                {
+                                    "text": "For example,\nthe expression ``(?:a{6})*`` matches any multiple of six ``'a'`` characters.",
+                                    "answer_start": 194
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_68",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For example,\nthe expression ``(?:a{6})*`` matches any multiple of six ``'a'`` characters.",
+                                    "answer_start": 194
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The special characters are:\n``.``\n(Dot.)  In the default mode, this matches any character except a newline. If\nthe :const:`DOTALL` flag has been specified, this matches any character\nincluding a newline.  ``(?s:.)`` matches any character regardless of flags.\n``^``\n(Caret.)  Matches the start of the string, and in :const:`MULTILINE` mode also\nmatches immediately after each newline.\n``$``\nMatches the end of the string or just before the newline at the end of the\nstring, and in :const:`MULTILINE` mode also matches before a newline.  ``foo``\nmatches both 'foo' and 'foobar', while the regular expression ``foo$`` matches\nonly 'foo'. More interestingly, searching for ``foo.$`` in ``'foo1\\nfoo2\\n'``\nmatches 'foo2' normally, but 'foo1' in :const:`MULTILINE` mode; searching for\na single ``$`` in ``'foo\\n'`` will find two (empty) matches: one just before\nthe newline, and one at the end of the string.\n``*``\nCauses the resulting RE to match 0 or more repetitions of the preceding RE, as\nmany repetitions as are possible.  ``ab*`` will match 'a', 'ab', or 'a' followed\nby any number of 'b's.\n``+``\nCauses the resulting RE to match 1 or more repetitions of the preceding RE.\n``ab+`` will match 'a' followed by any non-zero number of 'b's; it will not\nmatch just 'a'.\n``?``\nCauses the resulting RE to match 0 or 1 repetitions of the preceding RE.\n``ab?`` will match either 'a' or 'ab'.\nsingle: *?; in regular expressions\nsingle: +?; in regular expressions\nsingle: ??; in regular expressions\n``*?``, ``+?``, ``??``\nThe ``'*'``, ``'+'``, and ``'?'`` quantifiers are all :dfn:`greedy`; they match\nas much text as possible. Sometimes this behaviour isn't desired; if the RE\n``<.*>`` is matched against ``'<a> b <c>'``, it will match the entire\nstring, and not just ``'<a>'``. Adding ``?`` after the quantifier makes it\nperform the match in :dfn:`non-greedy` or :dfn:`minimal` fashion; as *few*\ncharacters as possible will be matched.",
+                    "qas": [
+                        {
+                            "id": "qa_69",
+                            "question": "What is mentioned about More?",
+                            "answers": [
+                                {
+                                    "text": "More interestingly, searching for ``foo.$`` in ``'foo1\\nfoo2\\n'``\nmatches 'foo2' normally, but 'foo1' in :const:`MULTILINE` mode; searching for\na single ``$`` in ``'foo\\n'`` will find two (empty) matches: one just before\nthe newline, and one at the end of the string.\n``*``\nCauses the resulting RE to match 0 or more repetitions of the preceding RE, as\nmany repetitions as are possible.  ``ab*`` will match 'a', 'ab', or 'a' followed\nby any number of 'b's.\n``+``\nCauses the resulting RE to match 1 or more repetitions of the preceding RE.\n``ab+`` will match 'a' followed by any non-zero number of 'b's; it will not\nmatch just 'a'.\n``?``\nCauses the resulting RE to match 0 or 1 repetitions of the preceding RE.\n``ab?`` will match either 'a' or 'ab'.\nsingle: *?; in regular expressions\nsingle: +?; in regular expressions\nsingle: ??; in regular expressions\n``*?``, ``+?``, ``??``\nThe ``'*'``, ``'+'``, and ``'?'`` quantifiers are all :dfn:`greedy`; they match\nas much text as possible.",
+                                    "answer_start": 635
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_70",
+                            "question": "What are the benefits of More?",
+                            "answers": [
+                                {
+                                    "text": "More interestingly, searching for ``foo.$`` in ``'foo1\\nfoo2\\n'``\nmatches 'foo2' normally, but 'foo1' in :const:`MULTILINE` mode; searching for\na single ``$`` in ``'foo\\n'`` will find two (empty) matches: one just before\nthe newline, and one at the end of the string.\n``*``\nCauses the resulting RE to match 0 or more repetitions of the preceding RE, as\nmany repetitions as are possible.  ``ab*`` will match 'a', 'ab', or 'a' followed\nby any number of 'b's.\n``+``\nCauses the resulting RE to match 1 or more repetitions of the preceding RE.\n``ab+`` will match 'a' followed by any non-zero number of 'b's; it will not\nmatch just 'a'.\n``?``\nCauses the resulting RE to match 0 or 1 repetitions of the preceding RE.\n``ab?`` will match either 'a' or 'ab'.\nsingle: *?; in regular expressions\nsingle: +?; in regular expressions\nsingle: ??; in regular expressions\n``*?``, ``+?``, ``??``\nThe ``'*'``, ``'+'``, and ``'?'`` quantifiers are all :dfn:`greedy`; they match\nas much text as possible.",
+                                    "answer_start": 635
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_71",
+                            "question": "Can you explain More?",
+                            "answers": [
+                                {
+                                    "text": "More interestingly, searching for ``foo.$`` in ``'foo1\\nfoo2\\n'``\nmatches 'foo2' normally, but 'foo1' in :const:`MULTILINE` mode; searching for\na single ``$`` in ``'foo\\n'`` will find two (empty) matches: one just before\nthe newline, and one at the end of the string.\n``*``\nCauses the resulting RE to match 0 or more repetitions of the preceding RE, as\nmany repetitions as are possible.  ``ab*`` will match 'a', 'ab', or 'a' followed\nby any number of 'b's.\n``+``\nCauses the resulting RE to match 1 or more repetitions of the preceding RE.\n``ab+`` will match 'a' followed by any non-zero number of 'b's; it will not\nmatch just 'a'.\n``?``\nCauses the resulting RE to match 0 or 1 repetitions of the preceding RE.\n``ab?`` will match either 'a' or 'ab'.\nsingle: *?; in regular expressions\nsingle: +?; in regular expressions\nsingle: ??; in regular expressions\n``*?``, ``+?``, ``??``\nThe ``'*'``, ``'+'``, and ``'?'`` quantifiers are all :dfn:`greedy`; they match\nas much text as possible.",
+                                    "answer_start": 635
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_72",
+                            "question": "Why is More important?",
+                            "answers": [
+                                {
+                                    "text": "More interestingly, searching for ``foo.$`` in ``'foo1\\nfoo2\\n'``\nmatches 'foo2' normally, but 'foo1' in :const:`MULTILINE` mode; searching for\na single ``$`` in ``'foo\\n'`` will find two (empty) matches: one just before\nthe newline, and one at the end of the string.\n``*``\nCauses the resulting RE to match 0 or more repetitions of the preceding RE, as\nmany repetitions as are possible.  ``ab*`` will match 'a', 'ab', or 'a' followed\nby any number of 'b's.\n``+``\nCauses the resulting RE to match 1 or more repetitions of the preceding RE.\n``ab+`` will match 'a' followed by any non-zero number of 'b's; it will not\nmatch just 'a'.\n``?``\nCauses the resulting RE to match 0 or 1 repetitions of the preceding RE.\n``ab?`` will match either 'a' or 'ab'.\nsingle: *?; in regular expressions\nsingle: +?; in regular expressions\nsingle: ??; in regular expressions\n``*?``, ``+?``, ``??``\nThe ``'*'``, ``'+'``, and ``'?'`` quantifiers are all :dfn:`greedy`; they match\nas much text as possible.",
+                                    "answer_start": 635
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If\nthe :const:`DOTALL` flag has been specified, this matches any character\nincluding a newline.  ``(?s:.)`` matches any character regardless of flags.\n``^``\n(Caret.)  Matches the start of the string, and in :const:`MULTILINE` mode also\nmatches immediately after each newline.\n``$``\nMatches the end of the string or just before the newline at the end of the\nstring, and in :const:`MULTILINE` mode also matches before a newline.  ``foo``\nmatches both 'foo' and 'foobar', while the regular expression ``foo$`` matches\nonly 'foo'. More interestingly, searching for ``foo.$`` in ``'foo1\\nfoo2\\n'``\nmatches 'foo2' normally, but 'foo1' in :const:`MULTILINE` mode; searching for\na single ``$`` in ``'foo\\n'`` will find two (empty) matches: one just before\nthe newline, and one at the end of the string.\n``*``\nCauses the resulting RE to match 0 or more repetitions of the preceding RE, as\nmany repetitions as are possible.  ``ab*`` will match 'a', 'ab', or 'a' followed\nby any number of 'b's.\n``+``\nCauses the resulting RE to match 1 or more repetitions of the preceding RE.\n``ab+`` will match 'a' followed by any non-zero number of 'b's; it will not\nmatch just 'a'.\n``?``\nCauses the resulting RE to match 0 or 1 repetitions of the preceding RE.\n``ab?`` will match either 'a' or 'ab'.\nsingle: *?; in regular expressions\nsingle: +?; in regular expressions\nsingle: ??; in regular expressions\n``*?``, ``+?``, ``??``\nThe ``'*'``, ``'+'``, and ``'?'`` quantifiers are all :dfn:`greedy`; they match\nas much text as possible. Sometimes this behaviour isn't desired; if the RE\n``<.*>`` is matched against ``'<a> b <c>'``, it will match the entire\nstring, and not just ``'<a>'``. Adding ``?`` after the quantifier makes it\nperform the match in :dfn:`non-greedy` or :dfn:`minimal` fashion; as *few*\ncharacters as possible will be matched. Using the RE ``<.*?>`` will match\nonly ``'<a>'``.\nsingle: *+; in regular expressions\nsingle: ++; in regular expressions\nsingle: ?+; in regular expressions\n``*+``, ``++``, ``?+``\nLike the ``'*'``, ``'+'``, and ``'?'`` quantifiers, those where ``'+'`` is\nappended also match as many times as possible.",
+                    "qas": [
+                        {
+                            "id": "qa_73",
+                            "question": "Can you explain Sometimes?",
+                            "answers": [
+                                {
+                                    "text": "Sometimes this behaviour isn't desired; if the RE\n``<.*>`` is matched against ``'<a> b <c>'``, it will match the entire\nstring, and not just ``'<a>'``.",
+                                    "answer_start": 1510
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_74",
+                            "question": "What are the key features of Sometimes?",
+                            "answers": [
+                                {
+                                    "text": "Sometimes this behaviour isn't desired; if the RE\n``<.*>`` is matched against ``'<a> b <c>'``, it will match the entire\nstring, and not just ``'<a>'``.",
+                                    "answer_start": 1510
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_75",
+                            "question": "What are the benefits of Sometimes?",
+                            "answers": [
+                                {
+                                    "text": "Sometimes this behaviour isn't desired; if the RE\n``<.*>`` is matched against ``'<a> b <c>'``, it will match the entire\nstring, and not just ``'<a>'``.",
+                                    "answer_start": 1510
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_76",
+                            "question": "What is the role of Sometimes in Python?",
+                            "answers": [
+                                {
+                                    "text": "Sometimes this behaviour isn't desired; if the RE\n``<.*>`` is matched against ``'<a> b <c>'``, it will match the entire\nstring, and not just ``'<a>'``.",
+                                    "answer_start": 1510
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "More interestingly, searching for ``foo.$`` in ``'foo1\\nfoo2\\n'``\nmatches 'foo2' normally, but 'foo1' in :const:`MULTILINE` mode; searching for\na single ``$`` in ``'foo\\n'`` will find two (empty) matches: one just before\nthe newline, and one at the end of the string.\n``*``\nCauses the resulting RE to match 0 or more repetitions of the preceding RE, as\nmany repetitions as are possible.  ``ab*`` will match 'a', 'ab', or 'a' followed\nby any number of 'b's.\n``+``\nCauses the resulting RE to match 1 or more repetitions of the preceding RE.\n``ab+`` will match 'a' followed by any non-zero number of 'b's; it will not\nmatch just 'a'.\n``?``\nCauses the resulting RE to match 0 or 1 repetitions of the preceding RE.\n``ab?`` will match either 'a' or 'ab'.\nsingle: *?; in regular expressions\nsingle: +?; in regular expressions\nsingle: ??; in regular expressions\n``*?``, ``+?``, ``??``\nThe ``'*'``, ``'+'``, and ``'?'`` quantifiers are all :dfn:`greedy`; they match\nas much text as possible. Sometimes this behaviour isn't desired; if the RE\n``<.*>`` is matched against ``'<a> b <c>'``, it will match the entire\nstring, and not just ``'<a>'``. Adding ``?`` after the quantifier makes it\nperform the match in :dfn:`non-greedy` or :dfn:`minimal` fashion; as *few*\ncharacters as possible will be matched. Using the RE ``<.*?>`` will match\nonly ``'<a>'``.\nsingle: *+; in regular expressions\nsingle: ++; in regular expressions\nsingle: ?+; in regular expressions\n``*+``, ``++``, ``?+``\nLike the ``'*'``, ``'+'``, and ``'?'`` quantifiers, those where ``'+'`` is\nappended also match as many times as possible. However, unlike the true greedy quantifiers, these do not allow\nback-tracking when the expression following it fails to match.",
+                    "qas": [
+                        {
+                            "id": "qa_77",
+                            "question": "Why is Adding important?",
+                            "answers": [
+                                {
+                                    "text": "Adding ``?`` after the quantifier makes it\nperform the match in :dfn:`non-greedy` or :dfn:`minimal` fashion; as *few*\ncharacters as possible will be matched.",
+                                    "answer_start": 1135
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_78",
+                            "question": "What are the benefits of Adding?",
+                            "answers": [
+                                {
+                                    "text": "Adding ``?`` after the quantifier makes it\nperform the match in :dfn:`non-greedy` or :dfn:`minimal` fashion; as *few*\ncharacters as possible will be matched.",
+                                    "answer_start": 1135
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_79",
+                            "question": "How is Adding used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Adding ``?`` after the quantifier makes it\nperform the match in :dfn:`non-greedy` or :dfn:`minimal` fashion; as *few*\ncharacters as possible will be matched.",
+                                    "answer_start": 1135
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_80",
+                            "question": "What is the role of Adding in Python?",
+                            "answers": [
+                                {
+                                    "text": "Adding ``?`` after the quantifier makes it\nperform the match in :dfn:`non-greedy` or :dfn:`minimal` fashion; as *few*\ncharacters as possible will be matched.",
+                                    "answer_start": 1135
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Adding ``?`` after the quantifier makes it\nperform the match in :dfn:`non-greedy` or :dfn:`minimal` fashion; as *few*\ncharacters as possible will be matched. Using the RE ``<.*?>`` will match\nonly ``'<a>'``.\nsingle: *+; in regular expressions\nsingle: ++; in regular expressions\nsingle: ?+; in regular expressions\n``*+``, ``++``, ``?+``\nLike the ``'*'``, ``'+'``, and ``'?'`` quantifiers, those where ``'+'`` is\nappended also match as many times as possible. However, unlike the true greedy quantifiers, these do not allow\nback-tracking when the expression following it fails to match. These are known as :dfn:`possessive` quantifiers. For example, ``a*a`` will match ``'aaaa'`` because the ``a*`` will match\nall 4 ``'a'``\\ s, but, when the final ``'a'`` is encountered, the\nexpression is backtracked so that in the end the ``a*`` ends up matching\n3 ``'a'``\\ s total, and the fourth ``'a'`` is matched by the final ``'a'``.",
+                    "qas": [
+                        {
+                            "id": "qa_81",
+                            "question": "How is However, used in programming?",
+                            "answers": [
+                                {
+                                    "text": "However, unlike the true greedy quantifiers, these do not allow\nback-tracking when the expression following it fails to match.",
+                                    "answer_start": 458
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_82",
+                            "question": "Can you explain However,?",
+                            "answers": [
+                                {
+                                    "text": "However, unlike the true greedy quantifiers, these do not allow\nback-tracking when the expression following it fails to match.",
+                                    "answer_start": 458
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_83",
+                            "question": "What makes However, unique?",
+                            "answers": [
+                                {
+                                    "text": "However, unlike the true greedy quantifiers, these do not allow\nback-tracking when the expression following it fails to match.",
+                                    "answer_start": 458
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_84",
+                            "question": "Why is However, important?",
+                            "answers": [
+                                {
+                                    "text": "However, unlike the true greedy quantifiers, these do not allow\nback-tracking when the expression following it fails to match.",
+                                    "answer_start": 458
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "However, unlike the true greedy quantifiers, these do not allow\nback-tracking when the expression following it fails to match. These are known as :dfn:`possessive` quantifiers. For example, ``a*a`` will match ``'aaaa'`` because the ``a*`` will match\nall 4 ``'a'``\\ s, but, when the final ``'a'`` is encountered, the\nexpression is backtracked so that in the end the ``a*`` ends up matching\n3 ``'a'``\\ s total, and the fourth ``'a'`` is matched by the final ``'a'``. However, when ``a*+a`` is used to match ``'aaaa'``, the ``a*+`` will\nmatch all 4 ``'a'``, but when the final ``'a'`` fails to find any more\ncharacters to match, the expression cannot be backtracked and will thus\nfail to match.\n``x*+``, ``x++`` and ``x?+`` are equivalent to ``(?>x*)``, ``(?>x+)``\nand ``(?>x?)`` correspondingly.\nsingle: {} (curly brackets); in regular expressions\n``{m}``\nSpecifies that exactly *m* copies of the previous RE should be matched; fewer\nmatches cause the entire RE not to match. For example, ``a{6}`` will match\nexactly six ``'a'`` characters, but not five.\n``{m,n}``\nCauses the resulting RE to match from *m* to *n* repetitions of the preceding\nRE, attempting to match as many repetitions as possible.",
+                    "qas": [
+                        {
+                            "id": "qa_85",
+                            "question": "What is mentioned about For?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``a*a`` will match ``'aaaa'`` because the ``a*`` will match\nall 4 ``'a'``\\ s, but, when the final ``'a'`` is encountered, the\nexpression is backtracked so that in the end the ``a*`` ends up matching\n3 ``'a'``\\ s total, and the fourth ``'a'`` is matched by the final ``'a'``.",
+                                    "answer_start": 177
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_86",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``a*a`` will match ``'aaaa'`` because the ``a*`` will match\nall 4 ``'a'``\\ s, but, when the final ``'a'`` is encountered, the\nexpression is backtracked so that in the end the ``a*`` ends up matching\n3 ``'a'``\\ s total, and the fourth ``'a'`` is matched by the final ``'a'``.",
+                                    "answer_start": 177
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_87",
+                            "question": "What is the role of For in Python?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``a*a`` will match ``'aaaa'`` because the ``a*`` will match\nall 4 ``'a'``\\ s, but, when the final ``'a'`` is encountered, the\nexpression is backtracked so that in the end the ``a*`` ends up matching\n3 ``'a'``\\ s total, and the fourth ``'a'`` is matched by the final ``'a'``.",
+                                    "answer_start": 177
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_88",
+                            "question": "Why is For important?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``a*a`` will match ``'aaaa'`` because the ``a*`` will match\nall 4 ``'a'``\\ s, but, when the final ``'a'`` is encountered, the\nexpression is backtracked so that in the end the ``a*`` ends up matching\n3 ``'a'``\\ s total, and the fourth ``'a'`` is matched by the final ``'a'``.",
+                                    "answer_start": 177
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "These are known as :dfn:`possessive` quantifiers. For example, ``a*a`` will match ``'aaaa'`` because the ``a*`` will match\nall 4 ``'a'``\\ s, but, when the final ``'a'`` is encountered, the\nexpression is backtracked so that in the end the ``a*`` ends up matching\n3 ``'a'``\\ s total, and the fourth ``'a'`` is matched by the final ``'a'``. However, when ``a*+a`` is used to match ``'aaaa'``, the ``a*+`` will\nmatch all 4 ``'a'``, but when the final ``'a'`` fails to find any more\ncharacters to match, the expression cannot be backtracked and will thus\nfail to match.\n``x*+``, ``x++`` and ``x?+`` are equivalent to ``(?>x*)``, ``(?>x+)``\nand ``(?>x?)`` correspondingly.\nsingle: {} (curly brackets); in regular expressions\n``{m}``\nSpecifies that exactly *m* copies of the previous RE should be matched; fewer\nmatches cause the entire RE not to match. For example, ``a{6}`` will match\nexactly six ``'a'`` characters, but not five.\n``{m,n}``\nCauses the resulting RE to match from *m* to *n* repetitions of the preceding\nRE, attempting to match as many repetitions as possible. For example,\n``a{3,5}`` will match from 3 to 5 ``'a'`` characters.",
+                    "qas": [
+                        {
+                            "id": "qa_89",
+                            "question": "What makes However, unique?",
+                            "answers": [
+                                {
+                                    "text": "However, when ``a*+a`` is used to match ``'aaaa'``, the ``a*+`` will\nmatch all 4 ``'a'``, but when the final ``'a'`` fails to find any more\ncharacters to match, the expression cannot be backtracked and will thus\nfail to match.\n``x*+``, ``x++`` and ``x?+`` are equivalent to ``(?>x*)``, ``(?>x+)``\nand ``(?>x?)`` correspondingly.\nsingle: {} (curly brackets); in regular expressions\n``{m}``\nSpecifies that exactly *m* copies of the previous RE should be matched; fewer\nmatches cause the entire RE not to match.",
+                                    "answer_start": 338
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_90",
+                            "question": "What challenges are associated with However,?",
+                            "answers": [
+                                {
+                                    "text": "However, when ``a*+a`` is used to match ``'aaaa'``, the ``a*+`` will\nmatch all 4 ``'a'``, but when the final ``'a'`` fails to find any more\ncharacters to match, the expression cannot be backtracked and will thus\nfail to match.\n``x*+``, ``x++`` and ``x?+`` are equivalent to ``(?>x*)``, ``(?>x+)``\nand ``(?>x?)`` correspondingly.\nsingle: {} (curly brackets); in regular expressions\n``{m}``\nSpecifies that exactly *m* copies of the previous RE should be matched; fewer\nmatches cause the entire RE not to match.",
+                                    "answer_start": 338
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_91",
+                            "question": "What is the role of However, in Python?",
+                            "answers": [
+                                {
+                                    "text": "However, when ``a*+a`` is used to match ``'aaaa'``, the ``a*+`` will\nmatch all 4 ``'a'``, but when the final ``'a'`` fails to find any more\ncharacters to match, the expression cannot be backtracked and will thus\nfail to match.\n``x*+``, ``x++`` and ``x?+`` are equivalent to ``(?>x*)``, ``(?>x+)``\nand ``(?>x?)`` correspondingly.\nsingle: {} (curly brackets); in regular expressions\n``{m}``\nSpecifies that exactly *m* copies of the previous RE should be matched; fewer\nmatches cause the entire RE not to match.",
+                                    "answer_start": 338
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_92",
+                            "question": "Why is However, important?",
+                            "answers": [
+                                {
+                                    "text": "However, when ``a*+a`` is used to match ``'aaaa'``, the ``a*+`` will\nmatch all 4 ``'a'``, but when the final ``'a'`` fails to find any more\ncharacters to match, the expression cannot be backtracked and will thus\nfail to match.\n``x*+``, ``x++`` and ``x?+`` are equivalent to ``(?>x*)``, ``(?>x+)``\nand ``(?>x?)`` correspondingly.\nsingle: {} (curly brackets); in regular expressions\n``{m}``\nSpecifies that exactly *m* copies of the previous RE should be matched; fewer\nmatches cause the entire RE not to match.",
+                                    "answer_start": 338
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "For example, ``a*a`` will match ``'aaaa'`` because the ``a*`` will match\nall 4 ``'a'``\\ s, but, when the final ``'a'`` is encountered, the\nexpression is backtracked so that in the end the ``a*`` ends up matching\n3 ``'a'``\\ s total, and the fourth ``'a'`` is matched by the final ``'a'``. However, when ``a*+a`` is used to match ``'aaaa'``, the ``a*+`` will\nmatch all 4 ``'a'``, but when the final ``'a'`` fails to find any more\ncharacters to match, the expression cannot be backtracked and will thus\nfail to match.\n``x*+``, ``x++`` and ``x?+`` are equivalent to ``(?>x*)``, ``(?>x+)``\nand ``(?>x?)`` correspondingly.\nsingle: {} (curly brackets); in regular expressions\n``{m}``\nSpecifies that exactly *m* copies of the previous RE should be matched; fewer\nmatches cause the entire RE not to match. For example, ``a{6}`` will match\nexactly six ``'a'`` characters, but not five.\n``{m,n}``\nCauses the resulting RE to match from *m* to *n* repetitions of the preceding\nRE, attempting to match as many repetitions as possible. For example,\n``a{3,5}`` will match from 3 to 5 ``'a'`` characters. Omitting *m* specifies a\nlower bound of zero,  and omitting *n* specifies an infinite upper bound.",
+                    "qas": [
+                        {
+                            "id": "qa_93",
+                            "question": "What is mentioned about For?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``a{6}`` will match\nexactly six ``'a'`` characters, but not five.\n``{m,n}``\nCauses the resulting RE to match from *m* to *n* repetitions of the preceding\nRE, attempting to match as many repetitions as possible.",
+                                    "answer_start": 797
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_94",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``a{6}`` will match\nexactly six ``'a'`` characters, but not five.\n``{m,n}``\nCauses the resulting RE to match from *m* to *n* repetitions of the preceding\nRE, attempting to match as many repetitions as possible.",
+                                    "answer_start": 797
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_95",
+                            "question": "How does For work?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``a{6}`` will match\nexactly six ``'a'`` characters, but not five.\n``{m,n}``\nCauses the resulting RE to match from *m* to *n* repetitions of the preceding\nRE, attempting to match as many repetitions as possible.",
+                                    "answer_start": 797
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_96",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For example, ``a{6}`` will match\nexactly six ``'a'`` characters, but not five.\n``{m,n}``\nCauses the resulting RE to match from *m* to *n* repetitions of the preceding\nRE, attempting to match as many repetitions as possible.",
+                                    "answer_start": 797
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "However, when ``a*+a`` is used to match ``'aaaa'``, the ``a*+`` will\nmatch all 4 ``'a'``, but when the final ``'a'`` fails to find any more\ncharacters to match, the expression cannot be backtracked and will thus\nfail to match.\n``x*+``, ``x++`` and ``x?+`` are equivalent to ``(?>x*)``, ``(?>x+)``\nand ``(?>x?)`` correspondingly.\nsingle: {} (curly brackets); in regular expressions\n``{m}``\nSpecifies that exactly *m* copies of the previous RE should be matched; fewer\nmatches cause the entire RE not to match. For example, ``a{6}`` will match\nexactly six ``'a'`` characters, but not five.\n``{m,n}``\nCauses the resulting RE to match from *m* to *n* repetitions of the preceding\nRE, attempting to match as many repetitions as possible. For example,\n``a{3,5}`` will match from 3 to 5 ``'a'`` characters. Omitting *m* specifies a\nlower bound of zero,  and omitting *n* specifies an infinite upper bound. As an\nexample, ``a{4,}b`` will match ``'aaaab'`` or a thousand ``'a'`` characters\nfollowed by a ``'b'``, but not ``'aaab'``.",
+                    "qas": [
+                        {
+                            "id": "qa_97",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For example,\n``a{3,5}`` will match from 3 to 5 ``'a'`` characters.",
+                                    "answer_start": 733
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_98",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For example,\n``a{3,5}`` will match from 3 to 5 ``'a'`` characters.",
+                                    "answer_start": 733
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_99",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For example,\n``a{3,5}`` will match from 3 to 5 ``'a'`` characters.",
+                                    "answer_start": 733
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_100",
+                            "question": "What is the role of For in Python?",
+                            "answers": [
+                                {
+                                    "text": "For example,\n``a{3,5}`` will match from 3 to 5 ``'a'`` characters.",
+                                    "answer_start": 733
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

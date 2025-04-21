@@ -1,0 +1,1235 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "title": "json",
+            "paragraphs": [
+                {
+                    "context": ":mod:`!json` --- JSON encoder and decoder\n:synopsis: Encode and decode the JSON format.\n**Source code:** :source:`Lib/json/__init__.py`\n--------------\n`JSON (JavaScript Object Notation) <https://json.org>`_, specified by\n:rfc:`7159` (which obsoletes :rfc:`4627`) and by\n`ECMA-404 <https://ecma-international.org/publications-and-standards/standards/ecma-404/>`_,\nis a lightweight data interchange format inspired by\n`JavaScript <https://en.wikipedia.org/wiki/JavaScript>`_ object literal syntax\n(although it is not a strict subset of JavaScript [#rfc-errata]_ ). Be cautious when parsing JSON data from untrusted sources. A malicious\nJSON string may cause the decoder to consume considerable CPU and memory\nresources.",
+                    "qas": [
+                        {
+                            "id": "qa_1",
+                            "question": "Why is :mod:`!json` important?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!json` --- JSON encoder and decoder\n:synopsis: Encode and decode the JSON format.\n**Source code:** :source:`Lib/json/__init__.py`\n--------------\n`JSON (JavaScript Object Notation) <https://json.org>`_, specified by\n:rfc:`7159` (which obsoletes :rfc:`4627`) and by\n`ECMA-404 <https://ecma-international.org/publications-and-standards/standards/ecma-404/>`_,\nis a lightweight data interchange format inspired by\n`JavaScript <https://en.wikipedia.org/wiki/JavaScript>`_ object literal syntax\n(although it is not a strict subset of JavaScript [#rfc-errata]_ ).",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_2",
+                            "question": "What are the key features of :mod:`!json`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!json` --- JSON encoder and decoder\n:synopsis: Encode and decode the JSON format.\n**Source code:** :source:`Lib/json/__init__.py`\n--------------\n`JSON (JavaScript Object Notation) <https://json.org>`_, specified by\n:rfc:`7159` (which obsoletes :rfc:`4627`) and by\n`ECMA-404 <https://ecma-international.org/publications-and-standards/standards/ecma-404/>`_,\nis a lightweight data interchange format inspired by\n`JavaScript <https://en.wikipedia.org/wiki/JavaScript>`_ object literal syntax\n(although it is not a strict subset of JavaScript [#rfc-errata]_ ).",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_3",
+                            "question": "What challenges are associated with :mod:`!json`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!json` --- JSON encoder and decoder\n:synopsis: Encode and decode the JSON format.\n**Source code:** :source:`Lib/json/__init__.py`\n--------------\n`JSON (JavaScript Object Notation) <https://json.org>`_, specified by\n:rfc:`7159` (which obsoletes :rfc:`4627`) and by\n`ECMA-404 <https://ecma-international.org/publications-and-standards/standards/ecma-404/>`_,\nis a lightweight data interchange format inspired by\n`JavaScript <https://en.wikipedia.org/wiki/JavaScript>`_ object literal syntax\n(although it is not a strict subset of JavaScript [#rfc-errata]_ ).",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_4",
+                            "question": "What is mentioned about :mod:`!json`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!json` --- JSON encoder and decoder\n:synopsis: Encode and decode the JSON format.\n**Source code:** :source:`Lib/json/__init__.py`\n--------------\n`JSON (JavaScript Object Notation) <https://json.org>`_, specified by\n:rfc:`7159` (which obsoletes :rfc:`4627`) and by\n`ECMA-404 <https://ecma-international.org/publications-and-standards/standards/ecma-404/>`_,\nis a lightweight data interchange format inspired by\n`JavaScript <https://en.wikipedia.org/wiki/JavaScript>`_ object literal syntax\n(although it is not a strict subset of JavaScript [#rfc-errata]_ ).",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Be cautious when parsing JSON data from untrusted sources. A malicious\nJSON string may cause the decoder to consume considerable CPU and memory\nresources. Limiting the size of data to be parsed is recommended.\n:mod:`json` exposes an API familiar to users of the standard library\n:mod:`marshal` and :mod:`pickle` modules. Encoding basic Python object hierarchies::\n'[\"foo\", {\"bar\": [\"baz\", null, 1.0, 2]}]'\n\"\\\"foo\\bar\"\n\"\\u1234\"\n\"\\\\\"\n{\"a\": 0, \"b\": 0, \"c\": 0}\n'[\"streaming API\"]'\nCompact encoding::\n'[1,2,3,{\"4\":5,\"6\":7}]'\nPretty printing::\n{\n\"4\": 5,\n\"6\": 7\n}\nSpecializing JSON object encoding::\n'{\"__complex__\": true, \"real\": 1.0, \"imag\": 2.0}'\nDecoding JSON::\n['foo', {'bar': ['baz', None, 1.0, 2]}]\n'\"foo\\x08ar'\n['streaming API']\nSpecializing JSON object decoding::\n(1+2j)\nDecimal('1.1')\nExtending :class:`JSONEncoder`::\n'[2.0, 1.0]'\n'[2.0, 1.0]'\n['[2.0', ', 1.0', ']']\nUsing :mod:`json` from the shell to validate and pretty-print:\n$ echo '{\"json\":\"obj\"}' | python -m json\n{\n\"json\": \"obj\"\n}\n$ echo '{1.2:3.4}' | python -m json\nExpecting property name enclosed in double quotes: line 1 column 2 (char 1)\nSee :ref:`json-commandline` for detailed documentation. JSON is a subset of `YAML <https://yaml.org/>`_ 1.2.",
+                    "qas": [
+                        {
+                            "id": "qa_5",
+                            "question": "What are the benefits of Limiting?",
+                            "answers": [
+                                {
+                                    "text": "Limiting the size of data to be parsed is recommended.\n:mod:`json` exposes an API familiar to users of the standard library\n:mod:`marshal` and :mod:`pickle` modules.",
+                                    "answer_start": 155
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_6",
+                            "question": "What are the key features of Limiting?",
+                            "answers": [
+                                {
+                                    "text": "Limiting the size of data to be parsed is recommended.\n:mod:`json` exposes an API familiar to users of the standard library\n:mod:`marshal` and :mod:`pickle` modules.",
+                                    "answer_start": 155
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_7",
+                            "question": "How is Limiting used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Limiting the size of data to be parsed is recommended.\n:mod:`json` exposes an API familiar to users of the standard library\n:mod:`marshal` and :mod:`pickle` modules.",
+                                    "answer_start": 155
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_8",
+                            "question": "How does Limiting work?",
+                            "answers": [
+                                {
+                                    "text": "Limiting the size of data to be parsed is recommended.\n:mod:`json` exposes an API familiar to users of the standard library\n:mod:`marshal` and :mod:`pickle` modules.",
+                                    "answer_start": 155
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "A malicious\nJSON string may cause the decoder to consume considerable CPU and memory\nresources. Limiting the size of data to be parsed is recommended.\n:mod:`json` exposes an API familiar to users of the standard library\n:mod:`marshal` and :mod:`pickle` modules. Encoding basic Python object hierarchies::\n'[\"foo\", {\"bar\": [\"baz\", null, 1.0, 2]}]'\n\"\\\"foo\\bar\"\n\"\\u1234\"\n\"\\\\\"\n{\"a\": 0, \"b\": 0, \"c\": 0}\n'[\"streaming API\"]'\nCompact encoding::\n'[1,2,3,{\"4\":5,\"6\":7}]'\nPretty printing::\n{\n\"4\": 5,\n\"6\": 7\n}\nSpecializing JSON object encoding::\n'{\"__complex__\": true, \"real\": 1.0, \"imag\": 2.0}'\nDecoding JSON::\n['foo', {'bar': ['baz', None, 1.0, 2]}]\n'\"foo\\x08ar'\n['streaming API']\nSpecializing JSON object decoding::\n(1+2j)\nDecimal('1.1')\nExtending :class:`JSONEncoder`::\n'[2.0, 1.0]'\n'[2.0, 1.0]'\n['[2.0', ', 1.0', ']']\nUsing :mod:`json` from the shell to validate and pretty-print:\n$ echo '{\"json\":\"obj\"}' | python -m json\n{\n\"json\": \"obj\"\n}\n$ echo '{1.2:3.4}' | python -m json\nExpecting property name enclosed in double quotes: line 1 column 2 (char 1)\nSee :ref:`json-commandline` for detailed documentation. JSON is a subset of `YAML <https://yaml.org/>`_ 1.2. The JSON produced by\nthis module's default settings (in particular, the default *separators*\nvalue) is also a subset of YAML 1.0 and 1.1.",
+                    "qas": [
+                        {
+                            "id": "qa_9",
+                            "question": "What are the benefits of Encoding?",
+                            "answers": [
+                                {
+                                    "text": "Encoding basic Python object hierarchies::\n'[\"foo\", {\"bar\": [\"baz\", null, 1.0, 2]}]'\n\"\\\"foo\\bar\"\n\"\\u1234\"\n\"\\\\\"\n{\"a\": 0, \"b\": 0, \"c\": 0}\n'[\"streaming API\"]'\nCompact encoding::\n'[1,2,3,{\"4\":5,\"6\":7}]'\nPretty printing::\n{\n\"4\": 5,\n\"6\": 7\n}\nSpecializing JSON object encoding::\n'{\"__complex__\": true, \"real\": 1.0, \"imag\": 2.0}'\nDecoding JSON::\n['foo', {'bar': ['baz', None, 1.0, 2]}]\n'\"foo\\x08ar'\n['streaming API']\nSpecializing JSON object decoding::\n(1+2j)\nDecimal('1.1')\nExtending :class:`JSONEncoder`::\n'[2.0, 1.0]'\n'[2.0, 1.0]'\n['[2.0', ', 1.0', ']']\nUsing :mod:`json` from the shell to validate and pretty-print:\n$ echo '{\"json\":\"obj\"}' | python -m json\n{\n\"json\": \"obj\"\n}\n$ echo '{1.2:3.4}' | python -m json\nExpecting property name enclosed in double quotes: line 1 column 2 (char 1)\nSee :ref:`json-commandline` for detailed documentation.",
+                                    "answer_start": 262
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_10",
+                            "question": "Can you explain Encoding?",
+                            "answers": [
+                                {
+                                    "text": "Encoding basic Python object hierarchies::\n'[\"foo\", {\"bar\": [\"baz\", null, 1.0, 2]}]'\n\"\\\"foo\\bar\"\n\"\\u1234\"\n\"\\\\\"\n{\"a\": 0, \"b\": 0, \"c\": 0}\n'[\"streaming API\"]'\nCompact encoding::\n'[1,2,3,{\"4\":5,\"6\":7}]'\nPretty printing::\n{\n\"4\": 5,\n\"6\": 7\n}\nSpecializing JSON object encoding::\n'{\"__complex__\": true, \"real\": 1.0, \"imag\": 2.0}'\nDecoding JSON::\n['foo', {'bar': ['baz', None, 1.0, 2]}]\n'\"foo\\x08ar'\n['streaming API']\nSpecializing JSON object decoding::\n(1+2j)\nDecimal('1.1')\nExtending :class:`JSONEncoder`::\n'[2.0, 1.0]'\n'[2.0, 1.0]'\n['[2.0', ', 1.0', ']']\nUsing :mod:`json` from the shell to validate and pretty-print:\n$ echo '{\"json\":\"obj\"}' | python -m json\n{\n\"json\": \"obj\"\n}\n$ echo '{1.2:3.4}' | python -m json\nExpecting property name enclosed in double quotes: line 1 column 2 (char 1)\nSee :ref:`json-commandline` for detailed documentation.",
+                                    "answer_start": 262
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_11",
+                            "question": "What makes Encoding unique?",
+                            "answers": [
+                                {
+                                    "text": "Encoding basic Python object hierarchies::\n'[\"foo\", {\"bar\": [\"baz\", null, 1.0, 2]}]'\n\"\\\"foo\\bar\"\n\"\\u1234\"\n\"\\\\\"\n{\"a\": 0, \"b\": 0, \"c\": 0}\n'[\"streaming API\"]'\nCompact encoding::\n'[1,2,3,{\"4\":5,\"6\":7}]'\nPretty printing::\n{\n\"4\": 5,\n\"6\": 7\n}\nSpecializing JSON object encoding::\n'{\"__complex__\": true, \"real\": 1.0, \"imag\": 2.0}'\nDecoding JSON::\n['foo', {'bar': ['baz', None, 1.0, 2]}]\n'\"foo\\x08ar'\n['streaming API']\nSpecializing JSON object decoding::\n(1+2j)\nDecimal('1.1')\nExtending :class:`JSONEncoder`::\n'[2.0, 1.0]'\n'[2.0, 1.0]'\n['[2.0', ', 1.0', ']']\nUsing :mod:`json` from the shell to validate and pretty-print:\n$ echo '{\"json\":\"obj\"}' | python -m json\n{\n\"json\": \"obj\"\n}\n$ echo '{1.2:3.4}' | python -m json\nExpecting property name enclosed in double quotes: line 1 column 2 (char 1)\nSee :ref:`json-commandline` for detailed documentation.",
+                                    "answer_start": 262
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_12",
+                            "question": "Why is Encoding important?",
+                            "answers": [
+                                {
+                                    "text": "Encoding basic Python object hierarchies::\n'[\"foo\", {\"bar\": [\"baz\", null, 1.0, 2]}]'\n\"\\\"foo\\bar\"\n\"\\u1234\"\n\"\\\\\"\n{\"a\": 0, \"b\": 0, \"c\": 0}\n'[\"streaming API\"]'\nCompact encoding::\n'[1,2,3,{\"4\":5,\"6\":7}]'\nPretty printing::\n{\n\"4\": 5,\n\"6\": 7\n}\nSpecializing JSON object encoding::\n'{\"__complex__\": true, \"real\": 1.0, \"imag\": 2.0}'\nDecoding JSON::\n['foo', {'bar': ['baz', None, 1.0, 2]}]\n'\"foo\\x08ar'\n['streaming API']\nSpecializing JSON object decoding::\n(1+2j)\nDecimal('1.1')\nExtending :class:`JSONEncoder`::\n'[2.0, 1.0]'\n'[2.0, 1.0]'\n['[2.0', ', 1.0', ']']\nUsing :mod:`json` from the shell to validate and pretty-print:\n$ echo '{\"json\":\"obj\"}' | python -m json\n{\n\"json\": \"obj\"\n}\n$ echo '{1.2:3.4}' | python -m json\nExpecting property name enclosed in double quotes: line 1 column 2 (char 1)\nSee :ref:`json-commandline` for detailed documentation.",
+                                    "answer_start": 262
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Limiting the size of data to be parsed is recommended.\n:mod:`json` exposes an API familiar to users of the standard library\n:mod:`marshal` and :mod:`pickle` modules. Encoding basic Python object hierarchies::\n'[\"foo\", {\"bar\": [\"baz\", null, 1.0, 2]}]'\n\"\\\"foo\\bar\"\n\"\\u1234\"\n\"\\\\\"\n{\"a\": 0, \"b\": 0, \"c\": 0}\n'[\"streaming API\"]'\nCompact encoding::\n'[1,2,3,{\"4\":5,\"6\":7}]'\nPretty printing::\n{\n\"4\": 5,\n\"6\": 7\n}\nSpecializing JSON object encoding::\n'{\"__complex__\": true, \"real\": 1.0, \"imag\": 2.0}'\nDecoding JSON::\n['foo', {'bar': ['baz', None, 1.0, 2]}]\n'\"foo\\x08ar'\n['streaming API']\nSpecializing JSON object decoding::\n(1+2j)\nDecimal('1.1')\nExtending :class:`JSONEncoder`::\n'[2.0, 1.0]'\n'[2.0, 1.0]'\n['[2.0', ', 1.0', ']']\nUsing :mod:`json` from the shell to validate and pretty-print:\n$ echo '{\"json\":\"obj\"}' | python -m json\n{\n\"json\": \"obj\"\n}\n$ echo '{1.2:3.4}' | python -m json\nExpecting property name enclosed in double quotes: line 1 column 2 (char 1)\nSee :ref:`json-commandline` for detailed documentation. JSON is a subset of `YAML <https://yaml.org/>`_ 1.2. The JSON produced by\nthis module's default settings (in particular, the default *separators*\nvalue) is also a subset of YAML 1.0 and 1.1. This module can thus also be\nused as a YAML serializer.",
+                    "qas": [
+                        {
+                            "id": "qa_13",
+                            "question": "Why is JSON important?",
+                            "answers": [
+                                {
+                                    "text": "JSON is a subset of `YAML <https://yaml.org/>`_ 1.2.",
+                                    "answer_start": 1005
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_14",
+                            "question": "What is the role of JSON in Python?",
+                            "answers": [
+                                {
+                                    "text": "JSON is a subset of `YAML <https://yaml.org/>`_ 1.2.",
+                                    "answer_start": 1005
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_15",
+                            "question": "How does JSON work?",
+                            "answers": [
+                                {
+                                    "text": "JSON is a subset of `YAML <https://yaml.org/>`_ 1.2.",
+                                    "answer_start": 1005
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_16",
+                            "question": "What challenges are associated with JSON?",
+                            "answers": [
+                                {
+                                    "text": "JSON is a subset of `YAML <https://yaml.org/>`_ 1.2.",
+                                    "answer_start": 1005
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This module can thus also be\nused as a YAML serializer. This module's encoders and decoders preserve input and output order by\ndefault. Order is only lost if the underlying containers are unordered. Basic Usage\n-----------\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* as a JSON formatted stream to *fp* (a ``.write()``-supporting\n:term:`file-like object`) using this :ref:`Python-to-JSON conversion table\n<py-to-json-table>`. Unlike :mod:`pickle` and :mod:`marshal`, JSON is not a framed protocol,\nso trying to serialize multiple objects with repeated calls to\n:func:`dump` using the same *fp* will result in an invalid JSON file.\n:param object obj:\nThe Python object to be serialized.\n:param fp:\nThe file-like object *obj* will be serialized to.",
+                    "qas": [
+                        {
+                            "id": "qa_17",
+                            "question": "How does Order work?",
+                            "answers": [
+                                {
+                                    "text": "Order is only lost if the underlying containers are unordered.",
+                                    "answer_start": 136
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_18",
+                            "question": "What are the key features of Order?",
+                            "answers": [
+                                {
+                                    "text": "Order is only lost if the underlying containers are unordered.",
+                                    "answer_start": 136
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_19",
+                            "question": "What is the role of Order in Python?",
+                            "answers": [
+                                {
+                                    "text": "Order is only lost if the underlying containers are unordered.",
+                                    "answer_start": 136
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_20",
+                            "question": "Why is Order important?",
+                            "answers": [
+                                {
+                                    "text": "Order is only lost if the underlying containers are unordered.",
+                                    "answer_start": 136
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This module's encoders and decoders preserve input and output order by\ndefault. Order is only lost if the underlying containers are unordered. Basic Usage\n-----------\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* as a JSON formatted stream to *fp* (a ``.write()``-supporting\n:term:`file-like object`) using this :ref:`Python-to-JSON conversion table\n<py-to-json-table>`. Unlike :mod:`pickle` and :mod:`marshal`, JSON is not a framed protocol,\nso trying to serialize multiple objects with repeated calls to\n:func:`dump` using the same *fp* will result in an invalid JSON file.\n:param object obj:\nThe Python object to be serialized.\n:param fp:\nThe file-like object *obj* will be serialized to. The :mod:`!json` module always produces :class:`str` objects,\nnot :class:`bytes` objects,\ntherefore ``fp.write()`` must support :class:`str` input.\n:type fp: :term:`file-like object`\n:param bool skipkeys:\nIf ``True``, keys that are not of a basic type\n(:class:`str`, :class:`int`, :class:`float`, :class:`bool`, ``None``)\nwill be skipped instead of raising a :exc:`TypeError`.",
+                    "qas": [
+                        {
+                            "id": "qa_21",
+                            "question": "What challenges are associated with Basic?",
+                            "answers": [
+                                {
+                                    "text": "Basic Usage\n-----------\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* as a JSON formatted stream to *fp* (a ``.write()``-supporting\n:term:`file-like object`) using this :ref:`Python-to-JSON conversion table\n<py-to-json-table>`.",
+                                    "answer_start": 143
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_22",
+                            "question": "How does Basic work?",
+                            "answers": [
+                                {
+                                    "text": "Basic Usage\n-----------\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* as a JSON formatted stream to *fp* (a ``.write()``-supporting\n:term:`file-like object`) using this :ref:`Python-to-JSON conversion table\n<py-to-json-table>`.",
+                                    "answer_start": 143
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_23",
+                            "question": "Why is Basic important?",
+                            "answers": [
+                                {
+                                    "text": "Basic Usage\n-----------\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* as a JSON formatted stream to *fp* (a ``.write()``-supporting\n:term:`file-like object`) using this :ref:`Python-to-JSON conversion table\n<py-to-json-table>`.",
+                                    "answer_start": 143
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_24",
+                            "question": "What are the benefits of Basic?",
+                            "answers": [
+                                {
+                                    "text": "Basic Usage\n-----------\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* as a JSON formatted stream to *fp* (a ``.write()``-supporting\n:term:`file-like object`) using this :ref:`Python-to-JSON conversion table\n<py-to-json-table>`.",
+                                    "answer_start": 143
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Order is only lost if the underlying containers are unordered. Basic Usage\n-----------\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* as a JSON formatted stream to *fp* (a ``.write()``-supporting\n:term:`file-like object`) using this :ref:`Python-to-JSON conversion table\n<py-to-json-table>`. Unlike :mod:`pickle` and :mod:`marshal`, JSON is not a framed protocol,\nso trying to serialize multiple objects with repeated calls to\n:func:`dump` using the same *fp* will result in an invalid JSON file.\n:param object obj:\nThe Python object to be serialized.\n:param fp:\nThe file-like object *obj* will be serialized to. The :mod:`!json` module always produces :class:`str` objects,\nnot :class:`bytes` objects,\ntherefore ``fp.write()`` must support :class:`str` input.\n:type fp: :term:`file-like object`\n:param bool skipkeys:\nIf ``True``, keys that are not of a basic type\n(:class:`str`, :class:`int`, :class:`float`, :class:`bool`, ``None``)\nwill be skipped instead of raising a :exc:`TypeError`. Default ``False``.\n:param bool ensure_ascii:\nIf ``True`` (the default), the output is guaranteed to\nhave all incoming non-ASCII characters escaped.",
+                    "qas": [
+                        {
+                            "id": "qa_25",
+                            "question": "What are the key features of Unlike?",
+                            "answers": [
+                                {
+                                    "text": "Unlike :mod:`pickle` and :mod:`marshal`, JSON is not a framed protocol,\nso trying to serialize multiple objects with repeated calls to\n:func:`dump` using the same *fp* will result in an invalid JSON file.\n:param object obj:\nThe Python object to be serialized.\n:param fp:\nThe file-like object *obj* will be serialized to.",
+                                    "answer_start": 379
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_26",
+                            "question": "Can you explain Unlike?",
+                            "answers": [
+                                {
+                                    "text": "Unlike :mod:`pickle` and :mod:`marshal`, JSON is not a framed protocol,\nso trying to serialize multiple objects with repeated calls to\n:func:`dump` using the same *fp* will result in an invalid JSON file.\n:param object obj:\nThe Python object to be serialized.\n:param fp:\nThe file-like object *obj* will be serialized to.",
+                                    "answer_start": 379
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_27",
+                            "question": "What challenges are associated with Unlike?",
+                            "answers": [
+                                {
+                                    "text": "Unlike :mod:`pickle` and :mod:`marshal`, JSON is not a framed protocol,\nso trying to serialize multiple objects with repeated calls to\n:func:`dump` using the same *fp* will result in an invalid JSON file.\n:param object obj:\nThe Python object to be serialized.\n:param fp:\nThe file-like object *obj* will be serialized to.",
+                                    "answer_start": 379
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_28",
+                            "question": "How is Unlike used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Unlike :mod:`pickle` and :mod:`marshal`, JSON is not a framed protocol,\nso trying to serialize multiple objects with repeated calls to\n:func:`dump` using the same *fp* will result in an invalid JSON file.\n:param object obj:\nThe Python object to be serialized.\n:param fp:\nThe file-like object *obj* will be serialized to.",
+                                    "answer_start": 379
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Unlike :mod:`pickle` and :mod:`marshal`, JSON is not a framed protocol,\nso trying to serialize multiple objects with repeated calls to\n:func:`dump` using the same *fp* will result in an invalid JSON file.\n:param object obj:\nThe Python object to be serialized.\n:param fp:\nThe file-like object *obj* will be serialized to. The :mod:`!json` module always produces :class:`str` objects,\nnot :class:`bytes` objects,\ntherefore ``fp.write()`` must support :class:`str` input.\n:type fp: :term:`file-like object`\n:param bool skipkeys:\nIf ``True``, keys that are not of a basic type\n(:class:`str`, :class:`int`, :class:`float`, :class:`bool`, ``None``)\nwill be skipped instead of raising a :exc:`TypeError`. Default ``False``.\n:param bool ensure_ascii:\nIf ``True`` (the default), the output is guaranteed to\nhave all incoming non-ASCII characters escaped. If ``False``, these characters will be outputted as-is.\n:param bool check_circular:\nIf ``False``, the circular reference check for container types is skipped\nand a circular reference will result in a :exc:`RecursionError` (or worse). Default ``True``.\n:param bool allow_nan:\nIf ``False``, serialization of out-of-range :class:`float` values\n(``nan``, ``inf``, ``-inf``) will result in a :exc:`ValueError`,\nin strict compliance with the JSON specification.",
+                    "qas": [
+                        {
+                            "id": "qa_29",
+                            "question": "Why is Default important?",
+                            "answers": [
+                                {
+                                    "text": "Default ``False``.\n:param bool ensure_ascii:\nIf ``True`` (the default), the output is guaranteed to\nhave all incoming non-ASCII characters escaped.",
+                                    "answer_start": 698
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_30",
+                            "question": "Can you explain Default?",
+                            "answers": [
+                                {
+                                    "text": "Default ``False``.\n:param bool ensure_ascii:\nIf ``True`` (the default), the output is guaranteed to\nhave all incoming non-ASCII characters escaped.",
+                                    "answer_start": 698
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_31",
+                            "question": "What are the benefits of Default?",
+                            "answers": [
+                                {
+                                    "text": "Default ``False``.\n:param bool ensure_ascii:\nIf ``True`` (the default), the output is guaranteed to\nhave all incoming non-ASCII characters escaped.",
+                                    "answer_start": 698
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_32",
+                            "question": "How does Default work?",
+                            "answers": [
+                                {
+                                    "text": "Default ``False``.\n:param bool ensure_ascii:\nIf ``True`` (the default), the output is guaranteed to\nhave all incoming non-ASCII characters escaped.",
+                                    "answer_start": 698
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Default ``False``.\n:param bool ensure_ascii:\nIf ``True`` (the default), the output is guaranteed to\nhave all incoming non-ASCII characters escaped. If ``False``, these characters will be outputted as-is.\n:param bool check_circular:\nIf ``False``, the circular reference check for container types is skipped\nand a circular reference will result in a :exc:`RecursionError` (or worse). Default ``True``.\n:param bool allow_nan:\nIf ``False``, serialization of out-of-range :class:`float` values\n(``nan``, ``inf``, ``-inf``) will result in a :exc:`ValueError`,\nin strict compliance with the JSON specification. If ``True`` (the default), their JavaScript equivalents\n(``NaN``, ``Infinity``, ``-Infinity``) are used.\n:param cls:\nIf set, a custom JSON encoder with the\n:meth:`~JSONEncoder.default` method overridden,\nfor serializing into custom datatypes. If ``None`` (the default), :class:`!JSONEncoder` is used.\n:type cls: a :class:`JSONEncoder` subclass\n:param indent:\nIf a positive integer or string, JSON array elements and\nobject members will be pretty-printed with that indent level.",
+                    "qas": [
+                        {
+                            "id": "qa_33",
+                            "question": "What makes Default unique?",
+                            "answers": [
+                                {
+                                    "text": "Default ``True``.\n:param bool allow_nan:\nIf ``False``, serialization of out-of-range :class:`float` values\n(``nan``, ``inf``, ``-inf``) will result in a :exc:`ValueError`,\nin strict compliance with the JSON specification.",
+                                    "answer_start": 382
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_34",
+                            "question": "Why is Default important?",
+                            "answers": [
+                                {
+                                    "text": "Default ``True``.\n:param bool allow_nan:\nIf ``False``, serialization of out-of-range :class:`float` values\n(``nan``, ``inf``, ``-inf``) will result in a :exc:`ValueError`,\nin strict compliance with the JSON specification.",
+                                    "answer_start": 382
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_35",
+                            "question": "How is Default used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Default ``True``.\n:param bool allow_nan:\nIf ``False``, serialization of out-of-range :class:`float` values\n(``nan``, ``inf``, ``-inf``) will result in a :exc:`ValueError`,\nin strict compliance with the JSON specification.",
+                                    "answer_start": 382
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_36",
+                            "question": "Can you explain Default?",
+                            "answers": [
+                                {
+                                    "text": "Default ``True``.\n:param bool allow_nan:\nIf ``False``, serialization of out-of-range :class:`float` values\n(``nan``, ``inf``, ``-inf``) will result in a :exc:`ValueError`,\nin strict compliance with the JSON specification.",
+                                    "answer_start": 382
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If ``None`` (the default), the most compact representation is used.\n:type indent: int | str | None\n:param separators:\nA two-tuple: ``(item_separator, key_separator)``. If ``None`` (the default), *separators* defaults to\n``(', ', ': ')`` if *indent* is ``None``,\nand ``(',', ': ')`` otherwise. For the most compact JSON,\nspecify ``(',', ':')`` to eliminate whitespace.\n:type separators: tuple | None\n:param default:\nA function that is called for objects that can't otherwise be serialized. It should return a JSON encodable version of the object\nor raise a :exc:`TypeError`. If ``None`` (the default), :exc:`!TypeError` is raised.\n:type default: :term:`callable` | None\n:param bool sort_keys:\nIf ``True``, dictionaries will be outputted sorted by key.",
+                    "qas": [
+                        {
+                            "id": "qa_37",
+                            "question": "Why is For important?",
+                            "answers": [
+                                {
+                                    "text": "For the most compact JSON,\nspecify ``(',', ':')`` to eliminate whitespace.\n:type separators: tuple | None\n:param default:\nA function that is called for objects that can't otherwise be serialized.",
+                                    "answer_start": 293
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_38",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For the most compact JSON,\nspecify ``(',', ':')`` to eliminate whitespace.\n:type separators: tuple | None\n:param default:\nA function that is called for objects that can't otherwise be serialized.",
+                                    "answer_start": 293
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_39",
+                            "question": "What are the key features of For?",
+                            "answers": [
+                                {
+                                    "text": "For the most compact JSON,\nspecify ``(',', ':')`` to eliminate whitespace.\n:type separators: tuple | None\n:param default:\nA function that is called for objects that can't otherwise be serialized.",
+                                    "answer_start": 293
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_40",
+                            "question": "What makes For unique?",
+                            "answers": [
+                                {
+                                    "text": "For the most compact JSON,\nspecify ``(',', ':')`` to eliminate whitespace.\n:type separators: tuple | None\n:param default:\nA function that is called for objects that can't otherwise be serialized.",
+                                    "answer_start": 293
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "It should return a JSON encodable version of the object\nor raise a :exc:`TypeError`. If ``None`` (the default), :exc:`!TypeError` is raised.\n:type default: :term:`callable` | None\n:param bool sort_keys:\nIf ``True``, dictionaries will be outputted sorted by key. Default ``False``. Allow strings for *indent* in addition to integers. Use ``(',', ': ')`` as default if *indent* is not ``None``.",
+                    "qas": [
+                        {
+                            "id": "qa_41",
+                            "question": "Why is Default important?",
+                            "answers": [
+                                {
+                                    "text": "Default ``False``.",
+                                    "answer_start": 262
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_42",
+                            "question": "Can you explain Default?",
+                            "answers": [
+                                {
+                                    "text": "Default ``False``.",
+                                    "answer_start": 262
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_43",
+                            "question": "How does Default work?",
+                            "answers": [
+                                {
+                                    "text": "Default ``False``.",
+                                    "answer_start": 262
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_44",
+                            "question": "What are the benefits of Default?",
+                            "answers": [
+                                {
+                                    "text": "Default ``False``.",
+                                    "answer_start": 262
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "If ``None`` (the default), :exc:`!TypeError` is raised.\n:type default: :term:`callable` | None\n:param bool sort_keys:\nIf ``True``, dictionaries will be outputted sorted by key. Default ``False``. Allow strings for *indent* in addition to integers. Use ``(',', ': ')`` as default if *indent* is not ``None``. All optional parameters are now :ref:`keyword-only <keyword-only_parameter>`.\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* to a JSON formatted :class:`str` using this :ref:`conversion\ntable <py-to-json-table>`.",
+                    "qas": [
+                        {
+                            "id": "qa_45",
+                            "question": "What are the key features of Allow?",
+                            "answers": [
+                                {
+                                    "text": "Allow strings for *indent* in addition to integers.",
+                                    "answer_start": 196
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_46",
+                            "question": "What is the role of Allow in Python?",
+                            "answers": [
+                                {
+                                    "text": "Allow strings for *indent* in addition to integers.",
+                                    "answer_start": 196
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_47",
+                            "question": "How does Allow work?",
+                            "answers": [
+                                {
+                                    "text": "Allow strings for *indent* in addition to integers.",
+                                    "answer_start": 196
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_48",
+                            "question": "What is mentioned about Allow?",
+                            "answers": [
+                                {
+                                    "text": "Allow strings for *indent* in addition to integers.",
+                                    "answer_start": 196
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Allow strings for *indent* in addition to integers. Use ``(',', ': ')`` as default if *indent* is not ``None``. All optional parameters are now :ref:`keyword-only <keyword-only_parameter>`.\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* to a JSON formatted :class:`str` using this :ref:`conversion\ntable <py-to-json-table>`. The arguments have the same meaning as in\n:func:`dump`. Keys in key/value pairs of JSON are always of the type :class:`str`.",
+                    "qas": [
+                        {
+                            "id": "qa_49",
+                            "question": "How is All used in programming?",
+                            "answers": [
+                                {
+                                    "text": "All optional parameters are now :ref:`keyword-only <keyword-only_parameter>`.\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* to a JSON formatted :class:`str` using this :ref:`conversion\ntable <py-to-json-table>`.",
+                                    "answer_start": 112
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_50",
+                            "question": "What challenges are associated with All?",
+                            "answers": [
+                                {
+                                    "text": "All optional parameters are now :ref:`keyword-only <keyword-only_parameter>`.\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* to a JSON formatted :class:`str` using this :ref:`conversion\ntable <py-to-json-table>`.",
+                                    "answer_start": 112
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_51",
+                            "question": "What is the role of All in Python?",
+                            "answers": [
+                                {
+                                    "text": "All optional parameters are now :ref:`keyword-only <keyword-only_parameter>`.\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* to a JSON formatted :class:`str` using this :ref:`conversion\ntable <py-to-json-table>`.",
+                                    "answer_start": 112
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_52",
+                            "question": "What are the key features of All?",
+                            "answers": [
+                                {
+                                    "text": "All optional parameters are now :ref:`keyword-only <keyword-only_parameter>`.\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* to a JSON formatted :class:`str` using this :ref:`conversion\ntable <py-to-json-table>`.",
+                                    "answer_start": 112
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "All optional parameters are now :ref:`keyword-only <keyword-only_parameter>`.\ncheck_circular=True, allow_nan=True, cls=None, \\\nindent=None, separators=None, default=None, \\\nsort_keys=False, **kw)\nSerialize *obj* to a JSON formatted :class:`str` using this :ref:`conversion\ntable <py-to-json-table>`. The arguments have the same meaning as in\n:func:`dump`. Keys in key/value pairs of JSON are always of the type :class:`str`. When\na dictionary is converted into JSON, all the keys of the dictionary are\ncoerced to strings. As a result of this, if a dictionary is converted\ninto JSON and then back into a dictionary, the dictionary may not equal\nthe original one.",
+                    "qas": [
+                        {
+                            "id": "qa_53",
+                            "question": "Why is Keys important?",
+                            "answers": [
+                                {
+                                    "text": "Keys in key/value pairs of JSON are always of the type :class:`str`.",
+                                    "answer_start": 356
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_54",
+                            "question": "How is Keys used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Keys in key/value pairs of JSON are always of the type :class:`str`.",
+                                    "answer_start": 356
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_55",
+                            "question": "What is the role of Keys in Python?",
+                            "answers": [
+                                {
+                                    "text": "Keys in key/value pairs of JSON are always of the type :class:`str`.",
+                                    "answer_start": 356
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_56",
+                            "question": "How does Keys work?",
+                            "answers": [
+                                {
+                                    "text": "Keys in key/value pairs of JSON are always of the type :class:`str`.",
+                                    "answer_start": 356
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "As a result of this, if a dictionary is converted\ninto JSON and then back into a dictionary, the dictionary may not equal\nthe original one. That is, ``loads(dumps(x)) != x`` if x has non-string\nkeys.\nparse_int=None, parse_constant=None, \\\nobject_pairs_hook=None, **kw)\nDeserialize *fp* to a Python object\nusing the :ref:`JSON-to-Python conversion table <json-to-py-table>`.\n:param fp:\nA ``.read()``-supporting :term:`text file` or :term:`binary file`\ncontaining the JSON document to be deserialized.\n:type fp: :term:`file-like object`\n:param cls:\nIf set, a custom JSON decoder. Additional keyword arguments to :func:`!load`\nwill be passed to the constructor of *cls*. If ``None`` (the default), :class:`!JSONDecoder` is used.\n:type cls: a :class:`JSONDecoder` subclass\n:param object_hook:\nIf set, a function that is called with the result of\nany object literal decoded (a :class:`dict`). The return value of this function will be used\ninstead of the :class:`dict`.",
+                    "qas": [
+                        {
+                            "id": "qa_57",
+                            "question": "What challenges are associated with Additional?",
+                            "answers": [
+                                {
+                                    "text": "Additional keyword arguments to :func:`!load`\nwill be passed to the constructor of *cls*.",
+                                    "answer_start": 578
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_58",
+                            "question": "What makes Additional unique?",
+                            "answers": [
+                                {
+                                    "text": "Additional keyword arguments to :func:`!load`\nwill be passed to the constructor of *cls*.",
+                                    "answer_start": 578
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_59",
+                            "question": "How does Additional work?",
+                            "answers": [
+                                {
+                                    "text": "Additional keyword arguments to :func:`!load`\nwill be passed to the constructor of *cls*.",
+                                    "answer_start": 578
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_60",
+                            "question": "What is mentioned about Additional?",
+                            "answers": [
+                                {
+                                    "text": "Additional keyword arguments to :func:`!load`\nwill be passed to the constructor of *cls*.",
+                                    "answer_start": 578
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The return value of this function will be used\ninstead of the :class:`dict`. This feature can be used to implement custom decoders,\nfor example `JSON-RPC <https://www.jsonrpc.org>`_ class hinting. Default ``None``.\n:type object_hook: :term:`callable` | None\n:param object_pairs_hook:\nIf set, a function that is called with the result of\nany object literal decoded with an ordered list of pairs. The return value of this function will be used\ninstead of the :class:`dict`. This feature can be used to implement custom decoders.",
+                    "qas": [
+                        {
+                            "id": "qa_61",
+                            "question": "Can you explain Default?",
+                            "answers": [
+                                {
+                                    "text": "Default ``None``.\n:type object_hook: :term:`callable` | None\n:param object_pairs_hook:\nIf set, a function that is called with the result of\nany object literal decoded with an ordered list of pairs.",
+                                    "answer_start": 197
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_62",
+                            "question": "Why is Default important?",
+                            "answers": [
+                                {
+                                    "text": "Default ``None``.\n:type object_hook: :term:`callable` | None\n:param object_pairs_hook:\nIf set, a function that is called with the result of\nany object literal decoded with an ordered list of pairs.",
+                                    "answer_start": 197
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_63",
+                            "question": "What challenges are associated with Default?",
+                            "answers": [
+                                {
+                                    "text": "Default ``None``.\n:type object_hook: :term:`callable` | None\n:param object_pairs_hook:\nIf set, a function that is called with the result of\nany object literal decoded with an ordered list of pairs.",
+                                    "answer_start": 197
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_64",
+                            "question": "How is Default used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Default ``None``.\n:type object_hook: :term:`callable` | None\n:param object_pairs_hook:\nIf set, a function that is called with the result of\nany object literal decoded with an ordered list of pairs.",
+                                    "answer_start": 197
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This feature can be used to implement custom decoders. If *object_hook* is also set, *object_pairs_hook* takes priority. Default ``None``.\n:type object_pairs_hook: :term:`callable` | None\n:param parse_float:\nIf set, a function that is called with\nthe string of every JSON float to be decoded. If ``None`` (the default), it is equivalent to ``float(num_str)``. This can be used to parse JSON floats into custom datatypes,\nfor example :class:`decimal.Decimal`.\n:type parse_float: :term:`callable` | None\n:param parse_int:\nIf set, a function that is called with\nthe string of every JSON int to be decoded.",
+                    "qas": [
+                        {
+                            "id": "qa_65",
+                            "question": "Can you explain Default?",
+                            "answers": [
+                                {
+                                    "text": "Default ``None``.\n:type object_pairs_hook: :term:`callable` | None\n:param parse_float:\nIf set, a function that is called with\nthe string of every JSON float to be decoded.",
+                                    "answer_start": 121
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_66",
+                            "question": "What are the key features of Default?",
+                            "answers": [
+                                {
+                                    "text": "Default ``None``.\n:type object_pairs_hook: :term:`callable` | None\n:param parse_float:\nIf set, a function that is called with\nthe string of every JSON float to be decoded.",
+                                    "answer_start": 121
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_67",
+                            "question": "How is Default used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Default ``None``.\n:type object_pairs_hook: :term:`callable` | None\n:param parse_float:\nIf set, a function that is called with\nthe string of every JSON float to be decoded.",
+                                    "answer_start": 121
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_68",
+                            "question": "How does Default work?",
+                            "answers": [
+                                {
+                                    "text": "Default ``None``.\n:type object_pairs_hook: :term:`callable` | None\n:param parse_float:\nIf set, a function that is called with\nthe string of every JSON float to be decoded.",
+                                    "answer_start": 121
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This can be used to parse JSON integers into custom datatypes,\nfor example :class:`float`.\n:type parse_int: :term:`callable` | None\n:param parse_constant:\nIf set, a function that is called with one of the following strings:\n``'-Infinity'``, ``'Infinity'``, or ``'NaN'``. This can be used to raise an exception\nif invalid JSON numbers are encountered. Default ``None``.\n:type parse_constant: :term:`callable` | None\n:raises JSONDecodeError:\nWhen the data being deserialized is not a valid JSON document.\n:raises UnicodeDecodeError:\nWhen the data being deserialized does not contain\nUTF-8, UTF-16 or UTF-32 encoded data.\n* Added the optional *object_pairs_hook* parameter.\n* *parse_constant* doesn't get called on 'null', 'true', 'false' anymore.\n* All optional parameters are now :ref:`keyword-only <keyword-only_parameter>`.\n* *fp* can now be a :term:`binary file`. The input encoding should be UTF-8, UTF-16 or UTF-32. The default *parse_int* of :func:`int` now limits the maximum length of\nthe integer string via the interpreter's :ref:`integer string\nconversion length limitation <int_max_str_digits>` to help avoid denial\nof service attacks.",
+                    "qas": [
+                        {
+                            "id": "qa_69",
+                            "question": "What is mentioned about Default?",
+                            "answers": [
+                                {
+                                    "text": "Default ``None``.\n:type parse_constant: :term:`callable` | None\n:raises JSONDecodeError:\nWhen the data being deserialized is not a valid JSON document.\n:raises UnicodeDecodeError:\nWhen the data being deserialized does not contain\nUTF-8, UTF-16 or UTF-32 encoded data.\n* Added the optional *object_pairs_hook* parameter.\n* *parse_constant* doesn't get called on 'null', 'true', 'false' anymore.\n* All optional parameters are now :ref:`keyword-only <keyword-only_parameter>`.\n* *fp* can now be a :term:`binary file`.",
+                                    "answer_start": 351
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_70",
+                            "question": "What are the key features of Default?",
+                            "answers": [
+                                {
+                                    "text": "Default ``None``.\n:type parse_constant: :term:`callable` | None\n:raises JSONDecodeError:\nWhen the data being deserialized is not a valid JSON document.\n:raises UnicodeDecodeError:\nWhen the data being deserialized does not contain\nUTF-8, UTF-16 or UTF-32 encoded data.\n* Added the optional *object_pairs_hook* parameter.\n* *parse_constant* doesn't get called on 'null', 'true', 'false' anymore.\n* All optional parameters are now :ref:`keyword-only <keyword-only_parameter>`.\n* *fp* can now be a :term:`binary file`.",
+                                    "answer_start": 351
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_71",
+                            "question": "What challenges are associated with Default?",
+                            "answers": [
+                                {
+                                    "text": "Default ``None``.\n:type parse_constant: :term:`callable` | None\n:raises JSONDecodeError:\nWhen the data being deserialized is not a valid JSON document.\n:raises UnicodeDecodeError:\nWhen the data being deserialized does not contain\nUTF-8, UTF-16 or UTF-32 encoded data.\n* Added the optional *object_pairs_hook* parameter.\n* *parse_constant* doesn't get called on 'null', 'true', 'false' anymore.\n* All optional parameters are now :ref:`keyword-only <keyword-only_parameter>`.\n* *fp* can now be a :term:`binary file`.",
+                                    "answer_start": 351
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_72",
+                            "question": "Can you explain Default?",
+                            "answers": [
+                                {
+                                    "text": "Default ``None``.\n:type parse_constant: :term:`callable` | None\n:raises JSONDecodeError:\nWhen the data being deserialized is not a valid JSON document.\n:raises UnicodeDecodeError:\nWhen the data being deserialized does not contain\nUTF-8, UTF-16 or UTF-32 encoded data.\n* Added the optional *object_pairs_hook* parameter.\n* *parse_constant* doesn't get called on 'null', 'true', 'false' anymore.\n* All optional parameters are now :ref:`keyword-only <keyword-only_parameter>`.\n* *fp* can now be a :term:`binary file`.",
+                                    "answer_start": 351
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The input encoding should be UTF-8, UTF-16 or UTF-32. The default *parse_int* of :func:`int` now limits the maximum length of\nthe integer string via the interpreter's :ref:`integer string\nconversion length limitation <int_max_str_digits>` to help avoid denial\nof service attacks. Identical to :func:`load`, but instead of a file-like object,\ndeserialize *s* (a :class:`str`, :class:`bytes` or :class:`bytearray`\ninstance containing a JSON document) to a Python object using this\n:ref:`conversion table <json-to-py-table>`.\n*s* can now be of type :class:`bytes` or :class:`bytearray`. The\ninput encoding should be UTF-8, UTF-16 or UTF-32. The keyword argument *encoding* has been removed.",
+                    "qas": [
+                        {
+                            "id": "qa_73",
+                            "question": "How does Identical work?",
+                            "answers": [
+                                {
+                                    "text": "Identical to :func:`load`, but instead of a file-like object,\ndeserialize *s* (a :class:`str`, :class:`bytes` or :class:`bytearray`\ninstance containing a JSON document) to a Python object using this\n:ref:`conversion table <json-to-py-table>`.\n*s* can now be of type :class:`bytes` or :class:`bytearray`.",
+                                    "answer_start": 280
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_74",
+                            "question": "Why is Identical important?",
+                            "answers": [
+                                {
+                                    "text": "Identical to :func:`load`, but instead of a file-like object,\ndeserialize *s* (a :class:`str`, :class:`bytes` or :class:`bytearray`\ninstance containing a JSON document) to a Python object using this\n:ref:`conversion table <json-to-py-table>`.\n*s* can now be of type :class:`bytes` or :class:`bytearray`.",
+                                    "answer_start": 280
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_75",
+                            "question": "What are the benefits of Identical?",
+                            "answers": [
+                                {
+                                    "text": "Identical to :func:`load`, but instead of a file-like object,\ndeserialize *s* (a :class:`str`, :class:`bytes` or :class:`bytearray`\ninstance containing a JSON document) to a Python object using this\n:ref:`conversion table <json-to-py-table>`.\n*s* can now be of type :class:`bytes` or :class:`bytearray`.",
+                                    "answer_start": 280
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_76",
+                            "question": "What is mentioned about Identical?",
+                            "answers": [
+                                {
+                                    "text": "Identical to :func:`load`, but instead of a file-like object,\ndeserialize *s* (a :class:`str`, :class:`bytes` or :class:`bytearray`\ninstance containing a JSON document) to a Python object using this\n:ref:`conversion table <json-to-py-table>`.\n*s* can now be of type :class:`bytes` or :class:`bytearray`.",
+                                    "answer_start": 280
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The\ninput encoding should be UTF-8, UTF-16 or UTF-32. The keyword argument *encoding* has been removed. Encoders and Decoders\n---------------------\nSimple JSON decoder. Performs the following translations in decoding by default:\n+---------------+-------------------+\n| JSON          | Python            |\n+===============+===================+\n| object        | dict              |\n+---------------+-------------------+\n| array         | list              |\n+---------------+-------------------+\n| string        | str               |\n+---------------+-------------------+\n| number (int)  | int               |\n+---------------+-------------------+\n| number (real) | float             |\n+---------------+-------------------+\n| true          | True              |\n+---------------+-------------------+\n| false         | False             |\n+---------------+-------------------+\n| null          | None              |\n+---------------+-------------------+\nIt also understands ``NaN``, ``Infinity``, and ``-Infinity`` as their\ncorresponding ``float`` values, which is outside the JSON spec.\n*object_hook* is an optional function that will be called with the result of\nevery JSON object decoded and its return value will be used in place of the\ngiven :class:`dict`. This can be used to provide custom deserializations\n(e.g. to support `JSON-RPC <https://www.jsonrpc.org>`_ class hinting).\n*object_pairs_hook* is an optional function that will be called with the\nresult of every JSON object decoded with an ordered list of pairs.",
+                    "qas": [
+                        {
+                            "id": "qa_77",
+                            "question": "How does Encoders work?",
+                            "answers": [
+                                {
+                                    "text": "Encoders and Decoders\n---------------------\nSimple JSON decoder.",
+                                    "answer_start": 104
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_78",
+                            "question": "Why is Encoders important?",
+                            "answers": [
+                                {
+                                    "text": "Encoders and Decoders\n---------------------\nSimple JSON decoder.",
+                                    "answer_start": 104
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_79",
+                            "question": "How is Encoders used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Encoders and Decoders\n---------------------\nSimple JSON decoder.",
+                                    "answer_start": 104
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_80",
+                            "question": "What are the benefits of Encoders?",
+                            "answers": [
+                                {
+                                    "text": "Encoders and Decoders\n---------------------\nSimple JSON decoder.",
+                                    "answer_start": 104
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The keyword argument *encoding* has been removed. Encoders and Decoders\n---------------------\nSimple JSON decoder. Performs the following translations in decoding by default:\n+---------------+-------------------+\n| JSON          | Python            |\n+===============+===================+\n| object        | dict              |\n+---------------+-------------------+\n| array         | list              |\n+---------------+-------------------+\n| string        | str               |\n+---------------+-------------------+\n| number (int)  | int               |\n+---------------+-------------------+\n| number (real) | float             |\n+---------------+-------------------+\n| true          | True              |\n+---------------+-------------------+\n| false         | False             |\n+---------------+-------------------+\n| null          | None              |\n+---------------+-------------------+\nIt also understands ``NaN``, ``Infinity``, and ``-Infinity`` as their\ncorresponding ``float`` values, which is outside the JSON spec.\n*object_hook* is an optional function that will be called with the result of\nevery JSON object decoded and its return value will be used in place of the\ngiven :class:`dict`. This can be used to provide custom deserializations\n(e.g. to support `JSON-RPC <https://www.jsonrpc.org>`_ class hinting).\n*object_pairs_hook* is an optional function that will be called with the\nresult of every JSON object decoded with an ordered list of pairs. The\nreturn value of *object_pairs_hook* will be used instead of the\n:class:`dict`.",
+                    "qas": [
+                        {
+                            "id": "qa_81",
+                            "question": "What is the role of Performs in Python?",
+                            "answers": [
+                                {
+                                    "text": "Performs the following translations in decoding by default:\n+---------------+-------------------+\n| JSON          | Python            |\n+===============+===================+\n| object        | dict              |\n+---------------+-------------------+\n| array         | list              |\n+---------------+-------------------+\n| string        | str               |\n+---------------+-------------------+\n| number (int)  | int               |\n+---------------+-------------------+\n| number (real) | float             |\n+---------------+-------------------+\n| true          | True              |\n+---------------+-------------------+\n| false         | False             |\n+---------------+-------------------+\n| null          | None              |\n+---------------+-------------------+\nIt also understands ``NaN``, ``Infinity``, and ``-Infinity`` as their\ncorresponding ``float`` values, which is outside the JSON spec.\n*object_hook* is an optional function that will be called with the result of\nevery JSON object decoded and its return value will be used in place of the\ngiven :class:`dict`.",
+                                    "answer_start": 115
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_82",
+                            "question": "How is Performs used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Performs the following translations in decoding by default:\n+---------------+-------------------+\n| JSON          | Python            |\n+===============+===================+\n| object        | dict              |\n+---------------+-------------------+\n| array         | list              |\n+---------------+-------------------+\n| string        | str               |\n+---------------+-------------------+\n| number (int)  | int               |\n+---------------+-------------------+\n| number (real) | float             |\n+---------------+-------------------+\n| true          | True              |\n+---------------+-------------------+\n| false         | False             |\n+---------------+-------------------+\n| null          | None              |\n+---------------+-------------------+\nIt also understands ``NaN``, ``Infinity``, and ``-Infinity`` as their\ncorresponding ``float`` values, which is outside the JSON spec.\n*object_hook* is an optional function that will be called with the result of\nevery JSON object decoded and its return value will be used in place of the\ngiven :class:`dict`.",
+                                    "answer_start": 115
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_83",
+                            "question": "What challenges are associated with Performs?",
+                            "answers": [
+                                {
+                                    "text": "Performs the following translations in decoding by default:\n+---------------+-------------------+\n| JSON          | Python            |\n+===============+===================+\n| object        | dict              |\n+---------------+-------------------+\n| array         | list              |\n+---------------+-------------------+\n| string        | str               |\n+---------------+-------------------+\n| number (int)  | int               |\n+---------------+-------------------+\n| number (real) | float             |\n+---------------+-------------------+\n| true          | True              |\n+---------------+-------------------+\n| false         | False             |\n+---------------+-------------------+\n| null          | None              |\n+---------------+-------------------+\nIt also understands ``NaN``, ``Infinity``, and ``-Infinity`` as their\ncorresponding ``float`` values, which is outside the JSON spec.\n*object_hook* is an optional function that will be called with the result of\nevery JSON object decoded and its return value will be used in place of the\ngiven :class:`dict`.",
+                                    "answer_start": 115
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_84",
+                            "question": "What is mentioned about Performs?",
+                            "answers": [
+                                {
+                                    "text": "Performs the following translations in decoding by default:\n+---------------+-------------------+\n| JSON          | Python            |\n+===============+===================+\n| object        | dict              |\n+---------------+-------------------+\n| array         | list              |\n+---------------+-------------------+\n| string        | str               |\n+---------------+-------------------+\n| number (int)  | int               |\n+---------------+-------------------+\n| number (real) | float             |\n+---------------+-------------------+\n| true          | True              |\n+---------------+-------------------+\n| false         | False             |\n+---------------+-------------------+\n| null          | None              |\n+---------------+-------------------+\nIt also understands ``NaN``, ``Infinity``, and ``-Infinity`` as their\ncorresponding ``float`` values, which is outside the JSON spec.\n*object_hook* is an optional function that will be called with the result of\nevery JSON object decoded and its return value will be used in place of the\ngiven :class:`dict`.",
+                                    "answer_start": 115
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This can be\nused to raise an exception if invalid JSON numbers are encountered. If *strict* is false (``True`` is the default), then control characters\nwill be allowed inside strings. Control characters in this context are\nthose with character codes in the 0--31 range, including ``'\\t'`` (tab),\n``'\\n'``, ``'\\r'`` and ``'\\0'``. If the data being deserialized is not a valid JSON document, a\n:exc:`JSONDecodeError` will be raised. All parameters are now :ref:`keyword-only <keyword-only_parameter>`.",
+                    "qas": [
+                        {
+                            "id": "qa_85",
+                            "question": "What makes Control unique?",
+                            "answers": [
+                                {
+                                    "text": "Control characters in this context are\nthose with character codes in the 0--31 range, including ``'\\t'`` (tab),\n``'\\n'``, ``'\\r'`` and ``'\\0'``.",
+                                    "answer_start": 184
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_86",
+                            "question": "What are the benefits of Control?",
+                            "answers": [
+                                {
+                                    "text": "Control characters in this context are\nthose with character codes in the 0--31 range, including ``'\\t'`` (tab),\n``'\\n'``, ``'\\r'`` and ``'\\0'``.",
+                                    "answer_start": 184
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_87",
+                            "question": "Why is Control important?",
+                            "answers": [
+                                {
+                                    "text": "Control characters in this context are\nthose with character codes in the 0--31 range, including ``'\\t'`` (tab),\n``'\\n'``, ``'\\r'`` and ``'\\0'``.",
+                                    "answer_start": 184
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_88",
+                            "question": "Can you explain Control?",
+                            "answers": [
+                                {
+                                    "text": "Control characters in this context are\nthose with character codes in the 0--31 range, including ``'\\t'`` (tab),\n``'\\n'``, ``'\\r'`` and ``'\\0'``.",
+                                    "answer_start": 184
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Control characters in this context are\nthose with character codes in the 0--31 range, including ``'\\t'`` (tab),\n``'\\n'``, ``'\\r'`` and ``'\\0'``. If the data being deserialized is not a valid JSON document, a\n:exc:`JSONDecodeError` will be raised. All parameters are now :ref:`keyword-only <keyword-only_parameter>`. Return the Python representation of *s* (a :class:`str` instance\ncontaining a JSON document).\n:exc:`JSONDecodeError` will be raised if the given JSON document is not\nvalid. Decode a JSON document from *s* (a :class:`str` beginning with a\nJSON document) and return a 2-tuple of the Python representation\nand the index in *s* where the document ended.",
+                    "qas": [
+                        {
+                            "id": "qa_89",
+                            "question": "What challenges are associated with All?",
+                            "answers": [
+                                {
+                                    "text": "All parameters are now :ref:`keyword-only <keyword-only_parameter>`.",
+                                    "answer_start": 247
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_90",
+                            "question": "What makes All unique?",
+                            "answers": [
+                                {
+                                    "text": "All parameters are now :ref:`keyword-only <keyword-only_parameter>`.",
+                                    "answer_start": 247
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_91",
+                            "question": "What are the key features of All?",
+                            "answers": [
+                                {
+                                    "text": "All parameters are now :ref:`keyword-only <keyword-only_parameter>`.",
+                                    "answer_start": 247
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_92",
+                            "question": "How does All work?",
+                            "answers": [
+                                {
+                                    "text": "All parameters are now :ref:`keyword-only <keyword-only_parameter>`.",
+                                    "answer_start": 247
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "All parameters are now :ref:`keyword-only <keyword-only_parameter>`. Return the Python representation of *s* (a :class:`str` instance\ncontaining a JSON document).\n:exc:`JSONDecodeError` will be raised if the given JSON document is not\nvalid. Decode a JSON document from *s* (a :class:`str` beginning with a\nJSON document) and return a 2-tuple of the Python representation\nand the index in *s* where the document ended. This can be used to decode a JSON document from a string that may have\nextraneous data at the end. Extensible JSON encoder for Python data structures.",
+                    "qas": [
+                        {
+                            "id": "qa_93",
+                            "question": "Why is Decode important?",
+                            "answers": [
+                                {
+                                    "text": "Decode a JSON document from *s* (a :class:`str` beginning with a\nJSON document) and return a 2-tuple of the Python representation\nand the index in *s* where the document ended.",
+                                    "answer_start": 242
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_94",
+                            "question": "How is Decode used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Decode a JSON document from *s* (a :class:`str` beginning with a\nJSON document) and return a 2-tuple of the Python representation\nand the index in *s* where the document ended.",
+                                    "answer_start": 242
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_95",
+                            "question": "What are the key features of Decode?",
+                            "answers": [
+                                {
+                                    "text": "Decode a JSON document from *s* (a :class:`str` beginning with a\nJSON document) and return a 2-tuple of the Python representation\nand the index in *s* where the document ended.",
+                                    "answer_start": 242
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_96",
+                            "question": "What is the role of Decode in Python?",
+                            "answers": [
+                                {
+                                    "text": "Decode a JSON document from *s* (a :class:`str` beginning with a\nJSON document) and return a 2-tuple of the Python representation\nand the index in *s* where the document ended.",
+                                    "answer_start": 242
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Decode a JSON document from *s* (a :class:`str` beginning with a\nJSON document) and return a 2-tuple of the Python representation\nand the index in *s* where the document ended. This can be used to decode a JSON document from a string that may have\nextraneous data at the end. Extensible JSON encoder for Python data structures. Supports the following objects and types by default:\n+----------------------------------------+---------------+\n| Python                                 | JSON          |\n+========================================+===============+\n| dict                                   | object        |\n+----------------------------------------+---------------+\n| list, tuple                            | array         |\n+----------------------------------------+---------------+\n| str                                    | string        |\n+----------------------------------------+---------------+\n| int, float, int- & float-derived Enums | number        |\n+----------------------------------------+---------------+\n| True                                   | true          |\n+----------------------------------------+---------------+\n| False                                  | false         |\n+----------------------------------------+---------------+\n| None                                   | null          |\n+----------------------------------------+---------------+\nAdded support for int- and float-derived Enum classes. To extend this to recognize other objects, subclass and implement a\n:meth:`~JSONEncoder.default` method with another method that returns a serializable object\nfor ``o`` if possible, otherwise it should call the superclass implementation\n(to raise :exc:`TypeError`).",
+                    "qas": [
+                        {
+                            "id": "qa_97",
+                            "question": "Why is Extensible important?",
+                            "answers": [
+                                {
+                                    "text": "Extensible JSON encoder for Python data structures.",
+                                    "answer_start": 276
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_98",
+                            "question": "What challenges are associated with Extensible?",
+                            "answers": [
+                                {
+                                    "text": "Extensible JSON encoder for Python data structures.",
+                                    "answer_start": 276
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_99",
+                            "question": "What is the role of Extensible in Python?",
+                            "answers": [
+                                {
+                                    "text": "Extensible JSON encoder for Python data structures.",
+                                    "answer_start": 276
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_100",
+                            "question": "How does Extensible work?",
+                            "answers": [
+                                {
+                                    "text": "Extensible JSON encoder for Python data structures.",
+                                    "answer_start": 276
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1235 @@
+{
+    "version": "1.0",
+    "data": [
+        {
+            "title": "sys.monitoring",
+            "paragraphs": [
+                {
+                    "context": ":mod:`!sys.monitoring` --- Execution event monitoring\n:synopsis: Access and control event monitoring\n-----------------\n:mod:`sys.monitoring` is a namespace within the :mod:`sys` module,\nnot an independent module, so there is no need to\n``import sys.monitoring``, simply ``import sys`` and then use\n``sys.monitoring``. This namespace provides access to the functions and constants necessary to\nactivate and control event monitoring. As programs execute, events occur that might be of interest to tools that\nmonitor execution.",
+                    "qas": [
+                        {
+                            "id": "qa_1",
+                            "question": "What are the key features of :mod:`!sys.monitoring`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!sys.monitoring` --- Execution event monitoring\n:synopsis: Access and control event monitoring\n-----------------\n:mod:`sys.monitoring` is a namespace within the :mod:`sys` module,\nnot an independent module, so there is no need to\n``import sys.monitoring``, simply ``import sys`` and then use\n``sys.monitoring``.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_2",
+                            "question": "What are the benefits of :mod:`!sys.monitoring`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!sys.monitoring` --- Execution event monitoring\n:synopsis: Access and control event monitoring\n-----------------\n:mod:`sys.monitoring` is a namespace within the :mod:`sys` module,\nnot an independent module, so there is no need to\n``import sys.monitoring``, simply ``import sys`` and then use\n``sys.monitoring``.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_3",
+                            "question": "Can you explain :mod:`!sys.monitoring`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!sys.monitoring` --- Execution event monitoring\n:synopsis: Access and control event monitoring\n-----------------\n:mod:`sys.monitoring` is a namespace within the :mod:`sys` module,\nnot an independent module, so there is no need to\n``import sys.monitoring``, simply ``import sys`` and then use\n``sys.monitoring``.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_4",
+                            "question": "What is mentioned about :mod:`!sys.monitoring`?",
+                            "answers": [
+                                {
+                                    "text": ":mod:`!sys.monitoring` --- Execution event monitoring\n:synopsis: Access and control event monitoring\n-----------------\n:mod:`sys.monitoring` is a namespace within the :mod:`sys` module,\nnot an independent module, so there is no need to\n``import sys.monitoring``, simply ``import sys`` and then use\n``sys.monitoring``.",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The :mod:`sys.monitoring` namespace provides means to\nreceive callbacks when events of interest occur. The monitoring API consists of three components:\n* `Tool identifiers`_\n* `Events`_\n* :ref:`Callbacks <callbacks>`\nTool identifiers\n----------------\nA tool identifier is an integer and the associated name. Tool identifiers are used to discourage tools from interfering with each\nother and to allow multiple tools to operate at the same time. Currently tools are completely independent and cannot be used to\nmonitor each other. This restriction may be lifted in the future.",
+                    "qas": [
+                        {
+                            "id": "qa_5",
+                            "question": "What makes Tool unique?",
+                            "answers": [
+                                {
+                                    "text": "Tool identifiers are used to discourage tools from interfering with each\nother and to allow multiple tools to operate at the same time.",
+                                    "answer_start": 308
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_6",
+                            "question": "What challenges are associated with Tool?",
+                            "answers": [
+                                {
+                                    "text": "Tool identifiers are used to discourage tools from interfering with each\nother and to allow multiple tools to operate at the same time.",
+                                    "answer_start": 308
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_7",
+                            "question": "What is the role of Tool in Python?",
+                            "answers": [
+                                {
+                                    "text": "Tool identifiers are used to discourage tools from interfering with each\nother and to allow multiple tools to operate at the same time.",
+                                    "answer_start": 308
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_8",
+                            "question": "What are the key features of Tool?",
+                            "answers": [
+                                {
+                                    "text": "Tool identifiers are used to discourage tools from interfering with each\nother and to allow multiple tools to operate at the same time.",
+                                    "answer_start": 308
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The monitoring API consists of three components:\n* `Tool identifiers`_\n* `Events`_\n* :ref:`Callbacks <callbacks>`\nTool identifiers\n----------------\nA tool identifier is an integer and the associated name. Tool identifiers are used to discourage tools from interfering with each\nother and to allow multiple tools to operate at the same time. Currently tools are completely independent and cannot be used to\nmonitor each other. This restriction may be lifted in the future. Before registering or activating events, a tool should choose an identifier.",
+                    "qas": [
+                        {
+                            "id": "qa_9",
+                            "question": "How does Currently work?",
+                            "answers": [
+                                {
+                                    "text": "Currently tools are completely independent and cannot be used to\nmonitor each other.",
+                                    "answer_start": 341
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_10",
+                            "question": "Why is Currently important?",
+                            "answers": [
+                                {
+                                    "text": "Currently tools are completely independent and cannot be used to\nmonitor each other.",
+                                    "answer_start": 341
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_11",
+                            "question": "What is the role of Currently in Python?",
+                            "answers": [
+                                {
+                                    "text": "Currently tools are completely independent and cannot be used to\nmonitor each other.",
+                                    "answer_start": 341
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_12",
+                            "question": "How is Currently used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Currently tools are completely independent and cannot be used to\nmonitor each other.",
+                                    "answer_start": 341
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Currently tools are completely independent and cannot be used to\nmonitor each other. This restriction may be lifted in the future. Before registering or activating events, a tool should choose an identifier. Identifiers are integers in the range 0 to 5 inclusive. Registering and using tools\n'''''''''''''''''''''''''''\nMust be called before *tool_id* can be used.\n*tool_id* must be in the range 0 to 5 inclusive.",
+                    "qas": [
+                        {
+                            "id": "qa_13",
+                            "question": "What are the benefits of Before?",
+                            "answers": [
+                                {
+                                    "text": "Before registering or activating events, a tool should choose an identifier.",
+                                    "answer_start": 131
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_14",
+                            "question": "What challenges are associated with Before?",
+                            "answers": [
+                                {
+                                    "text": "Before registering or activating events, a tool should choose an identifier.",
+                                    "answer_start": 131
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_15",
+                            "question": "How does Before work?",
+                            "answers": [
+                                {
+                                    "text": "Before registering or activating events, a tool should choose an identifier.",
+                                    "answer_start": 131
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_16",
+                            "question": "What are the key features of Before?",
+                            "answers": [
+                                {
+                                    "text": "Before registering or activating events, a tool should choose an identifier.",
+                                    "answer_start": 131
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "This restriction may be lifted in the future. Before registering or activating events, a tool should choose an identifier. Identifiers are integers in the range 0 to 5 inclusive. Registering and using tools\n'''''''''''''''''''''''''''\nMust be called before *tool_id* can be used.\n*tool_id* must be in the range 0 to 5 inclusive. Raises a :exc:`ValueError` if *tool_id* is in use.",
+                    "qas": [
+                        {
+                            "id": "qa_17",
+                            "question": "What is the role of Identifiers in Python?",
+                            "answers": [
+                                {
+                                    "text": "Identifiers are integers in the range 0 to 5 inclusive.",
+                                    "answer_start": 123
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_18",
+                            "question": "What are the benefits of Identifiers?",
+                            "answers": [
+                                {
+                                    "text": "Identifiers are integers in the range 0 to 5 inclusive.",
+                                    "answer_start": 123
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_19",
+                            "question": "Can you explain Identifiers?",
+                            "answers": [
+                                {
+                                    "text": "Identifiers are integers in the range 0 to 5 inclusive.",
+                                    "answer_start": 123
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_20",
+                            "question": "Why is Identifiers important?",
+                            "answers": [
+                                {
+                                    "text": "Identifiers are integers in the range 0 to 5 inclusive.",
+                                    "answer_start": 123
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Before registering or activating events, a tool should choose an identifier. Identifiers are integers in the range 0 to 5 inclusive. Registering and using tools\n'''''''''''''''''''''''''''\nMust be called before *tool_id* can be used.\n*tool_id* must be in the range 0 to 5 inclusive. Raises a :exc:`ValueError` if *tool_id* is in use. Unregister all events and callback functions associated with *tool_id*.",
+                    "qas": [
+                        {
+                            "id": "qa_21",
+                            "question": "What is mentioned about Registering?",
+                            "answers": [
+                                {
+                                    "text": "Registering and using tools\n'''''''''''''''''''''''''''\nMust be called before *tool_id* can be used.\n*tool_id* must be in the range 0 to 5 inclusive.",
+                                    "answer_start": 133
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_22",
+                            "question": "Why is Registering important?",
+                            "answers": [
+                                {
+                                    "text": "Registering and using tools\n'''''''''''''''''''''''''''\nMust be called before *tool_id* can be used.\n*tool_id* must be in the range 0 to 5 inclusive.",
+                                    "answer_start": 133
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_23",
+                            "question": "What is the role of Registering in Python?",
+                            "answers": [
+                                {
+                                    "text": "Registering and using tools\n'''''''''''''''''''''''''''\nMust be called before *tool_id* can be used.\n*tool_id* must be in the range 0 to 5 inclusive.",
+                                    "answer_start": 133
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_24",
+                            "question": "What are the benefits of Registering?",
+                            "answers": [
+                                {
+                                    "text": "Registering and using tools\n'''''''''''''''''''''''''''\nMust be called before *tool_id* can be used.\n*tool_id* must be in the range 0 to 5 inclusive.",
+                                    "answer_start": 133
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Identifiers are integers in the range 0 to 5 inclusive. Registering and using tools\n'''''''''''''''''''''''''''\nMust be called before *tool_id* can be used.\n*tool_id* must be in the range 0 to 5 inclusive. Raises a :exc:`ValueError` if *tool_id* is in use. Unregister all events and callback functions associated with *tool_id*. Should be called once a tool no longer requires *tool_id*.",
+                    "qas": [
+                        {
+                            "id": "qa_25",
+                            "question": "How is Raises used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Raises a :exc:`ValueError` if *tool_id* is in use.",
+                                    "answer_start": 206
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_26",
+                            "question": "What are the benefits of Raises?",
+                            "answers": [
+                                {
+                                    "text": "Raises a :exc:`ValueError` if *tool_id* is in use.",
+                                    "answer_start": 206
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_27",
+                            "question": "What challenges are associated with Raises?",
+                            "answers": [
+                                {
+                                    "text": "Raises a :exc:`ValueError` if *tool_id* is in use.",
+                                    "answer_start": 206
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_28",
+                            "question": "Why is Raises important?",
+                            "answers": [
+                                {
+                                    "text": "Raises a :exc:`ValueError` if *tool_id* is in use.",
+                                    "answer_start": 206
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Registering and using tools\n'''''''''''''''''''''''''''\nMust be called before *tool_id* can be used.\n*tool_id* must be in the range 0 to 5 inclusive. Raises a :exc:`ValueError` if *tool_id* is in use. Unregister all events and callback functions associated with *tool_id*. Should be called once a tool no longer requires *tool_id*. Will call :func:`clear_tool_id` before releasing *tool_id*.",
+                    "qas": [
+                        {
+                            "id": "qa_29",
+                            "question": "How is Unregister used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Unregister all events and callback functions associated with *tool_id*.",
+                                    "answer_start": 201
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_30",
+                            "question": "Can you explain Unregister?",
+                            "answers": [
+                                {
+                                    "text": "Unregister all events and callback functions associated with *tool_id*.",
+                                    "answer_start": 201
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_31",
+                            "question": "What are the key features of Unregister?",
+                            "answers": [
+                                {
+                                    "text": "Unregister all events and callback functions associated with *tool_id*.",
+                                    "answer_start": 201
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_32",
+                            "question": "How does Unregister work?",
+                            "answers": [
+                                {
+                                    "text": "Unregister all events and callback functions associated with *tool_id*.",
+                                    "answer_start": 201
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Raises a :exc:`ValueError` if *tool_id* is in use. Unregister all events and callback functions associated with *tool_id*. Should be called once a tool no longer requires *tool_id*. Will call :func:`clear_tool_id` before releasing *tool_id*. Returns the name of the tool if *tool_id* is in use,\notherwise it returns ``None``.\n*tool_id* must be in the range 0 to 5 inclusive.",
+                    "qas": [
+                        {
+                            "id": "qa_33",
+                            "question": "How is Should used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Should be called once a tool no longer requires *tool_id*.",
+                                    "answer_start": 123
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_34",
+                            "question": "What are the key features of Should?",
+                            "answers": [
+                                {
+                                    "text": "Should be called once a tool no longer requires *tool_id*.",
+                                    "answer_start": 123
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_35",
+                            "question": "What are the benefits of Should?",
+                            "answers": [
+                                {
+                                    "text": "Should be called once a tool no longer requires *tool_id*.",
+                                    "answer_start": 123
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_36",
+                            "question": "What challenges are associated with Should?",
+                            "answers": [
+                                {
+                                    "text": "Should be called once a tool no longer requires *tool_id*.",
+                                    "answer_start": 123
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Should be called once a tool no longer requires *tool_id*. Will call :func:`clear_tool_id` before releasing *tool_id*. Returns the name of the tool if *tool_id* is in use,\notherwise it returns ``None``.\n*tool_id* must be in the range 0 to 5 inclusive. All IDs are treated the same by the VM with regard to events, but the\nfollowing IDs are pre-defined to make co-operation of tools easier::\nsys.monitoring.DEBUGGER_ID = 0\nsys.monitoring.COVERAGE_ID = 1\nsys.monitoring.PROFILER_ID = 2\nsys.monitoring.OPTIMIZER_ID = 5\nEvents\n------\nThe following events are supported:\nA conditional branch goes left. It is up to the tool to determine how to present \"left\" and \"right\" branches.",
+                    "qas": [
+                        {
+                            "id": "qa_37",
+                            "question": "How does Returns work?",
+                            "answers": [
+                                {
+                                    "text": "Returns the name of the tool if *tool_id* is in use,\notherwise it returns ``None``.\n*tool_id* must be in the range 0 to 5 inclusive.",
+                                    "answer_start": 119
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_38",
+                            "question": "What makes Returns unique?",
+                            "answers": [
+                                {
+                                    "text": "Returns the name of the tool if *tool_id* is in use,\notherwise it returns ``None``.\n*tool_id* must be in the range 0 to 5 inclusive.",
+                                    "answer_start": 119
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_39",
+                            "question": "What challenges are associated with Returns?",
+                            "answers": [
+                                {
+                                    "text": "Returns the name of the tool if *tool_id* is in use,\notherwise it returns ``None``.\n*tool_id* must be in the range 0 to 5 inclusive.",
+                                    "answer_start": 119
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_40",
+                            "question": "Why is Returns important?",
+                            "answers": [
+                                {
+                                    "text": "Returns the name of the tool if *tool_id* is in use,\notherwise it returns ``None``.\n*tool_id* must be in the range 0 to 5 inclusive.",
+                                    "answer_start": 119
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Will call :func:`clear_tool_id` before releasing *tool_id*. Returns the name of the tool if *tool_id* is in use,\notherwise it returns ``None``.\n*tool_id* must be in the range 0 to 5 inclusive. All IDs are treated the same by the VM with regard to events, but the\nfollowing IDs are pre-defined to make co-operation of tools easier::\nsys.monitoring.DEBUGGER_ID = 0\nsys.monitoring.COVERAGE_ID = 1\nsys.monitoring.PROFILER_ID = 2\nsys.monitoring.OPTIMIZER_ID = 5\nEvents\n------\nThe following events are supported:\nA conditional branch goes left. It is up to the tool to determine how to present \"left\" and \"right\" branches. There is no guarantee which branch is \"left\" and which is \"right\", except\nthat it will be consistent for the duration of the program.",
+                    "qas": [
+                        {
+                            "id": "qa_41",
+                            "question": "Can you explain All?",
+                            "answers": [
+                                {
+                                    "text": "All IDs are treated the same by the VM with regard to events, but the\nfollowing IDs are pre-defined to make co-operation of tools easier::\nsys.monitoring.DEBUGGER_ID = 0\nsys.monitoring.COVERAGE_ID = 1\nsys.monitoring.PROFILER_ID = 2\nsys.monitoring.OPTIMIZER_ID = 5\nEvents\n------\nThe following events are supported:\nA conditional branch goes left.",
+                                    "answer_start": 193
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_42",
+                            "question": "What is mentioned about All?",
+                            "answers": [
+                                {
+                                    "text": "All IDs are treated the same by the VM with regard to events, but the\nfollowing IDs are pre-defined to make co-operation of tools easier::\nsys.monitoring.DEBUGGER_ID = 0\nsys.monitoring.COVERAGE_ID = 1\nsys.monitoring.PROFILER_ID = 2\nsys.monitoring.OPTIMIZER_ID = 5\nEvents\n------\nThe following events are supported:\nA conditional branch goes left.",
+                                    "answer_start": 193
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_43",
+                            "question": "What are the benefits of All?",
+                            "answers": [
+                                {
+                                    "text": "All IDs are treated the same by the VM with regard to events, but the\nfollowing IDs are pre-defined to make co-operation of tools easier::\nsys.monitoring.DEBUGGER_ID = 0\nsys.monitoring.COVERAGE_ID = 1\nsys.monitoring.PROFILER_ID = 2\nsys.monitoring.OPTIMIZER_ID = 5\nEvents\n------\nThe following events are supported:\nA conditional branch goes left.",
+                                    "answer_start": 193
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_44",
+                            "question": "What makes All unique?",
+                            "answers": [
+                                {
+                                    "text": "All IDs are treated the same by the VM with regard to events, but the\nfollowing IDs are pre-defined to make co-operation of tools easier::\nsys.monitoring.DEBUGGER_ID = 0\nsys.monitoring.COVERAGE_ID = 1\nsys.monitoring.PROFILER_ID = 2\nsys.monitoring.OPTIMIZER_ID = 5\nEvents\n------\nThe following events are supported:\nA conditional branch goes left.",
+                                    "answer_start": 193
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "All IDs are treated the same by the VM with regard to events, but the\nfollowing IDs are pre-defined to make co-operation of tools easier::\nsys.monitoring.DEBUGGER_ID = 0\nsys.monitoring.COVERAGE_ID = 1\nsys.monitoring.PROFILER_ID = 2\nsys.monitoring.OPTIMIZER_ID = 5\nEvents\n------\nThe following events are supported:\nA conditional branch goes left. It is up to the tool to determine how to present \"left\" and \"right\" branches. There is no guarantee which branch is \"left\" and which is \"right\", except\nthat it will be consistent for the duration of the program. A conditional branch goes right. A call in Python code (event occurs before the call).",
+                    "qas": [
+                        {
+                            "id": "qa_45",
+                            "question": "What is mentioned about There?",
+                            "answers": [
+                                {
+                                    "text": "There is no guarantee which branch is \"left\" and which is \"right\", except\nthat it will be consistent for the duration of the program.",
+                                    "answer_start": 424
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_46",
+                            "question": "What are the key features of There?",
+                            "answers": [
+                                {
+                                    "text": "There is no guarantee which branch is \"left\" and which is \"right\", except\nthat it will be consistent for the duration of the program.",
+                                    "answer_start": 424
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_47",
+                            "question": "What are the benefits of There?",
+                            "answers": [
+                                {
+                                    "text": "There is no guarantee which branch is \"left\" and which is \"right\", except\nthat it will be consistent for the duration of the program.",
+                                    "answer_start": 424
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_48",
+                            "question": "What is the role of There in Python?",
+                            "answers": [
+                                {
+                                    "text": "There is no guarantee which branch is \"left\" and which is \"right\", except\nthat it will be consistent for the duration of the program.",
+                                    "answer_start": 424
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "An unconditional jump in the control flow graph is made. An instruction is about to be executed that has a different line number from the preceding instruction. Resumption of a Python function (for generator and coroutine functions), except for ``throw()`` calls. Return from a Python function (occurs immediately before the return, the callee's frame will be on the stack). Start of a Python function (occurs immediately after the call, the callee's frame will be on the stack)\nA Python function is resumed by a ``throw()`` call.",
+                    "qas": [
+                        {
+                            "id": "qa_49",
+                            "question": "What challenges are associated with Resumption?",
+                            "answers": [
+                                {
+                                    "text": "Resumption of a Python function (for generator and coroutine functions), except for ``throw()`` calls.",
+                                    "answer_start": 161
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_50",
+                            "question": "Why is Resumption important?",
+                            "answers": [
+                                {
+                                    "text": "Resumption of a Python function (for generator and coroutine functions), except for ``throw()`` calls.",
+                                    "answer_start": 161
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_51",
+                            "question": "What makes Resumption unique?",
+                            "answers": [
+                                {
+                                    "text": "Resumption of a Python function (for generator and coroutine functions), except for ``throw()`` calls.",
+                                    "answer_start": 161
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_52",
+                            "question": "What are the benefits of Resumption?",
+                            "answers": [
+                                {
+                                    "text": "Resumption of a Python function (for generator and coroutine functions), except for ``throw()`` calls.",
+                                    "answer_start": 161
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Resumption of a Python function (for generator and coroutine functions), except for ``throw()`` calls. Return from a Python function (occurs immediately before the return, the callee's frame will be on the stack). Start of a Python function (occurs immediately after the call, the callee's frame will be on the stack)\nA Python function is resumed by a ``throw()`` call. Exit from a Python function during exception unwinding. Yield from a Python function (occurs immediately before the yield, the callee's frame will be on the stack).",
+                    "qas": [
+                        {
+                            "id": "qa_53",
+                            "question": "What is mentioned about Start?",
+                            "answers": [
+                                {
+                                    "text": "Start of a Python function (occurs immediately after the call, the callee's frame will be on the stack)\nA Python function is resumed by a ``throw()`` call.",
+                                    "answer_start": 214
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_54",
+                            "question": "What is the role of Start in Python?",
+                            "answers": [
+                                {
+                                    "text": "Start of a Python function (occurs immediately after the call, the callee's frame will be on the stack)\nA Python function is resumed by a ``throw()`` call.",
+                                    "answer_start": 214
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_55",
+                            "question": "What makes Start unique?",
+                            "answers": [
+                                {
+                                    "text": "Start of a Python function (occurs immediately after the call, the callee's frame will be on the stack)\nA Python function is resumed by a ``throw()`` call.",
+                                    "answer_start": 214
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_56",
+                            "question": "Why is Start important?",
+                            "answers": [
+                                {
+                                    "text": "Start of a Python function (occurs immediately after the call, the callee's frame will be on the stack)\nA Python function is resumed by a ``throw()`` call.",
+                                    "answer_start": 214
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Return from a Python function (occurs immediately before the return, the callee's frame will be on the stack). Start of a Python function (occurs immediately after the call, the callee's frame will be on the stack)\nA Python function is resumed by a ``throw()`` call. Exit from a Python function during exception unwinding. Yield from a Python function (occurs immediately before the yield, the callee's frame will be on the stack). An exception is raised, except those that cause a :monitoring-event:`STOP_ITERATION` event.",
+                    "qas": [
+                        {
+                            "id": "qa_57",
+                            "question": "What challenges are associated with Exit?",
+                            "answers": [
+                                {
+                                    "text": "Exit from a Python function during exception unwinding.",
+                                    "answer_start": 267
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_58",
+                            "question": "How does Exit work?",
+                            "answers": [
+                                {
+                                    "text": "Exit from a Python function during exception unwinding.",
+                                    "answer_start": 267
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_59",
+                            "question": "What is mentioned about Exit?",
+                            "answers": [
+                                {
+                                    "text": "Exit from a Python function during exception unwinding.",
+                                    "answer_start": 267
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_60",
+                            "question": "What are the key features of Exit?",
+                            "answers": [
+                                {
+                                    "text": "Exit from a Python function during exception unwinding.",
+                                    "answer_start": 267
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Start of a Python function (occurs immediately after the call, the callee's frame will be on the stack)\nA Python function is resumed by a ``throw()`` call. Exit from a Python function during exception unwinding. Yield from a Python function (occurs immediately before the yield, the callee's frame will be on the stack). An exception is raised, except those that cause a :monitoring-event:`STOP_ITERATION` event. An exception is re-raised, for example at the end of a :keyword:`finally` block.",
+                    "qas": [
+                        {
+                            "id": "qa_61",
+                            "question": "What are the benefits of Yield?",
+                            "answers": [
+                                {
+                                    "text": "Yield from a Python function (occurs immediately before the yield, the callee's frame will be on the stack).",
+                                    "answer_start": 212
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_62",
+                            "question": "What challenges are associated with Yield?",
+                            "answers": [
+                                {
+                                    "text": "Yield from a Python function (occurs immediately before the yield, the callee's frame will be on the stack).",
+                                    "answer_start": 212
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_63",
+                            "question": "What makes Yield unique?",
+                            "answers": [
+                                {
+                                    "text": "Yield from a Python function (occurs immediately before the yield, the callee's frame will be on the stack).",
+                                    "answer_start": 212
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_64",
+                            "question": "How is Yield used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Yield from a Python function (occurs immediately before the yield, the callee's frame will be on the stack).",
+                                    "answer_start": 212
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "An exception is re-raised, for example at the end of a :keyword:`finally` block. An artificial :exc:`StopIteration` is raised; see `the STOP_ITERATION event`_. More events may be added in the future. These events are attributes of the :mod:`!sys.monitoring.events` namespace. Each event is represented as a power-of-2 integer constant.",
+                    "qas": [
+                        {
+                            "id": "qa_65",
+                            "question": "What is the role of More in Python?",
+                            "answers": [
+                                {
+                                    "text": "More events may be added in the future.",
+                                    "answer_start": 160
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_66",
+                            "question": "Why is More important?",
+                            "answers": [
+                                {
+                                    "text": "More events may be added in the future.",
+                                    "answer_start": 160
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_67",
+                            "question": "What are the benefits of More?",
+                            "answers": [
+                                {
+                                    "text": "More events may be added in the future.",
+                                    "answer_start": 160
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_68",
+                            "question": "What are the key features of More?",
+                            "answers": [
+                                {
+                                    "text": "More events may be added in the future.",
+                                    "answer_start": 160
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "More events may be added in the future. These events are attributes of the :mod:`!sys.monitoring.events` namespace. Each event is represented as a power-of-2 integer constant. To define a set of events, simply bitwise or the individual events together. For example, to specify both :monitoring-event:`PY_RETURN` and :monitoring-event:`PY_START`\nevents, use the expression ``PY_RETURN | PY_START``.",
+                    "qas": [
+                        {
+                            "id": "qa_69",
+                            "question": "How does Each work?",
+                            "answers": [
+                                {
+                                    "text": "Each event is represented as a power-of-2 integer constant.",
+                                    "answer_start": 116
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_70",
+                            "question": "What is mentioned about Each?",
+                            "answers": [
+                                {
+                                    "text": "Each event is represented as a power-of-2 integer constant.",
+                                    "answer_start": 116
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_71",
+                            "question": "What are the benefits of Each?",
+                            "answers": [
+                                {
+                                    "text": "Each event is represented as a power-of-2 integer constant.",
+                                    "answer_start": 116
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_72",
+                            "question": "What is the role of Each in Python?",
+                            "answers": [
+                                {
+                                    "text": "Each event is represented as a power-of-2 integer constant.",
+                                    "answer_start": 116
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Each event is represented as a power-of-2 integer constant. To define a set of events, simply bitwise or the individual events together. For example, to specify both :monitoring-event:`PY_RETURN` and :monitoring-event:`PY_START`\nevents, use the expression ``PY_RETURN | PY_START``. An alias for ``0`` so users can do explicit comparisons like::\nif get_events(DEBUGGER_ID) == NO_EVENTS:\nEvents are divided into three groups:\nLocal events\n''''''''''''\nLocal events are associated with normal execution of the program and happen\nat clearly defined locations. All local events can be disabled.",
+                    "qas": [
+                        {
+                            "id": "qa_73",
+                            "question": "What are the benefits of For?",
+                            "answers": [
+                                {
+                                    "text": "For example, to specify both :monitoring-event:`PY_RETURN` and :monitoring-event:`PY_START`\nevents, use the expression ``PY_RETURN | PY_START``.",
+                                    "answer_start": 137
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_74",
+                            "question": "What makes For unique?",
+                            "answers": [
+                                {
+                                    "text": "For example, to specify both :monitoring-event:`PY_RETURN` and :monitoring-event:`PY_START`\nevents, use the expression ``PY_RETURN | PY_START``.",
+                                    "answer_start": 137
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_75",
+                            "question": "Can you explain For?",
+                            "answers": [
+                                {
+                                    "text": "For example, to specify both :monitoring-event:`PY_RETURN` and :monitoring-event:`PY_START`\nevents, use the expression ``PY_RETURN | PY_START``.",
+                                    "answer_start": 137
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_76",
+                            "question": "How is For used in programming?",
+                            "answers": [
+                                {
+                                    "text": "For example, to specify both :monitoring-event:`PY_RETURN` and :monitoring-event:`PY_START`\nevents, use the expression ``PY_RETURN | PY_START``.",
+                                    "answer_start": 137
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "For example, to specify both :monitoring-event:`PY_RETURN` and :monitoring-event:`PY_START`\nevents, use the expression ``PY_RETURN | PY_START``. An alias for ``0`` so users can do explicit comparisons like::\nif get_events(DEBUGGER_ID) == NO_EVENTS:\nEvents are divided into three groups:\nLocal events\n''''''''''''\nLocal events are associated with normal execution of the program and happen\nat clearly defined locations. All local events can be disabled. The local events are:\n* :monitoring-event:`PY_START`\n* :monitoring-event:`PY_RESUME`\n* :monitoring-event:`PY_RETURN`\n* :monitoring-event:`PY_YIELD`\n* :monitoring-event:`CALL`\n* :monitoring-event:`LINE`\n* :monitoring-event:`INSTRUCTION`\n* :monitoring-event:`JUMP`\n* :monitoring-event:`BRANCH_LEFT`\n* :monitoring-event:`BRANCH_RIGHT`\n* :monitoring-event:`STOP_ITERATION`\nDeprecated event\n''''''''''''''''\n* ``BRANCH``\nThe ``BRANCH`` event is deprecated in 3.14. Using :monitoring-event:`BRANCH_LEFT` and :monitoring-event:`BRANCH_RIGHT`\nevents will give much better performance as they can be disabled\nindependently.",
+                    "qas": [
+                        {
+                            "id": "qa_77",
+                            "question": "How is All used in programming?",
+                            "answers": [
+                                {
+                                    "text": "All local events can be disabled.",
+                                    "answer_start": 419
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_78",
+                            "question": "What is mentioned about All?",
+                            "answers": [
+                                {
+                                    "text": "All local events can be disabled.",
+                                    "answer_start": 419
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_79",
+                            "question": "What are the benefits of All?",
+                            "answers": [
+                                {
+                                    "text": "All local events can be disabled.",
+                                    "answer_start": 419
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_80",
+                            "question": "What challenges are associated with All?",
+                            "answers": [
+                                {
+                                    "text": "All local events can be disabled.",
+                                    "answer_start": 419
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "The local events are:\n* :monitoring-event:`PY_START`\n* :monitoring-event:`PY_RESUME`\n* :monitoring-event:`PY_RETURN`\n* :monitoring-event:`PY_YIELD`\n* :monitoring-event:`CALL`\n* :monitoring-event:`LINE`\n* :monitoring-event:`INSTRUCTION`\n* :monitoring-event:`JUMP`\n* :monitoring-event:`BRANCH_LEFT`\n* :monitoring-event:`BRANCH_RIGHT`\n* :monitoring-event:`STOP_ITERATION`\nDeprecated event\n''''''''''''''''\n* ``BRANCH``\nThe ``BRANCH`` event is deprecated in 3.14. Using :monitoring-event:`BRANCH_LEFT` and :monitoring-event:`BRANCH_RIGHT`\nevents will give much better performance as they can be disabled\nindependently. Ancillary events\n''''''''''''''''\nAncillary events can be monitored like other events, but are controlled\nby another event:\n* :monitoring-event:`C_RAISE`\n* :monitoring-event:`C_RETURN`\nThe :monitoring-event:`C_RETURN` and :monitoring-event:`C_RAISE` events\nare controlled by the :monitoring-event:`CALL` event.\n:monitoring-event:`C_RETURN` and :monitoring-event:`C_RAISE` events will only be seen if the\ncorresponding :monitoring-event:`CALL` event is being monitored. Other events\n''''''''''''\nOther events are not necessarily tied to a specific location in the\nprogram and cannot be individually disabled. The other events that can be monitored are:\n* :monitoring-event:`PY_THROW`\n* :monitoring-event:`PY_UNWIND`\n* :monitoring-event:`RAISE`\n* :monitoring-event:`EXCEPTION_HANDLED`\nThe STOP_ITERATION event\n''''''''''''''''''''''''\n:pep:`PEP 380 <380#use-of-stopiteration-to-return-values>`\nspecifies that a :exc:`StopIteration` exception is raised when returning a value\nfrom a generator or coroutine.",
+                    "qas": [
+                        {
+                            "id": "qa_81",
+                            "question": "What are the key features of Ancillary?",
+                            "answers": [
+                                {
+                                    "text": "Ancillary events\n''''''''''''''''\nAncillary events can be monitored like other events, but are controlled\nby another event:\n* :monitoring-event:`C_RAISE`\n* :monitoring-event:`C_RETURN`\nThe :monitoring-event:`C_RETURN` and :monitoring-event:`C_RAISE` events\nare controlled by the :monitoring-event:`CALL` event.\n:monitoring-event:`C_RETURN` and :monitoring-event:`C_RAISE` events will only be seen if the\ncorresponding :monitoring-event:`CALL` event is being monitored.",
+                                    "answer_start": 615
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_82",
+                            "question": "What challenges are associated with Ancillary?",
+                            "answers": [
+                                {
+                                    "text": "Ancillary events\n''''''''''''''''\nAncillary events can be monitored like other events, but are controlled\nby another event:\n* :monitoring-event:`C_RAISE`\n* :monitoring-event:`C_RETURN`\nThe :monitoring-event:`C_RETURN` and :monitoring-event:`C_RAISE` events\nare controlled by the :monitoring-event:`CALL` event.\n:monitoring-event:`C_RETURN` and :monitoring-event:`C_RAISE` events will only be seen if the\ncorresponding :monitoring-event:`CALL` event is being monitored.",
+                                    "answer_start": 615
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_83",
+                            "question": "What are the benefits of Ancillary?",
+                            "answers": [
+                                {
+                                    "text": "Ancillary events\n''''''''''''''''\nAncillary events can be monitored like other events, but are controlled\nby another event:\n* :monitoring-event:`C_RAISE`\n* :monitoring-event:`C_RETURN`\nThe :monitoring-event:`C_RETURN` and :monitoring-event:`C_RAISE` events\nare controlled by the :monitoring-event:`CALL` event.\n:monitoring-event:`C_RETURN` and :monitoring-event:`C_RAISE` events will only be seen if the\ncorresponding :monitoring-event:`CALL` event is being monitored.",
+                                    "answer_start": 615
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_84",
+                            "question": "Why is Ancillary important?",
+                            "answers": [
+                                {
+                                    "text": "Ancillary events\n''''''''''''''''\nAncillary events can be monitored like other events, but are controlled\nby another event:\n* :monitoring-event:`C_RAISE`\n* :monitoring-event:`C_RETURN`\nThe :monitoring-event:`C_RETURN` and :monitoring-event:`C_RAISE` events\nare controlled by the :monitoring-event:`CALL` event.\n:monitoring-event:`C_RETURN` and :monitoring-event:`C_RAISE` events will only be seen if the\ncorresponding :monitoring-event:`CALL` event is being monitored.",
+                                    "answer_start": 615
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Using :monitoring-event:`BRANCH_LEFT` and :monitoring-event:`BRANCH_RIGHT`\nevents will give much better performance as they can be disabled\nindependently. Ancillary events\n''''''''''''''''\nAncillary events can be monitored like other events, but are controlled\nby another event:\n* :monitoring-event:`C_RAISE`\n* :monitoring-event:`C_RETURN`\nThe :monitoring-event:`C_RETURN` and :monitoring-event:`C_RAISE` events\nare controlled by the :monitoring-event:`CALL` event.\n:monitoring-event:`C_RETURN` and :monitoring-event:`C_RAISE` events will only be seen if the\ncorresponding :monitoring-event:`CALL` event is being monitored. Other events\n''''''''''''\nOther events are not necessarily tied to a specific location in the\nprogram and cannot be individually disabled. The other events that can be monitored are:\n* :monitoring-event:`PY_THROW`\n* :monitoring-event:`PY_UNWIND`\n* :monitoring-event:`RAISE`\n* :monitoring-event:`EXCEPTION_HANDLED`\nThe STOP_ITERATION event\n''''''''''''''''''''''''\n:pep:`PEP 380 <380#use-of-stopiteration-to-return-values>`\nspecifies that a :exc:`StopIteration` exception is raised when returning a value\nfrom a generator or coroutine. However, this is a very inefficient way to\nreturn a value, so some Python implementations, notably CPython 3.12+, do not\nraise an exception unless it would be visible to other code.",
+                    "qas": [
+                        {
+                            "id": "qa_85",
+                            "question": "What makes Other unique?",
+                            "answers": [
+                                {
+                                    "text": "Other events\n''''''''''''\nOther events are not necessarily tied to a specific location in the\nprogram and cannot be individually disabled.",
+                                    "answer_start": 624
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_86",
+                            "question": "What challenges are associated with Other?",
+                            "answers": [
+                                {
+                                    "text": "Other events\n''''''''''''\nOther events are not necessarily tied to a specific location in the\nprogram and cannot be individually disabled.",
+                                    "answer_start": 624
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_87",
+                            "question": "What is the role of Other in Python?",
+                            "answers": [
+                                {
+                                    "text": "Other events\n''''''''''''\nOther events are not necessarily tied to a specific location in the\nprogram and cannot be individually disabled.",
+                                    "answer_start": 624
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_88",
+                            "question": "Why is Other important?",
+                            "answers": [
+                                {
+                                    "text": "Other events\n''''''''''''\nOther events are not necessarily tied to a specific location in the\nprogram and cannot be individually disabled.",
+                                    "answer_start": 624
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Other events\n''''''''''''\nOther events are not necessarily tied to a specific location in the\nprogram and cannot be individually disabled. The other events that can be monitored are:\n* :monitoring-event:`PY_THROW`\n* :monitoring-event:`PY_UNWIND`\n* :monitoring-event:`RAISE`\n* :monitoring-event:`EXCEPTION_HANDLED`\nThe STOP_ITERATION event\n''''''''''''''''''''''''\n:pep:`PEP 380 <380#use-of-stopiteration-to-return-values>`\nspecifies that a :exc:`StopIteration` exception is raised when returning a value\nfrom a generator or coroutine. However, this is a very inefficient way to\nreturn a value, so some Python implementations, notably CPython 3.12+, do not\nraise an exception unless it would be visible to other code. To allow tools to monitor for real exceptions without slowing down generators\nand coroutines, the :monitoring-event:`STOP_ITERATION` event is provided.\n:monitoring-event:`STOP_ITERATION` can be locally disabled, unlike :monitoring-event:`RAISE`. Note that the :monitoring-event:`STOP_ITERATION` event and the :monitoring-event:`RAISE`\nevent for a :exc:`StopIteration` exception are equivalent, and are treated as interchangeable\nwhen generating events.",
+                    "qas": [
+                        {
+                            "id": "qa_89",
+                            "question": "What are the key features of However,?",
+                            "answers": [
+                                {
+                                    "text": "However, this is a very inefficient way to\nreturn a value, so some Python implementations, notably CPython 3.12+, do not\nraise an exception unless it would be visible to other code.",
+                                    "answer_start": 535
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_90",
+                            "question": "What is the role of However, in Python?",
+                            "answers": [
+                                {
+                                    "text": "However, this is a very inefficient way to\nreturn a value, so some Python implementations, notably CPython 3.12+, do not\nraise an exception unless it would be visible to other code.",
+                                    "answer_start": 535
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_91",
+                            "question": "Can you explain However,?",
+                            "answers": [
+                                {
+                                    "text": "However, this is a very inefficient way to\nreturn a value, so some Python implementations, notably CPython 3.12+, do not\nraise an exception unless it would be visible to other code.",
+                                    "answer_start": 535
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_92",
+                            "question": "What challenges are associated with However,?",
+                            "answers": [
+                                {
+                                    "text": "However, this is a very inefficient way to\nreturn a value, so some Python implementations, notably CPython 3.12+, do not\nraise an exception unless it would be visible to other code.",
+                                    "answer_start": 535
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "To allow tools to monitor for real exceptions without slowing down generators\nand coroutines, the :monitoring-event:`STOP_ITERATION` event is provided.\n:monitoring-event:`STOP_ITERATION` can be locally disabled, unlike :monitoring-event:`RAISE`. Note that the :monitoring-event:`STOP_ITERATION` event and the :monitoring-event:`RAISE`\nevent for a :exc:`StopIteration` exception are equivalent, and are treated as interchangeable\nwhen generating events. Implementations will favor :monitoring-event:`STOP_ITERATION` for\nperformance reasons, but may generate a :monitoring-event:`RAISE` event with a :exc:`StopIteration`. Turning events on and off\n-------------------------\nIn order to monitor an event, it must be turned on and a corresponding callback\nmust be registered. Events can be turned on or off by setting the events either globally or\nfor a particular code object.",
+                    "qas": [
+                        {
+                            "id": "qa_93",
+                            "question": "What are the benefits of Implementations?",
+                            "answers": [
+                                {
+                                    "text": "Implementations will favor :monitoring-event:`STOP_ITERATION` for\nperformance reasons, but may generate a :monitoring-event:`RAISE` event with a :exc:`StopIteration`.",
+                                    "answer_start": 453
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_94",
+                            "question": "What are the key features of Implementations?",
+                            "answers": [
+                                {
+                                    "text": "Implementations will favor :monitoring-event:`STOP_ITERATION` for\nperformance reasons, but may generate a :monitoring-event:`RAISE` event with a :exc:`StopIteration`.",
+                                    "answer_start": 453
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_95",
+                            "question": "What makes Implementations unique?",
+                            "answers": [
+                                {
+                                    "text": "Implementations will favor :monitoring-event:`STOP_ITERATION` for\nperformance reasons, but may generate a :monitoring-event:`RAISE` event with a :exc:`StopIteration`.",
+                                    "answer_start": 453
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_96",
+                            "question": "How is Implementations used in programming?",
+                            "answers": [
+                                {
+                                    "text": "Implementations will favor :monitoring-event:`STOP_ITERATION` for\nperformance reasons, but may generate a :monitoring-event:`RAISE` event with a :exc:`StopIteration`.",
+                                    "answer_start": 453
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                },
+                {
+                    "context": "Note that the :monitoring-event:`STOP_ITERATION` event and the :monitoring-event:`RAISE`\nevent for a :exc:`StopIteration` exception are equivalent, and are treated as interchangeable\nwhen generating events. Implementations will favor :monitoring-event:`STOP_ITERATION` for\nperformance reasons, but may generate a :monitoring-event:`RAISE` event with a :exc:`StopIteration`. Turning events on and off\n-------------------------\nIn order to monitor an event, it must be turned on and a corresponding callback\nmust be registered. Events can be turned on or off by setting the events either globally or\nfor a particular code object. Setting events globally\n'''''''''''''''''''''''\nEvents can be controlled globally by modifying the set of events being monitored.",
+                    "qas": [
+                        {
+                            "id": "qa_97",
+                            "question": "Can you explain Turning?",
+                            "answers": [
+                                {
+                                    "text": "Turning events on and off\n-------------------------\nIn order to monitor an event, it must be turned on and a corresponding callback\nmust be registered.",
+                                    "answer_start": 374
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_98",
+                            "question": "What is the role of Turning in Python?",
+                            "answers": [
+                                {
+                                    "text": "Turning events on and off\n-------------------------\nIn order to monitor an event, it must be turned on and a corresponding callback\nmust be registered.",
+                                    "answer_start": 374
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_99",
+                            "question": "What makes Turning unique?",
+                            "answers": [
+                                {
+                                    "text": "Turning events on and off\n-------------------------\nIn order to monitor an event, it must be turned on and a corresponding callback\nmust be registered.",
+                                    "answer_start": 374
+                                }
+                            ],
+                            "is_impossible": false
+                        },
+                        {
+                            "id": "qa_100",
+                            "question": "What is mentioned about Turning?",
+                            "answers": [
+                                {
+                                    "text": "Turning events on and off\n-------------------------\nIn order to monitor an event, it must be turned on and a corresponding callback\nmust be registered.",
+                                    "answer_start": 374
+                                }
+                            ],
+                            "is_impossible": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
