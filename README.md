@@ -4,7 +4,7 @@ This project automates the generation of SQuAD-style question-answer (QA) datase
 
 ---
 
-## 🚀 Features
+## Features
 
 - Parses `.rst` files containing structured Python documentation
 - Extracts `.. function::`, `.. method::`, and `.. class::` blocks
@@ -18,23 +18,14 @@ This project automates the generation of SQuAD-style question-answer (QA) datase
 
 ```
 project-root/
-├── enhanced_rst_to_squad.py         # Main script
+├── universal_rst_to_squad.py         # Main script
 ├── python_rst_docs/                 # Folder for .rst documentation files
 ├── qa_output/                       # Output folder for JSON files and logs
 ```
 
 ---
 
-## 📦 Requirements
-- Python 3.7+
-- No external dependencies (only standard libraries: `os`, `re`, `json`, `random`, `pathlib`)
-
-Optional for sentence refinement:
-- `nltk` for sentence/token filtering (planned in future version)
-
----
-
-## 🛠️ How to Use
+## How to Use
 
 ### 1. Prepare Your `.rst` Files
 Place `.rst` documentation files into the `python_rst_docs/` folder. For example:
@@ -44,19 +35,13 @@ Place `.rst` documentation files into the `python_rst_docs/` folder. For example
 
 ### 2. Run the Generator
 ```bash
-python enhanced_rst_to_squad.py
+python universal_rst_to_squad.py
 ```
 
 ### 3. Output Files
 - JSON files are saved in `qa_output/`
-- Each module produces:
-  - `module.train.json`
-  - `module.val.json`
-  - `logs/module_report.md`
 
----
-
-## ✅ Supported Directives
+## Supported Directives
 - `.. function::` — standalone functions
 - `.. method::` — class methods
 - `.. class::` — class-level blocks
