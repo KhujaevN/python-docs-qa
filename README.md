@@ -14,11 +14,11 @@ This project automates the generation of SQuAD-style question-answer (QA) datase
 
 ---
 
-## 📂 Directory Structure
+## Directory Structure
 
 ```
 project-root/
-├── universal_rst_to_squad.py         # Main script
+├── universal_rst_to_squad.py        # Main script
 ├── python_rst_docs/                 # Folder for .rst documentation files
 ├── qa_output/                       # Output folder for JSON files and logs
 ```
@@ -48,5 +48,4 @@ python universal_rst_to_squad.py
 
 Support for `.. data::`, `.. attribute::`, and `.. exception::` is planned in a future update.
 
----
 ```
